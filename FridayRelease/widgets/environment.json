@@ -1,0 +1,1 @@
+[{"values":["unspecified"],"name":"build"},{"values":["staging"],"name":"env"},{"values":["https://staging.parlayplay.io/"],"name":"baseURL"},{"values":["parlayplay"],"name":"product"},{"values":["e2e"],"name":"suite"}]

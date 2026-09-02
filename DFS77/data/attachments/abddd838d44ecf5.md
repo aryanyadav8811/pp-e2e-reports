@@ -1,0 +1,425 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: menu/account-center.spec.ts >> Account Center menu (DFS-1667) >> Groups items under Account, Rewards and Support
+- Location: tests/menu/account-center.spec.ts:47:5
+
+# Error details
+
+```
+TimeoutError: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: 'Toggle Menu' }).filter({ visible: true }).first() to be visible
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Parlay Play LogoParlay Play text" [ref=e6]:
+            - /url: /
+            - generic [ref=e7]:
+              - img "Parlay Play Logo" [ref=e8]
+              - img "Parlay Play text" [ref=e9]
+          - generic [ref=e10]:
+            - link "Join Now" [ref=e11]:
+              - /url: /account/signup
+              - generic [ref=e13]: Join Now
+            - link "Login" [ref=e14]:
+              - /url: /account/login
+              - generic [ref=e16]: Login
+      - main [ref=e17]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - list [ref=e26]:
+                - button "MLB" [ref=e27] [cursor=pointer]
+                - button "MLB-Combos" [ref=e28] [cursor=pointer]
+                - button "NFL" [ref=e29] [cursor=pointer]
+                - button "WNBA" [ref=e30] [cursor=pointer]
+                - button "WNBA-Combos" [ref=e31] [cursor=pointer]
+                - button "WNBA H1" [ref=e32] [cursor=pointer]
+                - button "WNBA Q1" [ref=e33] [cursor=pointer]
+                - button "MLS" [ref=e34] [cursor=pointer]
+                - button "NFLSZN" [ref=e35] [cursor=pointer]
+                - button "UFC" [ref=e36] [cursor=pointer]
+                - button "Aussie Rules" [ref=e37] [cursor=pointer]
+                - button "Lacrosse" [ref=e38] [cursor=pointer]
+              - list [ref=e40]:
+                - listitem [ref=e41]:
+                  - button "ALL" [ref=e42] [cursor=pointer]:
+                    - generic [ref=e43]: ALL
+                - listitem [ref=e44]:
+                  - button "PHI@MIN 7:30PM" [ref=e45] [cursor=pointer]:
+                    - text: PHI@MIN
+                    - generic [ref=e46]: 7:30PM
+                - listitem [ref=e47]:
+                  - button "TEX@LAA 10:07PM" [ref=e48] [cursor=pointer]:
+                    - text: TEX@LAA
+                    - generic [ref=e49]: 10:07PM
+                - listitem [ref=e50]:
+                  - button "MIL@LAD 10:10PM" [ref=e51] [cursor=pointer]:
+                    - text: MIL@LAD
+                    - generic [ref=e52]: 10:10PM
+              - generic [ref=e53]:
+                - generic [ref=e54]:
+                  - generic [ref=e57]:
+                    - img [ref=e59]
+                    - textbox "Search player or team" [ref=e61]
+                  - button "Change card style from grid" [ref=e63]
+                - list [ref=e65]:
+                  - listitem [ref=e66]:
+                    - button "Strikeouts (K)" [ref=e67]
+                  - listitem [ref=e68]:
+                    - button "Hits" [ref=e69]
+                  - listitem [ref=e70]:
+                    - button "Hits + Runs + RBIs" [ref=e71]
+                  - listitem [ref=e72]:
+                    - button "Singles" [ref=e73]
+                  - listitem [ref=e74]:
+                    - button "Doubles" [ref=e75]
+                  - listitem [ref=e76]:
+                    - button "Triples" [ref=e77]
+                  - listitem [ref=e78]:
+                    - button "Runs" [ref=e79]
+                  - listitem [ref=e80]:
+                    - button "RBIs" [ref=e81]
+                  - listitem [ref=e82]:
+                    - button "Hits Allowed" [ref=e83]
+                  - listitem [ref=e84]:
+                    - button "Pitching Outs" [ref=e85]
+                  - listitem [ref=e86]:
+                    - button "Pitches Thrown" [ref=e87]
+                  - listitem [ref=e88]:
+                    - button "Earned Runs" [ref=e89]
+                  - listitem [ref=e90]:
+                    - button "Homeruns" [ref=e91]
+                  - listitem [ref=e92]:
+                    - button "Total Bases" [ref=e93]
+                  - listitem [ref=e94]:
+                    - button "Strikeouts" [ref=e95]
+                  - listitem [ref=e96]:
+                    - button "Fantasy Points" [ref=e97]
+            - generic [ref=e98]:
+              - generic [ref=e103]:
+                - generic [ref=e106] [cursor=pointer]:
+                  - generic [ref=e107]:
+                    - generic [ref=e108]:
+                      - generic [ref=e109]: 100%
+                      - generic [ref=e110]: Deposit Match
+                    - generic [ref=e111]: New User Promotion
+                  - button "Sign Up" [ref=e113]
+                - generic [ref=e117] [cursor=pointer]:
+                  - generic [ref=e118]: Pull real graded cards worth up to $10,000
+                  - generic [ref=e119]: Sell or ship instantly
+                  - button "Rip a pack" [ref=e120]:
+                    - generic [ref=e121]:
+                      - img [ref=e122]
+                      - text: Rip a pack
+                - generic [ref=e127] [cursor=pointer]:
+                  - generic [ref=e128]:
+                    - generic [ref=e129]:
+                      - img [ref=e130]
+                      - generic [ref=e134]: Boosted Picks
+                    - generic [ref=e135]: "Every Pick Pays: Up to a 35% Boost!"
+                  - button "Details" [ref=e137]
+              - generic [ref=e141]:
+                - generic [ref=e144]:
+                  - generic [ref=e147]:
+                    - button "Open expert opinion for Shane Drohan" [ref=e148]:
+                      - img [ref=e149]
+                    - img "Shane Drohan" [ref=e152]
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: Shane Drohan
+                    - button "4.5 SO (K)" [ref=e155]:
+                      - generic [ref=e156]:
+                        - img [ref=e157]
+                        - img [ref=e159]
+                      - generic [ref=e161]: "4.5"
+                      - generic [ref=e162]: SO (K)
+                    - generic [ref=e163]:
+                      - generic [ref=e164]: MIL@LAD
+                      - generic [ref=e165]: 10:10PM
+                    - generic [ref=e166]:
+                      - button "Select over 4.5 Strikeouts (K) for 1.78 times" [ref=e167]:
+                        - img [ref=e168]
+                        - generic [ref=e170]: 1.78x
+                      - button "Select over 4.5 Strikeouts (K) for 1.87 times" [ref=e171]:
+                        - generic [ref=e172]: 1.87x
+                        - img [ref=e173]
+                - generic [ref=e177]:
+                  - generic [ref=e180]:
+                    - button "Open expert opinion for Roki Sasaki" [ref=e181]:
+                      - img [ref=e182]
+                    - img "Roki Sasaki" [ref=e185]
+                  - generic [ref=e186]:
+                    - generic [ref=e187]: Roki Sasaki
+                    - button "5.5 SO (K)" [ref=e188]:
+                      - generic [ref=e189]:
+                        - img [ref=e190]
+                        - img [ref=e192]
+                      - generic [ref=e194]: "5.5"
+                      - generic [ref=e195]: SO (K)
+                    - generic [ref=e196]:
+                      - generic [ref=e197]: MIL@LAD
+                      - generic [ref=e198]: 10:10PM
+                    - generic [ref=e199]:
+                      - button "Select over 5.5 Strikeouts (K) for 2.06 times" [ref=e200]:
+                        - img [ref=e201]
+                        - generic [ref=e203]: 2.06x
+                      - button "Select over 5.5 Strikeouts (K) for 1.62 times" [ref=e204]:
+                        - generic [ref=e205]: 1.62x
+                        - img [ref=e206]
+          - generic [ref=e209]:
+            - generic [ref=e211]:
+              - link "Download ParlayPlay On The App Store" [ref=e212]:
+                - /url: https://parlayplay.onelink.me/oLJk/gnqpwjha
+                - img "Download ParlayPlay On The App Store" [ref=e213]
+              - paragraph [ref=e214]:
+                - text: Get the app.
+                - text: Better. Faster. Convenient
+            - navigation [ref=e215]:
+              - link "Privacy" [ref=e216]:
+                - /url: /privacy-policy
+              - link "Fantasy Terms" [ref=e217]:
+                - /url: /terms
+              - link "Packs Terms" [ref=e218]:
+                - /url: /terms/packs
+              - link "Responsible Gaming" [ref=e219]:
+                - /url: /responsible-gaming
+              - link "Gaming Rules" [ref=e220]:
+                - /url: /rules
+              - link "FAQ" [ref=e221]:
+                - /url: https://intercom.help/parlayplay/en/
+            - navigation [ref=e222]:
+              - generic [ref=e223]:
+                - paragraph [ref=e224]: © ParlayPlay 2026
+                - generic [ref=e225]:
+                  - link "ParlayPlay on Facebook" [ref=e226]:
+                    - /url: https://www.facebook.com/parlayplay.io
+                    - img [ref=e227]
+                  - link "ParlayPlay on Instagram" [ref=e229]:
+                    - /url: https://www.instagram.com/parlayplay_?igsh=bHBldWQyMmV2b3Y4
+                    - img [ref=e230]
+                  - link "ParlayPlay on Twitter" [ref=e232]:
+                    - /url: https://www.twitter.com/parlay_play
+                    - img [ref=e233]
+                  - link "ParlayPlay on Discord" [ref=e235]:
+                    - /url: https://discord.com/invite/parlayplay
+                    - img [ref=e236]
+                - img "18+ icon" [ref=e238]
+            - paragraph [ref=e240]
+      - contentinfo [ref=e241]:
+        - navigation [ref=e242]:
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - button "Home" [ref=e245] [cursor=pointer]:
+                - generic [ref=e246]:
+                  - img [ref=e247]
+                  - generic [ref=e248]: Home
+            - listitem [ref=e249]:
+              - button "Entries" [ref=e250] [cursor=pointer]:
+                - generic [ref=e251]:
+                  - img [ref=e252]
+                  - generic [ref=e253]: Entries
+            - listitem [ref=e254]:
+              - button "Feed" [ref=e255] [cursor=pointer]:
+                - generic [ref=e256]:
+                  - img [ref=e257]
+                  - generic [ref=e258]: Feed
+            - listitem [ref=e259]:
+              - button "Rewards" [ref=e260] [cursor=pointer]:
+                - generic [ref=e261]:
+                  - img [ref=e262]
+                  - generic [ref=e263]: Rewards
+            - listitem [ref=e264]:
+              - button "Packs" [ref=e265] [cursor=pointer]:
+                - generic [ref=e266]:
+                  - img [ref=e267]
+                  - generic [ref=e268]: Packs
+    - region "Notifications Alt+T"
+  - alert [ref=e269]
+```
+
+# Test source
+
+```ts
+  416 |    * persistence assertion from the render path.
+  417 |    */
+  418 |   async getPersistedPickIds(): Promise<string[]> {
+  419 |     return this.page.evaluate(() => {
+  420 |       const raw = localStorage.getItem("pp_persistent_slip:v1");
+  421 |       if (!raw) return [];
+  422 |       try {
+  423 |         const parsed = JSON.parse(raw);
+  424 |         return Object.keys(parsed.selectedPicks ?? {});
+  425 |       } catch {
+  426 |         return [];
+  427 |       }
+  428 |     });
+  429 |   }
+  430 | 
+  431 |   async assertPicksPersist(
+  432 |     expectedIds: string[],
+  433 |     timeout = 10_000,
+  434 |   ): Promise<void> {
+  435 |     // Storage IDs are bare player IDs ("1089"); pickPlayers returns the DOM
+  436 |     // attribute form ("player-1089"). Normalise both sides.
+  437 |     const normalise = (id: string) => id.replace(/^player-/, "");
+  438 |     const expected = new Set(expectedIds.map(normalise));
+  439 | 
+  440 |     // Auto-save is debounced ~1s and the post-reload restore writes its
+  441 |     // reconciled state back asynchronously, so poll rather than read once.
+  442 |     await expect
+  443 |       .poll(
+  444 |         async () => {
+  445 |           const ids = await this.getPersistedPickIds();
+  446 |           return Array.from(new Set(ids.map(normalise))).sort();
+  447 |         },
+  448 |         {
+  449 |           timeout,
+  450 |           message: `Expected persisted picks ${JSON.stringify(
+  451 |             Array.from(expected).sort(),
+  452 |           )} in localStorage`,
+  453 |         },
+  454 |       )
+  455 |       .toEqual(Array.from(expected).sort());
+  456 |   }
+  457 | 
+  458 |   async waitForSlipPersisted(
+  459 |     expectedPickCount: number,
+  460 |     timeout = 5_000
+  461 |   ): Promise<void> {
+  462 |     await expect
+  463 |       .poll(
+  464 |         async () =>
+  465 |           this.page.evaluate(() => {
+  466 |             const raw = localStorage.getItem("pp_persistent_slip:v1");
+  467 |             if (!raw) return 0;
+  468 |             try {
+  469 |               return JSON.parse(raw).nrOfPicks ?? 0;
+  470 |             } catch {
+  471 |               return 0;
+  472 |             }
+  473 |           }),
+  474 |         {
+  475 |           timeout,
+  476 |           message: `Slip with ${expectedPickCount} picks was never written to localStorage`,
+  477 |         }
+  478 |       )
+  479 |       .toBe(expectedPickCount);
+  480 |   }
+  481 | 
+  482 |   async enterFinalContestPage() {
+  483 |     await this.continueBtn.click();
+  484 |   }
+  485 | 
+  486 |   async clearSlip(): Promise<void> {
+  487 |     await this.page.evaluate(() =>
+  488 |       localStorage.removeItem("pp_persistent_slip:v1")
+  489 |     );
+  490 |     await this.page.goto("/");
+  491 |     await this.waitForFeedReady();
+  492 |   }
+  493 | 
+  494 |   async selectStatByIndex(idx: number): Promise<void> {
+  495 |     const tab = this.statsSelector.locator("li button").nth(idx);
+  496 |     await expect(tab).toBeVisible();
+  497 |     await tab.click();
+  498 |     await this.waitForFeedReady();
+  499 |   }
+  500 | 
+  501 |   async enterEntriesPage() {
+  502 |     await this.entriesTab.click();
+  503 |   }
+  504 | 
+  505 |   async enterHomePage(): Promise<void> {
+  506 |     await this.homeTab.click();
+  507 |     await this.waitForFeedReady();
+  508 |     await expect(this.leagueSelector).toBeVisible();
+  509 |   }
+  510 | 
+  511 |   async enterMenu() {
+  512 |     // Some specs land here without an explicit goto('/'), so the global
+  513 |     // header may not be mounted yet. Wait briefly for Toggle Menu before
+  514 |     // clicking — fail fast (15s) instead of letting the test-level timeout
+  515 |     // (10 min) absorb a hung locator.
+> 516 |     await this.toggleMenu.waitFor({ state: "visible", timeout: 15_000 });
+      |                           ^ TimeoutError: locator.waitFor: Timeout 15000ms exceeded.
+  517 |     await this.toggleMenu.click({ timeout: 15_000 });
+  518 |   }
+  519 | 
+  520 |   async assertHomePage() {
+  521 |     await expect(this.leagueSelector).toBeVisible();
+  522 |   }
+  523 | 
+  524 |   async enterRewarsdsPage() {
+  525 |     await this.rewardsTab.click();
+  526 |   }
+  527 | 
+  528 |   /**
+  529 |    * The active-tab underline in the bottom nav. Every tab label <span> carries
+  530 |    * `border-playYellow`; the active one additionally gets `border-b-2`, so tests
+  531 |    * assert on that class. Scoped to `bottomNav` so it never resolves to page
+  532 |    * content that happens to share the tab's label.
+  533 |    */
+  534 |   navIndicator(label: string): Locator {
+  535 |     return this.bottomNav
+  536 |       .getByRole("button", { name: label })
+  537 |       .locator("span.border-playYellow");
+  538 |   }
+  539 | 
+  540 |   async enterFeedPage() {
+  541 |     await this.feedTab.click();
+  542 |   }
+  543 | 
+  544 |   /**
+  545 |    * DFS-2115: the footer's fifth slot is a kill switch (see packsTab). When
+  546 |    * Packs occupies it, Free2Play moves into the burger menu (Account Center →
+  547 |    * Rewards). Prefer the footer tab, fall back to the menu entry — exactly
+  548 |    * one of the two placements exists for a given user.
+  549 |    */
+  550 |   async enterFree2PlayPage() {
+  551 |     if (await this.free2PlayTab.isVisible().catch(() => false)) {
+  552 |       await this.free2PlayTab.click();
+  553 |       return;
+  554 |     }
+  555 |     await this.enterMenu();
+  556 |     await this.visible(
+  557 |       this.page.getByRole("link", { name: "Free2Play", exact: true })
+  558 |     ).click();
+  559 |   }
+  560 | 
+  561 |   /** Type into the feed search box. `onSearch` is debounced by the feed, so
+  562 |    * callers should assert on the resulting grid/empty state rather than a
+  563 |    * fixed wait. */
+  564 |   async searchPlayers(term: string): Promise<void> {
+  565 |     await expect(this.searchInput).toBeVisible();
+  566 |     await this.searchInput.fill(term);
+  567 |   }
+  568 | 
+  569 |   /** Clear the feed search via the in-field × button so the grid resets. */
+  570 |   async clearSearch(): Promise<void> {
+  571 |     await this.searchClearBtn.click();
+  572 |   }
+  573 | 
+  574 |   async fullGameLeagueCount() {
+  575 |     return await this.fgleagueTabs.count();
+  576 |   }
+  577 | 
+  578 |   async statsTabCount() {
+  579 |     return await this.statsTabs.count();
+  580 |   }
+  581 | }
+  582 | 
+```

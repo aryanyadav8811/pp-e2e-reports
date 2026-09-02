@@ -1,0 +1,570 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: data_verification/picks-grid.spec.ts >> Picks grid data verification >> league selector tabs correspond to leagues present in the API
+- Location: tests/data_verification/picks-grid.spec.ts:357:3
+
+# Error details
+
+```
+Error: league tab "league-All" has no players for "All" in the API
+
+expect(received).toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 3
+
+- Array []
++ Array [
++   "league tab \"league-All\" has no players for \"All\" in the API",
++ ]
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Parlay Play Logo" [ref=e8]
+          - generic [ref=e9]:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Home" [ref=e12] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e15]:
+                - link "Packs" [ref=e16] [cursor=pointer]:
+                  - /url: /packs
+              - listitem [ref=e19]:
+                - link "Feed" [ref=e20] [cursor=pointer]:
+                  - /url: /challenges/feed
+              - listitem [ref=e23]:
+                - link "Rewards 6" [ref=e24] [cursor=pointer]:
+                  - /url: /rewards
+                  - generic [ref=e25]:
+                    - generic [ref=e26]: Rewards
+                    - generic [ref=e27]: "6"
+              - listitem [ref=e28]:
+                - link "Track Picks 55" [ref=e29] [cursor=pointer]:
+                  - /url: /challenges/pending
+                  - generic [ref=e30]:
+                    - generic [ref=e31]: Track Picks
+                    - generic [ref=e32]: "55"
+            - button "Claim your $100 Deposit Match" [ref=e33] [cursor=pointer]
+            - generic [ref=e34]:
+              - generic [ref=e36]:
+                - generic [ref=e37]: $208.92
+                - generic [ref=e38]:
+                  - img "gift-icon" [ref=e39]
+                  - text: "5.00"
+              - button "Toggle Menu" [ref=e40]
+      - main [ref=e43]:
+        - generic [ref=e45]:
+          - generic [ref=e49]:
+            - button "previous slide" [ref=e50] [cursor=pointer]
+            - generic [ref=e54]:
+              - generic [ref=e56]:
+                - generic [ref=e57]:
+                  - generic [ref=e58]: Receive a referral Bonus!
+                  - generic [ref=e59]: $20
+                - generic [ref=e60]:
+                  - text: Refer a Friendwhen they make their first deposit
+                  - button "Invite Now" [ref=e62] [cursor=pointer]
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - text: $100
+                  - img "black lightning bol" [ref=e66]
+                - generic [ref=e67]: =
+                - generic [ref=e69]:
+                  - text: $200
+                  - img "black lightning bol" [ref=e70]
+                - generic [ref=e71]:
+                  - text: We match your 1st depositWe match your first deposit up to $100.
+                  - button "Deposit Now" [ref=e73] [cursor=pointer]
+            - button "next slide" [ref=e74] [cursor=pointer]
+          - generic [ref=e78]:
+            - generic [ref=e80]:
+              - textbox "Search player or team" [ref=e84]
+              - generic [ref=e85]:
+                - button "All" [ref=e86] [cursor=pointer]
+                - button "MLB" [ref=e87] [cursor=pointer]
+                - button "SerieA" [ref=e88] [cursor=pointer]
+                - button "EPL" [ref=e89] [cursor=pointer]
+                - button "WNBA" [ref=e90] [cursor=pointer]
+                - button "WNBA-Combos" [ref=e91] [cursor=pointer]
+                - button "WNBA Q1" [ref=e92] [cursor=pointer]
+                - button "WNBA H1" [ref=e93] [cursor=pointer]
+                - button "MLS" [ref=e94] [cursor=pointer]
+                - button "LaLiga" [ref=e95] [cursor=pointer]
+                - button "UFC" [ref=e96] [cursor=pointer]
+                - button "Bundes" [ref=e97] [cursor=pointer]
+              - button [ref=e99] [cursor=pointer]:
+                - img "right chevron sign" [ref=e100]
+                - text: Filter
+            - generic [ref=e101]:
+              - generic [ref=e104]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]:
+                    - img "Ian Seymour" [ref=e110]
+                    - generic [ref=e111]:
+                      - generic [ref=e112]: Ian Seymour
+                      - generic [ref=e113]: SP - TB
+                      - generic [ref=e114]: TB @ DET 6:40 PM
+                    - button "Open expert opinion for Ian Seymour" [ref=e117]
+                  - generic [ref=e122]:
+                    - generic [ref=e123]:
+                      - generic [ref=e124]:
+                        - generic [ref=e125]: Less
+                        - generic [ref=e129]: Strikeouts (K)
+                        - generic [ref=e130]: More
+                      - generic [ref=e134]:
+                        - generic [ref=e135]:
+                          - button "Select over 3.5 Strikeouts (K) for 0 times" [disabled] [ref=e136]
+                          - generic [ref=e137]: 3.5 Strikeouts (K)
+                          - button "Select over 3.5 Strikeouts (K) for 1.06 times" [ref=e138]: 1.06x
+                        - generic [ref=e139]:
+                          - button "Select over 4.5 Strikeouts (K) for 0 times" [disabled] [ref=e140]
+                          - generic [ref=e141]: 4.5 Strikeouts (K)
+                          - button "Select over 4.5 Strikeouts (K) for 1.27 times" [ref=e142]: 1.27x
+                        - generic [ref=e143]:
+                          - button "Select over 5.5 Strikeouts (K) for 1.86 times" [ref=e144]: 1.86x
+                          - generic [ref=e145]: 5.5 Strikeouts (K)
+                          - button "Select over 5.5 Strikeouts (K) for 1.78 times" [ref=e146]: 1.78x
+                        - generic [ref=e147]:
+                          - button "Select over 6.5 Strikeouts (K) for 0 times" [disabled] [ref=e148]
+                          - generic [ref=e149]: 6.5 Strikeouts (K)
+                          - button "Select over 6.5 Strikeouts (K) for 2.59 times" [ref=e150]: 2.59x
+                        - generic [ref=e151]:
+                          - button "Select over 7.5 Strikeouts (K) for 0 times" [disabled] [ref=e152]
+                          - generic [ref=e153]: 7.5 Strikeouts (K)
+                          - button "Select over 7.5 Strikeouts (K) for 3.91 times" [ref=e154]: 3.91x
+                        - button "Show more Strikeouts (K) lines (7)" [ref=e155]
+                    - generic [ref=e158]:
+                      - generic [ref=e159]:
+                        - generic [ref=e160]: Less
+                        - generic [ref=e164]: Hits Allowed
+                        - generic [ref=e165]: More
+                      - generic [ref=e170]:
+                        - button "Select over 4.5 Hits Allowed for 1.78 times" [ref=e171]: 1.78x
+                        - generic [ref=e172]: 4.5 Hits Allowed
+                        - button "Select over 4.5 Hits Allowed for 1.78 times" [ref=e173]: 1.78x
+                  - button "Show More Stats" [ref=e175]
+                - generic [ref=e180]:
+                  - generic [ref=e181]:
+                    - img "Junior Caminero" [ref=e183]
+                    - generic [ref=e184]:
+                      - generic [ref=e185]: J. Caminero
+                      - generic [ref=e186]: 3B - TB
+                      - generic [ref=e187]: TB @ DET 6:40 PM
+                    - button "Open expert opinion for Junior Caminero" [ref=e190]
+                  - generic [ref=e195]:
+                    - generic [ref=e196]:
+                      - generic [ref=e197]:
+                        - generic [ref=e198]: Less
+                        - generic [ref=e202]: Hits
+                        - generic [ref=e203]: More
+                      - generic [ref=e207]:
+                        - generic [ref=e208]:
+                          - button "Select over 0.5 Hits for 2.61 times" [ref=e209]: 2.61x
+                          - generic [ref=e210]: 0.5 Hits
+                          - button "Select over 0.5 Hits for 1.28 times" [ref=e211]: 1.28x
+                        - generic [ref=e212]:
+                          - button "Select over 1.5 Hits for 0 times" [disabled] [ref=e213]
+                          - generic [ref=e214]: 1.5 Hits
+                          - button "Select over 1.5 Hits for 2.87 times" [ref=e215]: 2.87x
+                        - generic [ref=e216]:
+                          - button "Select over 2.5 Hits for 0 times" [disabled] [ref=e217]
+                          - generic [ref=e218]: 2.5 Hits
+                          - button "Select over 2.5 Hits for 7.79 times" [ref=e219]: 7.79x
+                        - generic [ref=e220]:
+                          - button "Select over 3.5 Hits for 0 times" [disabled] [ref=e221]
+                          - generic [ref=e222]: 3.5 Hits
+                          - button "Select over 3.5 Hits for 26.8 times" [ref=e223]: 26.8x
+                    - generic [ref=e224]:
+                      - generic [ref=e225]:
+                        - generic [ref=e226]: Less
+                        - generic [ref=e230]: Hits + Runs + RBIs
+                        - generic [ref=e231]: More
+                      - generic [ref=e235]:
+                        - generic [ref=e236]:
+                          - button "Select over 0.5 Hits + Runs + RBIs for 0 times" [disabled] [ref=e237]
+                          - generic [ref=e238]: 0.5 H+R+R
+                          - button "Select over 0.5 Hits + Runs + RBIs for 1.21 times" [ref=e239]: 1.21x
+                        - generic [ref=e240]:
+                          - button "Select over 1.5 Hits + Runs + RBIs for 1.89 times" [ref=e241]: 1.89x
+                          - generic [ref=e242]: 1.5 H+R+R
+                          - button "Select over 1.5 Hits + Runs + RBIs for 1.64 times" [ref=e243]: 1.64x
+                        - generic [ref=e244]:
+                          - button "Select over 2.5 Hits + Runs + RBIs for 0 times" [disabled] [ref=e245]
+                          - generic [ref=e246]: 2.5 H+R+R
+                          - button "Select over 2.5 Hits + Runs + RBIs for 2.35 times" [ref=e247]: 2.35x
+                        - generic [ref=e248]:
+                          - button "Select over 3.5 Hits + Runs + RBIs for 0 times" [disabled] [ref=e249]
+                          - generic [ref=e250]: 3.5 H+R+R
+                          - button "Select over 3.5 Hits + Runs + RBIs for 3.2 times" [ref=e251]: 3.2x
+                        - generic [ref=e252]:
+                          - button "Select over 4.5 Hits + Runs + RBIs for 0 times" [disabled] [ref=e253]
+                          - generic [ref=e254]: 4.5 H+R+R
+                          - button "Select over 4.5 Hits + Runs + RBIs for 4.52 times" [ref=e255]: 4.52x
+                    - generic [ref=e256]:
+                      - generic [ref=e257]:
+                        - generic [ref=e258]: Less
+                        - generic [ref=e262]: Singles
+                        - generic [ref=e263]: More
+                      - generic [ref=e267]:
+                        - generic [ref=e268]:
+                          - button "Select over 0.5 Singles for 1.72 times" [ref=e269]: 1.72x
+                          - generic [ref=e270]: 0.5 Singles
+                          - button "Select over 0.5 Singles for 1.78 times" [ref=e271]: 1.78x
+                        - generic [ref=e272]:
+                          - button "Select over 1.5 Singles for 0 times" [disabled] [ref=e273]
+                          - generic [ref=e274]: 1.5 Singles
+                          - button "Select over 1.5 Singles for 5.31 times" [ref=e275]: 5.31x
+                    - generic [ref=e276]:
+                      - generic [ref=e277]:
+                        - generic [ref=e278]: Less
+                        - generic [ref=e282]: Doubles
+                        - generic [ref=e283]: More
+                      - generic [ref=e288]:
+                        - button "Select over 0.5 Doubles for 1.07 times" [ref=e289]: 1.07x
+                        - generic [ref=e290]: 0.5 Doubles
+                        - button "Select over 0.5 Doubles for 4.14 times" [ref=e291]: 4.14x
+                    - generic [ref=e292]:
+                      - generic [ref=e293]:
+                        - generic [ref=e294]: Less
+                        - generic [ref=e298]: Triples
+                        - generic [ref=e299]: More
+                      - generic [ref=e304]:
+                        - button "Select over 0.5 Triples for 0 times" [disabled] [ref=e305]
+                        - generic [ref=e306]: 0.5 Triples
+                        - button "Select over 0.5 Triples for 35.5 times" [ref=e307]: 35.5x
+                    - generic [ref=e308]:
+                      - generic [ref=e309]:
+                        - generic [ref=e310]: Less
+                        - generic [ref=e314]: Runs
+                        - generic [ref=e315]: More
+                      - generic [ref=e319]:
+                        - generic [ref=e320]:
+                          - button "Select over 0.5 Runs for 1.58 times" [ref=e321]: 1.58x
+                          - generic [ref=e322]: 0.5 Runs
+                          - button "Select over 0.5 Runs for 1.91 times" [ref=e323]: 1.91x
+                        - generic [ref=e324]:
+                          - button "Select over 1.5 Runs for 0 times" [disabled] [ref=e325]
+                          - generic [ref=e326]: 1.5 Runs
+                          - button "Select over 1.5 Runs for 5.9 times" [ref=e327]: 5.9x
+                    - generic [ref=e328]:
+                      - generic [ref=e329]:
+                        - generic [ref=e330]: Less
+                        - generic [ref=e334]: RBIs
+                        - generic [ref=e335]: More
+                      - generic [ref=e339]:
+                        - generic [ref=e340]:
+                          - button "Select over 0.5 RBIs for 1.35 times" [ref=e341]: 1.35x
+                          - generic [ref=e342]: 0.5 RBIs
+                          - button "Select over 0.5 RBIs for 2.28 times" [ref=e343]: 2.28x
+                        - generic [ref=e344]:
+                          - button "Select over 1.5 RBIs for 0 times" [disabled] [ref=e345]
+                          - generic [ref=e346]: 1.5 RBIs
+                          - button "Select over 1.5 RBIs for 4.22 times" [ref=e347]: 4.22x
+                        - generic [ref=e348]:
+                          - button "Select over 2.5 RBIs for 0 times" [disabled] [ref=e349]
+                          - generic [ref=e350]: 2.5 RBIs
+                          - button "Select over 2.5 RBIs for 7.79 times" [ref=e351]: 7.79x
+                    - generic [ref=e352]:
+                      - generic [ref=e353]:
+                        - generic [ref=e354]: Less
+                        - generic [ref=e358]: Homeruns
+                        - generic [ref=e359]: More
+                      - generic [ref=e363]:
+                        - generic [ref=e364]:
+                          - button "Select over 0.5 Homeruns for 0 times" [disabled] [ref=e365]
+                          - generic [ref=e366]: 0.5 Homeruns
+                          - button "Select over 0.5 Homeruns for 4.06 times" [ref=e367]: 4.06x
+                        - generic [ref=e368]:
+                          - button "Select over 1.5 Homeruns for 0 times" [disabled] [ref=e369]
+                          - generic [ref=e370]: 1.5 Homeruns
+                          - button "Select over 1.5 Homeruns for 22.89 times" [ref=e371]: 22.89x
+                    - generic [ref=e372]:
+                      - generic [ref=e373]:
+                        - generic [ref=e374]: Less
+                        - generic [ref=e378]: Total Bases
+                        - generic [ref=e379]: More
+                      - generic [ref=e383]:
+                        - generic [ref=e384]:
+                          - button "Select over 1.5 Total Bases for 1.59 times" [ref=e385]: 1.59x
+                          - generic [ref=e386]: 1.5 Total Bases
+                          - button "Select over 1.5 Total Bases for 1.96 times" [ref=e387]: 1.96x
+                        - generic [ref=e388]:
+                          - button "Select over 2.5 Total Bases for 0 times" [disabled] [ref=e389]
+                          - generic [ref=e390]: 2.5 Total Bases
+                          - button "Select over 2.5 Total Bases for 2.76 times" [ref=e391]: 2.76x
+                        - generic [ref=e392]:
+                          - button "Select over 3.5 Total Bases for 0 times" [disabled] [ref=e393]
+                          - generic [ref=e394]: 3.5 Total Bases
+                          - button "Select over 3.5 Total Bases for 3.36 times" [ref=e395]: 3.36x
+                        - generic [ref=e396]:
+                          - button "Select over 4.5 Total Bases for 0 times" [disabled] [ref=e397]
+                          - generic [ref=e398]: 4.5 Total Bases
+                          - button "Select over 4.5 Total Bases for 5.5 times" [ref=e399]: 5.5x
+                        - generic [ref=e400]:
+                          - button "Select over 5.5 Total Bases for 0 times" [disabled] [ref=e401]
+                          - generic [ref=e402]: 5.5 Total Bases
+                          - button "Select over 5.5 Total Bases for 7.6 times" [ref=e403]: 7.6x
+                    - generic [ref=e404]:
+                      - generic [ref=e405]:
+                        - generic [ref=e406]: Less
+                        - generic [ref=e410]: Strikeouts
+                        - generic [ref=e411]: More
+                      - generic [ref=e415]:
+                        - generic [ref=e416]:
+                          - button "Select over 0.5 Strikeouts for 0 times" [disabled] [ref=e417]
+                          - generic [ref=e418]: 0.5 Strikeouts
+                          - button "Select over 0.5 Strikeouts for 1.28 times" [ref=e419]: 1.28x
+                        - generic [ref=e420]:
+                          - button "Select over 1.5 Strikeouts for 0 times" [disabled] [ref=e421]
+                          - generic [ref=e422]: 1.5 Strikeouts
+                          - button "Select over 1.5 Strikeouts for 2.96 times" [ref=e423]: 2.96x
+                        - generic [ref=e424]:
+                          - button "Select over 2.5 Strikeouts for 0 times" [disabled] [ref=e425]
+                          - generic [ref=e426]: 2.5 Strikeouts
+                          - button "Select over 2.5 Strikeouts for 7.84 times" [ref=e427]: 7.84x
+                    - generic [ref=e428]:
+                      - generic [ref=e429]:
+                        - generic [ref=e430]: Less
+                        - generic [ref=e434]: Fantasy Points
+                        - generic [ref=e435]: More
+                      - generic [ref=e440]:
+                        - button "Select over 6.5 Fantasy Points for 1.78 times" [ref=e441]: 1.78x
+                        - generic [ref=e442]: 6.5 Fantasy Points
+                        - button "Select over 6.5 Fantasy Points for 1.78 times" [ref=e443]: 1.78x
+                  - button "Show More Stats" [ref=e445]
+              - generic [ref=e1564]:
+                - generic [ref=e1565]: Please select your 1st pick
+                - generic [ref=e1570]:
+                  - img "arrow" [ref=e1571]
+                  - heading "Let's Start!" [level=2] [ref=e1572]
+                  - generic [ref=e1573]: Pick at least two players from different teams to play
+          - generic [ref=e1576]:
+            - generic [ref=e1577]:
+              - link [ref=e1578] [cursor=pointer]:
+                - /url: /
+                - img "Parlay Play Logo" [ref=e1580]
+              - generic [ref=e1581]:
+                - generic [ref=e1582]: Improve your experience. Download our app.
+                - generic [ref=e1583]:
+                  - link [ref=e1584] [cursor=pointer]:
+                    - /url: https://parlayplay.onelink.me/oLJk/gnqpwjha
+                    - img "Apple Store" [ref=e1585]
+                  - link [ref=e1586] [cursor=pointer]:
+                    - /url: https://parlayplay.onelink.me/oLJk/fh7u6juo
+                    - img "Google Play Store" [ref=e1587]
+            - generic [ref=e1588]:
+              - link "Privacy" [ref=e1589] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Fantasy Terms" [ref=e1590] [cursor=pointer]:
+                - /url: /terms
+              - link "Packs Terms" [ref=e1591] [cursor=pointer]:
+                - /url: /terms/packs
+              - link "Responsible Gaming" [ref=e1592] [cursor=pointer]:
+                - /url: /responsible-gaming
+              - link "Gaming Rules" [ref=e1593] [cursor=pointer]:
+                - /url: /rules
+              - link "FAQ" [ref=e1594] [cursor=pointer]:
+                - /url: https://intercom.help/parlayplay/en/
+              - link "Contact Us" [ref=e1595] [cursor=pointer]:
+                - /url: /
+              - paragraph [ref=e1596]: © ParlayPlay 2026 - All Rights Reserved
+            - list [ref=e1597]:
+              - listitem [ref=e1598]:
+                - generic [ref=e1599]:
+                  - log [ref=e1601]
+                  - generic [ref=e1603]:
+                    - generic [ref=e1604]: 🇺🇸English
+                    - combobox "Select language" [ref=e1605]
+              - listitem [ref=e1611]:
+                - img "18+-icon" [ref=e1612]
+              - listitem [ref=e1613]:
+                - link "ParlayPlay on Twitter" [ref=e1614] [cursor=pointer]:
+                  - /url: https://twitter.com/parlay_play?lang=en
+              - listitem [ref=e1617]:
+                - link "ParlayPlay on Facebook" [ref=e1618] [cursor=pointer]:
+                  - /url: https://www.facebook.com/ParlayPlay.io/
+              - listitem [ref=e1621]:
+                - link "ParlayPlay on Instagram" [ref=e1622] [cursor=pointer]:
+                  - /url: https://www.instagram.com/parlayplay_?igsh=bHBldWQyMmV2b3Y4
+              - listitem [ref=e1625]:
+                - link "ParlayPlay on Discord" [ref=e1626] [cursor=pointer]:
+                  - /url: https://discord.com/invite/parlayplay
+            - link [ref=e1630] [cursor=pointer]:
+              - /url: https://sportsdata.io/
+              - img "Powered by SportsDataIO" [ref=e1631]
+    - generic:
+      - region "Notifications Alt+T"
+  - alert [ref=e1632]
+```
+
+# Test source
+
+```ts
+  301 |           const persistent: string[] = [];
+  302 |           for (const card of await readMountedCards(page)) {
+  303 |             const apiPlayer = fresh.get(card.playerId);
+  304 |             const stat = apiPlayer?.stats.find((s) => s.challengeName === statName);
+  305 |             const ml = stat ? mainLine(stat) : null;
+  306 |             if (!apiPlayer || !stat) {
+  307 |               persistent.push(`card player-${card.playerId}: not offered for "${statName}" (fresh fetch)`);
+  308 |             } else if (ml && card.statValue !== null && Number(card.statValue) !== ml.selectionPoints) {
+  309 |               persistent.push(
+  310 |                 `card player-${card.playerId}: shows ${card.statValue}, fresh API main line is ${ml.selectionPoints}`,
+  311 |               );
+  312 |             }
+  313 |           }
+  314 |           expect(persistent, persistent.join("\n")).toEqual([]);
+  315 |         }
+  316 |       });
+  317 |     }
+  318 |   });
+  319 | 
+  320 |   test("stats selector tabs equal the API stat names for the default league", async ({
+  321 |     loggedInPage: page,
+  322 |   }) => {
+  323 |     const home = new HomePage(page);
+  324 | 
+  325 |     const offeringPromise = waitForOffering(page);
+  326 |     await page.goto("/");
+  327 |     const offering = await offeringPromise;
+  328 |     await home.waitForFeedReady();
+  329 | 
+  330 |     // The default-selected league is the first tab (highest popularity).
+  331 |     const firstLeagueId = (await home.leagueButtons.first().getAttribute("id")) ?? "";
+  332 |     const leagueShort = firstLeagueId.replace(/^league-/, "");
+  333 |     expect(leagueShort, "could not derive default league from DOM").not.toEqual("");
+  334 |     // The Promo tab swaps the stats selector for a league list; a combo tab
+  335 |     // renders packaged lines. The Live tab is a cross-league aggregator whose
+  336 |     // players keep their real league in the API, so statNamesForLeague("Live")
+  337 |     // is empty by construction. None of the three map onto per-stat
+  338 |     // challengeNames for a single league.
+  339 |     test.skip(
+  340 |       /promo|combo|^live$/i.test(leagueShort),
+  341 |       `default league tab is ${leagueShort}; stats selector not comparable`,
+  342 |     );
+  343 | 
+  344 |     const domStats = (await home.statsTabs.allInnerTexts())
+  345 |       .map((t) => t.replace(/\s+/g, " ").trim())
+  346 |       .filter(Boolean)
+  347 |       .sort();
+  348 |     const apiStats = statNamesForLeague(offering, leagueShort);
+  349 | 
+  350 |     expect(apiStats.length, `API offers no FG stats for ${leagueShort}`).toBeGreaterThan(0);
+  351 |     expect(
+  352 |       domStats,
+  353 |       `stats selector for ${leagueShort} diverges from API challengeNames`,
+  354 |     ).toEqual(apiStats);
+  355 |   });
+  356 | 
+  357 |   test("league selector tabs correspond to leagues present in the API", async ({
+  358 |     loggedInPage: page,
+  359 |   }) => {
+  360 |     const home = new HomePage(page);
+  361 | 
+  362 |     const offeringPromise = waitForOffering(page);
+  363 |     await page.goto("/");
+  364 |     const offering = await offeringPromise;
+  365 |     await home.waitForFeedReady();
+  366 | 
+  367 |     const apiLeagues = new Set(
+  368 |       offering.players
+  369 |         .map((p) => p.match.league?.leagueNameShort)
+  370 |         .filter((l): l is string => Boolean(l)),
+  371 |     );
+  372 | 
+  373 |     const buttons = await home.listLeagueButtons();
+  374 |     expect(buttons.length, "league selector rendered no tabs").toBeGreaterThan(0);
+  375 | 
+  376 |     const errors: string[] = [];
+  377 |     const seenBaseLeagues = new Set<string>();
+  378 |     for (const button of buttons) {
+  379 |       const id = (await button.getAttribute("id")) ?? "";
+  380 |       const lower = id.toLowerCase();
+  381 |       if (lower.includes("promo")) continue; // promo pseudo-league
+  382 |       // The Live tab aggregates in-play players across leagues — the API has
+  383 |       // no league named "Live", so comparing it against leagueNameShort would
+  384 |       // always report a phantom mismatch whenever a game is live.
+  385 |       if (lower === "league-live") continue;
+  386 |       // Tab ids: league-MLB, league-WNBA-H1, league-WNBA-combo. Try the full
+  387 |       // remainder first (hyphenated league names), then the first token
+  388 |       // (period/combo variants like WNBA-H1).
+  389 |       const remainder = id.replace(/^league-/, "");
+  390 |       const base = apiLeagues.has(remainder) ? remainder : remainder.split("-")[0];
+  391 |       seenBaseLeagues.add(base);
+  392 |       if (!apiLeagues.has(base)) {
+  393 |         errors.push(`league tab "${id}" has no players for "${base}" in the API`);
+  394 |       }
+  395 |     }
+  396 |     for (const league of apiLeagues) {
+  397 |       if (!seenBaseLeagues.has(league)) {
+  398 |         errors.push(`API offers league "${league}" but no league tab renders it`);
+  399 |       }
+  400 |     }
+> 401 |     expect(errors, errors.join("\n")).toEqual([]);
+      |                                       ^ Error: league tab "league-All" has no players for "All" in the API
+  402 |   });
+  403 | 
+  404 |   test("match selector lists every API match for the default league", async ({
+  405 |     loggedInPage: page,
+  406 |   }) => {
+  407 |     const home = new HomePage(page);
+  408 | 
+  409 |     const offeringPromise = waitForOffering(page);
+  410 |     await page.goto("/");
+  411 |     const offering = await offeringPromise;
+  412 |     await home.waitForFeedReady();
+  413 | 
+  414 |     const firstLeagueId = (await home.leagueButtons.first().getAttribute("id")) ?? "";
+  415 |     const leagueShort = firstLeagueId.replace(/^league-/, "");
+  416 | 
+  417 |     // Distinct non-live matchups the API offers for this league.
+  418 |     const apiMatchups = new Map<string, string>(); // matchup -> matchDate
+  419 |     for (const p of playersForLeague(offering, leagueShort)) {
+  420 |       if (p.match.matchStatus === MATCH_STATUS_LIVE) continue;
+  421 |       const label = matchupLabel(p);
+  422 |       if (label) apiMatchups.set(label, p.match.matchDate);
+  423 |     }
+  424 |     test.skip(apiMatchups.size === 0, `no upcoming ${leagueShort} matches in the API`);
+  425 | 
+  426 |     const matchSelector = page
+  427 |       .getByTestId("match-selector")
+  428 |       .filter({ visible: true })
+  429 |       .first();
+  430 |     await expect(matchSelector).toBeVisible();
+  431 |     const buttonTexts = (await matchSelector.locator("button").allInnerTexts()).map((t) =>
+  432 |       t.replace(/\s+/g, " ").trim(),
+  433 |     );
+  434 | 
+  435 |     const errors: string[] = [];
+  436 |     for (const [label] of apiMatchups) {
+  437 |       const button = buttonTexts.find((t) => t.startsWith(label));
+  438 |       if (!button) {
+  439 |         errors.push(`API match "${label}" missing from match selector [${buttonTexts.join(" | ")}]`);
+  440 |         continue;
+  441 |       }
+  442 |       // Time suffix: "h:mmAM" for today, "ddd hAM" otherwise (browser tz).
+  443 |       const timeText = button.slice(label.length).trim();
+  444 |       if (!/^(\d{1,2}:\d{2}(AM|PM)|(Sun|Mon|Tue|Wed|Thu|Fri|Sat) \d{1,2}(AM|PM))$/.test(timeText)) {
+  445 |         errors.push(`match "${label}": start time rendered as "${timeText}"`);
+  446 |       }
+  447 |     }
+  448 |     expect(errors, errors.join("\n")).toEqual([]);
+  449 |   });
+  450 | });
+  451 | 
+```

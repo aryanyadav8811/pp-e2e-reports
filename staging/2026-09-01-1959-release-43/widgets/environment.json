@@ -1,0 +1,1 @@
+[{"values":["2026-09-01-1959-release-43"],"name":"build"},{"values":["staging"],"name":"env"},{"values":["https://staging.parlayplay.io/"],"name":"baseURL"},{"values":["parlayplay"],"name":"product"},{"values":["e2e"],"name":"suite"},{"values":["1"],"name":"appended"},{"values":["2026-09-02T00:22:36.518Z"],"name":"appendedAt"}]

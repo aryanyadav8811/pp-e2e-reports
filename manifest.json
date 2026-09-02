@@ -1,0 +1,660 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-02T00:22:39.736Z",
+  "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
+  "envs": {
+    "dev": {
+      "latest": "2026-08-31-1423-trial-2",
+      "buildOrder": 2,
+      "runs": [
+        {
+          "runId": "2026-08-31-1423-trial-2",
+          "env": "dev",
+          "suite": "full",
+          "release": "trial-2",
+          "ref": null,
+          "sha": null,
+          "baseURL": "https://dev.parlayplay.io/",
+          "source": "local",
+          "trigger": null,
+          "startedAt": "2026-08-31T14:23:25.766Z",
+          "finishedAt": "2026-08-31T14:23:42.332Z",
+          "durationMs": 16566,
+          "publishedAt": "2026-08-31T14:24:05.799Z",
+          "workflowRunId": null,
+          "workflowRunUrl": null,
+          "artifact": null,
+          "resultsInRepo": true,
+          "counts": {
+            "passed": 2,
+            "failed": 0,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 2
+          },
+          "ciCounts": {
+            "passed": 2,
+            "failed": 0,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 2
+          },
+          "playwright": null,
+          "failed": [],
+          "appends": []
+        },
+        {
+          "runId": "2026-08-31-1210-trial",
+          "env": "dev",
+          "suite": "full",
+          "release": "trial",
+          "ref": null,
+          "sha": null,
+          "baseURL": "https://dev.parlayplay.io/",
+          "source": "local",
+          "trigger": null,
+          "startedAt": "2026-08-31T12:05:03.607Z",
+          "finishedAt": "2026-08-31T12:19:25.038Z",
+          "durationMs": 861431,
+          "publishedAt": "2026-08-31T12:10:19.721Z",
+          "workflowRunId": null,
+          "workflowRunUrl": null,
+          "artifact": null,
+          "resultsInRepo": true,
+          "counts": {
+            "passed": 6,
+            "failed": 2,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 1,
+            "total": 8
+          },
+          "ciCounts": {
+            "passed": 5,
+            "failed": 3,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 8
+          },
+          "playwright": null,
+          "failed": [
+            {
+              "project": "Mobile Chrome",
+              "file": "navigation/entries-nav-indicator.spec.ts",
+              "name": "Indicator stays under \"Entries\" when toggling Active and History",
+              "status": "failed",
+              "message": "Error: page.waitForURL: Target page, context or browser has been closed"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "navigation/footer-nav.spec.ts",
+              "name": "Rewards tab routes into /rewards and takes the indicator",
+              "status": "failed",
+              "message": "Error: page.waitForURL: Target page, context or browser has been closed"
+            }
+          ],
+          "appends": [
+            {
+              "at": "2026-08-31T12:20:33.528Z",
+              "by": "apple",
+              "source": "local",
+              "added": 1,
+              "specs": [
+                "settings/settings.spec.ts"
+              ],
+              "note": "trial fix"
+            }
+          ]
+        }
+      ]
+    },
+    "staging": {
+      "latest": "2026-09-01-1959-release-43",
+      "buildOrder": 2,
+      "runs": [
+        {
+          "runId": "2026-09-01-1959-release-43",
+          "env": "staging",
+          "suite": "full",
+          "release": "release-43",
+          "ref": "594579c60e2b1d8637817f156e7dabd895419b6e",
+          "sha": "594579c60e2b1d8637817f156e7dabd895419b6e",
+          "baseURL": "https://staging.parlayplay.io/",
+          "source": "ci",
+          "trigger": "manual (aryanyadav8811)",
+          "startedAt": "2026-09-01T20:00:21.656Z",
+          "finishedAt": "2026-09-01T23:04:14.168Z",
+          "durationMs": 11032512,
+          "publishedAt": "2026-09-01T20:58:06.514Z",
+          "workflowRunId": "33552122960",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/33552122960",
+          "artifact": "allure-results-2026-09-01-1959-release-43",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 301,
+            "failed": 19,
+            "broken": 9,
+            "skipped": 42,
+            "unknown": 0,
+            "flaky": 49,
+            "total": 371
+          },
+          "ciCounts": {
+            "passed": 247,
+            "failed": 42,
+            "broken": 32,
+            "skipped": 47,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 368
+          },
+          "playwright": {
+            "expected": 247,
+            "unexpected": 74,
+            "flaky": 0,
+            "skipped": 47
+          },
+          "failed": [
+            {
+              "project": "Mobile Chrome",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five player contest Submission",
+              "status": "broken",
+              "message": "Test timeout of 120000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "entries/entry-card-redesign.spec.ts",
+              "name": "Freshly placed entry is cancellable with a live countdown, and confirming Cancel Entry removes it from Active and History (refund + hard delete)",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: 400 You have reached your limit for in-game contests for this match.)"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "entries/entry-card-redesign.spec.ts",
+              "name": "Freshly placed entry is cancellable with a live countdown, and confirming Cancel Entry removes it from Active and History (refund + hard delete)",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: 400 You have reached your limit for in-game contests for this match.)"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/navigation-deeplink.spec.ts",
+              "name": "terms page --> signup page",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeDisabled() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/navigation.spec.ts",
+              "name": "terms page --> signup page",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeEnabled() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/navigation.spec.ts",
+              "name": "Open signup using footer Sign Up",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/navigation.spec.ts",
+              "name": "Deeplink with referrals pre-populates",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeEnabled() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/navigation.spec.ts",
+              "name": "Open Terms page from header Join Now",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/signup.spec.ts",
+              "name": "Footer \"Sign Up\" opens Terms page",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/signup.spec.ts",
+              "name": "Shows an error when the email is already taken",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded while running \"beforeEach\" hook."
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/signup.spec.ts",
+              "name": "Form accepts valid data in all fields",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded while running \"beforeEach\" hook."
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/signup.spec.ts",
+              "name": "All required fields are visible",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded while running \"beforeEach\" hook."
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/signup.spec.ts",
+              "name": "Deeplink with referral pre-populates the coupon field",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeEnabled() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/signup.spec.ts",
+              "name": "Terms page leads to signup page",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeEnabled() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/signup.spec.ts",
+              "name": "Header \"Join Now\" opens Terms page",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/user-signup.spec.ts",
+              "name": "should validate password confirmation",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeDisabled() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/user-signup.spec.ts",
+              "name": "should display all required form fields",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeDisabled() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/user-signup.spec.ts",
+              "name": "should fill all form fields with valid data",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeDisabled() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/validation.spec.ts",
+              "name": "email format and uniqueness helper updates",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded while running \"beforeEach\" hook."
+            },
+            {
+              "project": "Desktop",
+              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
+              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
+              "status": "failed",
+              "message": "Error: share API should return shareUrl"
+            },
+            {
+              "project": "Desktop",
+              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
+              "name": "Logged-in tailer clicks \"Tail this entry\" and submits the same picks",
+              "status": "failed",
+              "message": "Error: share API should return shareUrl"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
+              "name": "Logged-in tailer clicks \"Tail this entry\" and submits the same picks",
+              "status": "failed",
+              "message": "Error: share API should return shareUrl"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
+              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
+              "status": "failed",
+              "message": "Error: share API should return shareUrl"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
+              "name": "Logged-in tailer clicks \"Tail this entry\" and submits the same picks",
+              "status": "failed",
+              "message": "Error: share API should return shareUrl"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
+              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
+              "status": "failed",
+              "message": "Error: share API should return shareUrl"
+            },
+            {
+              "project": "Desktop",
+              "file": "slip_sharing/tail_feed.spec.ts",
+              "name": "Share toggle ON — newly-placed contest appears on You tab and Tail Entry tails it",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "slip_sharing/tail_feed.spec.ts",
+              "name": "Share toggle ON — newly-placed contest appears on You tab and Tail Entry tails it",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "slip_sharing/tail_feed.spec.ts",
+              "name": "Share toggle ON — newly-placed contest appears on You tab and Tail Entry tails it",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: 400 You have reached your limit for in-game contests for this match.)"
+            }
+          ],
+          "appends": [
+            {
+              "at": "2026-09-02T00:22:36.518Z",
+              "by": "apple",
+              "source": "local",
+              "added": 361,
+              "specs": [
+                "slip_sharing/tail_feed.spec.ts",
+                "entries/entry-card-redesign.spec.ts",
+                "packs/lobby.spec.ts",
+                "rewards/partner-rewards.spec.ts",
+                "entries/entries.spec.ts",
+                "packs/pack-detail.spec.ts",
+                "slip_sharing/slip_sharing_and_tailing.spec.ts",
+                "signup/navigation.spec.ts",
+                "signup/signup.spec.ts",
+                "contests/user-enter-contest.spec.ts",
+                "signup/user-signup.spec.ts",
+                "modals/userlimits.spec.ts",
+                "data_verification/picks-grid.spec.ts",
+                "signup/validation.spec.ts",
+                "desktop/login-modal.spec.ts",
+                "data_verification/search.spec.ts",
+                "navigation/footer-nav.spec.ts",
+                "signup/navigation-deeplink.spec.ts",
+                "navigation/entries-nav-indicator.spec.ts",
+                "stats/FG_stat_selection.spec.ts"
+              ],
+              "note": "DFS-2767 gap-fill"
+            }
+          ]
+        },
+        {
+          "runId": "2026-09-01-0732-aryan-e2e-ci-workflow",
+          "env": "staging",
+          "suite": "sanity",
+          "release": "aryan-e2e-ci-workflow",
+          "ref": "221a1ad1cbcf825c7bf6a9516c69f1de469ec393",
+          "sha": "221a1ad1cbcf825c7bf6a9516c69f1de469ec393",
+          "baseURL": "https://staging.parlayplay.io/",
+          "source": "ci",
+          "trigger": "PR #1807 label (aryanyadav8811)",
+          "startedAt": "2026-09-01T07:34:16.590Z",
+          "finishedAt": "2026-09-01T07:35:24.272Z",
+          "durationMs": 67682,
+          "publishedAt": "2026-09-01T07:36:01.759Z",
+          "workflowRunId": "33482635082",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/33482635082",
+          "artifact": "allure-results-2026-09-01-0732-aryan-e2e-ci-workflow",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 7,
+            "failed": 0,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 7
+          },
+          "ciCounts": {
+            "passed": 7,
+            "failed": 0,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 7
+          },
+          "playwright": {
+            "expected": 7,
+            "unexpected": 0,
+            "flaky": 0,
+            "skipped": 0
+          },
+          "failed": [],
+          "appends": []
+        }
+      ]
+    }
+  },
+  "legacy": [
+    {
+      "name": "2026-08-28-1027-UI42",
+      "publishedAt": "2026-08-28T16:57:49+05:30",
+      "counts": {
+        "failed": 3,
+        "broken": 3,
+        "skipped": 32,
+        "passed": 267,
+        "unknown": 0,
+        "total": 305
+      }
+    },
+    {
+      "name": "e2e-agent-2026-08-25-desktop-rerun",
+      "publishedAt": "2026-08-25T23:51:00+05:30",
+      "counts": {
+        "failed": 20,
+        "broken": 7,
+        "skipped": 23,
+        "passed": 63,
+        "unknown": 0,
+        "total": 113
+      }
+    },
+    {
+      "name": "e2e-agent-2026-08-25-2131",
+      "publishedAt": "2026-08-25T21:31:10+05:30",
+      "counts": {
+        "failed": 23,
+        "broken": 2,
+        "skipped": 121,
+        "passed": 183,
+        "unknown": 0,
+        "total": 329
+      }
+    },
+    {
+      "name": "e2e-agent-2026-08-21-1223",
+      "publishedAt": "2026-08-21T12:23:33+05:30",
+      "counts": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 2,
+        "passed": 19,
+        "unknown": 0,
+        "total": 21
+      }
+    },
+    {
+      "name": "UI40",
+      "publishedAt": "2026-08-20T10:51:12+05:30",
+      "counts": {
+        "failed": 9,
+        "broken": 0,
+        "skipped": 56,
+        "passed": 160,
+        "unknown": 0,
+        "total": 225
+      }
+    },
+    {
+      "name": "DFS77",
+      "publishedAt": "2026-08-14T17:38:20+05:30",
+      "counts": {
+        "failed": 91,
+        "broken": 2,
+        "skipped": 51,
+        "passed": 167,
+        "unknown": 0,
+        "total": 311
+      }
+    },
+    {
+      "name": "UI34",
+      "publishedAt": "2026-07-17T17:36:44+05:30",
+      "counts": {
+        "failed": 5,
+        "broken": 3,
+        "skipped": 36,
+        "passed": 134,
+        "unknown": 0,
+        "total": 178
+      }
+    },
+    {
+      "name": "UI32",
+      "publishedAt": "2026-07-07T17:15:37+05:30",
+      "counts": {
+        "failed": 6,
+        "broken": 12,
+        "skipped": 10,
+        "passed": 112,
+        "unknown": 0,
+        "total": 140
+      }
+    },
+    {
+      "name": "UI31",
+      "publishedAt": "2026-06-30T14:23:55+05:30",
+      "counts": {
+        "failed": 8,
+        "broken": 12,
+        "skipped": 11,
+        "passed": 97,
+        "unknown": 0,
+        "total": 128
+      }
+    },
+    {
+      "name": "UI29-DFS65",
+      "publishedAt": "2026-06-12T02:03:13+05:30",
+      "counts": {
+        "failed": 9,
+        "broken": 2,
+        "skipped": 20,
+        "passed": 97,
+        "unknown": 0,
+        "total": 128
+      }
+    },
+    {
+      "name": "FridayRelease",
+      "publishedAt": "2026-06-08T15:20:04+05:30",
+      "counts": {
+        "failed": 4,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 84,
+        "unknown": 0,
+        "total": 88
+      }
+    },
+    {
+      "name": "DFS-62",
+      "publishedAt": "2026-05-29T21:37:47+05:30",
+      "counts": {
+        "failed": 4,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 84,
+        "unknown": 0,
+        "total": 88
+      }
+    },
+    {
+      "name": "friday-release",
+      "publishedAt": "2026-05-22T19:25:04+05:30",
+      "counts": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 88,
+        "unknown": 0,
+        "total": 88
+      }
+    },
+    {
+      "name": "Release-26",
+      "publishedAt": "2026-05-22T00:47:18+05:30",
+      "counts": {
+        "failed": 2,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 78,
+        "unknown": 0,
+        "total": 80
+      }
+    },
+    {
+      "name": "dfs-release-59",
+      "publishedAt": "2026-05-19T22:02:01+05:30",
+      "counts": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 80,
+        "unknown": 0,
+        "total": 80
+      }
+    },
+    {
+      "name": "release-25",
+      "publishedAt": "2026-05-17T12:03:36+05:30",
+      "counts": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 78,
+        "unknown": 0,
+        "total": 78
+      }
+    },
+    {
+      "name": "release-02",
+      "publishedAt": "2026-05-15T13:03:18+05:30",
+      "counts": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 3,
+        "passed": 5,
+        "unknown": 0,
+        "total": 8
+      }
+    },
+    {
+      "name": "release-01",
+      "publishedAt": "2026-05-15T12:28:18+05:30",
+      "counts": {
+        "failed": 4,
+        "broken": 0,
+        "skipped": 111,
+        "passed": 7,
+        "unknown": 0,
+        "total": 122
+      }
+    }
+  ]
+}

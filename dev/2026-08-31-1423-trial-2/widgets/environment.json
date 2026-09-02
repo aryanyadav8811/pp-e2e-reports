@@ -1,0 +1,1 @@
+[{"values":["2026-08-31-1423-trial-2"],"name":"build"},{"values":["dev"],"name":"env"},{"values":["https://dev.parlayplay.io/"],"name":"baseURL"},{"values":["trial-2"],"name":"release"},{"values":["full"],"name":"suite"},{"values":["local"],"name":"source"},{"values":["parlayplay"],"name":"product"}]

@@ -1,0 +1,476 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: slipPersistent/slip_persistent.spec.ts >> Slip persistence >> slip persists through Rewards tab round-trip
+- Location: tests/slipPersistent/slip_persistent.spec.ts:49:5
+
+# Error details
+
+```
+Error: Expected picks ["player-657551","player-1272948","player-686949"] to persist, got ["player-657551","player-1272948"]
+
+expect(received).toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 0
+
+  Set {
+    "player-1272948",
+    "player-657551",
+-   "player-686949",
+  }
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Parlay Play LogoParlay Play text" [ref=e6]:
+            - /url: /
+            - generic [ref=e7]:
+              - img "Parlay Play Logo" [ref=e8]
+              - img "Parlay Play text" [ref=e9]
+          - generic [ref=e10]:
+            - button "Switch to dark mode" [ref=e11]:
+              - img [ref=e12]
+            - generic [ref=e14]:
+              - generic [ref=e16]:
+                - generic [ref=e17]: $247.45
+                - generic [ref=e18]:
+                  - img "gift-icon" [ref=e19]
+                  - text: "109.00"
+              - button "Toggle Menu" [ref=e20]:
+                - img [ref=e21]
+      - main [ref=e23]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - list [ref=e30]:
+                - button "Live" [ref=e31] [cursor=pointer]:
+                  - generic [ref=e35]: Live
+                - button "Promo" [ref=e36] [cursor=pointer]
+                - button "NBA" [ref=e37] [cursor=pointer]
+                - button "NBA-Combos" [ref=e38] [cursor=pointer]
+                - button "NBA Q1" [ref=e39] [cursor=pointer]
+                - button "NBA H1" [ref=e40] [cursor=pointer]
+                - button "MLB" [ref=e41] [cursor=pointer]
+                - button "MLB-Combos" [ref=e42] [cursor=pointer]
+                - button "NHL" [ref=e43] [cursor=pointer]
+                - button "NHL-Combos" [ref=e44] [cursor=pointer]
+                - button "SerieA" [ref=e45] [cursor=pointer]
+                - button "EPL" [ref=e46] [cursor=pointer]
+                - button "MLS" [ref=e47] [cursor=pointer]
+                - button "CSGO" [ref=e48] [cursor=pointer]
+                - button "LoL" [ref=e49] [cursor=pointer]
+                - button "Valorant" [ref=e50] [cursor=pointer]
+                - button "Cricket" [ref=e51] [cursor=pointer]
+                - button "LaLiga" [ref=e52] [cursor=pointer]
+                - button "Dota2" [ref=e53] [cursor=pointer]
+              - list [ref=e55]:
+                - listitem [ref=e56]:
+                  - button "ALL" [ref=e57] [cursor=pointer]:
+                    - generic [ref=e58]: ALL
+                - listitem [ref=e59]:
+                  - button "BetBoom@PlayTime Fri 9AM" [ref=e60] [cursor=pointer]:
+                    - text: BetBoom@PlayTime
+                    - generic [ref=e61]: Fri 9AM
+              - generic [ref=e62]:
+                - generic [ref=e63]:
+                  - generic [ref=e66]:
+                    - img [ref=e68]
+                    - textbox "Search player or team" [ref=e70]
+                  - button "Change card style from grid" [ref=e72]
+                - list [ref=e74]:
+                  - listitem [ref=e75]:
+                    - button "Kills" [ref=e76]
+            - generic [ref=e77]:
+              - generic [ref=e81]:
+                - button "previous slide / item" [ref=e82] [cursor=pointer]:
+                  - img [ref=e83]
+                - list [ref=e86]:
+                  - listitem [ref=e87]:
+                    - button "Get $20 By referring a friend making a first $10 deposit. lightning-bolt-yellow" [ref=e88] [cursor=pointer]:
+                      - generic [ref=e89]:
+                        - generic [ref=e91]: Get $20
+                        - generic [ref=e92]: By referring a friend making a first $10 deposit.
+                      - img "lightning-bolt-yellow"
+                  - listitem [ref=e93]:
+                    - 'button "Boosted Picks 🚀 Every Pick Pays: Up to a 35% Boost! lightning-bolt-yellow" [ref=e94] [cursor=pointer]':
+                      - generic [ref=e95]:
+                        - generic [ref=e97]: Boosted Picks 🚀
+                        - generic [ref=e98]: "Every Pick Pays: Up to a 35% Boost!"
+                      - img "lightning-bolt-yellow"
+                  - listitem [ref=e99]:
+                    - button "Get $20 By referring a friend making a first $10 deposit. lightning-bolt-yellow" [ref=e100] [cursor=pointer]:
+                      - generic [ref=e101]:
+                        - generic [ref=e103]: Get $20
+                        - generic [ref=e104]: By referring a friend making a first $10 deposit.
+                      - img "lightning-bolt-yellow"
+                  - listitem [ref=e105]:
+                    - 'button "Boosted Picks 🚀 Every Pick Pays: Up to a 35% Boost! lightning-bolt-yellow" [ref=e106] [cursor=pointer]':
+                      - generic [ref=e107]:
+                        - generic [ref=e109]: Boosted Picks 🚀
+                        - generic [ref=e110]: "Every Pick Pays: Up to a 35% Boost!"
+                      - img "lightning-bolt-yellow"
+                - button "next slide / item" [ref=e111] [cursor=pointer]:
+                  - img [ref=e112]
+              - generic [ref=e114]:
+                - generic [ref=e117]:
+                  - generic [ref=e120]:
+                    - button "Open expert opinion for Kiritych~" [ref=e121]:
+                      - img [ref=e122]
+                    - img "Kiritych~" [ref=e125]
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: Kiritych~
+                    - button "15 Kills" [disabled] [ref=e128]:
+                      - generic [ref=e129]: "15"
+                      - generic [ref=e130]: Kills
+                    - generic [ref=e131]:
+                      - generic [ref=e132]: BetBoom@PlayTime
+                      - generic [ref=e133]: Fri 9AM
+                    - generic [ref=e134]:
+                      - button "Select over 15 Kills for 1.77 times" [ref=e135]:
+                        - img [ref=e136]
+                        - generic [ref=e138]: 1.77x
+                      - button "Select over 15 Kills for 1.77 times" [ref=e139]:
+                        - generic [ref=e140]: 1.77x
+                        - img [ref=e141]
+                - generic [ref=e145]:
+                  - generic [ref=e148]:
+                    - button "Open expert opinion for gpk~" [ref=e149]:
+                      - img [ref=e150]
+                    - img "gpk~" [ref=e153]
+                  - generic [ref=e154]:
+                    - generic [ref=e155]: gpk~
+                    - button "18 Kills" [disabled] [ref=e156]:
+                      - generic [ref=e157]: "18"
+                      - generic [ref=e158]: Kills
+                    - generic [ref=e159]:
+                      - generic [ref=e160]: BetBoom@PlayTime
+                      - generic [ref=e161]: Fri 9AM
+                    - generic [ref=e162]:
+                      - button "Select over 18 Kills for 1.77 times" [ref=e163]:
+                        - img [ref=e164]
+                        - generic [ref=e166]: 1.77x
+                      - button "Select over 18 Kills for 1.77 times" [ref=e167]:
+                        - generic [ref=e168]: 1.77x
+                        - img [ref=e169]
+                - generic [ref=e173]:
+                  - generic [ref=e176]:
+                    - 'button "Open expert opinion for MieRo`" [ref=e177]':
+                      - img [ref=e178]
+                    - 'img "MieRo`" [ref=e181]'
+                  - generic [ref=e182]:
+                    - generic [ref=e183]: "MieRo`"
+                    - button "11.5 Kills" [disabled] [ref=e184]:
+                      - generic [ref=e185]: "11.5"
+                      - generic [ref=e186]: Kills
+                    - generic [ref=e187]:
+                      - generic [ref=e188]: BetBoom@PlayTime
+                      - generic [ref=e189]: Fri 9AM
+                    - generic [ref=e190]:
+                      - button "Select over 11.5 Kills for 1.77 times" [ref=e191]:
+                        - img [ref=e192]
+                        - generic [ref=e194]: 1.77x
+                      - button "Select over 11.5 Kills for 1.77 times" [ref=e195]:
+                        - generic [ref=e196]: 1.77x
+                        - img [ref=e197]
+                - generic [ref=e201]:
+                  - generic [ref=e204]:
+                    - button "Open expert opinion for Save-" [ref=e205]:
+                      - img [ref=e206]
+                    - img "Save-" [ref=e209]
+                  - generic [ref=e210]:
+                    - generic [ref=e211]: Save-
+                    - button "10.5 Kills" [disabled] [ref=e212]:
+                      - generic [ref=e213]: "10.5"
+                      - generic [ref=e214]: Kills
+                    - generic [ref=e215]:
+                      - generic [ref=e216]: BetBoom@PlayTime
+                      - generic [ref=e217]: Fri 9AM
+                    - generic [ref=e218]:
+                      - button "Select over 10.5 Kills for 1.77 times" [ref=e219]:
+                        - img [ref=e220]
+                        - generic [ref=e222]: 1.77x
+                      - button "Select over 10.5 Kills for 1.77 times" [ref=e223]:
+                        - generic [ref=e224]: 1.77x
+                        - img [ref=e225]
+            - generic [ref=e237]:
+              - img [ref=e239]
+              - generic [ref=e241]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]: 7.14x
+                  - generic [ref=e245]: 7.50x
+                - generic [ref=e246]:
+                  - button "+ 10% Boost 🚀" [ref=e252]:
+                    - generic [ref=e253]: + 10% Boost 🚀
+                  - generic [ref=e263]: "Add 4th Pick: 10% Boost"
+              - button "Continue" [ref=e264] [cursor=pointer]
+          - generic [ref=e266]:
+            - generic [ref=e268]:
+              - link "Download ParlayPlay On The App Store" [ref=e269]:
+                - /url: https://parlayplay.onelink.me/oLJk/gnqpwjha
+                - img "Download ParlayPlay On The App Store" [ref=e270]
+              - paragraph [ref=e271]:
+                - text: Get the app.
+                - text: Better. Faster. Convenient
+            - navigation [ref=e272]:
+              - link "Privacy" [ref=e273]:
+                - /url: /privacy-policy
+              - link "Terms" [ref=e274]:
+                - /url: /terms
+              - link "Responsible Gaming" [ref=e275]:
+                - /url: /responsible-gaming
+              - link "Gaming Rules" [ref=e276]:
+                - /url: /rules
+              - link "FAQ" [ref=e277]:
+                - /url: https://intercom.help/parlayplay/en/
+            - navigation [ref=e278]:
+              - generic [ref=e279]:
+                - paragraph [ref=e280]: © ParlayPlay 2026
+                - generic [ref=e281]:
+                  - link [ref=e282]:
+                    - /url: https://www.facebook.com/parlayplay.io
+                    - img [ref=e283]
+                  - link [ref=e285]:
+                    - /url: https://www.instagram.com/parlayplay_?igsh=bHBldWQyMmV2b3Y4
+                    - img [ref=e286]
+                  - link [ref=e288]:
+                    - /url: https://www.twitter.com/parlay_play
+                    - img [ref=e289]
+                  - link [ref=e291]:
+                    - /url: https://discord.com/invite/parlayplay
+                    - img [ref=e292]
+                - img "21+-icon" [ref=e294]
+              - paragraph [ref=e296]: Gambling can be addictive. Please play responsibly.
+      - contentinfo [ref=e297]:
+        - navigation [ref=e298]:
+          - list [ref=e299]:
+            - listitem [ref=e300]:
+              - button "Home" [ref=e301] [cursor=pointer]:
+                - generic [ref=e302]:
+                  - img [ref=e303]
+                  - generic [ref=e304]: Home
+            - listitem [ref=e305]:
+              - button "Entries 170" [ref=e306] [cursor=pointer]:
+                - generic [ref=e307]:
+                  - img [ref=e308]
+                  - generic [ref=e309]: Entries
+                - generic [ref=e310]: "170"
+            - listitem [ref=e311]:
+              - button "Feed" [ref=e312] [cursor=pointer]:
+                - generic [ref=e313]:
+                  - img [ref=e314]
+                  - generic [ref=e315]: Feed
+            - listitem [ref=e316]:
+              - button "Rewards 55" [ref=e317] [cursor=pointer]:
+                - generic [ref=e318]:
+                  - img [ref=e319]
+                  - generic [ref=e320]: Rewards
+                - generic [ref=e321]: "55"
+            - listitem [ref=e322]:
+              - button "Free2Play 2" [ref=e323] [cursor=pointer]:
+                - generic [ref=e324]:
+                  - img [ref=e325]
+                  - generic [ref=e326]: Free2Play
+                - generic [ref=e327]: "2"
+    - region "Notifications Alt+T"
+  - alert [ref=e328]: ParlayPlay | Fun Fantasy Sports
+```
+
+# Test source
+
+```ts
+  239 |                 replaced = true;
+  240 |                 break;
+  241 |               }
+  242 |             }
+  243 |             if (!replaced) {
+  244 |               throw new Error(
+  245 |                 `Unable to find replacement pick when Continue is disabled (target: ${count})`
+  246 |               );
+  247 |             }
+  248 |             continueFlag = await this.isContinueEnabled();
+  249 |           }
+  250 | 
+  251 |           if (continueFlag && selected.size == count)
+  252 |             return Array.from(selected);
+  253 |           if (continueFlag) recentlyFailed.clear();
+  254 |         }
+  255 |       }
+  256 |     }
+  257 | 
+  258 |     if (selected.size < count)
+  259 |       throw new Error(`Could not select ${count} valid picks`);
+  260 |     return Array.from(selected);
+  261 |   }
+  262 | 
+  263 |   async pickFivePlayers(): Promise<string[]> {
+  264 |     return this.pickPlayers(5);
+  265 |   }
+  266 | 
+  267 |   /**
+  268 |    * Walks every non-combo league tab and returns the player-card IDs that
+  269 |    * currently have a highlighted (bg-playYellow) grid-button. Used to verify
+  270 |    * slip persistence after navigation or reload.
+  271 |    *
+  272 |    * A player card only renders grid-buttons for the currently active stat
+  273 |    * tab, so a pick made on Assists is invisible when the league lands on
+  274 |    * Points. We iterate every stat tab per league and union the matches.
+  275 |    */
+  276 |   async getSelectedPickIds(): Promise<string[]> {
+  277 |     const leagueButtons = await this.listLeagueButtons();
+  278 |     const ids = new Set<string>();
+  279 | 
+  280 |     for (const leagueButton of leagueButtons) {
+  281 |       const leagueId = (await leagueButton.getAttribute("id")) ?? "";
+  282 |       if (leagueId.toLowerCase().includes("combo")) continue;
+  283 | 
+  284 |       await leagueButton.click();
+  285 |       await this.waitForFeedReady().catch(() => undefined);
+  286 |       if (await this.isEmptyState()) continue;
+  287 | 
+  288 |       const statTabs = this.statsSelector.locator("li button");
+  289 |       const statCount = await statTabs.count().catch(() => 0);
+  290 |       // Always do at least one pass: a league with no stat selector
+  291 |       // still has cards we need to scan with whatever's currently shown.
+  292 |       const tabsToVisit = Math.max(statCount, 1);
+  293 | 
+  294 |       for (let s = 0; s < tabsToVisit; s++) {
+  295 |         if (statCount > 0) {
+  296 |           try {
+  297 |             await statTabs.nth(s).click({ timeout: 5_000 });
+  298 |             await this.waitForPlayersGrid();
+  299 |           } catch {
+  300 |             // Disabled / off-screen / overlapped tab — skip rather
+  301 |             // than fail the whole scan; another stat may still
+  302 |             // surface the pick.
+  303 |             continue;
+  304 |           }
+  305 |         }
+  306 | 
+  307 |         await this.collectHighlightedCardIds(ids);
+  308 |       }
+  309 |     }
+  310 | 
+  311 |     return Array.from(ids);
+  312 |   }
+  313 | 
+  314 |   private async collectHighlightedCardIds(into: Set<string>): Promise<void> {
+  315 |     const cards = this.playerCardsVisible;
+  316 |     const n = await cards.count();
+  317 |     for (let i = 0; i < n; i++) {
+  318 |       const card = cards.nth(i);
+  319 |       const buttons = card.getByTestId("grid-button");
+  320 |       const btnCount = await buttons.count();
+  321 |       for (let j = 0; j < btnCount; j++) {
+  322 |         const cls = (await buttons.nth(j).getAttribute("class")) ?? "";
+  323 |         if (cls.includes("bg-playYellow")) {
+  324 |           const id = await card.locator(">div[id]").getAttribute("id");
+  325 |           if (id) into.add(id);
+  326 |           break;
+  327 |         }
+  328 |       }
+  329 |     }
+  330 |   }
+  331 | 
+  332 |   async assertPicksPersist(expectedIds: string[]): Promise<void> {
+  333 |     const currentIds = await this.getSelectedPickIds();
+  334 |     expect(
+  335 |       new Set(currentIds),
+  336 |       `Expected picks ${JSON.stringify(
+  337 |         expectedIds
+  338 |       )} to persist, got ${JSON.stringify(currentIds)}`
+> 339 |     ).toEqual(new Set(expectedIds));
+      |       ^ Error: Expected picks ["player-657551","player-1272948","player-686949"] to persist, got ["player-657551","player-1272948"]
+  340 |   }
+  341 | 
+  342 |   async waitForSlipPersisted(
+  343 |     expectedPickCount: number,
+  344 |     timeout = 5_000
+  345 |   ): Promise<void> {
+  346 |     await expect
+  347 |       .poll(
+  348 |         async () =>
+  349 |           this.page.evaluate(() => {
+  350 |             const raw = localStorage.getItem("pp_persistent_slip:v1");
+  351 |             if (!raw) return 0;
+  352 |             try {
+  353 |               return JSON.parse(raw).nrOfPicks ?? 0;
+  354 |             } catch {
+  355 |               return 0;
+  356 |             }
+  357 |           }),
+  358 |         {
+  359 |           timeout,
+  360 |           message: `Slip with ${expectedPickCount} picks was never written to localStorage`,
+  361 |         }
+  362 |       )
+  363 |       .toBe(expectedPickCount);
+  364 |   }
+  365 | 
+  366 |   async enterFinalContestPage() {
+  367 |     await this.continueBtn.click();
+  368 |   }
+  369 | 
+  370 |   async clearSlip(): Promise<void> {
+  371 |     await this.page.evaluate(() =>
+  372 |       localStorage.removeItem("pp_persistent_slip:v1")
+  373 |     );
+  374 |     await this.page.goto("/");
+  375 |     await this.waitForFeedReady();
+  376 |   }
+  377 | 
+  378 |   async selectStatByIndex(idx: number): Promise<void> {
+  379 |     const tab = this.statsSelector.locator("li button").nth(idx);
+  380 |     await expect(tab).toBeVisible();
+  381 |     await tab.click();
+  382 |     await this.waitForFeedReady();
+  383 |   }
+  384 | 
+  385 |   async enterEntriesPage() {
+  386 |     await this.entriesTab.click();
+  387 |   }
+  388 | 
+  389 |   async enterHomePage(): Promise<void> {
+  390 |     await this.homeTab.click();
+  391 |     await this.waitForFeedReady();
+  392 |     await expect(this.leagueSelector).toBeVisible();
+  393 |   }
+  394 | 
+  395 |   async enterMenu() {
+  396 |     // Some specs land here without an explicit goto('/'), so the global
+  397 |     // header may not be mounted yet. Wait briefly for Toggle Menu before
+  398 |     // clicking — fail fast (15s) instead of letting the test-level timeout
+  399 |     // (10 min) absorb a hung locator.
+  400 |     await this.toggleMenu.waitFor({ state: "visible", timeout: 15_000 });
+  401 |     await this.toggleMenu.click({ timeout: 15_000 });
+  402 |   }
+  403 | 
+  404 |   async assertHomePage() {
+  405 |     await expect(this.leagueSelector).toBeVisible();
+  406 |   }
+  407 | 
+  408 |   async enterRewarsdsPage() {
+  409 |     await this.rewardsTab.click();
+  410 |   }
+  411 | 
+  412 |   async fullGameLeagueCount() {
+  413 |     return await this.fgleagueTabs.count();
+  414 |   }
+  415 | 
+  416 |   async statsTabCount() {
+  417 |     return await this.statsTabs.count();
+  418 |   }
+  419 | }
+  420 | 
+```

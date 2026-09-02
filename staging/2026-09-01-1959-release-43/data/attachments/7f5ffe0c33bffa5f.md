@@ -1,0 +1,587 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: signup/signup.spec.ts >> Signup - Entry Points >> Deeplink with referral pre-populates the coupon field
+- Location: tests/signup/signup.spec.ts:45:5
+
+# Error details
+
+```
+Error: expect(locator).toBeEnabled() failed
+
+Locator: getByRole('link', { name: 'Login' }).filter({ visible: true }).first()
+Expected: enabled
+Timeout: 15000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeEnabled" with timeout 15000ms
+  - waiting for getByRole('link', { name: 'Login' }).filter({ visible: true }).first()
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Parlay Play Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Parlay Play Logo" [ref=e8]
+          - generic [ref=e9]:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Home" [ref=e12] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e14]: Home
+              - listitem [ref=e15]:
+                - button "Free2Play" [ref=e16] [cursor=pointer]
+              - listitem [ref=e17]:
+                - button "Feed" [ref=e18] [cursor=pointer]
+              - listitem [ref=e19]:
+                - button "Rewards" [ref=e20] [cursor=pointer]
+              - listitem [ref=e21]:
+                - button "Track Picks" [ref=e22] [cursor=pointer]
+            - button "Join Now" [ref=e23] [cursor=pointer]
+            - button "Login" [ref=e24] [cursor=pointer]
+      - main [ref=e25]:
+        - generic [ref=e31]:
+          - button "previous slide" [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+          - generic [ref=e36]:
+            - generic [ref=e38]:
+              - img "white lightning bol" [ref=e39]
+              - generic [ref=e40]: Join Now!
+              - generic [ref=e41]:
+                - text: $5
+                - generic [ref=e42]: Free Entry
+              - img "treasureBox" [ref=e43]
+              - generic [ref=e44]:
+                - text: Join Now and receive a $5 Free Entry. No deposit required!
+                - button "Join Now!" [ref=e46] [cursor=pointer]
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - text: $100
+                - img "black lightning bol" [ref=e50]
+              - generic [ref=e52]: =
+              - generic [ref=e53]:
+                - text: $200
+                - img "black lightning bol" [ref=e54]
+              - generic [ref=e55]:
+                - text: We match your 1st deposit
+                - text: We match your first deposit up to $100.
+                - button "Deposit Now" [ref=e57] [cursor=pointer]
+          - button "next slide" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+    - generic:
+      - region "Notifications Alt+T"
+    - generic [ref=e67]:
+      - button [ref=e68]
+      - dialog [ref=e70]:
+        - generic [ref=e71]:
+          - button [active] [ref=e72]:
+            - img [ref=e73]
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - link "Parlay Play Logo" [ref=e78] [cursor=pointer]:
+                - /url: /
+                - img "Parlay Play Logo" [ref=e80]
+              - generic [ref=e81]:
+                - paragraph [ref=e82]: Can you turn $5 promo
+                - paragraph [ref=e83]: Into
+                - heading "$15" [level=1] [ref=e84]
+            - generic [ref=e85]:
+              - heading "Sign Up" [level=2] [ref=e86]
+              - generic [ref=e87]:
+                - textbox "Username" [ref=e90]
+                - generic [ref=e93]:
+                  - textbox "Password" [ref=e94]
+                  - separator [ref=e95]
+                  - button "Show or Hide Password" [ref=e96]:
+                    - img [ref=e97]
+                - generic [ref=e99]:
+                  - textbox "First name" [ref=e103]
+                  - textbox "Last Name" [ref=e107]
+                  - generic [ref=e108]: As shown on ID or Passport
+                - textbox "E-mail" [ref=e111]
+                - generic [ref=e112]: Date of birth
+                - generic [ref=e113]:
+                  - combobox [ref=e115]:
+                    - option "Month" [disabled] [selected]
+                    - option "Jan"
+                    - option "Feb"
+                    - option "Mar"
+                    - option "Apr"
+                    - option "May"
+                    - option "Jun"
+                    - option "Jul"
+                    - option "Aug"
+                    - option "Sep"
+                    - option "Oct"
+                    - option "Nov"
+                    - option "Dec"
+                  - combobox [ref=e117]:
+                    - option "Day" [disabled] [selected]
+                    - option "1"
+                    - option "2"
+                    - option "3"
+                    - option "4"
+                    - option "5"
+                    - option "6"
+                    - option "7"
+                    - option "8"
+                    - option "9"
+                    - option "10"
+                    - option "11"
+                    - option "12"
+                    - option "13"
+                    - option "14"
+                    - option "15"
+                    - option "16"
+                    - option "17"
+                    - option "18"
+                    - option "19"
+                    - option "20"
+                    - option "21"
+                    - option "22"
+                    - option "23"
+                    - option "24"
+                    - option "25"
+                    - option "26"
+                    - option "27"
+                    - option "28"
+                    - option "29"
+                    - option "30"
+                    - option "31"
+                  - combobox [ref=e119]:
+                    - option "Year" [disabled] [selected]
+                    - option "2008"
+                    - option "2007"
+                    - option "2006"
+                    - option "2005"
+                    - option "2004"
+                    - option "2003"
+                    - option "2002"
+                    - option "2001"
+                    - option "2000"
+                    - option "1999"
+                    - option "1998"
+                    - option "1997"
+                    - option "1996"
+                    - option "1995"
+                    - option "1994"
+                    - option "1993"
+                    - option "1992"
+                    - option "1991"
+                    - option "1990"
+                    - option "1989"
+                    - option "1988"
+                    - option "1987"
+                    - option "1986"
+                    - option "1985"
+                    - option "1984"
+                    - option "1983"
+                    - option "1982"
+                    - option "1981"
+                    - option "1980"
+                    - option "1979"
+                    - option "1978"
+                    - option "1977"
+                    - option "1976"
+                    - option "1975"
+                    - option "1974"
+                    - option "1973"
+                    - option "1972"
+                    - option "1971"
+                    - option "1970"
+                    - option "1969"
+                    - option "1968"
+                    - option "1967"
+                    - option "1966"
+                    - option "1965"
+                    - option "1964"
+                    - option "1963"
+                    - option "1962"
+                    - option "1961"
+                    - option "1960"
+                    - option "1959"
+                    - option "1958"
+                    - option "1957"
+                    - option "1956"
+                    - option "1955"
+                    - option "1954"
+                    - option "1953"
+                    - option "1952"
+                    - option "1951"
+                    - option "1950"
+                    - option "1949"
+                    - option "1948"
+                    - option "1947"
+                    - option "1946"
+                    - option "1945"
+                    - option "1944"
+                    - option "1943"
+                    - option "1942"
+                    - option "1941"
+                    - option "1940"
+                    - option "1939"
+                    - option "1938"
+                    - option "1937"
+                    - option "1936"
+                    - option "1935"
+                    - option "1934"
+                    - option "1933"
+                    - option "1932"
+                    - option "1931"
+                    - option "1930"
+                    - option "1929"
+                    - option "1928"
+                    - option "1927"
+                    - option "1926"
+                    - option "1925"
+                    - option "1924"
+                    - option "1923"
+                    - option "1922"
+                    - option "1921"
+                    - option "1920"
+                - generic [ref=e120]: Phone Number
+                - generic [ref=e121]:
+                  - generic [ref=e123]:
+                    - generic [ref=e124]:
+                      - combobox "Phone number country" [ref=e125] [cursor=pointer]:
+                        - option "International"
+                        - option "Afghanistan"
+                        - option "Åland Islands"
+                        - option "Albania"
+                        - option "Algeria"
+                        - option "American Samoa"
+                        - option "Andorra"
+                        - option "Angola"
+                        - option "Anguilla"
+                        - option "Antigua and Barbuda"
+                        - option "Argentina"
+                        - option "Armenia"
+                        - option "Aruba"
+                        - option "Ascension Island"
+                        - option "Australia"
+                        - option "Austria"
+                        - option "Azerbaijan"
+                        - option "Bahamas"
+                        - option "Bahrain"
+                        - option "Bangladesh"
+                        - option "Barbados"
+                        - option "Belarus"
+                        - option "Belgium"
+                        - option "Belize"
+                        - option "Benin"
+                        - option "Bermuda"
+                        - option "Bhutan"
+                        - option "Bolivia"
+                        - option "Bonaire, Sint Eustatius and Saba"
+                        - option "Bosnia and Herzegovina"
+                        - option "Botswana"
+                        - option "Brazil"
+                        - option "British Indian Ocean Territory"
+                        - option "Brunei Darussalam"
+                        - option "Bulgaria"
+                        - option "Burkina Faso"
+                        - option "Burundi"
+                        - option "Cambodia"
+                        - option "Cameroon"
+                        - option "Canada"
+                        - option "Cape Verde"
+                        - option "Cayman Islands"
+                        - option "Central African Republic"
+                        - option "Chad"
+                        - option "Chile"
+                        - option "China"
+                        - option "Christmas Island"
+                        - option "Cocos (Keeling) Islands"
+                        - option "Colombia"
+                        - option "Comoros"
+                        - option "Congo"
+                        - option "Congo, Democratic Republic of the"
+                        - option "Cook Islands"
+                        - option "Costa Rica"
+                        - option "Cote d'Ivoire"
+                        - option "Croatia"
+                        - option "Cuba"
+                        - option "Curaçao"
+                        - option "Cyprus"
+                        - option "Czech Republic"
+                        - option "Denmark"
+                        - option "Djibouti"
+                        - option "Dominica"
+                        - option "Dominican Republic"
+                        - option "Ecuador"
+                        - option "Egypt"
+                        - option "El Salvador"
+                        - option "Equatorial Guinea"
+                        - option "Eritrea"
+                        - option "Estonia"
+                        - option "Ethiopia"
+                        - option "Falkland Islands"
+                        - option "Faroe Islands"
+                        - option "Federated States of Micronesia"
+                        - option "Fiji"
+                        - option "Finland"
+                        - option "France"
+                        - option "French Guiana"
+                        - option "French Polynesia"
+                        - option "Gabon"
+                        - option "Gambia"
+                        - option "Georgia"
+                        - option "Germany"
+                        - option "Ghana"
+                        - option "Gibraltar"
+                        - option "Greece"
+                        - option "Greenland"
+                        - option "Grenada"
+                        - option "Guadeloupe"
+                        - option "Guam"
+                        - option "Guatemala"
+                        - option "Guernsey"
+                        - option "Guinea"
+                        - option "Guinea-Bissau"
+                        - option "Guyana"
+                        - option "Haiti"
+                        - option "Holy See (Vatican City State)"
+                        - option "Honduras"
+                        - option "Hong Kong"
+                        - option "Hungary"
+                        - option "Iceland"
+                        - option "India"
+                        - option "Indonesia"
+                        - option "Iran"
+                        - option "Iraq"
+                        - option "Ireland"
+                        - option "Isle of Man"
+                        - option "Israel"
+                        - option "Italy"
+                        - option "Jamaica"
+                        - option "Japan"
+                        - option "Jersey"
+                        - option "Jordan"
+                        - option "Kazakhstan"
+                        - option "Kenya"
+                        - option "Kiribati"
+                        - option "Kosovo"
+                        - option "Kuwait"
+                        - option "Kyrgyzstan"
+                        - option "Laos"
+                        - option "Latvia"
+                        - option "Lebanon"
+                        - option "Lesotho"
+                        - option "Liberia"
+                        - option "Libya"
+                        - option "Liechtenstein"
+                        - option "Lithuania"
+                        - option "Luxembourg"
+                        - option "Macao"
+                        - option "Madagascar"
+                        - option "Malawi"
+                        - option "Malaysia"
+                        - option "Maldives"
+                        - option "Mali"
+                        - option "Malta"
+                        - option "Marshall Islands"
+                        - option "Martinique"
+                        - option "Mauritania"
+                        - option "Mauritius"
+                        - option "Mayotte"
+                        - option "Mexico"
+                        - option "Moldova"
+                        - option "Monaco"
+                        - option "Mongolia"
+                        - option "Montenegro"
+                        - option "Montserrat"
+                        - option "Morocco"
+                        - option "Mozambique"
+                        - option "Myanmar"
+                        - option "Namibia"
+                        - option "Nauru"
+                        - option "Nepal"
+                        - option "Netherlands"
+                        - option "New Caledonia"
+                        - option "New Zealand"
+                        - option "Nicaragua"
+                        - option "Niger"
+                        - option "Nigeria"
+                        - option "Niue"
+                        - option "Norfolk Island"
+                        - option "North Korea"
+                        - option "North Macedonia"
+                        - option "Northern Mariana Islands"
+                        - option "Norway"
+                        - option "Oman"
+                        - option "Pakistan"
+                        - option "Palau"
+                        - option "Palestine"
+                        - option "Panama"
+                        - option "Papua New Guinea"
+                        - option "Paraguay"
+                        - option "Peru"
+                        - option "Philippines"
+                        - option "Poland"
+                        - option "Portugal"
+                        - option "Puerto Rico"
+                        - option "Qatar"
+                        - option "Reunion"
+                        - option "Romania"
+                        - option "Russia"
+                        - option "Rwanda"
+                        - option "Saint Barthélemy"
+                        - option "Saint Helena"
+                        - option "Saint Kitts and Nevis"
+                        - option "Saint Lucia"
+                        - option "Saint Martin (French Part)"
+                        - option "Saint Pierre and Miquelon"
+                        - option "Saint Vincent and the Grenadines"
+                        - option "Samoa"
+                        - option "San Marino"
+                        - option "Sao Tome and Principe"
+                        - option "Saudi Arabia"
+                        - option "Senegal"
+                        - option "Serbia"
+                        - option "Seychelles"
+                        - option "Sierra Leone"
+                        - option "Singapore"
+                        - option "Sint Maarten"
+                        - option "Slovakia"
+                        - option "Slovenia"
+                        - option "Solomon Islands"
+                        - option "Somalia"
+                        - option "South Africa"
+                        - option "South Korea"
+                        - option "South Sudan"
+                        - option "Spain"
+                        - option "Sri Lanka"
+                        - option "Sudan"
+                        - option "Suriname"
+                        - option "Svalbard and Jan Mayen"
+                        - option "Swaziland"
+                        - option "Sweden"
+                        - option "Switzerland"
+                        - option "Syria"
+                        - option "Taiwan"
+                        - option "Tajikistan"
+                        - option "Tanzania"
+                        - option "Thailand"
+                        - option "Timor-Leste"
+                        - option "Togo"
+                        - option "Tokelau"
+                        - option "Tonga"
+                        - option "Trinidad and Tobago"
+                        - option "Tristan da Cunha"
+                        - option "Tunisia"
+                        - option "Turkey"
+                        - option "Turkmenistan"
+                        - option "Turks and Caicos Islands"
+                        - option "Tuvalu"
+                        - option "Uganda"
+                        - option "Ukraine"
+                        - option "United Arab Emirates"
+                        - option "United Kingdom"
+                        - option "United States" [selected]
+                        - option "Uruguay"
+                        - option "Uzbekistan"
+                        - option "Vanuatu"
+                        - option "Venezuela"
+                        - option "Vietnam"
+                        - option "Virgin Islands, British"
+                        - option "Virgin Islands, U.S."
+                        - option "Wallis and Futuna"
+                        - option "Western Sahara"
+                        - option "Yemen"
+                        - option "Zambia"
+                        - option "Zimbabwe"
+                      - img [ref=e127]
+                    - textbox "Enter phone number" [ref=e133]
+                  - button "Verify" [disabled] [ref=e135]
+                  - paragraph [ref=e137]
+              - paragraph [ref=e139]:
+                - img [ref=e140]
+                - text: Code "oliviertest-705" applied
+              - generic [ref=e142]:
+                - checkbox "Accept terms and conditions" [ref=e145]
+                - generic [ref=e146]:
+                  - text: By creating an account you confirm that you are at least 18 years old (19 in Alabama & Nebraska and 21 in Arizona & Massachusetts) and that you have read and agree to ParlayPlay's
+                  - link "Terms of Service" [ref=e147] [cursor=pointer]:
+                    - /url: /terms
+                  - text: and
+                  - link "Privacy Policy" [ref=e149] [cursor=pointer]:
+                    - /url: /privacy-policy
+                  - text: . I confirm that I agree to be bound by the Arbitration Agreement and Class Action Waiver provision of the
+                  - link "Terms of Service" [ref=e150] [cursor=pointer]:
+                    - /url: /terms#class-action
+                  - text: . You also agree to receive offers and messages from ParlayPlay.
+              - generic [ref=e151]:
+                - checkbox "Accept Packs Terms" [ref=e154]
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - generic [ref=e157]: PACKS
+                    - generic [ref=e158]: Separate Agreement
+                  - text: I understand Packs is a distinct product from ParlayPlay's Fantasy Contests, with its own terms, and I agree to the
+                  - link "Packs Terms" [ref=e159] [cursor=pointer]:
+                    - /url: /terms/packs
+                  - text: .
+              - generic [ref=e160]:
+                - button "Sign Up" [disabled] [ref=e161]
+                - button "Already have an account? Login" [ref=e162]
+  - alert [ref=e163]
+  - iframe [ref=e164]:
+    
+  - iframe [ref=e166]:
+    - generic [active] [ref=f4e1]:
+      - generic "Intercom":
+        - region "Intercom messenger":
+          - button "Open Intercom Messenger" [ref=f4e2] [cursor=pointer]:
+            - img [ref=f4e4]
+            - img [ref=f4e7]
+```
+
+# Test source
+
+```ts
+  1  | import { BasePage } from "./base.page";
+  2  | import { expect } from "@playwright/test";
+  3  | 
+  4  | export class TermsPage extends BasePage {
+  5  |   // Locators starts
+  6  | 
+  7  |   acceptCheckbox = this.byRole("checkbox", { name: /accept/i });
+  8  |   createAccountbutton = this.byRole("button", { name: /Create account/i });
+  9  |   loginButton = this.byRole("link", { name: "Login" });
+  10 | 
+  11 |   //Locators ends
+  12 | 
+  13 |   async assertReady() {
+  14 |     await super.assertReady();
+> 15 |     await expect(this.loginButton).toBeEnabled();
+     |                                    ^ Error: expect(locator).toBeEnabled() failed
+  16 |     await expect(this.createAccountbutton).toBeDisabled();
+  17 |   }
+  18 | 
+  19 |   async openTermsPage() {
+  20 |     this.open("/account/signup");
+  21 |   }
+  22 | 
+  23 |   async setAccept(checked = true) {
+  24 |     const isChecked = await this.acceptCheckbox.isChecked();
+  25 |     if (isChecked !== checked) await this.acceptCheckbox.click();
+  26 |   }
+  27 | 
+  28 |   async proceed() {
+  29 |     await this.createAccountbutton.click();
+  30 |   }
+  31 | }
+  32 | 
+```

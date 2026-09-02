@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Infrastructure: Cloudflare / rate limit",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": "(?is).*(cloudflare|error 1015|rate limit|429|performing security verification|just a moment|cf-mitigated).*"
+  },
+  {
+    "name": "Infrastructure: session / login",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": "(?is).*(session still unauthenticated|storageStateFor|gave up waiting for .*\\.auth|login .* attempts).*"
+  },
+  {
+    "name": "Test defect: locator / strict mode",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": "(?is).*(strict mode violation|locator\\.(click|fill|hover).*timeout|waiting for locator|resolved to \\d+ elements|element is not (visible|attached)|intercepts pointer events).*"
+  },
+  {
+    "name": "Test defect: timeout",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": "(?is).*(test timeout of \\d+ms exceeded|timeout \\d+ms exceeded).*"
+  },
+  {
+    "name": "Product defect: server error",
+    "matchedStatuses": ["failed", "broken"],
+    "messageRegex": "(?is).*(status (code )?5\\d\\d|internal server error|bad gateway|api .*(4|5)\\d\\d).*"
+  },
+  {
+    "name": "Product defect: assertion",
+    "matchedStatuses": ["failed"],
+    "messageRegex": "(?is).*expect\\(.*"
+  },
+  {
+    "name": "Skipped / preconditions",
+    "matchedStatuses": ["skipped"]
+  }
+]

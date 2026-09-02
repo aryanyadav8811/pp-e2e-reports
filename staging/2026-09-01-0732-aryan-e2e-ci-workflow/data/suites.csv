@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6277","Only one tab is active at a time and Home restores","Mobile Chrome","2026-09-01","passed","2026-09-01","Bottom nav — tab routing & active indicator (DFS-1998)","","",""
+"","7106","Verify navigation between Active and History tabs","Mobile Chrome","2026-09-01","passed","2026-09-01","User entries","","",""
+"","11841","logout flow works for logged-in user","Mobile Chrome","2026-09-01","passed","2026-09-01","Login - Logout Flow","","",""
+"","12626","Five player contest Submission","Mobile Chrome","2026-09-01","passed","2026-09-01","User Enter Contest","","",""
+"","5733","Gibberish query shows the empty state, clearing restores the grid","Mobile Chrome","2026-09-01","passed","2026-09-01","Home feed search","","",""
+"","7500","user can login with valid username","Mobile Chrome","2026-09-01","passed","2026-09-01","Login - Valid Credentials","","",""
+"","6074","Verify active tab displays Entry Amount and Max Payout","Mobile Chrome","2026-09-01","passed","2026-09-01","User entries","","",""

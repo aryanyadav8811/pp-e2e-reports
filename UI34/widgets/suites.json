@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"135cb12b5aef5cd4f79f6b7ef2b168a1","name":"Mobile Safari","statistic":{"failed":3,"broken":1,"skipped":18,"passed":67,"unknown":0,"total":89}},{"uid":"49eb9b3ab106604d32896ebbf4c5816c","name":"Mobile Chrome","statistic":{"failed":2,"broken":2,"skipped":18,"passed":67,"unknown":0,"total":89}}]}

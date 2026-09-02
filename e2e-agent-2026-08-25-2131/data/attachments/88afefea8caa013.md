@@ -1,0 +1,158 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: rewards/partner-rewards.spec.ts >> Partner Rewards (DFS-1602 / DFS-1604) >> An available offer exposes an enabled CTA
+- Location: tests/rewards/partner-rewards.spec.ts:85:5
+
+# Error details
+
+```
+Error: expect(locator).toBeVisible() failed
+
+Locator: getByRole('button', { name: 'Partner Rewards' }).filter({ visible: true }).first()
+Expected: visible
+Timeout: 30000ms
+Error: element(s) not found
+
+Call log:
+  - Expect "toBeVisible" with timeout 30000ms
+  - waiting for getByRole('button', { name: 'Partner Rewards' }).filter({ visible: true }).first()
+
+```
+
+```yaml
+- main:
+  - heading "staging.parlayplay.io" [level=1]
+  - heading "Performing security verification" [level=2]
+  - paragraph: This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+- contentinfo:
+  - text: "Ray ID:"
+  - code: a30b4c402f6d0028
+  - text: Performance and Security by
+  - link "Cloudflare, opens in a new tab":
+    - /url: https://www.cloudflare.com?utm_source=challenge&utm_campaign=m
+    - text: Cloudflare
+  - link "Privacy, opens in a new tab":
+    - /url: https://www.cloudflare.com/privacypolicy/
+    - text: Privacy
+```
+
+# Test source
+
+```ts
+  1   | /**
+  2   |  * Partner Rewards — DFS-1602 (shared card component) + DFS-1604 (list endpoint
+  3   |  * + repurposed Partner tab).
+  4   |  *
+  5   |  * The default /rewards tab is now "Partner Rewards": a list of PartnerRewardCard
+  6   |  * offers from GET /rewards/partner-rewards/, replacing the old SpinPals banner.
+  7   |  * Each card is an <article data-testid="partner-reward-card-<slug>"
+  8   |  * data-state="available|claimed|pending|linked"> with a "-cta" button. When the
+  9   |  * user has no offers, a dedicated empty state renders instead.
+  10  |  *
+  11  |  * The offer list is per-user / geo-filtered, so these tests settle on either a
+  12  |  * card or the empty state and branch/skip accordingly rather than assuming data.
+  13  |  */
+  14  | import { test, expect } from '../../fixtures/test.extend';
+  15  | import { RewardsPage } from '@pages/rewards.page';
+  16  | 
+  17  | // Cards are sorted available-first; claimed offers are pushed to the bottom.
+  18  | const INTERACTIVE_STATES = ['available', 'linked'];
+  19  | const VALID_STATES = ['available', 'claimed', 'pending', 'linked'];
+  20  | 
+  21  | test.describe('Partner Rewards (DFS-1602 / DFS-1604)', { tag: ['@rewards', '@dfs1602', '@dfs1604'] }, () => {
+  22  |     // Read-only — no CTA is clicked (CTAs open external partner sites in new tabs).
+  23  |     test.describe.configure({ mode: 'parallel' });
+  24  | 
+  25  |     test.beforeEach(async ({ loggedInPage }) => {
+  26  |         // Go straight to the Partner Rewards page. The previous approach (load
+  27  |         // home → wait for the game feed → click the footer "Rewards" tab →
+  28  |         // waitForURL(/\/rewards$/)) hung for the full test timeout when the home
+  29  |         // feed was empty and the tab click didn't navigate. Rewards tests don't
+  30  |         // need the game feed at all — navigate directly and settle on the tab.
+  31  |         const rewardsPage = new RewardsPage(loggedInPage);
+  32  |         await loggedInPage.goto('/rewards');
+> 33  |         await expect(rewardsPage.partnerTab).toBeVisible({ timeout: 30_000 });
+      |                                              ^ Error: expect(locator).toBeVisible() failed
+  34  |     });
+  35  | 
+  36  |     test('Partner Rewards is the default tab, alongside a Promotions tab', async ({ loggedInPage: page }) => {
+  37  |         const rewardsPage = new RewardsPage(page);
+  38  | 
+  39  |         await expect(rewardsPage.partnerTab).toBeVisible();
+  40  |         await expect(rewardsPage.promotionsTab).toBeVisible();
+  41  |     });
+  42  | 
+  43  |     test('Shows partner offer cards, or the empty state when none are available', async ({ loggedInPage: page }) => {
+  44  |         const rewardsPage = new RewardsPage(page);
+  45  | 
+  46  |         await rewardsPage.waitForPartnerRewardsReady();
+  47  | 
+  48  |         if (await rewardsPage.isPartnerRewardsEmpty()) {
+  49  |             // Copy updated by the empty-screen redesign (ui 8cdeef0f):
+  50  |             // "No available partner rewards at the moment."
+  51  |             await expect(rewardsPage.partnerEmptyState).toContainText(/no available partner rewards/i);
+  52  |             return;
+  53  |         }
+  54  | 
+  55  |         // At least one offer card, each with a CTA and a recognised state.
+  56  |         const firstCard = rewardsPage.partnerCards.first();
+  57  |         await expect(firstCard).toBeVisible();
+  58  |         await expect(firstCard.locator('[data-testid$="-cta"]')).toBeVisible();
+  59  | 
+  60  |         const states = await rewardsPage.getPartnerCardStates();
+  61  |         for (const state of states) {
+  62  |             expect(VALID_STATES).toContain(state);
+  63  |         }
+  64  |     });
+  65  | 
+  66  |     test('Claimed offers are non-interactive and sorted below unclaimed offers', async ({ loggedInPage: page }) => {
+  67  |         const rewardsPage = new RewardsPage(page);
+  68  | 
+  69  |         await rewardsPage.waitForPartnerRewardsReady();
+  70  |         test.skip(await rewardsPage.isPartnerRewardsEmpty(), 'No partner offers available for the test user.');
+  71  | 
+  72  |         const states = await rewardsPage.getPartnerCardStates();
+  73  |         const firstClaimedIndex = states.indexOf('claimed');
+  74  |         test.skip(firstClaimedIndex === -1, 'No claimed partner offers to verify ordering against.');
+  75  | 
+  76  |         // Everything from the first claimed card onward must also be claimed.
+  77  |         expect(states.slice(firstClaimedIndex).every((s) => s === 'claimed')).toBe(true);
+  78  | 
+  79  |         // A claimed card's CTA is disabled and reads "Claimed".
+  80  |         const claimedCta = rewardsPage.partnerCardInState('claimed').locator('[data-testid$="-cta"]');
+  81  |         await expect(claimedCta).toBeDisabled();
+  82  |         await expect(claimedCta).toContainText('Claimed');
+  83  |     });
+  84  | 
+  85  |     test('An available offer exposes an enabled CTA', async ({ loggedInPage: page }) => {
+  86  |         const rewardsPage = new RewardsPage(page);
+  87  | 
+  88  |         await rewardsPage.waitForPartnerRewardsReady();
+  89  |         test.skip(await rewardsPage.isPartnerRewardsEmpty(), 'No partner offers available for the test user.');
+  90  | 
+  91  |         const states = await rewardsPage.getPartnerCardStates();
+  92  |         const interactiveState = INTERACTIVE_STATES.find((s) => states.includes(s));
+  93  |         test.skip(!interactiveState, 'No actionable (available/linked) partner offers to verify.');
+  94  | 
+  95  |         // The CTA is enabled and carries a label — we don't click it because it
+  96  |         // opens the partner's site in a new tab.
+  97  |         const cta = rewardsPage.partnerCardInState(interactiveState!).locator('[data-testid$="-cta"]');
+  98  |         await expect(cta).toBeEnabled();
+  99  |         await expect(cta).not.toHaveText('');
+  100 |     });
+  101 | 
+  102 |     test('Switching to the Promotions sub-tab routes to /rewards/promotions', async ({ loggedInPage: page }) => {
+  103 |         const rewardsPage = new RewardsPage(page);
+  104 | 
+  105 |         await rewardsPage.enterPromotions();
+  106 |         await page.waitForURL('**/rewards/promotions');
+  107 |     });
+  108 | });
+  109 | 
+```

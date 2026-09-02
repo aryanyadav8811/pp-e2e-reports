@@ -1,0 +1,2 @@
+[auth] login rate-limited (429); waiting 33000ms before retry 2/4
+[auth] login rate-limited (429); waiting 33000ms before retry 3/4

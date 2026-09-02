@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T00:22:39.736Z",
+  "updatedAt": "2026-09-02T15:28:09.613Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
@@ -116,9 +116,54 @@
       ]
     },
     "staging": {
-      "latest": "2026-09-01-1959-release-43",
-      "buildOrder": 2,
+      "latest": "2026-09-02-1523-aryan-DFS-2776-e2e-structured-logging",
+      "buildOrder": 3,
       "runs": [
+        {
+          "runId": "2026-09-02-1523-aryan-DFS-2776-e2e-structured-logging",
+          "env": "staging",
+          "suite": "sanity",
+          "release": "aryan-DFS-2776-e2e-structured-logging",
+          "ref": "f11756e4f761655284ba36012db7809834e2769a",
+          "sha": "f11756e4f761655284ba36012db7809834e2769a",
+          "baseURL": "https://staging.parlayplay.io/",
+          "source": "ci",
+          "trigger": "PR #1832 label (aryanyadav8811)",
+          "startedAt": "2026-09-02T15:25:06.247Z",
+          "finishedAt": "2026-09-02T15:27:29.784Z",
+          "durationMs": 143537,
+          "publishedAt": "2026-09-02T15:28:09.528Z",
+          "workflowRunId": "33648268260",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/33648268260",
+          "artifact": "allure-results-2026-09-02-1523-aryan-DFS-2776-e2e-structured-logging",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 7,
+            "failed": 0,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 7
+          },
+          "ciCounts": {
+            "passed": 7,
+            "failed": 0,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 7
+          },
+          "playwright": {
+            "expected": 7,
+            "unexpected": 0,
+            "flaky": 0,
+            "skipped": 0
+          },
+          "failed": [],
+          "appends": []
+        },
         {
           "runId": "2026-09-01-1959-release-43",
           "env": "staging",

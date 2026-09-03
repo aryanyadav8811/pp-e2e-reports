@@ -1,0 +1,14 @@
+13:50:27.110 INFO contest: placing an entry {
+  pickCount: 3,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+13:50:31.999 INFO contest: entry placed {
+  attempt: 1,
+  pickIds: [
+    'player-1560808',
+    'player-638075',
+    'player-1417925'
+  ]
+}

@@ -1,0 +1,24 @@
+13:54:47.882 INFO contest: placing an entry {
+  pickCount: 4,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+13:54:53.024 WARN contest: submission rejected {
+  attempt: 1,
+  error: '400 It looks like 0.50 Player Hits is currently unavailable for Rafael Devers'
+}
+13:54:54.813 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: '400 It looks like 0.50 Player Hits is currently unavailable for Rafael Devers'
+}
+13:55:01.214 INFO contest: entry placed {
+  attempt: 2,
+  pickIds: [
+    'player-1367769',
+    'player-686949',
+    'player-1635222',
+    'player-852001'
+  ]
+}

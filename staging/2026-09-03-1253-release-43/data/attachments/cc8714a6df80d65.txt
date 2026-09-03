@@ -1,0 +1,25 @@
+13:57:01.607 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+13:57:07.002 WARN contest: submission rejected {
+  attempt: 1,
+  error: '429 Request was throttled. Expected available in 1 second.'
+}
+13:57:08.576 WARN contest: submission throttled (429) — backing off {
+  attempt: 1,
+  throttleRetries: 1,
+  waitMs: 22485
+}
+13:57:34.108 INFO contest: entry placed {
+  attempt: 1,
+  pickIds: [
+    'player-1328259',
+    'player-656777',
+    'player-638164',
+    'player-1634414',
+    'player-1635222'
+  ]
+}

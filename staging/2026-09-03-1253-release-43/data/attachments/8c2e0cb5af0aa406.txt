@@ -1,0 +1,6 @@
+14:05:51.199 INFO auth[qa***]: worker 0 is the login leader {
+  project: 'Desktop'
+}
+14:05:54.859 INFO auth[qa***]: login complete, session saved {
+  durationMs: 3661
+}

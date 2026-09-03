@@ -1,0 +1,31 @@
+13:50:17.726 INFO auth[qa***]: worker 0 is the login leader {
+  project: 'Desktop'
+}
+13:50:22.303 INFO auth[qa***]: login complete, session saved {
+  durationMs: 4577
+}
+13:50:27.115 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+13:50:33.051 WARN contest: submission rejected {
+  attempt: 1,
+  error: '429 Request was throttled. Expected available in 4 seconds.'
+}
+13:50:35.877 WARN contest: submission throttled (429) — backing off {
+  attempt: 1,
+  throttleRetries: 1,
+  waitMs: 17296
+}
+13:50:57.847 INFO contest: entry placed {
+  attempt: 1,
+  pickIds: [
+    'player-1560808',
+    'player-638075',
+    'player-1417925',
+    'player-1634414',
+    'player-1635222'
+  ]
+}

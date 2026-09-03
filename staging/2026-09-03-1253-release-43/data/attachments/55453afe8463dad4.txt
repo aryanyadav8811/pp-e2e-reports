@@ -1,0 +1,6 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[pageerror] canceled
+[warning] Radar trackVerified failed: RadarTimeoutError: trackVerified timed out after 5000ms
+    at https://staging.parlayplay.io/_next/static/chunks/pages/_app-4efc2cc2e60051ef.js:2:774419
+[pageerror] canceled
+[pageerror] The provided `href` (/challenges/contest/[slug]) value is missing query values (slug) to be interpolated properly. Read more: https://nextjs.org/docs/messages/href-interpolation-failed

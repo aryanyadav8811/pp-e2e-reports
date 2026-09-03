@@ -1,0 +1,6 @@
+14:07:54.051 INFO auth[qa***]: worker 1 is the login leader {
+  project: 'Mobile Chrome'
+}
+14:07:57.873 INFO auth[qa***]: login complete, session saved {
+  durationMs: 3822
+}

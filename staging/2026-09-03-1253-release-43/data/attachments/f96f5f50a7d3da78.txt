@@ -1,0 +1,25 @@
+13:59:49.502 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+14:00:05.704 WARN contest: submission rejected {
+  attempt: 1,
+  error: 'No /challenges-sp/crossgame/ response within 15000ms'
+}
+14:00:07.103 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: 'No /challenges-sp/crossgame/ response within 15000ms'
+}
+14:00:11.278 INFO contest: entry placed {
+  attempt: 2,
+  pickIds: [
+    'player-638075',
+    'player-641407',
+    'player-686948',
+    'player-638111',
+    'player-657512'
+  ]
+}

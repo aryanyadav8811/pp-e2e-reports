@@ -1,0 +1,224 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: navigation/legal.spec.ts >> Legal - contact >> /contact-us renders the HubSpot ticket form
+- Location: tests/navigation/legal.spec.ts:93:3
+
+# Error details
+
+```
+Error: HubSpot form iframe is visible
+
+expect(locator).toBeVisible() failed
+
+Locator:  locator('#hubspotForm iframe').first()
+Expected: visible
+Received: hidden
+Timeout:  30000ms
+
+Call log:
+  - HubSpot form iframe is visible with timeout 30000ms
+  - waiting for locator('#hubspotForm iframe').first()
+    31 × locator resolved to <iframe height="0" width="100%" title="Form 1" scrolling="no" id="hs-form-iframe-1" class="hs-form-iframe"></iframe>
+       - unexpected value "hidden"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Parlay Play Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Parlay Play Logo" [ref=e8]
+          - generic [ref=e9]:
+            - link "Join Now" [ref=e10] [cursor=pointer]:
+              - /url: /account/signup
+              - generic [ref=e12]: Join Now
+            - link "Login" [ref=e13] [cursor=pointer]:
+              - /url: /account/login
+              - generic [ref=e15]: Login
+      - main [ref=e16]:
+        - generic [ref=e21]:
+          - paragraph [ref=e22]: Anything unclear? Got any questions? Let us know!
+          - paragraph [ref=e23]: "We'll get back to you as soon as we can! You can reach us through any of the methods below:"
+          - generic [ref=e24]:
+            - generic [ref=e25]: "-"
+            - text: Use the chat on the bottom of the page
+          - generic [ref=e26]:
+            - generic [ref=e27]: "-"
+            - link "Send us an email" [ref=e28] [cursor=pointer]:
+              - /url: mailto:support@parlayplay.io
+          - generic [ref=e29]: "Or use the form below:"
+    - generic:
+      - region "Notifications Alt+T"
+  - alert [ref=e30]
+  - iframe [ref=e31]:
+    
+```
+
+# Test source
+
+```ts
+  1   | /**
+  2   |  * Legal and help pages: each policy route renders its document in the PDF
+  3   |  * viewer with a CDN download fallback, the signup form's Class Action Waiver
+  4   |  * link deep-links into the Terms document, /contact-us renders the HubSpot
+  5   |  * ticket form with the Intercom launcher, /contact redirects to it, and every
+  6   |  * internal footer link resolves 200. Anonymous and read-only throughout.
+  7   |  */
+  8   | import { test, expect } from '../../fixtures/test.extend';
+  9   | import { ContactPage } from '@pages/contact.page';
+  10  | import { HomePage } from '@pages/home.page';
+  11  | import { LegalPage } from '@pages/legal.page';
+  12  | import { SignupPage } from '@pages/signup.page';
+  13  | import { isDesktopProject } from '@utils/project';
+  14  | 
+  15  | const DOCUMENTS = [
+  16  |   { path: '/terms', heading: 'Terms Of Service', pdf: 'terms_of_service.pdf' },
+  17  |   { path: '/privacy-policy', heading: 'Privacy Policy', pdf: 'privacy_policy.pdf' },
+  18  |   { path: '/rules', heading: 'Game Rules', pdf: 'game_rules.pdf' },
+  19  |   { path: '/terms/packs', heading: 'Packs Terms', pdf: 'packs_terms_of_service.pdf' },
+  20  |   { path: '/responsible-gaming', heading: 'Responsible Play', pdf: 'responsible_gaming.pdf' },
+  21  | ];
+  22  | 
+  23  | test.describe('Legal - policy documents', { tag: ['@navigation', '@legal', '@prod'] }, () => {
+  24  |   test.describe.configure({ mode: 'parallel' });
+  25  | 
+  26  |   for (const { path, heading, pdf } of DOCUMENTS) {
+  27  |     test(`${path} renders the ${heading} PDF`, async ({ page }) => {
+  28  |       const legal = new LegalPage(page);
+  29  |       await page.goto(path);
+  30  | 
+  31  |       await expect(legal.heading).toHaveText(heading);
+  32  |       // The Terms document is 25 pages; rasterising the first one can take a while.
+  33  |       await expect(legal.pdfPages.first(), 'PDF viewer paints at least one page').toBeVisible({
+  34  |         timeout: 45_000,
+  35  |       });
+  36  |       await expect(legal.pdfLoading).toHaveCount(0);
+  37  |       await expect(legal.downloadLink).toHaveAttribute('href', new RegExp(`/pdfs/${pdf}(\\?|$)`));
+  38  |     });
+  39  |   }
+  40  | 
+  41  |   test('Signup Class Action Waiver link opens the Terms document at #class-action', async ({
+  42  |     page,
+  43  |   }) => {
+  44  |     test.fail(
+  45  |       isDesktopProject(),
+  46  |       'the desktop signup modal redirects home as it closes, which wins over the Terms navigation',
+  47  |     );
+  48  |     const signup = new SignupPage(page);
+  49  |     const legal = new LegalPage(page);
+  50  |     await page.goto('/account/signup');
+  51  | 
+  52  |     await expect(signup.classActionTermsLink).toHaveAttribute('href', '/terms#class-action');
+  53  |     await signup.classActionTermsLink.click();
+  54  |     await page.waitForURL(/\/terms#class-action$/, { timeout: 15_000 });
+  55  |     await expect(legal.heading).toHaveText('Terms Of Service');
+  56  |   });
+  57  | });
+  58  | 
+  59  | test.describe('Legal - contact', { tag: ['@navigation', '@legal', '@prod'] }, () => {
+  60  |   test.describe.configure({ mode: 'parallel' });
+  61  | 
+  62  |   test('/contact redirects to /contact-us', async ({ page }) => {
+  63  |     const contact = new ContactPage(page);
+  64  |     await page.goto('/contact');
+  65  | 
+  66  |     await page.waitForURL('**/contact-us');
+  67  |     await expect(contact.heading).toBeVisible();
+  68  |   });
+  69  | 
+  70  |   test('/contact-us lists the support channels and boots the Intercom launcher', async ({
+  71  |     page,
+  72  |   }) => {
+  73  |     const contact = new ContactPage(page);
+  74  |     await page.goto('/contact-us');
+  75  | 
+  76  |     await expect(contact.heading).toBeVisible();
+  77  |     await expect(contact.emailLink).toHaveAttribute('href', 'mailto:support@parlayplay.io');
+  78  |     await expect(contact.intercomLauncher.first(), 'Intercom launcher mounts').toBeAttached({
+  79  |       timeout: 30_000,
+  80  |     });
+  81  |   });
+  82  | 
+  83  |   test('/contact-us opens the Intercom messenger on arrival', async ({ page }) => {
+  84  |     test.skip(!isDesktopProject(), 'Only the desktop page calls Intercom show() on mount');
+  85  |     const contact = new ContactPage(page);
+  86  |     await page.goto('/contact-us');
+  87  | 
+  88  |     await expect(contact.intercomMessengerFrame, 'Intercom messenger frame mounts').toBeAttached({
+  89  |       timeout: 30_000,
+  90  |     });
+  91  |   });
+  92  | 
+  93  |   test('/contact-us renders the HubSpot ticket form', async ({ page }) => {
+  94  |     test.fail(
+  95  |       !isDesktopProject(),
+  96  |       'HubSpot injects the form into the first #hubspotForm in the DOM — the hidden desktop copy on mobile',
+  97  |     );
+  98  |     const contact = new ContactPage(page);
+  99  |     await page.goto('/contact-us');
+  100 | 
+> 101 |     await expect(contact.hubspotFormFrame.first(), 'HubSpot form iframe is visible').toBeVisible({
+      |                                                                                      ^ Error: HubSpot form iframe is visible
+  102 |       timeout: 30_000,
+  103 |     });
+  104 |   });
+  105 | });
+  106 | 
+  107 | test.describe(
+  108 |   'Legal - footer links',
+  109 |   { tag: ['@navigation', '@legal', '@footer', '@prod'] },
+  110 |   () => {
+  111 |     test('Every internal footer link resolves 200 and external links are absolute https', async ({
+  112 |       page,
+  113 |     }) => {
+  114 |       const homePage = new HomePage(page);
+  115 |       await page.goto('/');
+  116 |       await homePage.waitForFeedReady();
+  117 | 
+  118 |       const hrefs = [
+  119 |         ...new Set(
+  120 |           await page
+  121 |             .locator('footer')
+  122 |             .filter({ visible: true })
+  123 |             .locator('a[href]')
+  124 |             .evaluateAll((anchors) => anchors.map((a) => a.getAttribute('href') ?? '')),
+  125 |         ),
+  126 |       ];
+  127 |       expect(hrefs.length, 'footer renders its links').toBeGreaterThanOrEqual(8);
+  128 | 
+  129 |       const internal = hrefs.filter((href) => href.startsWith('/'));
+  130 |       for (const href of hrefs.filter((href) => !href.startsWith('/'))) {
+  131 |         expect(href, `external footer link is absolute https: ${href}`).toMatch(/^https:\/\//);
+  132 |       }
+  133 | 
+  134 |       // Fetched inside the page: staging's Cloudflare 403s out-of-browser HTTP.
+  135 |       const statuses = await page.evaluate(
+  136 |         (paths) =>
+  137 |           Promise.all(
+  138 |             paths.map(async (path) => {
+  139 |               const response = await fetch(path, { credentials: 'include' });
+  140 |               return { path, status: response.status };
+  141 |             }),
+  142 |           ),
+  143 |         internal,
+  144 |       );
+  145 |       for (const { path, status } of statuses) {
+  146 |         expect.soft(status, `footer link ${path} resolves`).toBe(200);
+  147 |       }
+  148 |     });
+  149 |   },
+  150 | );
+  151 | 
+```

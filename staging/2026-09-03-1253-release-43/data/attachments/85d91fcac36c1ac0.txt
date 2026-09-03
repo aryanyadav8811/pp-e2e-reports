@@ -1,0 +1,14 @@
+GET https://staging.parlayplay.io/_next/static/chunks/pages/_app-4efc2cc2e60051ef.js -> 404
+GET https://staging.parlayplay.io/_next/static/chunks/pages/_app-4efc2cc2e60051ef.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/_gTOZEpgJRWYDPMQfiEVC/_ssgManifest.js -> 404
+GET https://staging.parlayplay.io/_next/static/_gTOZEpgJRWYDPMQfiEVC/_ssgManifest.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/manifest.json -> 403
+GET https://staging.parlayplay.io/locales/es/common.json -> 403
+GET https://staging.parlayplay.io/locales/en/common.json -> 403
+GET https://staging.parlayplay.io/images/yellow_coin_bounce.json -> 403
+GET https://staging.parlayplay.io/images/warning_triangle_inverted.json -> 403
+GET https://staging.parlayplay.io/images/warning_triangle.json -> 403
+GET https://staging.parlayplay.io/images/warning_inverted.json -> 403
+GET https://staging.parlayplay.io/images/warning-white.json -> 403
+GET https://staging.parlayplay.io/images/warning-new.json -> 403
+GET https://staging.parlayplay.io/images/shareicon_yellow.json -> 403

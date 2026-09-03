@@ -1,0 +1,6 @@
+"BROKEN","CATEGORY","FAILED","PASSED","SKIPPED","UNKNOWN"
+"0","Test defect: locator / strict mode","7","0","0","0"
+"0","Product defect: assertion","3","0","0","0"
+"1","Test defect: timeout","0","0","0","0"
+"0","Skipped: data / precondition","0","0","41","0"
+"0","Skipped: shared account limit","0","0","1","0"

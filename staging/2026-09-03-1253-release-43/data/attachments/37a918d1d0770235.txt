@@ -1,0 +1,21 @@
+[error] Failed to refresh user data: CanceledError: canceled
+    at th (https://staging.parlayplay.io/_next/static/chunks/pages/_app-44331a4910ec65a5.js:1:118321)
+    at tb.tm (https://staging.parlayplay.io/_next/static/chunks/pages/_app-44331a4910ec65a5.js:1:118358)
+    at async tb.request (https://staging.parlayplay.io/_next/static/chunks/pages/_app-44331a4910ec65a5.js:1:120101)
+[error] Failed to refresh user data: CanceledError: canceled
+    at th (https://staging.parlayplay.io/_next/static/chunks/pages/_app-44331a4910ec65a5.js:1:118321)
+    at tb.tm (https://staging.parlayplay.io/_next/static/chunks/pages/_app-44331a4910ec65a5.js:1:118358)
+    at async tb.request (https://staging.parlayplay.io/_next/static/chunks/pages/_app-44331a4910ec65a5.js:1:120101)
+[error] TypeError: Cannot read properties of null (reading 'length')
+    at O (https://staging.parlayplay.io/_next/static/chunks/pages/challenges/feed-525fb0d7b35019bd.js:3:20422)
+    at l9 (https://staging.parlayplay.io/_next/static/chunks/framework-711ef29bc66f648c.js:1:51104)
+    at oO (https://staging.parlayplay.io/_next/static/chunks/framework-711ef29bc66f648c.js:1:71498)
+    at oK (https://staging.parlayplay.io/_next/static/chunks/framework-711ef29bc66f648c.js:1:82528)
+    at uS (https://staging.p
+[error] TypeError: Cannot read properties of null (reading 'length')
+    at O (https://staging.parlayplay.io/_next/static/chunks/pages/challenges/feed-525fb0d7b35019bd.js:3:20422)
+    at l9 (https://staging.parlayplay.io/_next/static/chunks/framework-711ef29bc66f648c.js:1:51104)
+    at oO (https://staging.parlayplay.io/_next/static/chunks/framework-711ef29bc66f648c.js:1:71498)
+    at oK (https://staging.parlayplay.io/_next/static/chunks/framework-711ef29bc66f648c.js:1:82528)
+    at uS (https://staging.p
+[error] A client-side exception has occurred, see here for more info: https://nextjs.org/docs/messages/client-side-exception-occurred

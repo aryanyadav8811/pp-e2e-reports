@@ -1,0 +1,25 @@
+env=staging
+project=Desktop
+release=release-43
+build=2026-09-03-1253-release-43
+sha=a1d93628a98b2da8055268adbeb1df28f2dcb467
+user=default (qa***)
+spec=slip-sharing/tail-feed.spec.ts:160
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/challenges/feed
+
++0.084s DEBUG session[primary]: alive
++9.658s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++9.715s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++9.740s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++9.755s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++9.793s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++9.844s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++9.889s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++9.917s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++9.926s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++10.827s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++35.991s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++61.543s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1560808","player-638075","player-1417925"]}
++67.739s INFO  contest: entry placed {"attempt":1,"pickIds":["player-1560808","player-638075","player-1417925"]}

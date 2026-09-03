@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T15:28:09.613Z",
+  "updatedAt": "2026-09-03T13:40:42.365Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
@@ -116,9 +116,132 @@
       ]
     },
     "staging": {
-      "latest": "2026-09-02-1523-aryan-DFS-2776-e2e-structured-logging",
-      "buildOrder": 3,
+      "latest": "2026-09-03-1253-release-43",
+      "buildOrder": 4,
       "runs": [
+        {
+          "runId": "2026-09-03-1253-release-43",
+          "env": "staging",
+          "suite": "full",
+          "release": "release-43",
+          "ref": "a1d93628a98b2da8055268adbeb1df28f2dcb467",
+          "sha": "a1d93628a98b2da8055268adbeb1df28f2dcb467",
+          "baseURL": "https://staging.parlayplay.io/",
+          "source": "ci",
+          "trigger": "manual (Sanskriti7379)",
+          "startedAt": "2026-09-03T12:54:16.032Z",
+          "finishedAt": "2026-09-03T13:40:01.224Z",
+          "durationMs": 2745192,
+          "publishedAt": "2026-09-03T13:40:42.235Z",
+          "workflowRunId": "33756480132",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/33756480132",
+          "artifact": "allure-results-2026-09-03-1253-release-43",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 364,
+            "failed": 10,
+            "broken": 1,
+            "skipped": 42,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 417
+          },
+          "ciCounts": {
+            "passed": 364,
+            "failed": 10,
+            "broken": 1,
+            "skipped": 42,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 417
+          },
+          "playwright": {
+            "expected": 364,
+            "unexpected": 11,
+            "flaky": 0,
+            "skipped": 42
+          },
+          "failed": [
+            {
+              "project": "Desktop",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five-pick contest is submitted successfully",
+              "status": "broken",
+              "message": "Test timeout of 120000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "navigation/footer-nav.spec.ts",
+              "name": "Fifth tab (Free2Play or Packs) routes and takes the indicator",
+              "status": "failed",
+              "message": "Error: expect(locator).toHaveClass(expected) failed"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Shows an error when the email is already taken",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "slip-persistence/slip-persistence.spec.ts",
+              "name": "Slip persists through a Rewards tab round-trip",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "slip-persistence/slip-persistence.spec.ts",
+              "name": "Slip persists through a Rewards tab round-trip",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 30000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "slip-sharing/tail-feed.spec.ts",
+              "name": "Share toggle on surfaces a newly placed contest on the You tab and it can be tailed",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "slip-sharing/tail-feed.spec.ts",
+              "name": "Share toggle on surfaces a newly placed contest on the You tab and it can be tailed",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "slip-sharing/tail-feed.spec.ts",
+              "name": "Share toggle on surfaces a newly placed contest on the You tab and it can be tailed",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            }
+          ],
+          "appends": []
+        },
         {
           "runId": "2026-09-02-1523-aryan-DFS-2776-e2e-structured-logging",
           "env": "staging",

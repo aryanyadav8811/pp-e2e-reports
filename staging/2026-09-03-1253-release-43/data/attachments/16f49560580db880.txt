@@ -1,0 +1,15 @@
+env=staging
+project=Mobile Safari
+release=release-43
+build=2026-09-03-1253-release-43
+sha=a1d93628a98b2da8055268adbeb1df28f2dcb467
+user=default (qa***)
+spec=slip-sharing/tail-feed.spec.ts:160
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/challenges/feed
+
++0.075s DEBUG session[primary]: alive
++34.913s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++48.191s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1328259","player-656777","player-638164"]}
++56.977s INFO  contest: entry placed {"attempt":1,"pickIds":["player-1328259","player-656777","player-638164"]}

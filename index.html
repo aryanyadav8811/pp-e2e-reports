@@ -1,173 +1,623 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ParlayPlay e2e reports</title>
-<style>
-  :root {
-    --bg: #f6f8fa; --card: #fff; --ink: #1f2328; --muted: #57606a; --line: #d0d7de; --link: #0969da;
-    --pass: #1a7f37; --fail: #cf222e; --broken: #bf8700; --skip: #8c959f; --chip: #eef1f4;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #0d1117; --card: #161b22; --ink: #e6edf3; --muted: #8b949e; --line: #30363d; --link: #58a6ff;
-            --pass: #3fb950; --fail: #f85149; --broken: #d29922; --skip: #6e7681; --chip: #21262d; }
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; padding: 28px 16px 60px; font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: var(--ink); background: var(--bg); }
-  main { max-width: 1100px; margin: 0 auto; }
-  h1 { font-size: 1.5rem; margin: 0 0 4px; }
-  .sub { color: var(--muted); margin: 0 0 20px; }
-  nav.tabs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 18px; }
-  nav.tabs button { border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 999px; padding: 6px 14px; cursor: pointer; font: inherit; }
-  nav.tabs button.active { border-color: var(--link); color: var(--link); font-weight: 600; }
-  nav.tabs .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
-  section { display: none; }
-  section.active { display: block; }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin-bottom: 16px; }
-  .card h2 { margin: 0 0 8px; font-size: 1.1rem; }
-  .meta { color: var(--muted); font-size: 12.5px; }
-  .meta code { font-size: 12px; }
-  .bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--chip); margin: 10px 0 6px; }
-  .bar span { display: block; height: 100%; }
-  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
-  .chip { background: var(--chip); border-radius: 4px; padding: 1px 7px; font-variant-numeric: tabular-nums; font-size: 12.5px; white-space: nowrap; }
-  .chip.pass { color: var(--pass); } .chip.fail { color: var(--fail); } .chip.broken { color: var(--broken); } .chip.skip { color: var(--skip); }
-  .chip.badge { color: var(--link); }
-  table { width: 100%; border-collapse: collapse; }
-  th, td { text-align: left; padding: 8px 8px; border-top: 1px solid var(--line); vertical-align: top; }
-  th { color: var(--muted); font-weight: 600; font-size: 12px; border-top: 0; }
-  tr.run:hover td { background: color-mix(in srgb, var(--chip) 60%, transparent); }
-  a { color: var(--link); text-decoration: none; } a:hover { text-decoration: underline; }
-  .tablewrap { overflow-x: auto; }
-  details summary { cursor: pointer; color: var(--muted); }
-  details ul { margin: 6px 0 0; padding-left: 18px; }
-  pre { background: var(--chip); padding: 10px; border-radius: 6px; overflow-x: auto; font-size: 12px; position: relative; }
-  button.copy { position: absolute; top: 6px; right: 6px; font: inherit; font-size: 11px; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 4px; padding: 2px 8px; cursor: pointer; }
-  .empty { color: var(--muted); font-style: italic; padding: 14px 0; }
-  .more { margin-top: 10px; }
-  .more button { font: inherit; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 6px; padding: 4px 10px; cursor: pointer; }
-  .src { text-transform: uppercase; font-size: 11px; letter-spacing: .03em; color: var(--muted); }
-</style>
-</head>
-<body>
-<main>
-  <h1>ParlayPlay e2e reports</h1>
-  <p class="sub" id="updated">Loading manifest…</p>
-  <nav class="tabs" id="tabs"></nav>
-  <div id="sections"></div>
-</main>
-<script>
-(async () => {
-  const ORDER = ['staging', 'dev', 'prod', 'local'];
-  const $ = (tag, attrs = {}, ...kids) => {
-    const el = document.createElement(tag);
-    for (const [k, v] of Object.entries(attrs)) {
-      if (k === 'class') el.className = v; else if (k.startsWith('on')) el.addEventListener(k.slice(2), v); else if (v != null) el.setAttribute(k, v);
-    }
-    for (const kid of kids.flat()) if (kid != null) el.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
-    return el;
-  };
-  const fmtDate = (iso) => iso ? new Date(iso).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }) : '—';
-  const fmtDur = (ms) => ms == null ? '—' : ms < 60000 ? `${Math.round(ms / 1000)}s` : `${Math.floor(ms / 3600000) ? Math.floor(ms / 3600000) + 'h ' : ''}${Math.round((ms % 3600000) / 60000)}m`;
-  const healthy = (c) => c && (c.failed + c.broken) === 0;
-  const bar = (c) => {
-    if (!c || !c.total) return $('div', { class: 'bar' });
-    const seg = (n, color) => $('span', { style: `width:${(100 * n / c.total).toFixed(2)}%;background:var(--${color})`, title: `${n}` });
-    return $('div', { class: 'bar' }, seg(c.passed, 'pass'), seg(c.failed, 'fail'), seg(c.broken, 'broken'), seg(c.skipped, 'skip'));
-  };
-  const chips = (c, extra = []) => $('div', { class: 'chips' },
-    c ? [
-      $('span', { class: 'chip pass' }, `${c.passed} passed`),
-      $('span', { class: 'chip fail' }, `${c.failed} failed`),
-      c.broken ? $('span', { class: 'chip broken' }, `${c.broken} broken`) : null,
-      $('span', { class: 'chip skip' }, `${c.skipped} skipped`),
-      c.flaky ? $('span', { class: 'chip' }, `${c.flaky} flaky`) : null,
-    ] : $('span', { class: 'chip' }, 'no counts'),
-    ...extra);
-  const copyBlock = (text) => {
-    const pre = $('pre', {}, text);
-    const btn = $('button', { class: 'copy', onclick: async () => { try { await navigator.clipboard.writeText(text); btn.textContent = 'copied'; setTimeout(() => (btn.textContent = 'copy'), 1500); } catch { btn.textContent = 'select & copy'; } } }, 'copy');
-    pre.append(btn);
-    return pre;
-  };
-  const appendCmd = (r) => {
-    const files = [...new Set((r.failed || []).map((f) => `tests/${f.file}`))];
-    const specs = files.length ? ' ' + files.slice(0, 8).join(' ') + (files.length > 8 ? ' …' : '') : '';
-    return `cd ui/e2e && npm run clean:allure \\\n  && TEST_ENV=${r.env} RETRIES=2 npx playwright test${specs} \\\n  && node scripts/publish-report.mjs append --env ${r.env} --run-id ${r.runId}`;
-  };
-  const shaLink = (r) => r.sha ? $('a', { href: `https://github.com/ParlayPlay/ui/commit/${r.sha}`, target: '_blank', rel: 'noopener' }, $('code', {}, r.sha.slice(0, 7))) : null;
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ParlayPlay e2e reports</title>
+    <style>
+      :root {
+        --bg: #f6f8fa;
+        --card: #fff;
+        --ink: #1f2328;
+        --muted: #57606a;
+        --line: #d0d7de;
+        --link: #0969da;
+        --pass: #1a7f37;
+        --fail: #cf222e;
+        --broken: #bf8700;
+        --skip: #8c959f;
+        --chip: #eef1f4;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0d1117;
+          --card: #161b22;
+          --ink: #e6edf3;
+          --muted: #8b949e;
+          --line: #30363d;
+          --link: #58a6ff;
+          --pass: #3fb950;
+          --fail: #f85149;
+          --broken: #d29922;
+          --skip: #6e7681;
+          --chip: #21262d;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 28px 16px 60px;
+        font:
+          14px/1.45 -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Helvetica,
+          Arial,
+          sans-serif;
+        color: var(--ink);
+        background: var(--bg);
+      }
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 1.5rem;
+        margin: 0 0 4px;
+      }
+      .sub {
+        color: var(--muted);
+        margin: 0 0 20px;
+      }
+      nav.tabs {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        margin-bottom: 18px;
+      }
+      nav.tabs button {
+        border: 1px solid var(--line);
+        background: var(--card);
+        color: var(--ink);
+        border-radius: 999px;
+        padding: 6px 14px;
+        cursor: pointer;
+        font: inherit;
+      }
+      nav.tabs button.active {
+        border-color: var(--link);
+        color: var(--link);
+        font-weight: 600;
+      }
+      nav.tabs .dot {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        margin-right: 6px;
+        vertical-align: middle;
+      }
+      section {
+        display: none;
+      }
+      section.active {
+        display: block;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 16px;
+      }
+      .card h2 {
+        margin: 0 0 8px;
+        font-size: 1.1rem;
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 12.5px;
+      }
+      .meta code {
+        font-size: 12px;
+      }
+      .bar {
+        display: flex;
+        height: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+        background: var(--chip);
+        margin: 10px 0 6px;
+      }
+      .bar span {
+        display: block;
+        height: 100%;
+      }
+      .chips {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+      .chip {
+        background: var(--chip);
+        border-radius: 4px;
+        padding: 1px 7px;
+        font-variant-numeric: tabular-nums;
+        font-size: 12.5px;
+        white-space: nowrap;
+      }
+      .chip.pass {
+        color: var(--pass);
+      }
+      .chip.fail {
+        color: var(--fail);
+      }
+      .chip.broken {
+        color: var(--broken);
+      }
+      .chip.skip {
+        color: var(--skip);
+      }
+      .chip.badge {
+        color: var(--link);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 8px 8px;
+        border-top: 1px solid var(--line);
+        vertical-align: top;
+      }
+      th {
+        color: var(--muted);
+        font-weight: 600;
+        font-size: 12px;
+        border-top: 0;
+      }
+      tr.run:hover td {
+        background: color-mix(in srgb, var(--chip) 60%, transparent);
+      }
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .tablewrap {
+        overflow-x: auto;
+      }
+      details summary {
+        cursor: pointer;
+        color: var(--muted);
+      }
+      details ul {
+        margin: 6px 0 0;
+        padding-left: 18px;
+      }
+      pre {
+        background: var(--chip);
+        padding: 10px;
+        border-radius: 6px;
+        overflow-x: auto;
+        font-size: 12px;
+        position: relative;
+      }
+      button.copy {
+        position: absolute;
+        top: 6px;
+        right: 6px;
+        font: inherit;
+        font-size: 11px;
+        border: 1px solid var(--line);
+        background: var(--card);
+        color: var(--ink);
+        border-radius: 4px;
+        padding: 2px 8px;
+        cursor: pointer;
+      }
+      .empty {
+        color: var(--muted);
+        font-style: italic;
+        padding: 14px 0;
+      }
+      .more {
+        margin-top: 10px;
+      }
+      .more button {
+        font: inherit;
+        border: 1px solid var(--line);
+        background: var(--card);
+        color: var(--ink);
+        border-radius: 6px;
+        padding: 4px 10px;
+        cursor: pointer;
+      }
+      .src {
+        text-transform: uppercase;
+        font-size: 11px;
+        letter-spacing: 0.03em;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>ParlayPlay e2e reports</h1>
+      <p class="sub" id="updated">Loading manifest…</p>
+      <nav class="tabs" id="tabs"></nav>
+      <div id="sections"></div>
+    </main>
+    <script>
+      (async () => {
+        const ORDER = ['staging', 'dev', 'prod', 'local'];
+        const $ = (tag, attrs = {}, ...kids) => {
+          const el = document.createElement(tag);
+          for (const [k, v] of Object.entries(attrs)) {
+            if (k === 'class') el.className = v;
+            else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+            else if (v != null) el.setAttribute(k, v);
+          }
+          for (const kid of kids.flat())
+            if (kid != null) el.append(kid.nodeType ? kid : document.createTextNode(String(kid)));
+          return el;
+        };
+        const fmtDate = (iso) =>
+          iso
+            ? new Date(iso).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' })
+            : '—';
+        const fmtDur = (ms) =>
+          ms == null
+            ? '—'
+            : ms < 60000
+              ? `${Math.round(ms / 1000)}s`
+              : `${Math.floor(ms / 3600000) ? Math.floor(ms / 3600000) + 'h ' : ''}${Math.round((ms % 3600000) / 60000)}m`;
+        const healthy = (c) => c && c.failed + c.broken === 0;
+        const bar = (c) => {
+          if (!c || !c.total) return $('div', { class: 'bar' });
+          const seg = (n, color) =>
+            $('span', {
+              style: `width:${((100 * n) / c.total).toFixed(2)}%;background:var(--${color})`,
+              title: `${n}`,
+            });
+          return $(
+            'div',
+            { class: 'bar' },
+            seg(c.passed, 'pass'),
+            seg(c.failed, 'fail'),
+            seg(c.broken, 'broken'),
+            seg(c.skipped, 'skip'),
+          );
+        };
+        const chips = (c, extra = []) =>
+          $(
+            'div',
+            { class: 'chips' },
+            c
+              ? [
+                  $('span', { class: 'chip pass' }, `${c.passed} passed`),
+                  $('span', { class: 'chip fail' }, `${c.failed} failed`),
+                  c.broken ? $('span', { class: 'chip broken' }, `${c.broken} broken`) : null,
+                  $('span', { class: 'chip skip' }, `${c.skipped} skipped`),
+                  c.flaky ? $('span', { class: 'chip' }, `${c.flaky} flaky`) : null,
+                ]
+              : $('span', { class: 'chip' }, 'no counts'),
+            ...extra,
+          );
+        const copyBlock = (text) => {
+          const pre = $('pre', {}, text);
+          const btn = $(
+            'button',
+            {
+              class: 'copy',
+              onclick: async () => {
+                try {
+                  await navigator.clipboard.writeText(text);
+                  btn.textContent = 'copied';
+                  setTimeout(() => (btn.textContent = 'copy'), 1500);
+                } catch {
+                  btn.textContent = 'select & copy';
+                }
+              },
+            },
+            'copy',
+          );
+          pre.append(btn);
+          return pre;
+        };
+        const appendCmd = (r) => {
+          const files = [...new Set((r.failed || []).map((f) => `tests/${f.file}`))];
+          const specs = files.length
+            ? ' ' + files.slice(0, 8).join(' ') + (files.length > 8 ? ' …' : '')
+            : '';
+          return `cd ui/e2e && npm run clean:allure \\\n  && TEST_ENV=${r.env} RETRIES=2 npx playwright test${specs} \\\n  && node scripts/publish-report.mjs append --env ${r.env} --run-id ${r.runId}`;
+        };
+        const shaLink = (r) =>
+          r.sha
+            ? $(
+                'a',
+                {
+                  href: `https://github.com/ParlayPlay/ui/commit/${r.sha}`,
+                  target: '_blank',
+                  rel: 'noopener',
+                },
+                $('code', {}, r.sha.slice(0, 7)),
+              )
+            : null;
 
-  let manifest;
-  try {
-    manifest = await (await fetch(`manifest.json?ts=${Date.now()}`, { cache: 'no-store' })).json();
-  } catch (e) {
-    document.getElementById('updated').textContent = 'manifest.json not found — nothing published yet.';
-    return;
-  }
-  document.getElementById('updated').textContent = `Updated ${fmtDate(manifest.updatedAt)} · one section per environment · runs newest first`;
+        let manifest;
+        try {
+          manifest = await (
+            await fetch(`manifest.json?ts=${Date.now()}`, { cache: 'no-store' })
+          ).json();
+        } catch (e) {
+          document.getElementById('updated').textContent =
+            'manifest.json not found — nothing published yet.';
+          return;
+        }
+        document.getElementById('updated').textContent =
+          `Updated ${fmtDate(manifest.updatedAt)} · one section per environment · runs newest first`;
 
-  const envs = Object.keys(manifest.envs || {}).sort((a, b) => (ORDER.indexOf(a) + 99) % 99 - (ORDER.indexOf(b) + 99) % 99);
-  const tabs = document.getElementById('tabs');
-  const sections = document.getElementById('sections');
-  const show = (id) => {
-    for (const s of sections.children) s.classList.toggle('active', s.id === `sec-${id}`);
-    for (const b of tabs.children) b.classList.toggle('active', b.dataset.id === id);
-    history.replaceState(null, '', `#${id}`);
-  };
+        const envs = Object.keys(manifest.envs || {}).sort(
+          (a, b) => ((ORDER.indexOf(a) + 99) % 99) - ((ORDER.indexOf(b) + 99) % 99),
+        );
+        const tabs = document.getElementById('tabs');
+        const sections = document.getElementById('sections');
+        const show = (id) => {
+          for (const s of sections.children) s.classList.toggle('active', s.id === `sec-${id}`);
+          for (const b of tabs.children) b.classList.toggle('active', b.dataset.id === id);
+          history.replaceState(null, '', `#${id}`);
+        };
 
-  const runRow = (r) => {
-    const failedList = (r.failed || []).length
-      ? $('details', {}, $('summary', {}, `${r.failed.length} failing test(s)`),
-          $('ul', {}, r.failed.slice(0, 40).map((f) => $('li', {}, $('code', {}, f.project), ' › ', f.file, ' › ', f.name)), r.failed.length > 40 ? $('li', {}, `… ${r.failed.length - 40} more`) : null),
-          copyBlock(appendCmd(r)))
-      : null;
-    return $('tr', { class: 'run' },
-      $('td', {}, $('a', { href: `${r.env}/${r.runId}/` }, r.runId), $('div', { class: 'meta' }, r.release, r.ref && r.ref !== r.release ? ` · ${r.ref}` : '', ' ', shaLink(r))),
-      $('td', {}, fmtDate(r.startedAt), $('div', { class: 'meta' }, fmtDur(r.durationMs), r.suite && r.suite !== 'full' ? ` · ${r.suite}` : '')),
-      $('td', {}, bar(r.counts), chips(r.counts, (r.appends || []).length ? [$('span', { class: 'chip badge', title: (r.appends || []).map((a) => `${fmtDate(a.at)} by ${a.by}${a.note ? ' — ' + a.note : ''}`).join('\n') }, `+${r.appends.length} append${r.appends.length > 1 ? 's' : ''}`)] : []), failedList),
-      $('td', {}, $('span', { class: 'src' }, r.source || 'ci'), r.trigger ? $('div', { class: 'meta' }, r.trigger) : null),
-      $('td', {}, $('a', { href: `${r.env}/${r.runId}/` }, 'Report'), r.workflowRunUrl ? [' · ', $('a', { href: r.workflowRunUrl, target: '_blank', rel: 'noopener' }, 'Workflow')] : null, r.resultsInRepo ? [' · ', $('a', { href: `${r.env}/${r.runId}/results/` }, 'results')] : null),
-    );
-  };
+        const runRow = (r) => {
+          const failedList = (r.failed || []).length
+            ? $(
+                'details',
+                {},
+                $('summary', {}, `${r.failed.length} failing test(s)`),
+                $(
+                  'ul',
+                  {},
+                  r.failed
+                    .slice(0, 40)
+                    .map((f) =>
+                      $('li', {}, $('code', {}, f.project), ' › ', f.file, ' › ', f.name),
+                    ),
+                  r.failed.length > 40 ? $('li', {}, `… ${r.failed.length - 40} more`) : null,
+                ),
+                copyBlock(appendCmd(r)),
+              )
+            : null;
+          return $(
+            'tr',
+            { class: 'run' },
+            $(
+              'td',
+              {},
+              $('a', { href: `${r.env}/${r.runId}/` }, r.runId),
+              $(
+                'div',
+                { class: 'meta' },
+                r.release,
+                r.ref && r.ref !== r.release ? ` · ${r.ref}` : '',
+                ' ',
+                shaLink(r),
+              ),
+            ),
+            $(
+              'td',
+              {},
+              fmtDate(r.startedAt),
+              $(
+                'div',
+                { class: 'meta' },
+                fmtDur(r.durationMs),
+                r.suite && r.suite !== 'full' ? ` · ${r.suite}` : '',
+              ),
+            ),
+            $(
+              'td',
+              {},
+              bar(r.counts),
+              chips(
+                r.counts,
+                (r.appends || []).length
+                  ? [
+                      $(
+                        'span',
+                        {
+                          class: 'chip badge',
+                          title: (r.appends || [])
+                            .map(
+                              (a) => `${fmtDate(a.at)} by ${a.by}${a.note ? ' — ' + a.note : ''}`,
+                            )
+                            .join('\n'),
+                        },
+                        `+${r.appends.length} append${r.appends.length > 1 ? 's' : ''}`,
+                      ),
+                    ]
+                  : [],
+              ),
+              failedList,
+            ),
+            $(
+              'td',
+              {},
+              $('span', { class: 'src' }, r.source || 'ci'),
+              r.trigger ? $('div', { class: 'meta' }, r.trigger) : null,
+            ),
+            $(
+              'td',
+              {},
+              $('a', { href: `${r.env}/${r.runId}/` }, 'Report'),
+              r.workflowRunUrl
+                ? [
+                    ' · ',
+                    $(
+                      'a',
+                      { href: r.workflowRunUrl, target: '_blank', rel: 'noopener' },
+                      'Workflow',
+                    ),
+                  ]
+                : null,
+              r.resultsInRepo
+                ? [' · ', $('a', { href: `${r.env}/${r.runId}/results/` }, 'results')]
+                : null,
+            ),
+          );
+        };
 
-  for (const env of envs) {
-    const e = manifest.envs[env];
-    const runs = (e.runs || []).slice().sort((a, b) => b.runId.localeCompare(a.runId));
-    const latest = runs.find((r) => r.runId === e.latest) || runs[0];
-    tabs.append($('button', { 'data-id': env, onclick: () => show(env) }, $('span', { class: 'dot', style: `background:var(--${latest ? (healthy(latest.counts) ? 'pass' : 'fail') : 'skip'})` }), `${env} (${runs.length})`));
-    const sec = $('section', { id: `sec-${env}` });
-    if (latest) {
-      sec.append($('div', { class: 'card' },
-        $('h2', {}, `Latest ${env}: `, $('a', { href: `${env}/latest/` }, latest.runId)),
-        $('div', { class: 'meta' }, `${latest.release}`, latest.ref && latest.ref !== latest.release ? ` · ${latest.ref}` : '', ' ', shaLink(latest), ` · started ${fmtDate(latest.startedAt)} · ${fmtDur(latest.durationMs)} · ${latest.source || 'ci'}${latest.trigger ? ' · ' + latest.trigger : ''}`),
-        bar(latest.counts), chips(latest.counts),
-        latest.failed && latest.failed.length ? [$('p', { class: 'meta', style: 'margin:12px 0 4px' }, 'Fold a local re-run of the failing specs into this report:'), copyBlock(appendCmd(latest))] : null,
-      ));
-    }
-    const table = $('table', {}, $('thead', {}, $('tr', {}, $('th', {}, 'Run'), $('th', {}, 'Started'), $('th', {}, 'Results'), $('th', {}, 'Source'), $('th', {}, 'Links'))));
-    const tbody = $('tbody');
-    const PAGE = 20;
-    let shown = 0;
-    const more = $('div', { class: 'more' });
-    const render = () => { for (const r of runs.slice(shown, shown + PAGE)) tbody.append(runRow(r)); shown = Math.min(runs.length, shown + PAGE); more.innerHTML = ''; if (shown < runs.length) more.append($('button', { onclick: render }, `Show ${Math.min(PAGE, runs.length - shown)} more (${runs.length - shown} older)`)); };
-    render();
-    table.append(tbody);
-    sec.append($('div', { class: 'card' }, $('h2', {}, `${env} runs`), runs.length ? [$('div', { class: 'tablewrap' }, table), more] : $('p', { class: 'empty' }, 'No runs yet.')));
-    sections.append(sec);
-  }
+        for (const env of envs) {
+          const e = manifest.envs[env];
+          const runs = (e.runs || []).slice().sort((a, b) => b.runId.localeCompare(a.runId));
+          const latest = runs.find((r) => r.runId === e.latest) || runs[0];
+          tabs.append(
+            $(
+              'button',
+              { 'data-id': env, onclick: () => show(env) },
+              $('span', {
+                class: 'dot',
+                style: `background:var(--${latest ? (healthy(latest.counts) ? 'pass' : 'fail') : 'skip'})`,
+              }),
+              `${env} (${runs.length})`,
+            ),
+          );
+          const sec = $('section', { id: `sec-${env}` });
+          if (latest) {
+            sec.append(
+              $(
+                'div',
+                { class: 'card' },
+                $('h2', {}, `Latest ${env}: `, $('a', { href: `${env}/latest/` }, latest.runId)),
+                $(
+                  'div',
+                  { class: 'meta' },
+                  `${latest.release}`,
+                  latest.ref && latest.ref !== latest.release ? ` · ${latest.ref}` : '',
+                  ' ',
+                  shaLink(latest),
+                  ` · started ${fmtDate(latest.startedAt)} · ${fmtDur(latest.durationMs)} · ${latest.source || 'ci'}${latest.trigger ? ' · ' + latest.trigger : ''}`,
+                ),
+                bar(latest.counts),
+                chips(latest.counts),
+                latest.failed && latest.failed.length
+                  ? [
+                      $(
+                        'p',
+                        { class: 'meta', style: 'margin:12px 0 4px' },
+                        'Fold a local re-run of the failing specs into this report:',
+                      ),
+                      copyBlock(appendCmd(latest)),
+                    ]
+                  : null,
+              ),
+            );
+          }
+          const table = $(
+            'table',
+            {},
+            $(
+              'thead',
+              {},
+              $(
+                'tr',
+                {},
+                $('th', {}, 'Run'),
+                $('th', {}, 'Started'),
+                $('th', {}, 'Results'),
+                $('th', {}, 'Source'),
+                $('th', {}, 'Links'),
+              ),
+            ),
+          );
+          const tbody = $('tbody');
+          const PAGE = 20;
+          let shown = 0;
+          const more = $('div', { class: 'more' });
+          const render = () => {
+            for (const r of runs.slice(shown, shown + PAGE)) tbody.append(runRow(r));
+            shown = Math.min(runs.length, shown + PAGE);
+            more.innerHTML = '';
+            if (shown < runs.length)
+              more.append(
+                $(
+                  'button',
+                  { onclick: render },
+                  `Show ${Math.min(PAGE, runs.length - shown)} more (${runs.length - shown} older)`,
+                ),
+              );
+          };
+          render();
+          table.append(tbody);
+          sec.append(
+            $(
+              'div',
+              { class: 'card' },
+              $('h2', {}, `${env} runs`),
+              runs.length
+                ? [$('div', { class: 'tablewrap' }, table), more]
+                : $('p', { class: 'empty' }, 'No runs yet.'),
+            ),
+          );
+          sections.append(sec);
+        }
 
-  if ((manifest.legacy || []).length) {
-    tabs.append($('button', { 'data-id': 'legacy', onclick: () => show('legacy') }, `legacy (${manifest.legacy.length})`));
-    const table = $('table', {}, $('thead', {}, $('tr', {}, $('th', {}, 'Report'), $('th', {}, 'Published'), $('th', {}, 'Results'))),
-      $('tbody', {}, manifest.legacy.map((l) => $('tr', {}, $('td', {}, $('a', { href: `${l.name}/` }, l.name)), $('td', {}, fmtDate(l.publishedAt)), $('td', {}, chips(l.counts))))));
-    sections.append($('section', { id: 'sec-legacy' }, $('div', { class: 'card' }, $('h2', {}, 'Legacy reports'), $('p', { class: 'meta' }, 'Published before the per-environment layout; kept for reference.'), $('div', { class: 'tablewrap' }, table))));
-  }
+        if ((manifest.legacy || []).length) {
+          tabs.append(
+            $(
+              'button',
+              { 'data-id': 'legacy', onclick: () => show('legacy') },
+              `legacy (${manifest.legacy.length})`,
+            ),
+          );
+          const table = $(
+            'table',
+            {},
+            $(
+              'thead',
+              {},
+              $('tr', {}, $('th', {}, 'Report'), $('th', {}, 'Published'), $('th', {}, 'Results')),
+            ),
+            $(
+              'tbody',
+              {},
+              manifest.legacy.map((l) =>
+                $(
+                  'tr',
+                  {},
+                  $('td', {}, $('a', { href: `${l.name}/` }, l.name)),
+                  $('td', {}, fmtDate(l.publishedAt)),
+                  $('td', {}, chips(l.counts)),
+                ),
+              ),
+            ),
+          );
+          sections.append(
+            $(
+              'section',
+              { id: 'sec-legacy' },
+              $(
+                'div',
+                { class: 'card' },
+                $('h2', {}, 'Legacy reports'),
+                $(
+                  'p',
+                  { class: 'meta' },
+                  'Published before the per-environment layout; kept for reference.',
+                ),
+                $('div', { class: 'tablewrap' }, table),
+              ),
+            ),
+          );
+        }
 
-  if (!sections.children.length) { sections.append($('p', { class: 'empty' }, 'No reports yet.')); return; }
-  const wanted = location.hash.slice(1);
-  show([...sections.children].some((s) => s.id === `sec-${wanted}`) ? wanted : sections.children[0].id.slice(4));
-})();
-</script>
-</body>
+        if (!sections.children.length) {
+          sections.append($('p', { class: 'empty' }, 'No reports yet.'));
+          return;
+        }
+        const wanted = location.hash.slice(1);
+        show(
+          [...sections.children].some((s) => s.id === `sec-${wanted}`)
+            ? wanted
+            : sections.children[0].id.slice(4),
+        );
+      })();
+    </script>
+  </body>
 </html>

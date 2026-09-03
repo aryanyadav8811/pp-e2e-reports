@@ -1,0 +1,27 @@
+env=staging
+project=Desktop
+release=release-43
+build=2026-09-03-1253-release-43
+sha=a1d93628a98b2da8055268adbeb1df28f2dcb467
+user=default (qa***)
+spec=contests/user-enter-contest.spec.ts:26
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.250s DEBUG auth[qa***]: another worker holds the login lock — waiting {"waitedMs":0}
++6.047s DEBUG session[primary]: alive
++28.440s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++28.532s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++28.542s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++28.584s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++28.614s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++28.649s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++28.686s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++28.706s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++28.746s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++29.751s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++30.788s INFO  contest: placing an entry {"pickCount":5,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++71.763s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1560808","player-638075","player-1417925","player-1634414","player-1635222"]}
++74.798s WARN  contest: submission rejected {"attempt":1,"error":"429 Request was throttled. Expected available in 5 seconds."}
++91.570s WARN  contest: submission throttled (429) — backing off {"attempt":1,"throttleRetries":1,"waitMs":15960}

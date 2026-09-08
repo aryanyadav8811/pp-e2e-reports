@@ -1,0 +1,1 @@
+{"reportName":"e2e staging","testRuns":[],"statistic":{"failed":12,"broken":1,"skipped":39,"passed":365,"unknown":0,"total":417},"time":{"start":1788851153946,"stop":1788853647193,"duration":2493247,"minDuration":2,"maxDuration":306155,"sumDuration":10214465}}

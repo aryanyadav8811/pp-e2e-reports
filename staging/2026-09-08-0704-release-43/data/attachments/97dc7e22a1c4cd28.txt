@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Safari
+release=release-43
+build=2026-09-08-0704-release-43
+sha=4f935915193fa560b06d417904055f04e9976aef
+user=default (qa***)
+spec=navigation/footer-nav.spec.ts:55
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/packs
+
++0.048s DEBUG session[primary]: alive

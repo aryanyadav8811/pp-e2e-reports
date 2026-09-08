@@ -1,0 +1,13 @@
+env=staging
+project=Mobile Safari
+release=release-43
+build=2026-09-08-0704-release-43
+sha=4f935915193fa560b06d417904055f04e9976aef
+user=default (qa***)
+spec=rewards/partner-rewards.spec.ts:95
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/rewards
+
++0.362s DEBUG session[qa***]: alive
++0.480s DEBUG session[primary]: alive

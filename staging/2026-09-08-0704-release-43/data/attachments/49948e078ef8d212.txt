@@ -1,0 +1,18 @@
+env=staging
+project=Mobile Safari
+release=release-43
+build=2026-09-08-0704-release-43
+sha=4f935915193fa560b06d417904055f04e9976aef
+user=default (qa***)
+spec=entries/entry-card.spec.ts:261
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://staging.parlayplay.io/challenges/pending
+
++0.074s DEBUG session[primary]: alive
++14.802s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++27.335s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1328259","player-641191","player-668075"]}
++30.647s WARN  contest: submission rejected {"attempt":1,"error":"429 Request was throttled. Expected available in 3 seconds."}
++39.139s WARN  contest: submission throttled (429) — backing off {"attempt":1,"throttleRetries":1,"waitMs":14541}
++60.149s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1328259","player-641191","player-668075"]}
++66.253s INFO  contest: entry placed {"attempt":1,"pickIds":["player-1328259","player-641191","player-668075"]}

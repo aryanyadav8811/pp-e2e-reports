@@ -1,0 +1,12 @@
+env=staging
+project=Desktop
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=navigation/legal.spec.ts:41
+retry=2
+status=passed (expected failed)
+lastUrl=https://staging.parlayplay.io/terms#class-action
+
+(no log lines)

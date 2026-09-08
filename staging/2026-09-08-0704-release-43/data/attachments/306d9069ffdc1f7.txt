@@ -1,0 +1,3 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Access to XMLHttpRequest at 'https://tr6.snapchat.com/p' from origin 'https://staging.parlayplay.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[error] Failed to load resource: net::ERR_FAILED

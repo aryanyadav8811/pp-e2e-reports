@@ -1,0 +1,17 @@
+launch_status_failed 7
+launch_status_broken 0
+launch_status_passed 368
+launch_status_skipped 42
+launch_status_unknown 0
+launch_time_duration 2572720
+launch_time_min_duration 3
+launch_time_max_duration 145317
+launch_time_sum_duration 10750520
+launch_time_start 1789045849196
+launch_time_stop 1789048421916
+launch_problems_test_defect:_timeout 1
+launch_problems_skipped:_shared_account_limit 3
+launch_problems_skipped:_data_/_precondition 39
+launch_problems_test_defect:_locator_/_strict_mode 6
+launch_retries_retries 0
+launch_retries_run 417

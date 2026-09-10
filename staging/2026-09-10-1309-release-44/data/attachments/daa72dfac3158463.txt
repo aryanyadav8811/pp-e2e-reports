@@ -1,0 +1,24 @@
+14:05:27.440 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+14:05:30.067 INFO contest: placing an entry {
+  pickCount: 2,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+14:05:49.511 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 1,
+  statIdx: 0,
+  error: 'Could not select 2 valid picks'
+}
+14:05:51.065 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: 'Could not select 2 valid picks'
+}
+14:05:54.300 INFO contest: entry placed {
+  attempt: 2,
+  pickIds: [
+    'player-638176',
+    'player-1293596'
+  ]
+}

@@ -1,0 +1,7 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Error: Permission blocked
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:4431
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:141191
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] The provided `href` (/challenges/contest/[slug]) value is missing query values (slug) to be interpolated properly. Read more: https://nextjs.org/docs/messages/href-interpolation-failed

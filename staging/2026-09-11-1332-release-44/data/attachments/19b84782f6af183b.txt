@@ -1,0 +1,25 @@
+env=staging
+project=Desktop
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=contests/user-enter-contest.spec.ts:131
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.077s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++1.517s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++1.539s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++1.564s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++1.591s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++1.731s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++1.739s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++1.751s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++1.761s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++1.776s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++2.309s INFO  contest: placing an entry {"pickCount":4,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++4.106s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1634471","player-851985","player-637851","player-657292"]}
++5.146s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++6.248s INFO  contest: entry placed {"attempt":1,"pickIds":["player-1634471","player-851985","player-637851","player-657292"]}

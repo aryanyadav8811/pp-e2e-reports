@@ -1,0 +1,2 @@
+14:27:47.701 WARN session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+14:27:47.801 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}

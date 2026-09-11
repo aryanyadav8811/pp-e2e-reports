@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Safari
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=data-verification/picks-grid.spec.ts:365
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.096s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

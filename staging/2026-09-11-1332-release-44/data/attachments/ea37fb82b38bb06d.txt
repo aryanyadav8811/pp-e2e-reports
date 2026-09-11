@@ -1,0 +1,26 @@
+14:20:15.205 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+14:20:18.983 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+14:20:23.138 WARN contest: submission rejected {
+  attempt: 1,
+  error: '400 It looks like 0.50 Player Hits is currently unavailable for Teoscar Hernandez'
+}
+14:20:24.073 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: '400 It looks like 0.50 Player Hits is currently unavailable for Teoscar Hernandez'
+}
+14:20:34.643 INFO contest: entry placed {
+  attempt: 2,
+  pickIds: [
+    'player-1349726',
+    'player-1271134',
+    'player-1359482',
+    'player-1528568',
+    'player-1525316'
+  ]
+}

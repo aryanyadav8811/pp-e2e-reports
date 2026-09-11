@@ -1,0 +1,14 @@
+env=staging
+project=Desktop
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=data-verification/picks-grid.spec.ts:365
+retry=1
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.201s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive
++0.301s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++1.855s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}

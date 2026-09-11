@@ -1,0 +1,35 @@
+env=staging
+project=Desktop
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=contests/user-enter-contest.spec.ts:60
+retry=1
+status=timedOut (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.069s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++1.253s INFO  contest: placing an entry {"pickCount":2,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++1.567s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++1.587s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++1.614s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++1.646s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++1.781s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++1.799s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++1.800s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++1.823s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++1.824s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++3.412s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1634471","player-637851"]}
++3.976s WARN  contest: submission rejected {"attempt":1,"error":"400 It looks like 0.50 Player Hits is currently unavailable for Mookie Betts"}
++4.907s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"400 It looks like 0.50 Player Hits is currently unavailable for Mookie Betts"}
++9.293s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++23.131s DEBUG contest: picks selected {"attempt":2,"statIdx":1,"pickIds":["player-851985","player-1528568"]}
++24.521s WARN  contest: submission rejected {"attempt":2,"error":"429 Request was throttled. Expected available in 4 seconds."}
++25.453s WARN  contest: submission throttled (429) — backing off {"attempt":2,"throttleRetries":1,"waitMs":18496}
++62.782s DEBUG contest: picks selected {"attempt":2,"statIdx":1,"pickIds":["player-851985","player-1528568"]}
++64.236s WARN  contest: submission rejected {"attempt":2,"error":"429 Request was throttled. Expected available in 4 seconds."}
++65.202s WARN  contest: submission throttled (429) — backing off {"attempt":2,"throttleRetries":2,"waitMs":16124}
++99.366s DEBUG contest: picks selected {"attempt":2,"statIdx":1,"pickIds":["player-851985","player-1528568"]}
++100.820s WARN  contest: submission rejected {"attempt":2,"error":"429 Request was throttled. Expected available in 1 second."}
++101.774s WARN  contest: submission throttled (429) — backing off {"attempt":2,"throttleRetries":3,"waitMs":18667}

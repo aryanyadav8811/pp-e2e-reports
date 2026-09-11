@@ -1,0 +1,13 @@
+env=staging
+project=Mobile Chrome
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=data-verification/picks-grid.spec.ts:365
+retry=1
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.185s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive
++0.277s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

@@ -1,0 +1,4 @@
+[warning] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/materialized/' failed: WebSocket is closed before the connection is established.
+[error] Error: Permission blocked
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:4431
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:141191

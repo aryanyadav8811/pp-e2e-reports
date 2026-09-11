@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Safari
+release=release-44
+build=2026-09-11-1223-release-44
+sha=ff1fc65ea930a359322f306b06b56adf7cd2c5bc
+user=default (qa***)
+spec=navigation/entries-nav-indicator.spec.ts:21
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://staging.parlayplay.io/challenges/history
+
++0.210s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

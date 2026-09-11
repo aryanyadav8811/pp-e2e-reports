@@ -1,0 +1,9 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Reached maximum amount of queued data of 64Kb for keepalive requests
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Astaging%2Cservice%3Aparlayplay-ui-prod%2Cversion%3A1.0.0&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=2f973f69-1331-46c1-956b-9968b7692234&batch_time=1789131154461 due to access control checks.
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[pageerror] /bat.bing.com/p/insights/c/a due to access control checks.
+[pageerror] /bat.bing.com/p/insights/c/a due to access control checks.
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Reached maximum amount of queued data of 64Kb for keepalive requests
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Astaging%2Cservice%3Aparlayplay-ui-prod%2Cversion%3A1.0.0&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=662ed2b2-bd8a-4049-b055-68288aab5215&batch_time=1789131215395 due to access control checks.

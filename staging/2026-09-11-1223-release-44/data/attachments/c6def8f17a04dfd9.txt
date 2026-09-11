@@ -1,0 +1,18 @@
+env=staging
+project=Mobile Safari
+release=release-44
+build=2026-09-11-1223-release-44
+sha=ff1fc65ea930a359322f306b06b56adf7cd2c5bc
+user=default (qa***)
+spec=contests/user-enter-contest.spec.ts:26
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++1.373s DEBUG auth[qa***]: another worker holds the login lock — waiting {"waitedMs":0}
++11.406s DEBUG auth[qa***]: another worker holds the login lock — waiting {"waitedMs":10037}
++12.206s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++22.589s INFO  contest: placing an entry {"pickCount":5,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++68.269s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1783367","player-657537","player-668380","player-86","player-1634471"]}
++80.798s WARN  contest: submission rejected {"attempt":1,"error":"400 It looks like 3.50 Player Strikeouts is currently unavailable for Anthony Kay"}
++90.088s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"400 It looks like 3.50 Player Strikeouts is currently unavailable for Anthony Kay"}

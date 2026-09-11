@@ -1,0 +1,28 @@
+env=staging
+project=Mobile Safari
+release=release-44
+build=2026-09-11-1223-release-44
+sha=ff1fc65ea930a359322f306b06b56adf7cd2c5bc
+user=default (qa***)
+spec=transactions/transactions.spec.ts:421
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.147s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++10.657s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++47.486s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-668380","player-1634471","player-851985"]}
++53.250s WARN  contest: submission rejected {"attempt":1,"error":"400 It looks like 4.50 Player Strikeouts is currently unavailable for George Kirby"}
++67.652s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"400 It looks like 4.50 Player Strikeouts is currently unavailable for George Kirby"}
++94.062s DEBUG contest: picks selected {"attempt":2,"statIdx":1,"pickIds":["player-638074","player-656857","player-638392"]}
++107.804s WARN  contest: submission rejected {"attempt":2,"error":"place-pick stayed disabled (submission blocked)"}
++113.783s WARN  contest: rotating to the next stat tab after a rejection {"attempt":3,"statIdx":2,"lastError":"place-pick stayed disabled (submission blocked)"}
++154.864s DEBUG contest: picks selected {"attempt":3,"statIdx":2,"pickIds":["player-641162","player-638390","player-1411567"]}
++157.669s WARN  contest: submission rejected {"attempt":3,"error":"400 It looks like 0.50 Player Singles is currently unavailable for Michael Massey"}
++160.620s WARN  contest: rotating to the next stat tab after a rejection {"attempt":4,"statIdx":3,"lastError":"400 It looks like 0.50 Player Singles is currently unavailable for Michael Massey"}
++170.798s DEBUG contest: picks selected {"attempt":4,"statIdx":3,"pickIds":["player-850474","player-638226","player-1293596"]}
++173.487s WARN  contest: submission rejected {"attempt":4,"error":"400 It looks like 0.50 Player Doubles is currently unavailable for Yordan Alvarez"}
++176.458s WARN  contest: rotating to the next stat tab after a rejection {"attempt":5,"statIdx":4,"lastError":"400 It looks like 0.50 Player Doubles is currently unavailable for Yordan Alvarez"}
++187.906s DEBUG contest: picks selected {"attempt":5,"statIdx":4,"pickIds":["player-638176","player-638174","player-638127"]}
++189.776s WARN  contest: submission rejected {"attempt":5,"error":"400 It looks like 0.50 Player Triples is currently unavailable for J.T. Realmuto"}
++189.776s ERROR contest: giving up — could not place an entry {"maxAttempts":5,"throttleRetries":0,"lastError":"400 It looks like 0.50 Player Triples is currently unavailable for J.T. Realmuto"}

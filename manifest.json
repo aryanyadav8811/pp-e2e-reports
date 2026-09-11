@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T14:23:16.821Z",
+  "updatedAt": "2026-09-11T13:12:38.878Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
@@ -116,9 +116,188 @@
       ]
     },
     "staging": {
-      "latest": "2026-09-10-1309-release-44",
-      "buildOrder": 6,
+      "latest": "2026-09-11-1223-release-44",
+      "buildOrder": 7,
       "runs": [
+        {
+          "runId": "2026-09-11-1223-release-44",
+          "env": "staging",
+          "suite": "full",
+          "release": "release-44",
+          "ref": "ff1fc65ea930a359322f306b06b56adf7cd2c5bc",
+          "sha": "ff1fc65ea930a359322f306b06b56adf7cd2c5bc",
+          "baseURL": "https://staging.parlayplay.io/",
+          "source": "ci",
+          "trigger": "manual (Sanskriti7379)",
+          "startedAt": "2026-09-11T12:24:50.285Z",
+          "finishedAt": "2026-09-11T13:11:34.623Z",
+          "durationMs": 2804338,
+          "publishedAt": "2026-09-11T13:12:38.765Z",
+          "workflowRunId": "34597483302",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/34597483302",
+          "artifact": "allure-results-2026-09-11-1223-release-44",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 349,
+            "failed": 13,
+            "broken": 6,
+            "skipped": 46,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 414
+          },
+          "ciCounts": {
+            "passed": 349,
+            "failed": 13,
+            "broken": 6,
+            "skipped": 46,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 414
+          },
+          "playwright": {
+            "expected": 349,
+            "unexpected": 19,
+            "flaky": 0,
+            "skipped": 46
+          },
+          "failed": [
+            {
+              "project": "Desktop",
+              "file": "contests/slip-panel-desktop.spec.ts",
+              "name": "Prompt advances on pick select and reverts on remove",
+              "status": "failed",
+              "message": "Error: No selected button found with bg-yellow class."
+            },
+            {
+              "project": "Desktop",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five-pick contest is submitted successfully",
+              "status": "broken",
+              "message": "Test timeout of 120000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five-pick contest is submitted successfully",
+              "status": "broken",
+              "message": "Test timeout of 120000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five-pick contest is submitted successfully",
+              "status": "broken",
+              "message": "Test timeout of 120000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "entries/entries.spec.ts",
+              "name": "Pagination advances through every history page",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "entries/entries.spec.ts",
+              "name": "Cancel Entry countdown stays within the 5-minute window",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "entries/entry-card.spec.ts",
+              "name": "Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: 400 It looks like 0.50 Player Doubles is currently unavailable for Andres Chaparro)"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "navigation/entries-nav-indicator.spec.ts",
+              "name": "Indicator stays under \"Entries\" when toggling Active and History",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "navigation/footer-nav.spec.ts",
+              "name": "Fifth tab (Free2Play or Packs) routes and takes the indicator",
+              "status": "failed",
+              "message": "Error: expect(locator).toHaveClass(expected) failed"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Shows an error when the email is already taken",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "slip-sharing/share-and-tail.spec.ts",
+              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
+              "status": "failed",
+              "message": "TimeoutError: locator.click: Timeout 30000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "slip-sharing/share-and-tail.spec.ts",
+              "name": "Logged-in tailer clicks \"Tail this entry\" and submits the same picks",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: 400 It looks like 0.50 Player Doubles is currently unavailable for Jarren Duran)"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "transactions/transactions.spec.ts",
+              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: 400 It looks like 0.50 Player Triples is currently unavailable for J.T. Realmuto)"
+            }
+          ],
+          "appends": []
+        },
         {
           "runId": "2026-09-10-1309-release-44",
           "env": "staging",

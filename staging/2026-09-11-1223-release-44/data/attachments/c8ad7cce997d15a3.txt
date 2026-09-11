@@ -1,0 +1,38 @@
+env=staging
+project=Mobile Chrome
+release=release-44
+build=2026-09-11-1223-release-44
+sha=ff1fc65ea930a359322f306b06b56adf7cd2c5bc
+user=default (qa***)
+spec=entries/entry-card.spec.ts:261
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.058s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++2.666s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++2.720s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++2.763s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++2.770s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++2.856s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++2.861s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++2.883s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++2.903s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++2.910s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++3.552s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++5.575s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++13.964s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1783367","player-668380","player-86"]}
++15.672s WARN  contest: submission rejected {"attempt":1,"error":"400 It looks like 10.50 Player Strikeouts is currently unavailable for Nolan McLean"}
++18.633s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"400 It looks like 10.50 Player Strikeouts is currently unavailable for Nolan McLean"}
++26.820s DEBUG contest: picks selected {"attempt":2,"statIdx":1,"pickIds":["player-686949","player-638415","player-1420194"]}
++31.379s WARN  contest: submission rejected {"attempt":2,"error":"400 It looks like 0.50 Player Hits is currently unavailable for Jared Triolo"}
++34.840s WARN  contest: rotating to the next stat tab after a rejection {"attempt":3,"statIdx":2,"lastError":"400 It looks like 0.50 Player Hits is currently unavailable for Jared Triolo"}
++46.920s DEBUG contest: picks selected {"attempt":3,"statIdx":2,"pickIds":["player-657655","player-1273695","player-638035"]}
++50.314s WARN  contest: submission rejected {"attempt":3,"error":"400 It looks like 1.50 Player Hits + Runs + RBIs is currently unavailable for Riley Greene"}
++54.559s WARN  contest: rotating to the next stat tab after a rejection {"attempt":4,"statIdx":3,"lastError":"400 It looks like 1.50 Player Hits + Runs + RBIs is currently unavailable for Riley Greene"}
++73.681s DEBUG contest: picks selected {"attempt":4,"statIdx":3,"pickIds":["player-1634471","player-851985","player-1411567"]}
++77.480s WARN  contest: submission rejected {"attempt":4,"error":"400 It looks like 1.50 Player Hits + Runs + RBIs is currently unavailable for Riley Greene"}
++81.812s WARN  contest: rotating to the next stat tab after a rejection {"attempt":5,"statIdx":4,"lastError":"400 It looks like 1.50 Player Hits + Runs + RBIs is currently unavailable for Riley Greene"}
++98.002s DEBUG contest: picks selected {"attempt":5,"statIdx":4,"pickIds":["player-672569","player-657584","player-638111"]}
++100.942s WARN  contest: submission rejected {"attempt":5,"error":"400 It looks like 0.50 Player Doubles is currently unavailable for Andres Chaparro"}
++100.948s ERROR contest: giving up — could not place an entry {"maxAttempts":5,"throttleRetries":0,"lastError":"400 It looks like 0.50 Player Doubles is currently unavailable for Andres Chaparro"}

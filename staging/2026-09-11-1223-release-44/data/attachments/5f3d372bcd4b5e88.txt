@@ -1,0 +1,28 @@
+env=staging
+project=Desktop
+release=release-44
+build=2026-09-11-1223-release-44
+sha=ff1fc65ea930a359322f306b06b56adf7cd2c5bc
+user=default (qa***)
+spec=contests/user-enter-contest.spec.ts:26
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.218s INFO  auth[qa***]: worker 1 is the login leader
++17.304s INFO  auth[qa***]: login complete, session saved {"durationMs":17087}
++17.515s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++20.776s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++20.860s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++20.883s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++20.920s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++20.934s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++20.969s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++20.986s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++21.002s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++21.023s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++22.157s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++31.824s INFO  contest: placing an entry {"pickCount":5,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++69.726s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-657608","player-657588","player-1544944","player-1796592","player-1798291"]}
++71.541s WARN  contest: submission rejected {"attempt":1,"error":"400 It looks like 0.50 Player Singles is currently unavailable for Seiya Suzuki"}
++87.166s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"400 It looks like 0.50 Player Singles is currently unavailable for Seiya Suzuki"}

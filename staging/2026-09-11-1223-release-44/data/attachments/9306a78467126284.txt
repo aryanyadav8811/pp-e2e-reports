@@ -1,0 +1,19 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Reached maximum amount of queued data of 64Kb for keepalive requests
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Astaging%2Cservice%3Aparlayplay-ui-prod%2Cversion%3A1.0.0&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=59b7dc81-3351-41b8-8cd4-7b3fed601d1c&batch_time=1789131201057 due to access control checks.
+[error] Failed to load resource: the server responded with a status of 400 (Bad Request)
+[pageerror] /bat.bing.com/p/insights/c/k due to access control checks.
+[pageerror] /bat.bing.com/p/insights/c/k due to access control checks.
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Reached maximum amount of queued data of 64Kb for keepalive requests
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Astaging%2Cservice%3Aparlayplay-ui-prod%2Cversion%3A1.0.0&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=e0d588ee-ac6f-4d53-8d3b-739ffbd57389&batch_time=1789131258564 due to access control checks.
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Reached maximum amount of queued data of 64Kb for keepalive requests
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Astaging%2Cservice%3Aparlayplay-ui-prod%2Cversion%3A1.0.0&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=0fdb2d5a-1287-4565-85c7-a7bbea0e29c4&batch_time=1789131300313 due to access control checks.
+[error] Failed to load resource: the server responded with a status of 400 (Bad Request)
+[pageerror] AxiosError: Network Error
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Failed to load resource: the server responded with a status of 400 (Bad Request)
+[pageerror] AxiosError: Network Error
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Failed to load resource: the server responded with a status of 400 (Bad Request)

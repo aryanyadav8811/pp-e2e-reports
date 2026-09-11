@@ -1,0 +1,8 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Reached maximum amount of queued data of 64Kb for keepalive requests
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Astaging%2Cservice%3Aparlayplay-ui-prod%2Cversion%3A1.0.0&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=9cf40b73-1c8e-45a7-a9ef-4743aff56fe1&batch_time=1789129530042 due to access control checks.
+[error] Failed to load resource: the server responded with a status of 400 (Bad Request)
+[error] Reached maximum amount of queued data of 64Kb for keepalive requests
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Astaging%2Cservice%3Aparlayplay-ui-prod%2Cversion%3A1.0.0&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=56fcbcca-b2b2-42b9-922b-a98223d65347&batch_time=1789129589149 due to access control checks.
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Beacon API cannot load https://tr.snapchat.com/p. Reached maximum amount of queued data of 64Kb for keepalive requests

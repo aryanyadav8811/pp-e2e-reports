@@ -1,0 +1,2 @@
+GET https://staging.parlayplay.io/api/v1/contests/dffdf36b-b3cf-4e0b-a380-4e64ab9a90a0/share/ -> FAILED Load request cancelled
+GET https://staging.parlayplay.io/api/v1/promos/ -> FAILED Load request cancelled

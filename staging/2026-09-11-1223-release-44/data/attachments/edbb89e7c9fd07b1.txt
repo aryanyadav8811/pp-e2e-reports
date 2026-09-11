@@ -1,0 +1,27 @@
+env=staging
+project=Mobile Safari
+release=release-44
+build=2026-09-11-1223-release-44
+sha=ff1fc65ea930a359322f306b06b56adf7cd2c5bc
+user=default (qa***)
+spec=slip-sharing/share-and-tail.spec.ts:38
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++10.716s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++40.607s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-668380","player-1634471","player-851985"]}
++47.564s WARN  contest: submission rejected {"attempt":1,"error":"400 It looks like 5.00 Player Strikeouts is currently unavailable for George Kirby"}
++54.198s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"400 It looks like 5.00 Player Strikeouts is currently unavailable for George Kirby"}
++80.904s DEBUG contest: picks selected {"attempt":2,"statIdx":1,"pickIds":["player-1270842","player-656652","player-672569"]}
++87.427s WARN  contest: submission rejected {"attempt":2,"error":"400 It looks like 1.50 Player Hits is currently unavailable for Mike Trout"}
++92.463s WARN  contest: rotating to the next stat tab after a rejection {"attempt":3,"statIdx":2,"lastError":"400 It looks like 1.50 Player Hits is currently unavailable for Mike Trout"}
++141.283s DEBUG contest: picks selected {"attempt":3,"statIdx":2,"pickIds":["player-1411567","player-1636052","player-1634767"]}
++146.045s WARN  contest: submission rejected {"attempt":3,"error":"400 It looks like 1.50 Player Hits is currently unavailable for Mike Trout"}
++149.466s WARN  contest: rotating to the next stat tab after a rejection {"attempt":4,"statIdx":3,"lastError":"400 It looks like 1.50 Player Hits is currently unavailable for Mike Trout"}
++197.950s DEBUG contest: picks selected {"attempt":4,"statIdx":3,"pickIds":["player-638111","player-657512","player-638301"]}
++205.260s WARN  contest: submission rejected {"attempt":4,"error":"400 It looks like 0.50 Player Singles is currently unavailable for Nathan Lukes"}
++210.562s WARN  contest: rotating to the next stat tab after a rejection {"attempt":5,"statIdx":4,"lastError":"400 It looks like 0.50 Player Singles is currently unavailable for Nathan Lukes"}
++233.224s DEBUG contest: picks selected {"attempt":5,"statIdx":4,"pickIds":["player-638074","player-656857","player-638392"]}
++237.254s WARN  contest: submission rejected {"attempt":5,"error":"400 It looks like 0.50 Player Doubles is currently unavailable for Jarren Duran"}
++237.259s ERROR contest: giving up — could not place an entry {"maxAttempts":5,"throttleRetries":0,"lastError":"400 It looks like 0.50 Player Doubles is currently unavailable for Jarren Duran"}

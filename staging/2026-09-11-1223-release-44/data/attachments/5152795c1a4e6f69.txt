@@ -1,0 +1,7 @@
+POST https://staging.parlayplay.io/api/v1/challenges-sp/crossgame/ -> 400
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED Load request cancelled
+POST https://staging.parlayplay.io/api/v1/challenges-sp/crossgame/ -> 400
+POST https://staging.parlayplay.io/api/v1/challenges-sp/crossgame/ -> 400
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED Load request cancelled
+POST https://staging.parlayplay.io/api/v1/challenges-sp/crossgame/ -> 400
+POST https://staging.parlayplay.io/api/v1/challenges-sp/crossgame/ -> 400

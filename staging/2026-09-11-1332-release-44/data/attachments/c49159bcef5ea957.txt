@@ -1,0 +1,43 @@
+env=staging
+project=Mobile Chrome
+release=release-44
+build=2026-09-11-1332-release-44
+sha=5eef4f3c3d7268761c72dc5660930736d84e5ea0
+user=default (qa***)
+spec=slip-sharing/share-and-tail.spec.ts:172
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++2.505s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++2.575s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++2.587s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++2.606s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++2.623s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++2.677s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++2.702s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++2.720s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++2.759s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++3.737s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++5.041s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++13.482s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1783367","player-1634471","player-851985"]}
++14.868s WARN  contest: submission rejected {"attempt":1,"error":"429 Request was throttled. Expected available in 5 seconds."}
++17.293s WARN  contest: submission throttled (429) — backing off {"attempt":1,"throttleRetries":1,"waitMs":13878}
++38.065s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1783367","player-1634471","player-851985"]}
++48.310s WARN  contest: submission rejected {"attempt":1,"error":"place-pick stayed disabled (submission blocked)"}
++53.518s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"place-pick stayed disabled (submission blocked)"}
++61.329s DEBUG contest: picks selected {"attempt":2,"statIdx":1,"pickIds":["player-639035","player-657292","player-638276"]}
++65.110s WARN  contest: submission rejected {"attempt":2,"error":"400 It looks like 1.50 Player Hits + Runs + RBIs is currently unavailable for Anthony Volpe"}
++69.229s WARN  contest: rotating to the next stat tab after a rejection {"attempt":3,"statIdx":2,"lastError":"400 It looks like 1.50 Player Hits + Runs + RBIs is currently unavailable for Anthony Volpe"}
++76.839s DEBUG contest: picks selected {"attempt":3,"statIdx":2,"pickIds":["player-1416276","player-638096","player-638262"]}
++87.099s WARN  contest: submission rejected {"attempt":3,"error":"place-pick stayed disabled (submission blocked)"}
++91.125s WARN  contest: rotating to the next stat tab after a rejection {"attempt":4,"statIdx":3,"lastError":"place-pick stayed disabled (submission blocked)"}
++95.094s DEBUG contest: picks selected {"attempt":4,"statIdx":3,"pickIds":["player-638075","player-1273662","player-663375"]}
++95.932s WARN  contest: submission rejected {"attempt":4,"error":"400 It looks like 0.50 Player Doubles is currently unavailable for Rafael Devers"}
++97.427s WARN  contest: rotating to the next stat tab after a rejection {"attempt":5,"statIdx":4,"lastError":"400 It looks like 0.50 Player Doubles is currently unavailable for Rafael Devers"}
++99.765s DEBUG contest: picks selected {"attempt":5,"statIdx":4,"pickIds":["player-637828","player-1294372","player-1272102"]}
++100.356s WARN  contest: submission rejected {"attempt":5,"error":"429 Request was throttled. Expected available in 1 second."}
++101.807s WARN  contest: submission throttled (429) — backing off {"attempt":5,"throttleRetries":2,"waitMs":21098}
++125.075s DEBUG contest: picks selected {"attempt":5,"statIdx":4,"pickIds":["player-637828","player-1294372","player-1272102"]}
++125.836s WARN  contest: submission rejected {"attempt":5,"error":"400 It looks like the payout has shifted for Freddie Freeman."}
++125.839s ERROR contest: giving up — could not place an entry {"maxAttempts":5,"throttleRetries":2,"lastError":"400 It looks like the payout has shifted for Freddie Freeman."}

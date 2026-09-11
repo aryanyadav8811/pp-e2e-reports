@@ -1,0 +1,10 @@
+[error] Failed to refresh user data: CanceledError: canceled
+    at th (https://staging.parlayplay.io/_next/static/chunks/pages/_app-7f36f28c7ea6a00d.js:1:119577)
+    at tb.tm (https://staging.parlayplay.io/_next/static/chunks/pages/_app-7f36f28c7ea6a00d.js:1:119614)
+    at async tb.request (https://staging.parlayplay.io/_next/static/chunks/pages/_app-7f36f28c7ea6a00d.js:1:121357)
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Failed to refresh user data: CanceledError: canceled
+    at th (https://staging.parlayplay.io/_next/static/chunks/pages/_app-7f36f28c7ea6a00d.js:1:119577)
+    at tb.tm (https://staging.parlayplay.io/_next/static/chunks/pages/_app-7f36f28c7ea6a00d.js:1:119614)
+    at async tb.request (https://staging.parlayplay.io/_next/static/chunks/pages/_app-7f36f28c7ea6a00d.js:1:121357)

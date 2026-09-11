@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T13:12:38.878Z",
+  "updatedAt": "2026-09-11T14:11:43.914Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
@@ -116,9 +116,195 @@
       ]
     },
     "staging": {
-      "latest": "2026-09-11-1223-release-44",
-      "buildOrder": 7,
+      "latest": "2026-09-11-1332-release-44",
+      "buildOrder": 8,
       "runs": [
+        {
+          "runId": "2026-09-11-1332-release-44",
+          "env": "staging",
+          "suite": "full",
+          "release": "release-44",
+          "ref": "5eef4f3c3d7268761c72dc5660930736d84e5ea0",
+          "sha": "5eef4f3c3d7268761c72dc5660930736d84e5ea0",
+          "baseURL": "https://staging.parlayplay.io/",
+          "source": "ci",
+          "trigger": "manual (aryanyadav8811)",
+          "startedAt": "2026-09-11T13:33:32.223Z",
+          "finishedAt": "2026-09-11T14:10:47.485Z",
+          "durationMs": 2235262,
+          "publishedAt": "2026-09-11T14:11:43.770Z",
+          "workflowRunId": "34603816382",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/34603816382",
+          "artifact": "allure-results-2026-09-11-1332-release-44",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 356,
+            "failed": 19,
+            "broken": 1,
+            "skipped": 38,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 414
+          },
+          "ciCounts": {
+            "passed": 356,
+            "failed": 19,
+            "broken": 1,
+            "skipped": 38,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 414
+          },
+          "playwright": {
+            "expected": 356,
+            "unexpected": 20,
+            "flaky": 0,
+            "skipped": 38
+          },
+          "failed": [
+            {
+              "project": "Desktop",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five-pick contest is submitted successfully",
+              "status": "broken",
+              "message": "Test timeout of 120000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Submitting a contest raises the entry amount and max payout totals",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Placed contest appears in the My Entries list",
+              "status": "failed",
+              "message": "Error: Timeout 30000ms exceeded while waiting on the predicate"
+            },
+            {
+              "project": "Desktop",
+              "file": "data-verification/picks-grid.spec.ts",
+              "name": "League selector tabs correspond to leagues present in the API",
+              "status": "failed",
+              "message": "Error: league tab \"league-NFL-combo\" has no players for \"NFL\" in the API"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "data-verification/picks-grid.spec.ts",
+              "name": "League selector tabs correspond to leagues present in the API",
+              "status": "failed",
+              "message": "Error: league tab \"league-NFL-combo\" has no players for \"NFL\" in the API"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "data-verification/picks-grid.spec.ts",
+              "name": "League selector tabs correspond to leagues present in the API",
+              "status": "failed",
+              "message": "Error: league tab \"league-NFL-combo\" has no players for \"NFL\" in the API"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "entries/entry-card.spec.ts",
+              "name": "Confirming cancel twice fires the cancel request only once (double-submit guard)",
+              "status": "failed",
+              "message": "Error: expect(locator).toHaveCount(expected) failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: submission must be rejected by the user limit"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "navigation/footer-nav.spec.ts",
+              "name": "Fifth tab (Free2Play or Packs) routes and takes the indicator",
+              "status": "failed",
+              "message": "TimeoutError: locator.click: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Shows an error when the email is already taken",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "slip-sharing/share-and-tail.spec.ts",
+              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
+              "status": "failed",
+              "message": "TimeoutError: locator.click: Timeout 30000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "slip-sharing/share-and-tail.spec.ts",
+              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: 400 It looks like the payout has shifted for Freddie Freeman.)"
+            },
+            {
+              "project": "Desktop",
+              "file": "slip-sharing/tail-feed.spec.ts",
+              "name": "Share toggle on surfaces a newly placed contest on the You tab and it can be tailed",
+              "status": "failed",
+              "message": "Error: Expected contestUuid=a2018cf2-cbbb-4727-8553-7a2eb6cd33bf on the You tab when is_feed_visible=true"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "transactions/transactions.spec.ts",
+              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: 400 It looks like 0.50 Player Triples is currently unavailable for Jose Ramirez)"
+            }
+          ],
+          "appends": []
+        },
         {
           "runId": "2026-09-11-1223-release-44",
           "env": "staging",

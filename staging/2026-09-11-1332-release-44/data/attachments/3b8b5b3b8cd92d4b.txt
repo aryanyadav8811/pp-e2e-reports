@@ -1,0 +1,25 @@
+env=staging
+project=Desktop
+release=release-44
+build=2026-09-11-1332-release-44
+sha=5eef4f3c3d7268761c72dc5660930736d84e5ea0
+user=default (qa***)
+spec=slip-sharing/tail-feed.spec.ts:160
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/challenges/feed
+
++0.146s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++3.041s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++3.058s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++3.149s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++3.159s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++3.217s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++3.245s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++3.353s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++3.353s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++3.354s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++5.032s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++13.165s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++32.817s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1634471","player-851985","player-1783367"]}
++37.477s INFO  contest: entry placed {"attempt":1,"pickIds":["player-1634471","player-851985","player-1783367"]}

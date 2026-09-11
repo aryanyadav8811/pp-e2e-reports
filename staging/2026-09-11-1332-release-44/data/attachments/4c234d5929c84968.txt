@@ -1,0 +1,15 @@
+env=staging
+project=Mobile Safari
+release=release-44
+build=2026-09-11-1332-release-44
+sha=5eef4f3c3d7268761c72dc5660930736d84e5ea0
+user=default (qa***)
+spec=contests/user-enter-contest.spec.ts:88
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/challenges/pending
+
++0.112s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++57.768s INFO  contest: placing an entry {"pickCount":5,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++77.877s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1783367","player-1634471","player-851985","player-1411567","player-1636052"]}
++84.459s INFO  contest: entry placed {"attempt":1,"pickIds":["player-1783367","player-1634471","player-851985","player-1411567","player-1636052"]}

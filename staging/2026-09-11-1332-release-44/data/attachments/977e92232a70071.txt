@@ -1,0 +1,38 @@
+env=staging
+project=Mobile Chrome
+release=release-44
+build=2026-09-11-1332-release-44
+sha=5eef4f3c3d7268761c72dc5660930736d84e5ea0
+user=default (qa***)
+spec=transactions/transactions.spec.ts:421
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.090s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++3.379s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++3.412s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++3.420s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++3.490s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++3.520s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++3.562s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++3.590s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++3.604s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++3.604s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++4.451s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++5.382s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++16.242s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1783367","player-1634471","player-851985"]}
++18.584s WARN  contest: submission rejected {"attempt":1,"error":"400 It looks like 5.50 Player Strikeouts is currently unavailable for Nolan McLean"}
++23.013s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"400 It looks like 5.50 Player Strikeouts is currently unavailable for Nolan McLean"}
++30.855s DEBUG contest: picks selected {"attempt":2,"statIdx":1,"pickIds":["player-639035","player-1288254","player-1294372"]}
++40.578s WARN  contest: submission rejected {"attempt":2,"error":"place-pick stayed disabled (submission blocked)"}
++42.926s WARN  contest: rotating to the next stat tab after a rejection {"attempt":3,"statIdx":2,"lastError":"place-pick stayed disabled (submission blocked)"}
++51.459s DEBUG contest: picks selected {"attempt":3,"statIdx":2,"pickIds":["player-641393","player-639028","player-657292"]}
++55.696s WARN  contest: submission rejected {"attempt":3,"error":"400 It looks like 1.50 Player Hits + Runs + RBIs is currently unavailable for Aaron Judge"}
++60.187s WARN  contest: rotating to the next stat tab after a rejection {"attempt":4,"statIdx":3,"lastError":"400 It looks like 1.50 Player Hits + Runs + RBIs is currently unavailable for Aaron Judge"}
++73.463s DEBUG contest: picks selected {"attempt":4,"statIdx":3,"pickIds":["player-637934","player-657553","player-640373"]}
++75.454s WARN  contest: submission rejected {"attempt":4,"error":"400 It looks like 0.50 Player Doubles is currently unavailable for Brice Turang"}
++80.035s WARN  contest: rotating to the next stat tab after a rejection {"attempt":5,"statIdx":4,"lastError":"400 It looks like 0.50 Player Doubles is currently unavailable for Brice Turang"}
++90.214s DEBUG contest: picks selected {"attempt":5,"statIdx":4,"pickIds":["player-638262","player-637893","player-1270766"]}
++92.919s WARN  contest: submission rejected {"attempt":5,"error":"400 It looks like 0.50 Player Triples is currently unavailable for Jose Ramirez"}
++92.923s ERROR contest: giving up — could not place an entry {"maxAttempts":5,"throttleRetries":0,"lastError":"400 It looks like 0.50 Player Triples is currently unavailable for Jose Ramirez"}

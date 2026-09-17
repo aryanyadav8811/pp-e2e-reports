@@ -1,0 +1,1 @@
+POST https://staging.parlayplay.io/api/v1/challenges-sp/crossgame/ -> 429

@@ -1,0 +1,7 @@
+[error] Origin https://staging.parlayplay.io is not allowed by Access-Control-Allow-Origin. Status code: 200
+[pageerror] /cdn.staging.parlayplay.io/static/pdfs/terms_of_service.pdf?v=2026-09-17 due to access control checks.
+[error] Failed to load resource: Origin https://staging.parlayplay.io is not allowed by Access-Control-Allow-Origin. Status code: 200
+[error] Origin https://staging.parlayplay.io is not allowed by Access-Control-Allow-Origin. Status code: 200
+[pageerror] /cdn.staging.parlayplay.io/static/pdfs/terms_of_service.pdf?v=2026-09-17 due to access control checks.
+[error] Failed to load resource: Origin https://staging.parlayplay.io is not allowed by Access-Control-Allow-Origin. Status code: 200
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)

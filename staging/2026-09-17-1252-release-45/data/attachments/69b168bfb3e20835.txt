@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Safari
+release=release-45
+build=2026-09-17-1252-release-45
+sha=9fb551a740cb89b35d901bb0a49bf38ccf0d0399
+user=default (qa***)
+spec=signup/signup.spec.ts:213
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/account/signup
+
+(no log lines)

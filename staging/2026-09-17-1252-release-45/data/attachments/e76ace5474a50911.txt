@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Safari
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=navigation/legal.spec.ts:27
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/responsible-gaming
+
+(no log lines)

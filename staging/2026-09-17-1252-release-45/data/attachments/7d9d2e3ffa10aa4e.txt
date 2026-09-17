@@ -1,0 +1,6 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Access to fetch at 'https://cdn.staging.parlayplay.io/static/pdfs/responsible_gaming.pdf?v=2026-09-17' from origin 'https://staging.parlayplay.io' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'http://localhost:3000' that is not equal to the supplied origin. Have the server send the header with a valid value.
+[error] Failed to load resource: net::ERR_FAILED
+[error] Access to fetch at 'https://cdn.staging.parlayplay.io/static/pdfs/responsible_gaming.pdf?v=2026-09-17' from origin 'https://staging.parlayplay.io' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'http://localhost:3000' that is not equal to the supplied origin. Have the server send the header with a valid value.
+[error] Failed to load resource: net::ERR_FAILED

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T14:41:47.392Z",
+  "updatedAt": "2026-09-18T11:53:17.497Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
@@ -116,9 +116,153 @@
       ]
     },
     "staging": {
-      "latest": "2026-09-17-1252-release-45",
-      "buildOrder": 9,
+      "latest": "2026-09-18-1110-release-45",
+      "buildOrder": 10,
       "runs": [
+        {
+          "runId": "2026-09-18-1110-release-45",
+          "env": "staging",
+          "suite": "full",
+          "release": "release-45",
+          "ref": "830362adb2abd9deaa1a1fa44a89f0701e4395dd",
+          "sha": "830362adb2abd9deaa1a1fa44a89f0701e4395dd",
+          "baseURL": "https://staging.parlayplay.io/",
+          "source": "ci",
+          "trigger": "manual (aryanyadav8811)",
+          "startedAt": "2026-09-18T11:11:49.388Z",
+          "finishedAt": "2026-09-18T11:52:32.779Z",
+          "durationMs": 2443391,
+          "publishedAt": "2026-09-18T11:53:17.344Z",
+          "workflowRunId": "35337088439",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/35337088439",
+          "artifact": "allure-results-2026-09-18-1110-release-45",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 360,
+            "failed": 12,
+            "broken": 2,
+            "skipped": 40,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 414
+          },
+          "ciCounts": {
+            "passed": 360,
+            "failed": 12,
+            "broken": 2,
+            "skipped": 40,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 414
+          },
+          "playwright": {
+            "expected": 360,
+            "unexpected": 14,
+            "flaky": 0,
+            "skipped": 40
+          },
+          "failed": [
+            {
+              "project": "Desktop",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five-pick contest is submitted successfully",
+              "status": "broken",
+              "message": "Test timeout of 120000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Placed contest appears in the My Entries list",
+              "status": "failed",
+              "message": "Error: Timeout 30000ms exceeded while waiting on the predicate"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "entries/entries.spec.ts",
+              "name": "User can switch between the Active and History tabs",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "home/home-search.spec.ts",
+              "name": "A common letter narrows the grid without emptying it",
+              "status": "failed",
+              "message": "Error: expect(received).toBeLessThanOrEqual(expected)"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "navigation/footer-nav.spec.ts",
+              "name": "Fifth tab (Free2Play or Packs) routes and takes the indicator",
+              "status": "failed",
+              "message": "TimeoutError: locator.click: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Shows an error when the email is already taken",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "slip-sharing/share-and-tail.spec.ts",
+              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "slip-sharing/share-and-tail.spec.ts",
+              "name": "Logged-in tailer clicks \"Tail this entry\" and submits the same picks",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            }
+          ],
+          "appends": []
+        },
         {
           "runId": "2026-09-17-1252-release-45",
           "env": "staging",
@@ -695,278 +839,6 @@
           },
           "failed": [],
           "appends": []
-        },
-        {
-          "runId": "2026-09-01-1959-release-43",
-          "env": "staging",
-          "suite": "full",
-          "release": "release-43",
-          "ref": "594579c60e2b1d8637817f156e7dabd895419b6e",
-          "sha": "594579c60e2b1d8637817f156e7dabd895419b6e",
-          "baseURL": "https://staging.parlayplay.io/",
-          "source": "ci",
-          "trigger": "manual (aryanyadav8811)",
-          "startedAt": "2026-09-01T20:00:21.656Z",
-          "finishedAt": "2026-09-01T23:04:14.168Z",
-          "durationMs": 11032512,
-          "publishedAt": "2026-09-01T20:58:06.514Z",
-          "workflowRunId": "33552122960",
-          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/33552122960",
-          "artifact": "allure-results-2026-09-01-1959-release-43",
-          "resultsInRepo": false,
-          "counts": {
-            "passed": 301,
-            "failed": 19,
-            "broken": 9,
-            "skipped": 42,
-            "unknown": 0,
-            "flaky": 49,
-            "total": 371
-          },
-          "ciCounts": {
-            "passed": 247,
-            "failed": 42,
-            "broken": 32,
-            "skipped": 47,
-            "unknown": 0,
-            "flaky": 0,
-            "total": 368
-          },
-          "playwright": {
-            "expected": 247,
-            "unexpected": 74,
-            "flaky": 0,
-            "skipped": 47
-          },
-          "failed": [
-            {
-              "project": "Mobile Chrome",
-              "file": "contests/user-enter-contest.spec.ts",
-              "name": "Five player contest Submission",
-              "status": "broken",
-              "message": "Test timeout of 120000ms exceeded."
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "entries/entry-card-redesign.spec.ts",
-              "name": "Freshly placed entry is cancellable with a live countdown, and confirming Cancel Entry removes it from Active and History (refund + hard delete)",
-              "status": "failed",
-              "message": "Error: Could not place contest after 5 attempts (last error: 400 You have reached your limit for in-game contests for this match.)"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "entries/entry-card-redesign.spec.ts",
-              "name": "Freshly placed entry is cancellable with a live countdown, and confirming Cancel Entry removes it from Active and History (refund + hard delete)",
-              "status": "failed",
-              "message": "Error: Could not place contest after 5 attempts (last error: 400 You have reached your limit for in-game contests for this match.)"
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/navigation-deeplink.spec.ts",
-              "name": "terms page --> signup page",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeDisabled() failed"
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/navigation.spec.ts",
-              "name": "terms page --> signup page",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeEnabled() failed"
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/navigation.spec.ts",
-              "name": "Open signup using footer Sign Up",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded."
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/navigation.spec.ts",
-              "name": "Deeplink with referrals pre-populates",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeEnabled() failed"
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/navigation.spec.ts",
-              "name": "Open Terms page from header Join Now",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded."
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/signup.spec.ts",
-              "name": "Footer \"Sign Up\" opens Terms page",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded."
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/signup.spec.ts",
-              "name": "Shows an error when the email is already taken",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded while running \"beforeEach\" hook."
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/signup.spec.ts",
-              "name": "Form accepts valid data in all fields",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded while running \"beforeEach\" hook."
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/signup.spec.ts",
-              "name": "All required fields are visible",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded while running \"beforeEach\" hook."
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/signup.spec.ts",
-              "name": "Deeplink with referral pre-populates the coupon field",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeEnabled() failed"
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/signup.spec.ts",
-              "name": "Terms page leads to signup page",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeEnabled() failed"
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/signup.spec.ts",
-              "name": "Header \"Join Now\" opens Terms page",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded."
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/user-signup.spec.ts",
-              "name": "should validate password confirmation",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeDisabled() failed"
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/user-signup.spec.ts",
-              "name": "should display all required form fields",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeDisabled() failed"
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/user-signup.spec.ts",
-              "name": "should fill all form fields with valid data",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeDisabled() failed"
-            },
-            {
-              "project": "Desktop",
-              "file": "signup/validation.spec.ts",
-              "name": "email format and uniqueness helper updates",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded while running \"beforeEach\" hook."
-            },
-            {
-              "project": "Desktop",
-              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
-              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
-              "status": "failed",
-              "message": "Error: share API should return shareUrl"
-            },
-            {
-              "project": "Desktop",
-              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
-              "name": "Logged-in tailer clicks \"Tail this entry\" and submits the same picks",
-              "status": "failed",
-              "message": "Error: share API should return shareUrl"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
-              "name": "Logged-in tailer clicks \"Tail this entry\" and submits the same picks",
-              "status": "failed",
-              "message": "Error: share API should return shareUrl"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
-              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
-              "status": "failed",
-              "message": "Error: share API should return shareUrl"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
-              "name": "Logged-in tailer clicks \"Tail this entry\" and submits the same picks",
-              "status": "failed",
-              "message": "Error: share API should return shareUrl"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "slip_sharing/slip_sharing_and_tailing.spec.ts",
-              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
-              "status": "failed",
-              "message": "Error: share API should return shareUrl"
-            },
-            {
-              "project": "Desktop",
-              "file": "slip_sharing/tail_feed.spec.ts",
-              "name": "Share toggle ON — newly-placed contest appears on You tab and Tail Entry tails it",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeVisible() failed"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "slip_sharing/tail_feed.spec.ts",
-              "name": "Share toggle ON — newly-placed contest appears on You tab and Tail Entry tails it",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeVisible() failed"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "slip_sharing/tail_feed.spec.ts",
-              "name": "Share toggle ON — newly-placed contest appears on You tab and Tail Entry tails it",
-              "status": "failed",
-              "message": "Error: Could not place contest after 5 attempts (last error: 400 You have reached your limit for in-game contests for this match.)"
-            }
-          ],
-          "appends": [
-            {
-              "at": "2026-09-02T00:22:36.518Z",
-              "by": "apple",
-              "source": "local",
-              "added": 361,
-              "specs": [
-                "slip_sharing/tail_feed.spec.ts",
-                "entries/entry-card-redesign.spec.ts",
-                "packs/lobby.spec.ts",
-                "rewards/partner-rewards.spec.ts",
-                "entries/entries.spec.ts",
-                "packs/pack-detail.spec.ts",
-                "slip_sharing/slip_sharing_and_tailing.spec.ts",
-                "signup/navigation.spec.ts",
-                "signup/signup.spec.ts",
-                "contests/user-enter-contest.spec.ts",
-                "signup/user-signup.spec.ts",
-                "modals/userlimits.spec.ts",
-                "data_verification/picks-grid.spec.ts",
-                "signup/validation.spec.ts",
-                "desktop/login-modal.spec.ts",
-                "data_verification/search.spec.ts",
-                "navigation/footer-nav.spec.ts",
-                "signup/navigation-deeplink.spec.ts",
-                "navigation/entries-nav-indicator.spec.ts",
-                "stats/FG_stat_selection.spec.ts"
-              ],
-              "note": "DFS-2767 gap-fill"
-            }
-          ]
         }
       ]
     }

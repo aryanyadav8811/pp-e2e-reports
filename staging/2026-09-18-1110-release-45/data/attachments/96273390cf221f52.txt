@@ -1,0 +1,7 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] Radar getLocation failed: RadarLocationError: Could not determine location.
+    at https://staging.parlayplay.io/_next/static/chunks/4571.f3c1d2d241b9c315.js:1:5713
+[warning] [.WebGL-0x1e4c00111400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/materialized/' failed: WebSocket is closed before the connection is established.
+[warning] [.WebGL-0x1e4c00144800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels

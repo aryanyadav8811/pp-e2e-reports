@@ -1,0 +1,4 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] [.WebGL-0x118c02cfa800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] [.WebGL-0x118c0d809a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels

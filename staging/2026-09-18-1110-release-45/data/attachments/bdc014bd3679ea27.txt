@@ -1,0 +1,49 @@
+12:34:55.445 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+12:34:56.610 INFO contest: placing an entry {
+  pickCount: 3,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+12:35:00.144 INFO contest: entry placed {
+  attempt: 1,
+  pickIds: [
+    'player-1418943',
+    'player-1417064',
+    'player-657163'
+  ]
+}
+12:35:00.263 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+12:35:01.776 WARN contest: submission rejected {
+  attempt: 1,
+  error: '429 Request was throttled. Expected available in 3 seconds.'
+}
+12:35:02.686 WARN contest: submission throttled (429) — backing off {
+  attempt: 1,
+  throttleRetries: 1,
+  waitMs: 22789
+}
+12:35:27.937 WARN contest: submission rejected {
+  attempt: 1,
+  error: '429 Request was throttled. Expected available in 3 seconds.'
+}
+12:35:28.801 WARN contest: submission throttled (429) — backing off {
+  attempt: 1,
+  throttleRetries: 2,
+  waitMs: 15596
+}
+12:35:47.258 INFO contest: entry placed {
+  attempt: 1,
+  pickIds: [
+    'player-1418943',
+    'player-1417064',
+    'player-657163',
+    'player-641308',
+    'player-1361111'
+  ]
+}

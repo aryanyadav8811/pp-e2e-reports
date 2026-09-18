@@ -1,0 +1,10 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Error: Permission blocked
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:4431
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:141191
+[warning] [.WebGL-0x13c001e3a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] [.WebGL-0x13c001e3a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] [.WebGL-0x13c0ab23600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/materialized/' failed: WebSocket is closed before the connection is established.
+[pageerror] canceled

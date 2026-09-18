@@ -1,0 +1,13 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Reached maximum amount of queued data of 64Kb for keepalive requests
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Astaging%2Cservice%3Aparlayplay-ui-prod%2Cversion%3A1.0.0&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=c967b10b-3c39-4428-8ce5-76842b842fe1&batch_time=1789734694264 due to access control checks.
+[error] Failed to load resource: the server responded with a status of 400 ()
+[pageerror] CanceledError: canceled
+[error] Failed to load resource: the server responded with a status of 400 ()
+[error] Failed to load resource: the server responded with a status of 400 ()
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/materialized/' failed: WebSocket is closed before the connection is established.
+[pageerror] CanceledError: canceled
+[error] Error fetching data: AxiosError: Network Error
+[error] Error fetching data: AxiosError: Network Error
+[pageerror] AxiosError: Network Error
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)

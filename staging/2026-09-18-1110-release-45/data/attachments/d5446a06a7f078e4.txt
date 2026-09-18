@@ -1,0 +1,30 @@
+12:27:46.699 INFO auth[qa***]: worker 1 is the login leader {
+  project: 'Desktop'
+}
+12:27:49.367 INFO auth[qa***]: login complete, session saved {
+  durationMs: 2668
+}
+12:27:49.458 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+12:27:51.810 INFO contest: placing an entry {
+  pickCount: 3,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+12:27:58.236 WARN contest: submission rejected {
+  attempt: 1,
+  error: '429 Request was throttled. Expected available in 4 seconds.'
+}
+12:28:00.233 WARN contest: submission throttled (429) — backing off {
+  attempt: 1,
+  throttleRetries: 1,
+  waitMs: 17971
+}
+12:28:22.808 INFO contest: entry placed {
+  attempt: 1,
+  pickIds: [
+    'player-2204334',
+    'player-1637079',
+    'player-657608'
+  ]
+}

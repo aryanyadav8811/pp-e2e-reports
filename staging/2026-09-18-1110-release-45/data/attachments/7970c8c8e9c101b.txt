@@ -1,0 +1,9 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] [.WebGL-0x11c001cd200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] [.WebGL-0x11c001cd200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] [.WebGL-0x11c0ad13c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[error] Error: Permission blocked
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:4431
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:141191
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] Radar SDK: Error calling /config: Request timed out.

@@ -1,0 +1,12 @@
+env=dev
+project=Mobile Chrome
+release=aryan-e2e-ephemeral-users
+build=2026-09-22-1804-aryan-e2e-ephemeral-users
+sha=9ed16d54168ab89f22cb95ea679c4947e3213324
+user=ephemeral s1w0 (e2***)
+spec=auth/login.spec.ts:62
+retry=0
+status=failed (expected passed)
+lastUrl=https://dev.parlayplay.io/account/login
+
+(no log lines)

@@ -1,12 +1,72 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T17:58:52.440Z",
+  "updatedAt": "2026-09-22T18:09:13.802Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
-      "latest": "2026-09-22-1753-aryan-e2e-ephemeral-users",
-      "buildOrder": 4,
+      "latest": "2026-09-22-1804-aryan-e2e-ephemeral-users",
+      "buildOrder": 5,
       "runs": [
+        {
+          "runId": "2026-09-22-1804-aryan-e2e-ephemeral-users",
+          "env": "dev",
+          "suite": "sanity",
+          "release": "aryan-e2e-ephemeral-users",
+          "ref": "9ed16d54168ab89f22cb95ea679c4947e3213324",
+          "sha": "9ed16d54168ab89f22cb95ea679c4947e3213324",
+          "baseURL": "https://dev.parlayplay.io/",
+          "source": "ci",
+          "trigger": "PR #1858 label (aryanyadav8811)",
+          "startedAt": "2026-09-22T18:06:06.508Z",
+          "finishedAt": "2026-09-22T18:08:25.304Z",
+          "durationMs": 138796,
+          "publishedAt": "2026-09-22T18:09:13.730Z",
+          "workflowRunId": "35764753205",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/35764753205",
+          "artifact": "allure-results-2026-09-22-1804-aryan-e2e-ephemeral-users",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 0,
+            "failed": 2,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 2
+          },
+          "ciCounts": {
+            "passed": 0,
+            "failed": 2,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 2
+          },
+          "playwright": {
+            "expected": 0,
+            "unexpected": 2,
+            "flaky": 0,
+            "skipped": 0
+          },
+          "failed": [
+            {
+              "project": "Mobile Chrome",
+              "file": "auth/login.spec.ts",
+              "name": "Logged-in user can log out",
+              "status": "failed",
+              "message": "Error: expect(locator).toHaveCount(expected) failed"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "auth/login.spec.ts",
+              "name": "User can log in with a valid username",
+              "status": "failed",
+              "message": "Error: expect(locator).toHaveCount(expected) failed"
+            }
+          ],
+          "appends": []
+        },
         {
           "runId": "2026-09-22-1753-aryan-e2e-ephemeral-users",
           "env": "dev",

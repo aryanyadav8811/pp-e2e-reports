@@ -1,0 +1,15 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-ephemeral-users
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @smoke @prod @critical","68556","User can log in with a valid username","Mobile Chrome","2026-09-22","failed","2026-09-22","Login - Valid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-ephemeral-users
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @auth @smoke @prod @critical","68222","Logged-in user can log out","Mobile Chrome","2026-09-22","failed","2026-09-22","Login - Logout Flow","","",""

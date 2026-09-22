@@ -1,0 +1,1 @@
+[{"uid":"4055795430900c54","name":"Logged-in user can log out","time":{"start":1790099118755,"stop":1790099183529,"duration":64774},"status":"failed","severity":"normal"},{"uid":"7b6ae429c2d64846","name":"User can log in with a valid username","time":{"start":1790099051974,"stop":1790099117052,"duration":65078},"status":"failed","severity":"normal"}]

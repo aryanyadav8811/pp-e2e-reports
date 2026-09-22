@@ -1,0 +1,1 @@
+POST https://dev.parlayplay.io/api/v1/dj-rest-auth/login/ -> 400

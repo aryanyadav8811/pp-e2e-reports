@@ -1,0 +1,23 @@
+env=staging
+project=Mobile Safari
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=contests/user-enter-contest.spec.ts:60
+retry=1
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.072s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++2.076s INFO  contest: placing an entry {"pickCount":2,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++11.019s WARN  contest: pick pool exhausted on this stat tab {"attempt":1,"statIdx":0,"error":"Could not select 2 valid picks"}
++11.756s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"Could not select 2 valid picks"}
++23.250s WARN  contest: pick pool exhausted on this stat tab {"attempt":2,"statIdx":1,"error":"Could not select 2 valid picks"}
++24.127s WARN  contest: rotating to the next stat tab after a rejection {"attempt":3,"statIdx":2,"lastError":"Could not select 2 valid picks"}
++35.591s WARN  contest: pick pool exhausted on this stat tab {"attempt":3,"statIdx":2,"error":"Could not select 2 valid picks"}
++36.347s WARN  contest: rotating to the next stat tab after a rejection {"attempt":4,"statIdx":3,"lastError":"Could not select 2 valid picks"}
++48.191s WARN  contest: pick pool exhausted on this stat tab {"attempt":4,"statIdx":3,"error":"Could not select 2 valid picks"}
++48.948s WARN  contest: rotating to the next stat tab after a rejection {"attempt":5,"statIdx":4,"lastError":"Could not select 2 valid picks"}
++62.522s WARN  contest: pick pool exhausted on this stat tab {"attempt":5,"statIdx":4,"error":"Could not select 2 valid picks"}
++62.523s ERROR contest: giving up — could not place an entry {"maxAttempts":5,"throttleRetries":0,"lastError":"Could not select 2 valid picks"}

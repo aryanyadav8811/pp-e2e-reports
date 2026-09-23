@@ -1,0 +1,57 @@
+16:50:57.312 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+16:50:59.316 INFO contest: placing an entry {
+  pickCount: 2,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+16:51:08.259 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 1,
+  statIdx: 0,
+  error: 'Could not select 2 valid picks'
+}
+16:51:08.996 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: 'Could not select 2 valid picks'
+}
+16:51:20.490 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 2,
+  statIdx: 1,
+  error: 'Could not select 2 valid picks'
+}
+16:51:21.367 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 3,
+  statIdx: 2,
+  lastError: 'Could not select 2 valid picks'
+}
+16:51:32.831 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 3,
+  statIdx: 2,
+  error: 'Could not select 2 valid picks'
+}
+16:51:33.587 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 4,
+  statIdx: 3,
+  lastError: 'Could not select 2 valid picks'
+}
+16:51:45.431 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 4,
+  statIdx: 3,
+  error: 'Could not select 2 valid picks'
+}
+16:51:46.188 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 5,
+  statIdx: 4,
+  lastError: 'Could not select 2 valid picks'
+}
+16:51:59.762 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 5,
+  statIdx: 4,
+  error: 'Could not select 2 valid picks'
+}
+16:51:59.763 ERROR contest: giving up — could not place an entry {
+  maxAttempts: 5,
+  throttleRetries: 0,
+  lastError: 'Could not select 2 valid picks'
+}

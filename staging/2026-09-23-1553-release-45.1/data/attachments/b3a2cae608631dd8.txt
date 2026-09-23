@@ -1,0 +1,75 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Reached maximum amount of queued data of 64Kb for keepalive requests
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&ddtags=sdk_version%3A5.35.1%2Capi%3Afetch%2Cenv%3Astaging%2Cservice%3Aparlayplay-ui-prod%2Cversion%3A1.0.0&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=5.35.1&dd-evp-origin=browser&dd-request-id=2646bc38-43c0-4f30-a7dd-8ad29e865542&batch_time=1790182258735 due to access control checks.
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[pageerror] CanceledError: canceled
+[error] Failed to load resource: the server responded with a status of 400 ()
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[pageerror] /staging.parlayplay.io" from accessing a frame with origin "https://tr.snapchat.com". Protocols, domains, and ports must match.
+[pageerror] /staging.parlayplay.io" from accessing a frame with origin "https://tr.snapchat.com". Protocols, domains, and ports must match.
+[pageerror] CanceledError: canceled
+[error] Failed to load resource: the server responded with a status of 400 ()
+[pageerror] /staging.parlayplay.io" from accessing a frame with origin "https://tr.snapchat.com". Protocols, domains, and ports must match.
+[pageerror] /staging.parlayplay.io" from accessing a frame with origin "https://tr.snapchat.com". Protocols, domains, and ports must match.
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] AxiosError: Network Error
+[pageerror] /api-js.mixpanel.com/track/?verbose=1&ip=1&_=1790182268432 due to access control checks.
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[pageerror] CanceledError: canceled
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[pageerror] CanceledError: canceled
+[error] Failed to load resource: the server responded with a status of 400 ()
+[error] Failed to load resource: the server responded with a status of 400 ()
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] AxiosError: Network Error
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[error] Failed to load resource: the server responded with a status of 400 ()
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[pageerror] CanceledError: canceled
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] AxiosError: Network Error
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[error] Failed to load resource: the server responded with a status of 400 ()
+[pageerror] CanceledError: canceled
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] AxiosError: Network Error
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[error] Failed to load resource: the server responded with a status of 400 ()
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[pageerror] CanceledError: canceled
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: There was a bad response from the server.
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled
+[pageerror] CanceledError: canceled

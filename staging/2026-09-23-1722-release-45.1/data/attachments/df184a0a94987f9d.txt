@@ -1,0 +1,15 @@
+env=staging
+project=Mobile Safari
+release=release-45.1
+build=2026-09-23-1722-release-45.1
+sha=a2e019d56f67186458be0b5ea811435e75d5160b
+user=default (qa***)
+spec=contests/user-enter-contest.spec.ts:26
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++2.426s DEBUG auth[qa***]: another worker holds the login lock — waiting {"waitedMs":0}
++12.458s DEBUG auth[qa***]: another worker holds the login lock — waiting {"waitedMs":10033}
++14.203s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++23.814s INFO  contest: placing an entry {"pickCount":5,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}

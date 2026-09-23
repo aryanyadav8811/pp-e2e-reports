@@ -1,0 +1,16 @@
+env=staging
+project=Mobile Safari
+release=release-45.1
+build=2026-09-23-1722-release-45.1
+sha=a2e019d56f67186458be0b5ea811435e75d5160b
+user=default (qa***)
+spec=slip-sharing/tail-feed.spec.ts:160
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.099s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++18.739s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++90.735s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1416397","player-1272044","player-638037"]}
++108.315s WARN  contest: submission rejected {"attempt":1,"error":"place-pick stayed disabled (submission blocked)"}
++113.297s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"place-pick stayed disabled (submission blocked)"}

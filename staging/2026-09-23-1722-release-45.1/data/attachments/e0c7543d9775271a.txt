@@ -1,0 +1,2 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] Radar SDK: Error calling /config: Something went wrong.

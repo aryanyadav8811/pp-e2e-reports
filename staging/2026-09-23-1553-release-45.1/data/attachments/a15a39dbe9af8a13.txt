@@ -1,0 +1,12 @@
+GET https://staging.parlayplay.io/manifest.json -> 403
+GET https://staging.parlayplay.io/locales/es/common.json -> 403
+GET https://staging.parlayplay.io/locales/en/common.json -> 403
+GET https://staging.parlayplay.io/images/yellow_coin_bounce.json -> 403
+GET https://staging.parlayplay.io/images/warning_triangle_inverted.json -> 403
+GET https://staging.parlayplay.io/images/warning_triangle.json -> 403
+GET https://staging.parlayplay.io/images/warning_inverted.json -> 403
+GET https://staging.parlayplay.io/images/warning-white.json -> 403
+GET https://staging.parlayplay.io/images/warning-new.json -> 403
+GET https://staging.parlayplay.io/images/shareicon_yellow.json -> 403
+POST https://staging.parlayplay.io/api/v1/challenges-sp/crossgame/ -> 429
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED net::ERR_ABORTED

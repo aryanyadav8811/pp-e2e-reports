@@ -1,0 +1,8 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: Error during WebSocket handshake: Unexpected response code: 500
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: Error during WebSocket handshake: Unexpected response code: 500
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: Error during WebSocket handshake: Unexpected response code: 500
+[warning] [.WebGL-0x1bec06975e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: WebSocket is closed before the connection is established.
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: Error during WebSocket handshake: Unexpected response code: 500
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: Error during WebSocket handshake: Unexpected response code: 500

@@ -1,0 +1,6 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: Error during WebSocket handshake: Unexpected response code: 500
+[warning] Radar SDK: Error calling /config: Something went wrong.
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: Error during WebSocket handshake: Unexpected response code: 500
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: Error during WebSocket handshake: Unexpected response code: 500
+[warning] [.WebGL-0x59c02f5e800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels

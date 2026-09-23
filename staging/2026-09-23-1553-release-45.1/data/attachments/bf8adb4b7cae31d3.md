@@ -1,0 +1,228 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: navigation/legal.spec.ts >> Legal - policy documents >> /terms renders the Terms Of Service PDF
+- Location: tests/navigation/legal.spec.ts:27:5
+
+# Error details
+
+```
+Error: PDF viewer paints at least one page
+
+expect(locator).toBeVisible() failed
+
+Locator: locator('canvas').filter({ visible: true }).first()
+Expected: visible
+Timeout: 45000ms
+Error: element(s) not found
+
+Call log:
+  - PDF viewer paints at least one page with timeout 45000ms
+  - waiting for locator('canvas').filter({ visible: true }).first()
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Parlay Play Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Parlay Play Logo" [ref=e8]
+          - generic [ref=e9]:
+            - link "Join Now" [ref=e10] [cursor=pointer]:
+              - /url: /account/signup
+              - generic [ref=e12]: Join Now
+            - link "Login" [ref=e13] [cursor=pointer]:
+              - /url: /account/login
+              - generic [ref=e15]: Login
+      - main [ref=e16]:
+        - generic [ref=e19]:
+          - heading "Terms Of Service" [level=1] [ref=e20]
+          - generic [ref=e21]:
+            - generic [ref=e23]: Failed to load PDF file.
+            - paragraph [ref=e24]:
+              - text: If the PDF does not display,
+              - link "click here to download it" [ref=e25] [cursor=pointer]:
+                - /url: https://cdn.staging.parlayplay.io/static/pdfs/terms_of_service.pdf?v=2026-09-23
+              - text: .
+      - contentinfo [ref=e26]:
+        - navigation [ref=e27]:
+          - list [ref=e28]:
+            - listitem [ref=e29]:
+              - button "Home" [ref=e30] [cursor=pointer]:
+                - generic [ref=e31]:
+                  - img [ref=e32]
+                  - generic [ref=e33]: Home
+            - listitem [ref=e34]:
+              - button "Entries" [ref=e35] [cursor=pointer]:
+                - generic [ref=e36]:
+                  - img [ref=e37]
+                  - generic [ref=e38]: Entries
+            - listitem [ref=e39]:
+              - button "Feed" [ref=e40] [cursor=pointer]:
+                - generic [ref=e41]:
+                  - img [ref=e42]
+                  - generic [ref=e43]: Feed
+            - listitem [ref=e44]:
+              - button "Rewards" [ref=e45] [cursor=pointer]:
+                - generic [ref=e46]:
+                  - img [ref=e47]
+                  - generic [ref=e48]: Rewards
+            - listitem [ref=e49]:
+              - button "Packs" [ref=e50] [cursor=pointer]:
+                - generic [ref=e51]:
+                  - img [ref=e52]
+                  - generic [ref=e53]: Packs
+    - generic:
+      - region "Notifications Alt+T"
+  - alert [ref=e54]
+```
+
+# Test source
+
+```ts
+  1   | /**
+  2   |  * Legal and help pages: each policy route renders its document in the PDF
+  3   |  * viewer with a CDN download fallback, the signup form's Class Action Waiver
+  4   |  * link deep-links into the Terms document, the retired /contact-us and
+  5   |  * /contact routes land in the lobby with the Intercom messenger open, and
+  6   |  * every internal footer link resolves 200. Anonymous and read-only throughout.
+  7   |  */
+  8   | import { test, expect } from '../../fixtures/test.extend';
+  9   | import { ContactPage } from '@pages/contact.page';
+  10  | import { HomePage } from '@pages/home.page';
+  11  | import { LegalPage } from '@pages/legal.page';
+  12  | import { SignupPage } from '@pages/signup.page';
+  13  | import { isDesktopProject } from '@utils/project';
+  14  | 
+  15  | const DOCUMENTS = [
+  16  |   { path: '/terms', heading: 'Terms Of Service', pdf: 'terms_of_service.pdf' },
+  17  |   { path: '/privacy-policy', heading: 'Privacy Policy', pdf: 'privacy_policy.pdf' },
+  18  |   { path: '/rules', heading: 'Game Rules', pdf: 'game_rules.pdf' },
+  19  |   { path: '/terms/packs', heading: 'Packs Terms', pdf: 'packs_terms_of_service.pdf' },
+  20  |   { path: '/responsible-gaming', heading: 'Responsible Play', pdf: 'responsible_gaming.pdf' },
+  21  | ];
+  22  | 
+  23  | test.describe('Legal - policy documents', { tag: ['@navigation', '@legal', '@prod'] }, () => {
+  24  |   test.describe.configure({ mode: 'parallel' });
+  25  | 
+  26  |   for (const { path, heading, pdf } of DOCUMENTS) {
+  27  |     test(`${path} renders the ${heading} PDF`, async ({ page }) => {
+  28  |       const legal = new LegalPage(page);
+  29  |       await page.goto(path);
+  30  | 
+  31  |       await expect(legal.heading).toHaveText(heading);
+  32  |       // The Terms document is 25 pages; rasterising the first one can take a while.
+> 33  |       await expect(legal.pdfPages.first(), 'PDF viewer paints at least one page').toBeVisible({
+      |                                                                                   ^ Error: PDF viewer paints at least one page
+  34  |         timeout: 45_000,
+  35  |       });
+  36  |       await expect(legal.pdfLoading).toHaveCount(0);
+  37  |       await expect(legal.downloadLink).toHaveAttribute('href', new RegExp(`/pdfs/${pdf}(\\?|$)`));
+  38  |     });
+  39  |   }
+  40  | 
+  41  |   test('Signup Class Action Waiver link opens the Terms document at #class-action', async ({
+  42  |     page,
+  43  |   }) => {
+  44  |     // Desktop was an expected failure until DFS-2800 (the signup modal
+  45  |     // redirected home as it closed, beating the Terms navigation) — fixed in UI 43.
+  46  |     const signup = new SignupPage(page);
+  47  |     const legal = new LegalPage(page);
+  48  |     await page.goto('/account/signup');
+  49  | 
+  50  |     await expect(signup.classActionTermsLink).toHaveAttribute('href', '/terms#class-action');
+  51  |     await signup.classActionTermsLink.click();
+  52  |     await page.waitForURL(/\/terms#class-action$/, { timeout: 15_000 });
+  53  |     await expect(legal.heading).toHaveText('Terms Of Service');
+  54  |   });
+  55  | });
+  56  | 
+  57  | // DFS-2801: /contact-us is retired. It used to pair a HubSpot ticket form with
+  58  | // the Intercom launcher — the form never rendered below the desktop breakpoint
+  59  | // (hsforms injects into the first #hubspotForm in the DOM, which is Layout's
+  60  | // hidden desktop copy) and nothing in the app linked to the page. Both routes
+  61  | // now bounce to the lobby and open the Intercom messenger, on every breakpoint.
+  62  | test.describe('Legal - contact', { tag: ['@navigation', '@legal', '@prod'] }, () => {
+  63  |   test.describe.configure({ mode: 'parallel' });
+  64  | 
+  65  |   const isLobby = (url: URL) => url.pathname === '/';
+  66  | 
+  67  |   test('/contact-us redirects to the lobby and opens the Intercom messenger', async ({ page }) => {
+  68  |     const contact = new ContactPage(page);
+  69  |     await page.goto('/contact-us');
+  70  | 
+  71  |     await page.waitForURL(isLobby, { timeout: 30_000 });
+  72  |     await expect(contact.intercomLauncher.first(), 'Intercom launcher mounts').toBeAttached({
+  73  |       timeout: 30_000,
+  74  |     });
+  75  |     await expect(contact.intercomMessengerFrame, 'Intercom messenger frame mounts').toBeAttached({
+  76  |       timeout: 30_000,
+  77  |     });
+  78  |   });
+  79  | 
+  80  |   test('/contact still resolves, through /contact-us into the lobby', async ({ page }) => {
+  81  |     // 308 to /contact-us (next.config.js), then the retired page's client-side
+  82  |     // redirect. The legacy link must never 404.
+  83  |     const response = await page.goto('/contact');
+  84  |     expect(response?.status(), '/contact does not 404').toBe(200);
+  85  | 
+  86  |     await page.waitForURL(isLobby, { timeout: 30_000 });
+  87  |   });
+  88  | 
+  89  |   test('/contact-us renders no HubSpot ticket form on any breakpoint', async ({ page }) => {
+  90  |     const contact = new ContactPage(page);
+  91  |     const hubspotRequests: string[] = [];
+  92  |     page.on('request', (request) => {
+  93  |       if (request.url().includes('hsforms.net')) hubspotRequests.push(request.url());
+  94  |     });
+  95  | 
+  96  |     await page.goto('/contact-us');
+  97  |     await page.waitForURL(isLobby, { timeout: 30_000 });
+  98  | 
+  99  |     await expect(contact.hubspotForm).toHaveCount(0);
+  100 |     expect(hubspotRequests, 'the hsforms shell script is no longer loaded').toEqual([]);
+  101 |   });
+  102 | });
+  103 | 
+  104 | test.describe(
+  105 |   'Legal - footer links',
+  106 |   { tag: ['@navigation', '@legal', '@footer', '@prod'] },
+  107 |   () => {
+  108 |     test('Every internal footer link resolves 200 and external links are absolute https', async ({
+  109 |       page,
+  110 |     }) => {
+  111 |       const homePage = new HomePage(page);
+  112 |       await page.goto('/');
+  113 |       await homePage.waitForFeedReady();
+  114 | 
+  115 |       const hrefs = [
+  116 |         ...new Set(
+  117 |           await page
+  118 |             .locator('footer')
+  119 |             .filter({ visible: true })
+  120 |             .locator('a[href]')
+  121 |             .evaluateAll((anchors) => anchors.map((a) => a.getAttribute('href') ?? '')),
+  122 |         ),
+  123 |       ];
+  124 |       expect(hrefs.length, 'footer renders its links').toBeGreaterThanOrEqual(8);
+  125 | 
+  126 |       const internal = hrefs.filter((href) => href.startsWith('/'));
+  127 |       for (const href of hrefs.filter((href) => !href.startsWith('/'))) {
+  128 |         expect(href, `external footer link is absolute https: ${href}`).toMatch(/^https:\/\//);
+  129 |       }
+  130 | 
+  131 |       // Fetched inside the page: staging's Cloudflare 403s out-of-browser HTTP.
+  132 |       const statuses = await page.evaluate(
+  133 |         (paths) =>
+```

@@ -1,0 +1,2851 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"**Spec:** `packs/opening-iframe.spec.ts:18`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff @smoke","29294","Buy launches the Repackz opening iframe with a close bar","Desktop","2026-09-23","passed","2026-09-23","Packs - opening iframe","","",""
+"**Spec:** `transactions/transactions.spec.ts:347`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","6007","Contest Settled rows credit the payout","Mobile Chrome","2026-09-23","skipped","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `navigation/legal.spec.ts:108`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @footer @prod","26080","Every internal footer link resolves 200 and external links are absolute https","Desktop","2026-09-23","passed","2026-09-23","Legal - footer links","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:426`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","21104","Match selector lists every API match for the default league","Desktop","2026-09-23","skipped","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:83`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipPersist @prod","52060","Slip persists through a hard page reload","Mobile Safari","2026-09-23","passed","2026-09-23","Slip persistence - navigation and reload","","",""
+"**Spec:** `entries/entries.spec.ts:263`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod","170641","Pagination advances through every history page","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:153`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","30001","Tailers pill reads ""<n> tailers | $<reward>"" when an entry has tailers","Desktop","2026-09-23","skipped","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:89`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","4546","For You tab renders (empty hero in single-user envs, cards otherwise)","Desktop","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `entries/entries.spec.ts:67`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","13970","Entry card expands and collapses via its header button","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `signup/signup.spec.ts:81`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup","24938","All required fields are visible","Mobile Safari","2026-09-23","passed","2026-09-23","Signup - Form Fields","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:88`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @contests @mutates @money","75120","Placed contest appears in the My Entries list","Mobile Chrome","2026-09-23","passed","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","30014","Packs tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-09-23","passed","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `auth/login.spec.ts:183`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","7362","Forgot password link navigates to password reset","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Navigation","","",""
+"**Spec:** `entries/entry-card.spec.ts:39`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","8228","Active card shows the entry amount, payout and Insured/All In multiplier","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @smoke @prod @critical","3845","User can log in with a valid username","Desktop","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod @critical","15300","User can switch between the Active and History tabs","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `data-verification/search.spec.ts:101`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","584","Searching an API player's full name shows only matching cards","Desktop","2026-09-23","skipped","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `entries/entry-card.spec.ts:96`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","28187","Dedicated chevron toggle expands and collapses the card","Desktop","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `data-verification/entries-history.spec.ts:50`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","10380","History cards and summary render the history API data","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - history entries","","",""
+"**Spec:** `menu/account-dropdown-desktop.spec.ts:47`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @menu @prod","29807","Menu items link to the same destinations as the mobile Account Center","Desktop","2026-09-23","passed","2026-09-23","Menu - Desktop Account Dropdown","","",""
+"**Spec:** `entries/entries.spec.ts:38`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","29023","Active tab shows at most one page of entry cards, or the no-data state","Desktop","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `auth/login-modal-desktop.spec.ts:64`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @auth @prod","15127","Submitting valid credentials in the modal signs the user in","Desktop","2026-09-23","passed","2026-09-23","Login - Desktop Modal","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:107`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","17274","Following tab shows the empty state (single user, no follows)","Mobile Safari","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `auth/login.spec.ts:100`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)","6770","Login honours the ""next"" query param redirect","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:80`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","13377","/contact still resolves, through /contact-us into the lobby","Desktop","2026-09-23","passed","2026-09-23","Legal - contact","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","32515","Entries tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-09-23","passed","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","12509","/privacy-policy renders the Privacy Policy PDF","Desktop","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `entries/entry-card.spec.ts:60`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","27777","Collapsed active card shows the pick-badge preview; expanding hides it","Desktop","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod @critical","30736","Active tab shows the Entry Amount and Max Payout stats","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `transactions/transactions.spec.ts:307`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","8315","Paging loads the next rows and keeps newest-first order across pages","Desktop","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `navigation/legal.spec.ts:89`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","28372","/contact-us renders no HubSpot ticket form on any breakpoint","Desktop","2026-09-23","passed","2026-09-23","Legal - contact","","",""
+"**Spec:** `auth/login.spec.ts:146`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","43363","Login is rejected with an empty password","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `menu/account-center.spec.ts:69`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @menu @prod","16311","Items route to their destination pages","Mobile Chrome","2026-09-23","passed","2026-09-23","Menu - Account Center","","",""
+"**Spec:** `entries/entry-card.spec.ts:39`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","27911","Active card shows the entry amount, payout and Insured/All In multiplier","Desktop","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `auth/login.spec.ts:78`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @smoke @prod","10870","User can log in with a valid email","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @smoke @prod @critical","7448","User can log in with a valid username","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `navigation/footer-age-badge.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @footer @prod","11871","Home footer shows the 18+ age badge and no 21+ anywhere","Mobile Chrome","2026-09-23","passed","2026-09-23","Footer - age badge","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:56`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipPersist @prod","66211","Slip persists through a Rewards tab round-trip","Desktop","2026-09-23","passed","2026-09-23","Slip persistence - navigation and reload","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:56`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipPersist @prod","20204","Slip persists through a Rewards tab round-trip","Mobile Chrome","2026-09-23","passed","2026-09-23","Slip persistence - navigation and reload","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:47`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","30607","Home is active on landing and the underline moves to Rewards","Desktop","2026-09-23","passed","2026-09-23","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `auth/login.spec.ts:154`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","38518","Login is rejected with both fields empty","Desktop","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `entries/entry-card.spec.ts:39`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","32143","Active card shows the entry amount, payout and Insured/All In multiplier","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `home/home-search.spec.ts:20`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @home @search @prod @smoke @critical","36435","Gibberish query shows the empty state, clearing restores the grid","Desktop","2026-09-23","passed","2026-09-23","Home - Feed Search","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:160`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","42551","Share toggle on surfaces a newly placed contest on the You tab and it can be tailed","Mobile Chrome","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","647","Feed tab sends a logged-out visitor to the free-signup login page","Desktop","2026-09-23","skipped","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:38`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","25200","Partner offer cards render, or the empty state when none are available","Mobile Safari","2026-09-23","failed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:160`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","99165","Share toggle on surfaces a newly placed contest on the You tab and it can be tailed","Desktop","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `settings/player-limits.spec.ts:18`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @settings @prod","34093","My Settings no longer renders the Player Limits controls","Desktop","2026-09-23","passed","2026-09-23","Settings - Player Limits","","",""
+"**Spec:** `entries/entries.spec.ts:211`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","27086","First history card shows the amount, result and pick count from the API","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:211`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","33147","View Leaderboard opens the contest-group leaderboard modal","Desktop","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `entries/entries.spec.ts:185`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","26245","Switching from 6 Months to 7 Days never increases the history count","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `data-verification/search.spec.ts:172`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","382","Search auto-switches the stat tab to one the searched player offers","Desktop","2026-09-23","skipped","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `packs/access.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @smoke @prod","6872","Unauthenticated visit to /packs redirects to login with a next param","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - access control","","",""
+"**Spec:** `data-verification/player-detail-modal.spec.ts:23`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","24964","Expert-opinion modal renders the API's player data","Desktop","2026-09-23","passed","2026-09-23","Data verification - player detail modal","","",""
+"**Spec:** `packs/lobby.spec.ts:29`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","49205","Pack tiles link to a /packs/pack/<id> detail route","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `home/home-search.spec.ts:20`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @home @search @prod @smoke @critical","12566","Gibberish query shows the empty state, clearing restores the grid","Mobile Chrome","2026-09-23","passed","2026-09-23","Home - Feed Search","","",""
+"**Spec:** `packs/lobby.spec.ts:29`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","19558","Pack tiles link to a /packs/pack/<id> detail route","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:38`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","22560","Partner offer cards render, or the empty state when none are available","Mobile Chrome","2026-09-23","failed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `auth/login.spec.ts:100`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)","3852","Login honours the ""next"" query param redirect","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:243`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","19249","Switching stat tabs renders that stat's API line on every card","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `settings/player-limits.spec.ts:18`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @settings @prod","19763","My Settings no longer renders the Player Limits controls","Mobile Safari","2026-09-23","passed","2026-09-23","Settings - Player Limits","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:83`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipPersist @prod","241418","Slip persists through a hard page reload","Desktop","2026-09-23","broken","2026-09-23","Slip persistence - navigation and reload","","",""
+"**Spec:** `auth/login.spec.ts:206`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","3732","Unauthenticated user sees the Join Now button on home","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Navigation","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:98`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","29887","Wallet pill shows the balance and the burger toggles the account dropdown","Desktop","2026-09-23","passed","2026-09-23","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipPersist @prod","54924","Slip persists through an Entries tab round-trip","Mobile Safari","2026-09-23","passed","2026-09-23","Slip persistence - navigation and reload","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","755","Rewards tab sends a logged-out visitor to the free-signup login page","Desktop","2026-09-23","skipped","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:330`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","14654","Stats selector tabs equal the API stat names for the default league","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `home/home-search.spec.ts:48`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @home @search @prod","37192","A common letter narrows the grid without emptying it","Mobile Safari","2026-09-23","failed","2026-09-23","Home - Feed Search","","",""
+"**Spec:** `navigation/legal.spec.ts:89`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","9125","/contact-us renders no HubSpot ticket form on any breakpoint","Mobile Safari","2026-09-23","passed","2026-09-23","Legal - contact","","",""
+"**Spec:** `navigation/legal.spec.ts:89`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","12444","/contact-us renders no HubSpot ticket form on any breakpoint","Mobile Chrome","2026-09-23","passed","2026-09-23","Legal - contact","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:83`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipPersist @prod","22970","Slip persists through a hard page reload","Mobile Chrome","2026-09-23","passed","2026-09-23","Slip persistence - navigation and reload","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","774","Packs tab sends a logged-out visitor to the free-signup login page","Desktop","2026-09-23","skipped","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `menu/account-center.spec.ts:39`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @menu @prod","26408","Items are grouped under Account, Rewards and Support","Mobile Safari","2026-09-23","passed","2026-09-23","Menu - Account Center","","",""
+"**Spec:** `data-verification/search.spec.ts:247`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","14117","No-result, minimum-length and clear behaviours","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `home/home-search.spec.ts:48`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @home @search @prod","6309","A common letter narrows the grid without emptying it","Mobile Chrome","2026-09-23","passed","2026-09-23","Home - Feed Search","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:69`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","31487","Logged-in carousel Invite Now opens the share dialog","Desktop","2026-09-23","passed","2026-09-23","Shell - desktop header promo carousel","","",""
+"**Spec:** `transactions/transactions.spec.ts:232`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","23368","Each type filter requests its category and lists only that category","Mobile Safari","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `entries/entry-card.spec.ts:119`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","15384","History entry surfaces a Won / Lost / Cancelled result pill","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `auth/login.spec.ts:164`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","38145","Error clears on retry with valid credentials","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `transactions/transactions.spec.ts:204`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","3440","First page rows mirror the balance-log API — label, date, signed amount, newest first","Desktop","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `entries/entry-card.spec.ts:174`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","32461","Share button opens the share-slip modal for shareable entries","Mobile Safari","2026-09-23","skipped","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `entries/entries.spec.ts:211`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","34053","First history card shows the amount, result and pick count from the API","Desktop","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `signup/signup.spec.ts:32`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup @terms","24069","Header ""Join Now"" opens Terms page","Mobile Safari","2026-09-23","passed","2026-09-23","Signup - Entry Points","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:26`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @contests @mutates @money @smoke @prod @critical @money","82208","Five-pick contest is submitted successfully","Mobile Safari","2026-09-23","passed","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","28098","Rewards tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-09-23","passed","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","8386","Entries tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-09-23","passed","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `signup/signup.spec.ts:94`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup","16436","Form accepts valid data in all fields","Mobile Chrome","2026-09-23","passed","2026-09-23","Signup - Form Fields","","",""
+"**Spec:** `auth/login.spec.ts:130`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","39562","Login is rejected for an unknown username","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:18`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff @smoke","31634","Buy launches the Repackz opening iframe with a close bar","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - opening iframe","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:118`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","6718","Switching to the Promotions sub-tab routes to /rewards/promotions","Mobile Chrome","2026-09-23","passed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `navigation/shell.spec.ts:80`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","26727","?coupon and ?btag are stored as the referral cookies","Desktop","2026-09-23","failed","2026-09-23","Shell - system pages","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth @smoke @prod @critical","8767","Logged-in user can log out","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Logout Flow","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","31892","Feed tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-09-23","passed","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `data-verification/entries-history.spec.ts:50`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","24171","History cards and summary render the history API data","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - history entries","","",""
+"**Spec:** `packs/pack-detail.spec.ts:93`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","59299","Unknown pack id shows the not-found message","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:123`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","32015","Share toggle off keeps a newly placed contest off the You tab","Mobile Chrome","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:95`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","5992","An available offer exposes an enabled CTA","Desktop","2026-09-23","passed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth @smoke @prod @critical","19494","Logged-in user can log out","Desktop","2026-09-23","passed","2026-09-23","Login - Logout Flow","","",""
+"**Spec:** `settings/player-limits.spec.ts:18`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @settings @prod","13146","My Settings no longer renders the Player Limits controls","Mobile Chrome","2026-09-23","passed","2026-09-23","Settings - Player Limits","","",""
+"**Spec:** `entries/entry-card.spec.ts:80`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","46492","History cards never render the pick-badge preview","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `packs/pack-detail.spec.ts:35`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","24350","Back link returns to the lobby","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `signup/signup.spec.ts:42`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup @terms","26073","Footer ""Sign Up"" opens Terms page","Mobile Safari","2026-09-23","passed","2026-09-23","Signup - Entry Points","","",""
+"**Spec:** `transactions/transactions.spec.ts:374`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","5984","Empty state renders for a month with no transactions","Mobile Chrome","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `navigation/shell.spec.ts:53`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","7765","Unknown route renders the 404 page","Mobile Safari","2026-09-23","passed","2026-09-23","Shell - system pages","","",""
+"**Spec:** `data-verification/entries-active.spec.ts:55`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","12426","Active entry cards render the entries-paged API data","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - active entries","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:172`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipShare @mutates @money","55881","Logged-out tailer signs in via the tail link, then auto-tails and submits","Desktop","2026-09-23","failed","2026-09-23","Slip sharing - share and tail","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:88`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod @smoke @critical","17176","Only one tab is active at a time and Home restores","Mobile Chrome","2026-09-23","passed","2026-09-23","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `entries/entry-card.spec.ts:211`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","40856","View Leaderboard opens the contest-group leaderboard modal","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `entries/entries.spec.ts:185`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","32075","Switching from 6 Months to 7 Days never increases the history count","Desktop","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:65`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","29869","Track Picks routes to pending and stays active on history","Desktop","2026-09-23","passed","2026-09-23","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `navigation/legal.spec.ts:80`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","6137","/contact still resolves, through /contact-us into the lobby","Mobile Chrome","2026-09-23","passed","2026-09-23","Legal - contact","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:22`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","32928","Rewards opens the login modal for a logged-out visitor","Desktop","2026-09-23","passed","2026-09-23","Shell - desktop logged-out top nav","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:195`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","45403","Player cards render the offering API data","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `data-verification/search.spec.ts:172`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","12431","Search auto-switches the stat tab to one the searched player offers","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:195`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","61355","Player cards render the offering API data","Desktop","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `entries/entry-card.spec.ts:174`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","30035","Share button opens the share-slip modal for shareable entries","Desktop","2026-09-23","skipped","2026-09-23","My Entries - entry card","","",""
+"","38","Picks Submitted screen exposes the description CTA and opens the editor","Desktop","2026-09-23","skipped","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `packs/pack-detail.spec.ts:64`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","17389","Quantity stepper is bounded at 1 and scales the Buy price","Desktop","2026-09-23","skipped","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `modals/userlimits.spec.ts:46`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @userLimit @mutates @smoke","116128","Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it","Desktop","2026-09-23","passed","2026-09-23","User Limits - Limit Exceeded Modal","","",""
+"**Spec:** `theme/dark-mode.spec.ts:75`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","50543","Staff toggle flips the theme, swaps the logo and persists across reload","Mobile Safari","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:91`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","32168","Logged-in carousel Deposit Now opens the account dropdown with the Deposit link","Desktop","2026-09-23","passed","2026-09-23","Shell - desktop header promo carousel","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","7528","Partner Rewards is the default tab, alongside a Promotions tab","Desktop","2026-09-23","passed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `navigation/shell.spec.ts:62`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","12900","/_offline renders the offline page and Reload reloads it","Mobile Safari","2026-09-23","passed","2026-09-23","Shell - system pages","","",""
+"**Spec:** `theme/dark-mode.spec.ts:60`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","18361","Stored ""light"" preference boots the app light with the light logo","Desktop","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:23`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","13169","Feed tab routes to /challenges/feed and takes the indicator","Mobile Chrome","2026-09-23","passed","2026-09-23","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `packs/pack-detail.spec.ts:35`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","29772","Back link returns to the lobby","Desktop","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `packs/lobby.spec.ts:54`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","32847","Pending Packs row lists 'Open Pack' actions when the user owns open rounds","Mobile Safari","2026-09-23","skipped","2026-09-23","Packs - lobby","","",""
+"","38","Placed contest appears in the My Entries list","Desktop","2026-09-23","skipped","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","19295","/terms renders the Terms Of Service PDF","Desktop","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:18`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff @smoke","88400","Buy launches the Repackz opening iframe with a close bar","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - opening iframe","","",""
+"**Spec:** `auth/login.spec.ts:122`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","39133","Login is rejected with an invalid password","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `menu/account-center.spec.ts:69`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @menu @prod","40501","Items route to their destination pages","Mobile Safari","2026-09-23","passed","2026-09-23","Menu - Account Center","","",""
+"**Spec:** `entries/entry-card.spec.ts:80`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","30307","History cards never render the pick-badge preview","Desktop","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `stats/full-game-stat-selection.spec.ts:22`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @stats @prod","951","First stat stays highlighted by default across Full Game league tabs","Desktop","2026-09-23","skipped","2026-09-23","Stats - Full Game default selection","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod @critical","25323","Active tab shows the Entry Amount and Max Payout stats","Desktop","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:56`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipPersist @prod","55413","Slip persists through a Rewards tab round-trip","Mobile Safari","2026-09-23","passed","2026-09-23","Slip persistence - navigation and reload","","",""
+"**Spec:** `menu/account-center.spec.ts:21`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @menu @prod","12512","Account Center opens from the burger with title, wallet summary and Deposit CTA","Mobile Chrome","2026-09-23","passed","2026-09-23","Menu - Account Center","","",""
+"**Spec:** `auth/login.spec.ts:138`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","33891","Login is rejected with an empty username","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/shell.spec.ts:53`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","5243","Unknown route renders the 404 page","Mobile Chrome","2026-09-23","passed","2026-09-23","Shell - system pages","","",""
+"**Spec:** `theme/dark-mode.spec.ts:181`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","7187","OS dark appearance resolves to dark","Mobile Chrome","2026-09-23","passed","2026-09-23","Theme - dark mode > System preference - no stored choice","","",""
+"**Spec:** `packs/pack-detail.spec.ts:64`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","10415","Quantity stepper is bounded at 1 and scales the Buy price","Mobile Chrome","2026-09-23","skipped","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `data-verification/search.spec.ts:142`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","409","Searching a team abbreviation shows that team's players","Desktop","2026-09-23","skipped","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `packs/lobby.spec.ts:41`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","15260","Just Opened section shows recent pulls, or is absent when there are none","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod @critical","182547","User can switch between the Active and History tabs","Mobile Safari","2026-09-23","broken","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:134`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","31560","Live entries surface a Live indicator","Mobile Safari","2026-09-23","skipped","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:38`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipShare @mutates @money","108994","Logged-in tailer clicks ""Tail this entry"" and submits the same picks","Mobile Safari","2026-09-23","passed","2026-09-23","Slip sharing - share and tail","","",""
+"**Spec:** `entries/entry-card.spec.ts:96`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","15862","Dedicated chevron toggle expands and collapses the card","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `entries/entries.spec.ts:211`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","17166","First history card shows the amount, result and pick count from the API","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `packs/lobby.spec.ts:54`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","8352","Pending Packs row lists 'Open Pack' actions when the user owns open rounds","Desktop","2026-09-23","skipped","2026-09-23","Packs - lobby","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:66`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","6972","Claimed offers are non-interactive and sorted below unclaimed offers","Desktop","2026-09-23","skipped","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:172`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipShare @mutates @money","19571","Logged-out tailer signs in via the tail link, then auto-tails and submits","Mobile Chrome","2026-09-23","skipped","2026-09-23","Slip sharing - share and tail","","",""
+"**Spec:** `packs/lobby.spec.ts:54`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","12713","Pending Packs row lists 'Open Pack' actions when the user owns open rounds","Mobile Chrome","2026-09-23","skipped","2026-09-23","Packs - lobby","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:50`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","35540","Close bar dismisses the iframe and restores the Buy CTA","Desktop","2026-09-23","passed","2026-09-23","Packs - opening iframe","","",""
+"**Spec:** `entries/entries.spec.ts:121`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","53175","Cancel Entry countdown stays within the 5-minute window","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `transactions/transactions.spec.ts:157`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","16100","Transaction Log renders with the month and type filters","Mobile Safari","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `auth/login.spec.ts:100`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)","4098","Login honours the ""next"" query param redirect","Desktop","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","23727","/privacy-policy renders the Privacy Policy PDF","Mobile Safari","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `theme/dark-mode.spec.ts:181`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","16390","OS dark appearance resolves to dark","Mobile Safari","2026-09-23","passed","2026-09-23","Theme - dark mode > System preference - no stored choice","","",""
+"**Spec:** `packs/lobby.spec.ts:67`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","16407","A 'See all' link opens a subcategory listing","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `modals/userlimits.spec.ts:46`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @userLimit @mutates @smoke","30953","Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it","Mobile Chrome","2026-09-23","passed","2026-09-23","User Limits - Limit Exceeded Modal","","",""
+"**Spec:** `auth/login.spec.ts:47`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","2824","Password field masks its input","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Page Rendering","","",""
+"**Spec:** `auth/login.spec.ts:130`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","36344","Login is rejected for an unknown username","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:88`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod @smoke @critical","38810","Only one tab is active at a time and Home restores","Mobile Safari","2026-09-23","passed","2026-09-23","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:25`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","27169","Primary links render with their destinations","Desktop","2026-09-23","passed","2026-09-23","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:365`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","18487","League selector tabs correspond to leagues present in the API","Desktop","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `home/home-search.spec.ts:20`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @home @search @prod @smoke @critical","26481","Gibberish query shows the empty state, clearing restores the grid","Mobile Safari","2026-09-23","passed","2026-09-23","Home - Feed Search","","",""
+"**Spec:** `navigation/entries-nav-indicator.spec.ts:21`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","53060","Indicator stays under ""Entries"" when toggling Active and History","Mobile Safari","2026-09-23","passed","2026-09-23","Bottom nav - Entries active indicator","","",""
+"**Spec:** `entries/entries.spec.ts:147`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod","33098","History summary stats match the API for the 6 Months range","Desktop","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:55`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","16062","Fifth tab (Free2Play or Packs) routes and takes the indicator","Mobile Chrome","2026-09-23","passed","2026-09-23","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:330`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","7540","Stats selector tabs equal the API stat names for the default league","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `signup/signup.spec.ts:213`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup @validation","45944","Shows an error when the email is already taken","Mobile Safari","2026-09-23","failed","2026-09-23","Signup - Validation","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:41`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","25690","Rewards tab routes into /rewards and takes the indicator","Mobile Safari","2026-09-23","passed","2026-09-23","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `entries/entries.spec.ts:121`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","27187","Cancel Entry countdown stays within the 5-minute window","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `home/home-search.spec.ts:48`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @home @search @prod","23356","A common letter narrows the grid without emptying it","Desktop","2026-09-23","passed","2026-09-23","Home - Feed Search","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:43`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","39558","Logged-out carousel shows the $5 signup entry and the first-deposit match","Desktop","2026-09-23","passed","2026-09-23","Shell - desktop header promo carousel","","",""
+"**Spec:** `entries/entries.spec.ts:323`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","56861","Switching the time range from the last page settles on data or the empty state","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `navigation/legal.spec.ts:67`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","27919","/contact-us redirects to the lobby and opens the Intercom messenger","Desktop","2026-09-23","passed","2026-09-23","Legal - contact","","",""
+"**Spec:** `entries/entries.spec.ts:147`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod","26158","History summary stats match the API for the 6 Months range","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:330`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","1036","Stats selector tabs equal the API stat names for the default league","Desktop","2026-09-23","skipped","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","12637","Feed tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-09-23","passed","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:95`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","28423","An available offer exposes an enabled CTA","Mobile Safari","2026-09-23","failed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `navigation/legal.spec.ts:108`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @footer @prod","7673","Every internal footer link resolves 200 and external links are absolute https","Mobile Chrome","2026-09-23","passed","2026-09-23","Legal - footer links","","",""
+"**Spec:** `navigation/shell.spec.ts:80`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","7403","?coupon and ?btag are stored as the referral cookies","Mobile Chrome","2026-09-23","passed","2026-09-23","Shell - system pages","","",""
+"**Spec:** `auth/login.spec.ts:243`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","11324","User can log in again after logging out","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Logout Flow","","",""
+"**Spec:** `entries/entry-card.spec.ts:261`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @contests @mutates @money","44767","Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - cancel entry","","",""
+"**Spec:** `packs/pack-detail.spec.ts:48`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","20798","View Odds opens the Pack Odds modal (when the pack has odds)","Desktop","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:38`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipShare @mutates @money","92805","Logged-in tailer clicks ""Tail this entry"" and submits the same picks","Desktop","2026-09-23","failed","2026-09-23","Slip sharing - share and tail","","",""
+"**Spec:** `entries/entry-card.spec.ts:211`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","16609","View Leaderboard opens the contest-group leaderboard modal","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","11520","Partner Rewards is the default tab, alongside a Promotions tab","Mobile Safari","2026-09-23","passed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `entries/entry-card.spec.ts:60`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","39667","Collapsed active card shows the pick-badge preview; expanding hides it","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `packs/lobby.spec.ts:29`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","23029","Pack tiles link to a /packs/pack/<id> detail route","Desktop","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:26`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @contests @mutates @money @smoke @prod @critical @money","130864","Five-pick contest is submitted successfully","Desktop","2026-09-23","broken","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `theme/dark-mode.spec.ts:45`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","6295","Stored ""dark"" preference boots the app dark with the dark logo","Mobile Chrome","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `settings/settings.spec.ts:16`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @settings @prod","32212","My Settings shows the username, email and name from the user API","Mobile Safari","2026-09-23","passed","2026-09-23","Settings - My Settings","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:22`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","31707","Track Picks opens the login modal for a logged-out visitor","Desktop","2026-09-23","passed","2026-09-23","Shell - desktop logged-out top nav","","",""
+"**Spec:** `packs/lobby.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff @smoke","39755","Lobby renders the Open a Pack catalog with at least one pack tile","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `auth/login.spec.ts:146`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","36452","Login is rejected with an empty password","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:243`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","68584","Switching stat tabs renders that stat's API line on every card","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","12411","/terms/packs renders the Packs Terms PDF","Desktop","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `theme/dark-mode.spec.ts:131`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme","12590","Toggle visibility matches the staff gate for the logged-in user","Mobile Chrome","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","6238","/terms/packs renders the Packs Terms PDF","Mobile Chrome","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:41`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","12337","Rewards tab routes into /rewards and takes the indicator","Mobile Chrome","2026-09-23","passed","2026-09-23","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `menu/account-dropdown-desktop.spec.ts:75`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @menu @prod","27834","Navigating via a menu item closes the dropdown and routes","Desktop","2026-09-23","passed","2026-09-23","Menu - Desktop Account Dropdown","","",""
+"**Spec:** `auth/login.spec.ts:122`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","35890","Login is rejected with an invalid password","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:138`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","38983","Login is rejected with an empty username","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `theme/dark-mode.spec.ts:159`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @prod","4222","Login page renders its form in dark mode","Mobile Chrome","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `data-verification/entries-history.spec.ts:50`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","11918","History cards and summary render the history API data","Desktop","2026-09-23","passed","2026-09-23","Data verification - history entries","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","5764","Partner Rewards is the default tab, alongside a Promotions tab","Mobile Chrome","2026-09-23","passed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `auth/login.spec.ts:138`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","38270","Login is rejected with an empty username","Desktop","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","28652","/rules renders the Game Rules PDF","Mobile Safari","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `auth/login.spec.ts:206`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","7884","Unauthenticated user sees the Join Now button on home","Desktop","2026-09-23","passed","2026-09-23","Login - Navigation","","",""
+"**Spec:** `signup/signup.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup @terms @smoke @prod","22645","Terms page leads to signup page","Mobile Safari","2026-09-23","passed","2026-09-23","Signup - Entry Points","","",""
+"**Spec:** `auth/login.spec.ts:30`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","1663","Login page renders all expected elements","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Page Rendering","","",""
+"**Spec:** `transactions/transactions.spec.ts:421`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @contests @mutates @money","65878","Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows","Desktop","2026-09-23","passed","2026-09-23","Transactions - contest rows","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipPersist @prod","21993","Slip persists through an Entries tab round-trip","Mobile Chrome","2026-09-23","passed","2026-09-23","Slip persistence - navigation and reload","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:83`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","26770","Feed link routes to the feed and takes the underline","Desktop","2026-09-23","passed","2026-09-23","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `entries/entry-card.spec.ts:364`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @contests @mutates @money","40363","Confirming cancel twice fires the cancel request only once (double-submit guard)","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - cancel entry","","",""
+"**Spec:** `transactions/transactions.spec.ts:204`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","8317","First page rows mirror the balance-log API — label, date, signed amount, newest first","Mobile Safari","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","14939","Packs tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-09-23","passed","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:160`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","81461","Share toggle on surfaces a newly placed contest on the You tab and it can be tailed","Mobile Safari","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `auth/login.spec.ts:243`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","18667","User can log in again after logging out","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Logout Flow","","",""
+"**Spec:** `entries/entry-card.spec.ts:364`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @contests @mutates @money","109393","Confirming cancel twice fires the cancel request only once (double-submit guard)","Desktop","2026-09-23","failed","2026-09-23","My Entries - cancel entry","","",""
+"**Spec:** `signup/signup.spec.ts:50`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup @terms","20780","Deeplink with referral pre-populates the coupon field","Mobile Safari","2026-09-23","passed","2026-09-23","Signup - Entry Points","","",""
+"**Spec:** `packs/pack-detail.spec.ts:93`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","19571","Unknown pack id shows the not-found message","Desktop","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `packs/pack-detail.spec.ts:17`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff @smoke","23604","Detail page shows the pack name, Buy CTA and a back link","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:23`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","26939","Feed tab routes to /challenges/feed and takes the indicator","Mobile Safari","2026-09-23","passed","2026-09-23","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:195`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","18960","Player cards render the offering API data","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `signup/signup.spec.ts:32`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup @terms","12699","Header ""Join Now"" opens Terms page","Mobile Chrome","2026-09-23","passed","2026-09-23","Signup - Entry Points","","",""
+"**Spec:** `theme/dark-mode.spec.ts:45`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","12213","Stored ""dark"" preference boots the app dark with the dark logo","Mobile Safari","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `transactions/transactions.spec.ts:276`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","20299","Switching month reloads the log for that month","Mobile Safari","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","10577","/rules renders the Game Rules PDF","Mobile Chrome","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `data-verification/player-detail-modal.spec.ts:23`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","27285","Expert-opinion modal renders the API's player data","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - player detail modal","","",""
+"**Spec:** `entries/entries.spec.ts:323`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","165064","Switching the time range from the last page settles on data or the empty state","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:261`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @contests @mutates @money","115381","Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - cancel entry","","",""
+"**Spec:** `entries/entry-card.spec.ts:119`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","51461","History entry surfaces a Won / Lost / Cancelled result pill","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `packs/pack-detail.spec.ts:35`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","87138","Back link returns to the lobby","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:123`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","61575","Share toggle off keeps a newly placed contest off the You tab","Desktop","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `entries/entry-card.spec.ts:60`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","13432","Collapsed active card shows the pick-badge preview; expanding hides it","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `signup/signup.spec.ts:50`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup @terms","11168","Deeplink with referral pre-populates the coupon field","Mobile Chrome","2026-09-23","passed","2026-09-23","Signup - Entry Points","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","10887","/responsible-gaming renders the Responsible Play PDF","Desktop","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth @smoke @prod @critical","14974","Logged-in user can log out","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Logout Flow","","",""
+"**Spec:** `auth/login.spec.ts:164`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","43748","Error clears on retry with valid credentials","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","11794","/privacy-policy renders the Privacy Policy PDF","Mobile Chrome","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `navigation/legal.spec.ts:41`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","5732","Signup Class Action Waiver link opens the Terms document at #class-action","Mobile Chrome","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `data-verification/search.spec.ts:142`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","9239","Searching a team abbreviation shows that team's players","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `navigation/legal.spec.ts:41`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","23780","Signup Class Action Waiver link opens the Terms document at #class-action","Mobile Safari","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `packs/lobby.spec.ts:11`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff @smoke","10537","Lobby renders the Open a Pack catalog with at least one pack tile","Desktop","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"","2","Submitting a contest raises the entry amount and max payout totals","Mobile Safari","2026-09-23","skipped","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `entries/history-leaderboard-faq.spec.ts:22`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @leaderboard @prod","38656","View Leaderboard on a history card opens the leaderboard modal with a working FAQ link","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - History Leaderboard FAQ","","",""
+"**Spec:** `data-verification/search.spec.ts:101`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","11476","Searching an API player's full name shows only matching cards","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:89`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","5466","For You tab renders (empty hero in single-user envs, cards otherwise)","Mobile Chrome","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:107`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","10360","Following tab shows the empty state (single user, no follows)","Mobile Chrome","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `entries/entries.spec.ts:67`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","35593","Entry card expands and collapses via its header button","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `auth/login.spec.ts:154`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","36649","Login is rejected with both fields empty","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `entries/entries.spec.ts:38`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","31135","Active tab shows at most one page of entry cards, or the no-data state","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","57828","/terms renders the Terms Of Service PDF","Mobile Chrome","2026-09-23","failed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `contests/slip-panel-desktop.spec.ts:30`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @contests @prod","40316","Prompt advances on pick select and reverts on remove","Desktop","2026-09-23","passed","2026-09-23","Contests - Desktop Pick Slip","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:55`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","68427","Fifth tab (Free2Play or Packs) routes and takes the indicator","Mobile Safari","2026-09-23","failed","2026-09-23","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","12436","Rewards tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-09-23","passed","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `auth/login.spec.ts:47`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","1587","Password field masks its input","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Page Rendering","","",""
+"**Spec:** `signup/signup.spec.ts:213`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup @validation","11621","Shows an error when the email is already taken","Mobile Chrome","2026-09-23","passed","2026-09-23","Signup - Validation","","",""
+"**Spec:** `packs/pack-detail.spec.ts:17`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff @smoke","22911","Detail page shows the pack name, Buy CTA and a back link","Desktop","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `transactions/transactions.spec.ts:347`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","3985","Contest Settled rows credit the payout","Desktop","2026-09-23","skipped","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `auth/login.spec.ts:39`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","3139","Login page is reachable by direct URL","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Page Rendering","","",""
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @smoke @prod @critical","4052","User can log in with a valid username","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"","2","Shows an error when password confirmation does not match","Mobile Safari","2026-09-23","skipped","2026-09-23","Signup - Form Fields","","",""
+"**Spec:** `data-verification/player-detail-modal.spec.ts:23`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","13408","Expert-opinion modal renders the API's player data","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - player detail modal","","",""
+"**Spec:** `theme/dark-mode.spec.ts:159`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @prod","3775","Login page renders its form in dark mode","Desktop","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:118`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","8743","Switching to the Promotions sub-tab routes to /rewards/promotions","Desktop","2026-09-23","passed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `auth/login.spec.ts:47`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","1744","Password field masks its input","Desktop","2026-09-23","passed","2026-09-23","Login - Page Rendering","","",""
+"**Spec:** `entries/entry-card.spec.ts:174`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","13879","Share button opens the share-slip modal for shareable entries","Mobile Chrome","2026-09-23","skipped","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `theme/dark-mode.spec.ts:131`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme","17897","Toggle visibility matches the staff gate for the logged-in user","Desktop","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:95`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","20448","An available offer exposes an enabled CTA","Mobile Chrome","2026-09-23","failed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `theme/dark-mode.spec.ts:131`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme","20263","Toggle visibility matches the staff gate for the logged-in user","Mobile Safari","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipPersist @prod","53825","Slip persists through an Entries tab round-trip","Desktop","2026-09-23","passed","2026-09-23","Slip persistence - navigation and reload","","",""
+"**Spec:** `packs/access.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","30485","Staff user sees the Packs entry and can open the lobby","Desktop","2026-09-23","passed","2026-09-23","Packs - access control","","",""
+"**Spec:** `packs/lobby.spec.ts:41`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","14521","Just Opened section shows recent pulls, or is absent when there are none","Desktop","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `auth/login.spec.ts:78`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @smoke @prod","4118","User can log in with a valid email","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `packs/lobby.spec.ts:67`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","46543","A 'See all' link opens a subcategory listing","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:60`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @contests @mutates @money","45919","Picks Submitted screen exposes the description CTA and opens the editor","Mobile Safari","2026-09-23","passed","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","13320","/rules renders the Game Rules PDF","Desktop","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `entries/entries.spec.ts:263`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod","91847","Pagination advances through every history page","Desktop","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `stats/full-game-stat-selection.spec.ts:22`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @stats @prod","15630","First stat stays highlighted by default across Full Game league tabs","Mobile Chrome","2026-09-23","passed","2026-09-23","Stats - Full Game default selection","","",""
+"**Spec:** `navigation/entries-nav-indicator.spec.ts:21`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","21321","Indicator stays under ""Entries"" when toggling Active and History","Mobile Chrome","2026-09-23","passed","2026-09-23","Bottom nav - Entries active indicator","","",""
+"**Spec:** `entries/history-leaderboard-faq.spec.ts:22`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @leaderboard @prod","15927","View Leaderboard on a history card opens the leaderboard modal with a working FAQ link","Desktop","2026-09-23","passed","2026-09-23","My Entries - History Leaderboard FAQ","","",""
+"**Spec:** `entries/entry-card.spec.ts:364`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @contests @mutates @money","47538","Confirming cancel twice fires the cancel request only once (double-submit guard)","Mobile Safari","2026-09-23","skipped","2026-09-23","My Entries - cancel entry","","",""
+"**Spec:** `packs/lobby.spec.ts:67`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","21202","A 'See all' link opens a subcategory listing","Desktop","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `theme/dark-mode.spec.ts:181`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","16049","OS dark appearance resolves to dark","Desktop","2026-09-23","passed","2026-09-23","Theme - dark mode > System preference - no stored choice","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:38`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","8308","Partner offer cards render, or the empty state when none are available","Desktop","2026-09-23","passed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `entries/entries.spec.ts:185`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","16343","Switching from 6 Months to 7 Days never increases the history count","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:172`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipShare @mutates @money","106104","Logged-out tailer signs in via the tail link, then auto-tails and submits","Mobile Safari","2026-09-23","passed","2026-09-23","Slip sharing - share and tail","","",""
+"**Spec:** `navigation/legal.spec.ts:108`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @footer @prod","14961","Every internal footer link resolves 200 and external links are absolute https","Mobile Safari","2026-09-23","passed","2026-09-23","Legal - footer links","","",""
+"**Spec:** `auth/login.spec.ts:164`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","39086","Error clears on retry with valid credentials","Desktop","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:41`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","13752","Signup Class Action Waiver link opens the Terms document at #class-action","Desktop","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `settings/settings.spec.ts:16`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @settings @prod","13812","My Settings shows the username, email and name from the user API","Mobile Chrome","2026-09-23","passed","2026-09-23","Settings - My Settings","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:131`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @contests @mutates @money","33775","Submitting a contest raises the entry amount and max payout totals","Mobile Chrome","2026-09-23","passed","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `auth/login.spec.ts:146`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","38238","Login is rejected with an empty password","Desktop","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/shell.spec.ts:53`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","4027","Unknown route renders the 404 page","Desktop","2026-09-23","passed","2026-09-23","Shell - system pages","","",""
+"**Spec:** `entries/entry-card.spec.ts:134`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","12426","Live entries surface a Live indicator","Mobile Chrome","2026-09-23","skipped","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `data-verification/search.spec.ts:101`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","20281","Searching an API player's full name shows only matching cards","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `entries/entry-card.spec.ts:153`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","14669","Tailers pill reads ""<n> tailers | $<reward>"" when an entry has tailers","Mobile Chrome","2026-09-23","skipped","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `entries/entries.spec.ts:147`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod","14856","History summary stats match the API for the 6 Months range","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `data-verification/entries-active.spec.ts:55`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","27665","Active entry cards render the entries-paged API data","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - active entries","","",""
+"**Spec:** `menu/account-dropdown-desktop.spec.ts:24`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @menu @prod","28803","Dropdown shows the Deposit CTA and the Account/Rewards/Support groups","Desktop","2026-09-23","passed","2026-09-23","Menu - Desktop Account Dropdown","","",""
+"**Spec:** `navigation/legal.spec.ts:67`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","13090","/contact-us redirects to the lobby and opens the Intercom messenger","Mobile Chrome","2026-09-23","passed","2026-09-23","Legal - contact","","",""
+"**Spec:** `modals/userlimits.spec.ts:46`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @userLimit @mutates @smoke","84373","Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it","Mobile Safari","2026-09-23","passed","2026-09-23","User Limits - Limit Exceeded Modal","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:365`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","20728","League selector tabs correspond to leagues present in the API","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `entries/entry-card.spec.ts:119`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","31593","History entry surfaces a Won / Lost / Cancelled result pill","Desktop","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `packs/access.spec.ts:11`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @smoke @prod","6295","Unauthenticated visit to /packs redirects to login with a next param","Desktop","2026-09-23","passed","2026-09-23","Packs - access control","","",""
+"**Spec:** `entries/entry-card.spec.ts:80`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","16104","History cards never render the pick-badge preview","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `navigation/footer-age-badge.spec.ts:11`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @footer @prod","25468","Home footer shows the 18+ age badge and no 21+ anywhere","Desktop","2026-09-23","passed","2026-09-23","Footer - age badge","","",""
+"**Spec:** `auth/login.spec.ts:183`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","9036","Forgot password link navigates to password reset","Desktop","2026-09-23","passed","2026-09-23","Login - Navigation","","",""
+"**Spec:** `auth/login.spec.ts:30`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","2618","Login page renders all expected elements","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Page Rendering","","",""
+"**Spec:** `theme/dark-mode.spec.ts:60`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","7292","Stored ""light"" preference boots the app light with the light logo","Mobile Chrome","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `navigation/shell.spec.ts:62`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","7463","/_offline renders the offline page and Reload reloads it","Desktop","2026-09-23","passed","2026-09-23","Shell - system pages","","",""
+"**Spec:** `transactions/transactions.spec.ts:307`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","9313","Paging loads the next rows and keeps newest-first order across pages","Mobile Chrome","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `packs/access.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","45798","Staff user sees the Packs entry and can open the lobby","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - access control","","",""
+"**Spec:** `transactions/transactions.spec.ts:157`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","4517","Transaction Log renders with the month and type filters","Desktop","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `entries/entry-card.spec.ts:134`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","28385","Live entries surface a Live indicator","Desktop","2026-09-23","skipped","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `auth/login.spec.ts:90`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)","4757","User lands on home after a successful login","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `contests/slip-panel-desktop.spec.ts:23`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @contests @prod","42366","Empty slip shows the Let's Start onboarding panel","Desktop","2026-09-23","passed","2026-09-23","Contests - Desktop Pick Slip","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:66`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","25190","Claimed offers are non-interactive and sorted below unclaimed offers","Mobile Safari","2026-09-23","failed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `auth/login.spec.ts:39`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","1676","Login page is reachable by direct URL","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Page Rendering","","",""
+"**Spec:** `packs/pack-detail.spec.ts:64`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","45062","Quantity stepper is bounded at 1 and scales the Buy price","Mobile Safari","2026-09-23","skipped","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `auth/login.spec.ts:183`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","2694","Forgot password link navigates to password reset","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Navigation","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","28596","/responsible-gaming renders the Responsible Play PDF","Mobile Safari","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `transactions/transactions.spec.ts:157`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","5435","Transaction Log renders with the month and type filters","Mobile Chrome","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `auth/login.spec.ts:90`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)","10315","User lands on home after a successful login","Desktop","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:122`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","37610","Login is rejected with an invalid password","Desktop","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `settings/settings.spec.ts:16`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @settings @prod","33737","My Settings shows the username, email and name from the user API","Desktop","2026-09-23","passed","2026-09-23","Settings - My Settings","","",""
+"**Spec:** `entries/entries.spec.ts:323`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","86001","Switching the time range from the last page settles on data or the empty state","Desktop","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `transactions/transactions.spec.ts:232`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","8724","Each type filter requests its category and lists only that category","Desktop","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:50`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","27963","Close bar dismisses the iframe and restores the Buy CTA","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - opening iframe","","",""
+"**Spec:** `packs/lobby.spec.ts:41`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","30785","Just Opened section shows recent pulls, or is absent when there are none","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `navigation/shell.spec.ts:62`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","6670","/_offline renders the offline page and Reload reloads it","Mobile Chrome","2026-09-23","passed","2026-09-23","Shell - system pages","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:88`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @contests @mutates @money","185430","Placed contest appears in the My Entries list","Mobile Safari","2026-09-23","failed","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:60`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @contests @mutates @money","19311","Picks Submitted screen exposes the description CTA and opens the editor","Mobile Chrome","2026-09-23","passed","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `auth/login.spec.ts:39`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","1758","Login page is reachable by direct URL","Desktop","2026-09-23","passed","2026-09-23","Login - Page Rendering","","",""
+"**Spec:** `packs/lobby.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff @smoke","15189","Lobby renders the Open a Pack catalog with at least one pack tile","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - lobby","","",""
+"**Spec:** `menu/account-center.spec.ts:21`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @menu @prod","28796","Account Center opens from the burger with title, wallet summary and Deposit CTA","Mobile Safari","2026-09-23","passed","2026-09-23","Menu - Account Center","","",""
+"**Spec:** `signup/signup.spec.ts:42`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup @terms","12360","Footer ""Sign Up"" opens Terms page","Mobile Chrome","2026-09-23","passed","2026-09-23","Signup - Entry Points","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:365`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","6071","League selector tabs correspond to leagues present in the API","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `entries/entries.spec.ts:121`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","49822","Cancel Entry countdown stays within the 5-minute window","Desktop","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:26`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @contests @mutates @money @smoke @prod @critical @money","28430","Five-pick contest is submitted successfully","Mobile Chrome","2026-09-23","passed","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `auth/login.spec.ts:206`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","2427","Unauthenticated user sees the Join Now button on home","Mobile Chrome","2026-09-23","passed","2026-09-23","Login - Navigation","","",""
+"**Spec:** `auth/login.spec.ts:78`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @smoke @prod","3894","User can log in with a valid email","Desktop","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:67`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","35190","/contact-us redirects to the lobby and opens the Intercom messenger","Mobile Safari","2026-09-23","passed","2026-09-23","Legal - contact","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:123`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","91709","Share toggle off keeps a newly placed contest off the You tab","Mobile Safari","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `transactions/transactions.spec.ts:204`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","5008","First page rows mirror the balance-log API — label, date, signed amount, newest first","Mobile Chrome","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `entries/entries.spec.ts:263`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod","77739","Pagination advances through every history page","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `entries/entries.spec.ts:67`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","32350","Entry card expands and collapses via its header button","Desktop","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:22`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @navigation @prod","32282","Feed opens the login modal for a logged-out visitor","Desktop","2026-09-23","passed","2026-09-23","Shell - desktop logged-out top nav","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","18876","/terms/packs renders the Packs Terms PDF","Mobile Safari","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `theme/dark-mode.spec.ts:159`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @prod","7410","Login page renders its form in dark mode","Mobile Safari","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `auth/login.spec.ts:154`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","39304","Login is rejected with both fields empty","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `theme/dark-mode.spec.ts:75`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","33718","Staff toggle flips the theme, swaps the logo and persists across reload","Mobile Chrome","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:243`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","803","Switching stat tabs renders that stat's API line on every card","Desktop","2026-09-23","skipped","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `navigation/legal.spec.ts:80`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","7434","/contact still resolves, through /contact-us into the lobby","Mobile Safari","2026-09-23","passed","2026-09-23","Legal - contact","","",""
+"**Spec:** `data-verification/search.spec.ts:247`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","504","No-result, minimum-length and clear behaviours","Desktop","2026-09-23","skipped","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `entries/entries.spec.ts:38`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries","12783","Active tab shows at most one page of entry cards, or the no-data state","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `auth/login.spec.ts:130`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","38383","Login is rejected for an unknown username","Desktop","2026-09-23","passed","2026-09-23","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","18999","/terms renders the Terms Of Service PDF","Mobile Safari","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `auth/login.spec.ts:30`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","2171","Login page renders all expected elements","Desktop","2026-09-23","passed","2026-09-23","Login - Page Rendering","","",""
+"**Spec:** `transactions/transactions.spec.ts:276`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","9497","Switching month reloads the log for that month","Mobile Chrome","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:38`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @slipShare @mutates @money","20664","Logged-in tailer clicks ""Tail this entry"" and submits the same picks","Mobile Chrome","2026-09-23","skipped","2026-09-23","Slip sharing - share and tail","","",""
+"**Spec:** `auth/login-modal-desktop.spec.ts:18`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @auth @prod","4096","Deep link /account/login renders the form as a modal over the lobby","Desktop","2026-09-23","passed","2026-09-23","Login - Desktop Modal","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:89`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","6408","For You tab renders (empty hero in single-user envs, cards otherwise)","Mobile Safari","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","792","Entries tab sends a logged-out visitor to the free-signup login page","Desktop","2026-09-23","skipped","2026-09-23","Shell - logged-out bottom nav","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod @critical","33976","User can switch between the Active and History tabs","Desktop","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `transactions/transactions.spec.ts:374`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","16140","Empty state renders for a month with no transactions","Mobile Safari","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:426`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","15568","Match selector lists every API match for the default league","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `transactions/transactions.spec.ts:421`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @contests @mutates @money","85472","Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows","Mobile Safari","2026-09-23","failed","2026-09-23","Transactions - contest rows","","",""
+"**Spec:** `transactions/transactions.spec.ts:374`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","4743","Empty state renders for a month with no transactions","Desktop","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `auth/login.spec.ts:243`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @auth","20966","User can log in again after logging out","Desktop","2026-09-23","passed","2026-09-23","Login - Logout Flow","","",""
+"**Spec:** `packs/pack-detail.spec.ts:17`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff @smoke","55575","Detail page shows the pack name, Buy CTA and a back link","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `signup/signup.spec.ts:94`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup","38830","Form accepts valid data in all fields","Mobile Safari","2026-09-23","passed","2026-09-23","Signup - Form Fields","","",""
+"**Spec:** `packs/pack-detail.spec.ts:48`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","74677","View Odds opens the Pack Odds modal (when the pack has odds)","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"","4","Shows an error when password confirmation does not match","Mobile Chrome","2026-09-23","skipped","2026-09-23","Signup - Form Fields","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:426`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","6209","Match selector lists every API match for the default league","Mobile Chrome","2026-09-23","passed","2026-09-23","Data verification - picks grid","","",""
+"**Spec:** `navigation/footer-age-badge.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @footer @prod","18857","Home footer shows the 18+ age badge and no 21+ anywhere","Mobile Safari","2026-09-23","passed","2026-09-23","Footer - age badge","","",""
+"**Spec:** `theme/dark-mode.spec.ts:45`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","17080","Stored ""dark"" preference boots the app dark with the dark logo","Desktop","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `theme/dark-mode.spec.ts:60`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","14745","Stored ""light"" preference boots the app light with the light logo","Mobile Safari","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:50`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","93544","Close bar dismisses the iframe and restores the Buy CTA","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - opening iframe","","",""
+"**Spec:** `signup/signup.spec.ts:81`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup","13224","All required fields are visible","Mobile Chrome","2026-09-23","passed","2026-09-23","Signup - Form Fields","","",""
+"**Spec:** `data-verification/search.spec.ts:172`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","25672","Search auto-switches the stat tab to one the searched player offers","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `entries/entry-card.spec.ts:96`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","36678","Dedicated chevron toggle expands and collapses the card","Mobile Safari","2026-09-23","passed","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `transactions/transactions.spec.ts:276`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","5345","Switching month reloads the log for that month","Desktop","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `transactions/transactions.spec.ts:232`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","12611","Each type filter requests its category and lists only that category","Mobile Chrome","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @smoke @prod @critical","11832","Active tab shows the Entry Amount and Max Payout stats","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - Active and History","","",""
+"**Spec:** `signup/signup.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @signup @terms @smoke @prod","12434","Terms page leads to signup page","Mobile Chrome","2026-09-23","passed","2026-09-23","Signup - Entry Points","","",""
+"**Spec:** `data-verification/search.spec.ts:247`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","29233","No-result, minimum-length and clear behaviours","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `stats/full-game-stat-selection.spec.ts:22`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @stats @prod","33281","First stat stays highlighted by default across Full Game league tabs","Mobile Safari","2026-09-23","passed","2026-09-23","Stats - Full Game default selection","","",""
+"**Spec:** `data-verification/search.spec.ts:142`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","25079","Searching a team abbreviation shows that team's players","Mobile Safari","2026-09-23","passed","2026-09-23","Data verification - feed search","","",""
+"**Spec:** `auth/login.spec.ts:90`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)","8243","User lands on home after a successful login","Mobile Safari","2026-09-23","passed","2026-09-23","Login - Valid Credentials","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:107`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @tailFeed @mutates @money","36622","Following tab shows the empty state (single user, no follows)","Desktop","2026-09-23","passed","2026-09-23","Tail feed - share toggle and tailing","","",""
+"**Spec:** `data-verification/entries-active.spec.ts:55`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @data-verification @prod","16437","Active entry cards render the entries-paged API data","Desktop","2026-09-23","passed","2026-09-23","Data verification - active entries","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:66`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","21027","Claimed offers are non-interactive and sorted below unclaimed offers","Mobile Chrome","2026-09-23","failed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `transactions/transactions.spec.ts:347`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","9773","Contest Settled rows credit the payout","Mobile Safari","2026-09-23","skipped","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `packs/pack-detail.spec.ts:93`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","13046","Unknown pack id shows the not-found message","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `theme/dark-mode.spec.ts:75`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @theme @staff","80916","Staff toggle flips the theme, swaps the logo and persists across reload","Desktop","2026-09-23","passed","2026-09-23","Theme - dark mode","","",""
+"","37","Submitting a contest raises the entry amount and max payout totals","Desktop","2026-09-23","skipped","2026-09-23","Contests - Enter Contest","","",""
+"**Spec:** `menu/account-center.spec.ts:39`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @menu @prod","13454","Items are grouped under Account, Rewards and Support","Mobile Chrome","2026-09-23","passed","2026-09-23","Menu - Account Center","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:118`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @rewards @prod","19198","Switching to the Promotions sub-tab routes to /rewards/promotions","Mobile Safari","2026-09-23","passed","2026-09-23","Rewards - Partner Rewards","","",""
+"**Spec:** `auth/login-modal-desktop.spec.ts:44`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @desktop @auth @prod","10581","Top-nav Login button opens the modal in place, without navigation","Desktop","2026-09-23","passed","2026-09-23","Login - Desktop Modal","","",""
+"**Spec:** `packs/pack-detail.spec.ts:48`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","18151","View Odds opens the Pack Odds modal (when the pack has odds)","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - pack detail","","",""
+"**Spec:** `transactions/transactions.spec.ts:421`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @contests @mutates @money","53849","Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows","Mobile Chrome","2026-09-23","passed","2026-09-23","Transactions - contest rows","","",""
+"**Spec:** `entries/entry-card.spec.ts:153`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @prod","33697","Tailers pill reads ""<n> tailers | $<reward>"" when an entry has tailers","Mobile Safari","2026-09-23","skipped","2026-09-23","My Entries - entry card","","",""
+"**Spec:** `packs/access.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @staff","16195","Staff user sees the Packs entry and can open the lobby","Mobile Chrome","2026-09-23","passed","2026-09-23","Packs - access control","","",""
+"**Spec:** `packs/access.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @packs @smoke @prod","11384","Unauthenticated visit to /packs redirects to login with a next param","Mobile Safari","2026-09-23","passed","2026-09-23","Packs - access control","","",""
+"**Spec:** `entries/history-leaderboard-faq.spec.ts:22`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @leaderboard @prod","13884","View Leaderboard on a history card opens the leaderboard modal with a working FAQ link","Mobile Chrome","2026-09-23","passed","2026-09-23","My Entries - History Leaderboard FAQ","","",""
+"**Spec:** `transactions/transactions.spec.ts:307`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @transactions @prod","18260","Paging loads the next rows and keeps newest-first order across pages","Mobile Safari","2026-09-23","passed","2026-09-23","Transactions - transaction log","","",""
+"**Spec:** `navigation/shell.spec.ts:80`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @prod","19200","?coupon and ?btag are stored as the referral cookies","Mobile Safari","2026-09-23","passed","2026-09-23","Shell - system pages","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @navigation @legal @prod","9760","/responsible-gaming renders the Responsible Play PDF","Mobile Chrome","2026-09-23","passed","2026-09-23","Legal - policy documents","","",""
+"**Spec:** `entries/entry-card.spec.ts:261`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-45.1
+
+**User:** default (qa***)
+
+**Tags:** @entries @contests @mutates @money","57798","Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere","Desktop","2026-09-23","skipped","2026-09-23","My Entries - cancel entry","","",""

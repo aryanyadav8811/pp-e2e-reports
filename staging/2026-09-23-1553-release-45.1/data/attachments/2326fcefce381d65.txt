@@ -1,0 +1,4 @@
+[error] Access to fetch at 'https://cdn.staging.parlayplay.io/static/pdfs/terms_of_service.pdf?v=2026-09-23' from origin 'https://staging.parlayplay.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[error] Failed to load resource: net::ERR_FAILED
+[error] Access to fetch at 'https://cdn.staging.parlayplay.io/static/pdfs/terms_of_service.pdf?v=2026-09-23' from origin 'https://staging.parlayplay.io' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[error] Failed to load resource: net::ERR_FAILED

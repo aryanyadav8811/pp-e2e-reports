@@ -1,0 +1,23 @@
+env=staging
+project=Mobile Chrome
+release=release-46
+build=2026-09-24-1250-release-46
+sha=812d19776d2c38b905b0a7d99eb6be7f86fc8ceb
+user=default (qa***)
+spec=rewards/partner-rewards.spec.ts:66
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/rewards
+
++0.365s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive
++0.518s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++3.050s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++3.067s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++3.078s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++3.087s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++3.121s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++3.121s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++3.151s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++3.155s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++3.158s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++3.740s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}

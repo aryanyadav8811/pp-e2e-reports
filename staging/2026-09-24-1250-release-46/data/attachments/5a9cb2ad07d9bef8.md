@@ -1,0 +1,201 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: rewards/partner-rewards.spec.ts >> Rewards - Partner Rewards >> An available offer exposes an enabled CTA
+- Location: tests/rewards/partner-rewards.spec.ts:95:3
+
+# Error details
+
+```
+TimeoutError: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('article[data-testid^="partner-reward-card-"]').first() to be visible
+    33 × locator resolved to hidden <article data-state="available" data-testid="partner-reward-card-clash5" class="flex flex-col w-full rounded-2xl border border-borderPrimary shadow-sm p-5 gap-4 cursor-pointer">…</article>
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Parlay Play Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Parlay Play Logo" [ref=e8]
+          - generic [ref=e10]:
+            - generic [ref=e13]: $832.77
+            - button "Toggle Menu" [ref=e14]:
+              - img [ref=e15]
+      - main [ref=e17]:
+        - generic [ref=e20]:
+          - navigation [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - button "Partner Rewards 1" [ref=e24]:
+                  - text: Partner Rewards
+                  - generic [ref=e25]: "1"
+              - listitem [ref=e26]:
+                - button "Promotions" [ref=e27]
+          - generic [ref=e29]:
+            - article [ref=e30] [cursor=pointer]:
+              - generic [ref=e31]:
+                - generic [ref=e32]:
+                  - generic [ref=e33]:
+                    - generic [ref=e34]: Clash5
+                    - heading "$9 in Rewards" [level=3] [ref=e35]
+                  - img "Clash5 logo" [ref=e36]
+                - generic [ref=e37]: $4 on ParlayPlay + $5 on Clash5
+              - paragraph [ref=e38]: Your first battle awaits. Collect powerful cards, battle real players, and enjoy casino-style games as you climb the ranks in Clash5.
+              - button "Claim Free $9 Now" [ref=e39]
+            - article [ref=e40] [cursor=pointer]:
+              - generic [ref=e41]:
+                - generic [ref=e42]:
+                  - generic [ref=e43]:
+                    - generic [ref=e44]: Stake
+                    - heading "$10 Free Entry + $40 Stake Cash" [level=3] [ref=e45]
+                  - img "Stake logo" [ref=e46]
+                - generic [ref=e47]: $50 in rewards with $20 purchase
+              - paragraph [ref=e48]: Start playing casino games with fast, seamless gameplay.
+              - button "Claim $50" [ref=e49]
+            - article [ref=e50] [cursor=pointer]:
+              - generic [ref=e51]:
+                - generic [ref=e52]:
+                  - generic [ref=e53]:
+                    - generic [ref=e54]: WOW Vegas
+                    - heading "$35 Free Sweeps Coins" [level=3] [ref=e55]
+                  - img "WOW Vegas logo" [ref=e56]
+                - generic [ref=e57]: Get $35 in rewards with your first $10 purchase
+              - paragraph [ref=e58]: Make your first purchase to unlock rewards and more play. Enjoy top social casino games and daily bonuses.
+              - button "Claim $35" [ref=e59]
+            - article [ref=e60] [cursor=pointer]:
+              - generic [ref=e61]:
+                - generic [ref=e62]:
+                  - generic [ref=e63]:
+                    - generic [ref=e64]: SpinPals
+                    - heading "$9 in Rewards" [level=3] [ref=e65]
+                  - img "SpinPals logo" [ref=e66]
+                - generic [ref=e67]: $3 on ParlayPlay + $6 on SpinPals
+              - paragraph [ref=e68]: Join the fun with SpinPals and unlock 5% cash back on all eligible activity through our Partner Rewards Promotion!
+              - button "Unlock Rewards" [ref=e69]
+      - contentinfo [ref=e70]:
+        - navigation [ref=e71]:
+          - list [ref=e72]:
+            - listitem [ref=e73]:
+              - button "Home" [ref=e74] [cursor=pointer]:
+                - generic [ref=e75]:
+                  - img [ref=e76]
+                  - generic [ref=e77]: Home
+            - listitem [ref=e78]:
+              - button "Entries 133" [ref=e79] [cursor=pointer]:
+                - generic [ref=e80]:
+                  - img [ref=e81]
+                  - generic [ref=e82]: Entries
+                - generic [ref=e83]: "133"
+            - listitem [ref=e84]:
+              - button "Feed" [ref=e85] [cursor=pointer]:
+                - generic [ref=e86]:
+                  - img [ref=e87]
+                  - generic [ref=e88]: Feed
+            - listitem [ref=e89]:
+              - button "Rewards 1" [ref=e90] [cursor=pointer]:
+                - generic [ref=e91]:
+                  - img [ref=e92]
+                  - generic [ref=e93]: Rewards
+                - generic [ref=e94]: "1"
+            - listitem [ref=e95]:
+              - button "Packs" [ref=e96] [cursor=pointer]:
+                - generic [ref=e97]:
+                  - img [ref=e98]
+                  - generic [ref=e99]: Packs
+    - generic:
+      - region "Notifications Alt+T"
+  - alert [ref=e100]
+```
+
+# Test source
+
+```ts
+  1  | import { Locator, Page, expect } from '@playwright/test';
+  2  | import { BasePage } from './base.page';
+  3  | 
+  4  | export class RewardsPage extends BasePage {
+  5  |   readonly promotionsTab = this.byRole('button', { name: 'Promotions' });
+  6  |   readonly promoCards = this.page.locator('[data-testid="promotion-card"]');
+  7  |   readonly makeYourPickBtn = this.byRole('button', { name: 'Make your pick!' });
+  8  |   readonly firstPromoUseButton = this.locator('button:has(span:text-is("Use"))');
+  9  |   readonly enterContestBtn = this.byRole('button', { name: 'Enter Contest' });
+  10 | 
+  11 |   readonly partnerTab = this.byRole('button', { name: 'Partner Rewards' });
+  12 |   readonly partnerCards = this.page.locator('article[data-testid^="partner-reward-card-"]');
+  13 |   readonly partnerEmptyState = this.byTestId('partner-rewards-empty');
+  14 | 
+  15 |   constructor(page: Page) {
+  16 |     super(page);
+  17 |   }
+  18 | 
+  19 |   async enterPromotions(): Promise<void> {
+  20 |     await this.promotionsTab.click();
+  21 |   }
+  22 | 
+  23 |   async waitForPartnerRewardsReady(timeout = 15_000): Promise<void> {
+  24 |     // partnerEmptyState goes through byTestId (visible-filtered + first) — the
+  25 |     // raw testid resolves to 2 nodes (mobile + desktop) and trips strict mode.
+  26 |     await Promise.race([
+> 27 |       this.partnerCards.first().waitFor({ state: 'visible', timeout }),
+     |                                 ^ TimeoutError: locator.waitFor: Timeout 15000ms exceeded.
+  28 |       this.partnerEmptyState.waitFor({ state: 'visible', timeout }),
+  29 |     ]);
+  30 |   }
+  31 | 
+  32 |   async isPartnerRewardsEmpty(): Promise<boolean> {
+  33 |     return this.partnerEmptyState.isVisible().catch(() => false);
+  34 |   }
+  35 | 
+  36 |   async getPartnerCardStates(): Promise<string[]> {
+  37 |     const count = await this.partnerCards.count();
+  38 |     const states: string[] = [];
+  39 |     for (let i = 0; i < count; i++) {
+  40 |       states.push((await this.partnerCards.nth(i).getAttribute('data-state')) ?? '');
+  41 |     }
+  42 |     return states;
+  43 |   }
+  44 | 
+  45 |   partnerCardInState(state: string): Locator {
+  46 |     return this.page
+  47 |       .locator(`article[data-testid^="partner-reward-card-"][data-state="${state}"]`)
+  48 |       .first();
+  49 |   }
+  50 | 
+  51 |   async verifyPromotionsAvailable(): Promise<void> {
+  52 |     await expect(this.firstPromoUseButton).toBeVisible();
+  53 |   }
+  54 | 
+  55 |   async usePromo(): Promise<void> {
+  56 |     await this.firstPromoUseButton.click();
+  57 |   }
+  58 | 
+  59 |   async verifyPromoSelected(): Promise<void> {
+  60 |     const classes = (await this.firstPromoUseButton.getAttribute('class')) ?? '';
+  61 |     expect(classes).toContain('playYellow');
+  62 |   }
+  63 | 
+  64 |   async verifyPromoNotSelected(): Promise<void> {
+  65 |     const classes = (await this.firstPromoUseButton.getAttribute('class')) ?? '';
+  66 |     expect(classes).not.toContain('playYellow');
+  67 |   }
+  68 | 
+  69 |   async isPromoSelected(): Promise<boolean> {
+  70 |     const classes = (await this.firstPromoUseButton.getAttribute('class')) ?? '';
+  71 |     return classes.includes('playYellow');
+  72 |   }
+  73 | }
+  74 | 
+```

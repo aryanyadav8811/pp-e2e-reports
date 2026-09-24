@@ -1,0 +1,257 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: entries/entries.spec.ts >> My Entries - Active and History >> Switching the time range from the last page settles on data or the empty state
+- Location: tests/entries/entries.spec.ts:323:3
+
+# Error details
+
+```
+Test timeout of 180000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Parlay Play Logo" [ref=e6]:
+            - /url: /
+            - img "Parlay Play Logo" [ref=e8]
+          - generic [ref=e10]:
+            - generic [ref=e13]: $832.77
+            - button "Toggle Menu" [ref=e14]:
+              - img [ref=e15]
+      - main [ref=e17]:
+        - generic [ref=e20]:
+          - navigation [ref=e21]:
+            - list [ref=e22]:
+              - listitem [ref=e23]:
+                - button "Active" [ref=e24]
+              - listitem [ref=e25]:
+                - button "History" [ref=e26]
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - generic [ref=e29]:
+                - button "7 Days" [ref=e30]
+                - button "30 Days" [ref=e31]
+                - button "6 Months" [ref=e32]
+              - generic [ref=e34]:
+                - generic [ref=e35]:
+                  - generic [ref=e36]: 407Entries Placed
+                  - generic [ref=e37]:
+                    - generic [ref=e38]:
+                      - generic [ref=e39]: "18"
+                      - text: Entries Won
+                    - img [ref=e41]
+                - generic [ref=e43]:
+                  - generic [ref=e44]:
+                    - generic [ref=e45]: Entry Amount
+                    - generic [ref=e46]: $1219.92
+                  - generic [ref=e47]:
+                    - generic [ref=e48]: Total Won
+                    - generic [ref=e49]: $399.84
+                  - generic [ref=e50]:
+                    - generic [ref=e51]: Biggest Payout
+                    - generic [ref=e52]: $82.3
+            - generic [ref=e53]:
+              - region [ref=e54]:
+                - button "Expand entry details" [ref=e55]:
+                  - generic [ref=e56]:
+                    - generic [ref=e57]:
+                      - generic [ref=e59]: $3
+                      - generic [ref=e60]: To win $66.6
+                    - generic [ref=e62]: Lost
+                - button "Expand entry details" [ref=e65]:
+                  - img "Expand" [ref=e66]
+              - region [ref=e67]:
+                - button "Expand entry details" [ref=e68]:
+                  - generic [ref=e69]:
+                    - generic [ref=e70]:
+                      - generic [ref=e72]: $3
+                      - generic [ref=e73]: To win $10.62
+                    - generic [ref=e75]: Lost
+                - button "Expand entry details" [ref=e78]:
+                  - img "Expand" [ref=e79]
+              - region [ref=e80]:
+                - button "Expand entry details" [ref=e81]:
+                  - generic [ref=e82]:
+                    - generic [ref=e83]:
+                      - generic [ref=e85]: $3
+                      - generic [ref=e86]: To win $23.43
+                    - generic [ref=e88]: Lost
+                - button "Expand entry details" [ref=e91]:
+                  - img "Expand" [ref=e92]
+              - region [ref=e93]:
+                - button "Expand entry details" [ref=e94]:
+                  - generic [ref=e95]:
+                    - generic [ref=e96]:
+                      - generic [ref=e98]: $3
+                      - generic [ref=e99]: To win $23.43
+                    - generic [ref=e101]: Lost
+                - button "Expand entry details" [ref=e104]:
+                  - img "Expand" [ref=e105]
+              - region [ref=e106]:
+                - button "Expand entry details" [ref=e107]:
+                  - generic [ref=e108]:
+                    - generic [ref=e109]:
+                      - generic [ref=e111]: $3
+                      - generic [ref=e112]: To win $23.43
+                    - generic [ref=e114]: Lost
+                - button "Expand entry details" [ref=e117]:
+                  - img "Expand" [ref=e118]
+              - region [ref=e119]:
+                - button "Expand entry details" [ref=e120]:
+                  - generic [ref=e121]:
+                    - generic [ref=e122]:
+                      - generic [ref=e124]: $3
+                      - generic [ref=e125]: To win $23.43
+                    - generic [ref=e127]: Lost
+                - button "Expand entry details" [ref=e130]:
+                  - img "Expand" [ref=e131]
+              - region [ref=e132]:
+                - button "Expand entry details" [ref=e133]:
+                  - generic [ref=e134]:
+                    - generic [ref=e135]:
+                      - generic [ref=e137]: $3
+                      - generic [ref=e138]: To win $17.49
+                    - generic [ref=e140]: Lost
+                - button "Expand entry details" [ref=e143]:
+                  - img "Expand" [ref=e144]
+              - region [ref=e145]:
+                - button "Expand entry details" [ref=e146]:
+                  - generic [ref=e147]:
+                    - generic [ref=e148]:
+                      - generic [ref=e150]: $3
+                      - generic [ref=e151]: To win $17.49
+                    - generic [ref=e153]: Lost
+                - button "Expand entry details" [ref=e156]:
+                  - img "Expand" [ref=e157]
+              - region [ref=e158]:
+                - button "Expand entry details" [ref=e159]:
+                  - generic [ref=e160]:
+                    - generic [ref=e161]:
+                      - generic [ref=e163]: $3
+                      - generic [ref=e164]: To win $17.49
+                    - generic [ref=e166]: Lost
+                - button "Expand entry details" [ref=e169]:
+                  - img "Expand" [ref=e170]
+              - region [ref=e171]:
+                - button "Expand entry details" [ref=e172]:
+                  - generic [ref=e173]:
+                    - generic [ref=e174]:
+                      - generic [ref=e176]: $3
+                      - generic [ref=e177]: To win $10.98
+                    - generic [ref=e179]: Lost
+                - button "Expand entry details" [ref=e182]:
+                  - img "Expand" [ref=e183]
+              - region [ref=e184]:
+                - button "Expand entry details" [ref=e185]:
+                  - generic [ref=e186]:
+                    - generic [ref=e187]:
+                      - generic [ref=e189]: $3
+                      - generic [ref=e190]: To win $17.49
+                    - generic [ref=e192]: Lost
+                - button "Expand entry details" [ref=e195]:
+                  - img "Expand" [ref=e196]
+              - region [ref=e197]:
+                - button "Expand entry details" [ref=e198]:
+                  - generic [ref=e199]:
+                    - generic [ref=e200]:
+                      - generic [ref=e202]: $3
+                      - generic [ref=e203]: To win $10.98
+                    - generic [ref=e205]: Lost
+                - button "Expand entry details" [ref=e208]:
+                  - img "Expand" [ref=e209]
+              - region [ref=e210]:
+                - button "Expand entry details" [ref=e211]:
+                  - generic [ref=e212]:
+                    - generic [ref=e213]:
+                      - generic [ref=e215]: $3
+                      - generic [ref=e216]: To win $24.06
+                    - generic [ref=e218]: Lost
+                - button "Expand entry details" [ref=e221]:
+                  - img "Expand" [ref=e222]
+              - region [ref=e223]:
+                - button "Expand entry details" [ref=e224]:
+                  - generic [ref=e225]:
+                    - generic [ref=e226]:
+                      - generic [ref=e228]: $3
+                      - generic [ref=e229]: To win $24.06
+                    - generic [ref=e231]: Lost
+                - button "Expand entry details" [ref=e234]:
+                  - img "Expand" [ref=e235]
+              - region [ref=e236]:
+                - button "Expand entry details" [ref=e237]:
+                  - generic [ref=e238]:
+                    - generic [ref=e239]:
+                      - generic [ref=e241]: $3
+                      - generic [ref=e242]: To win $24.06
+                    - generic [ref=e244]: Lost
+                - button "Expand entry details" [ref=e247]:
+                  - img "Expand" [ref=e248]
+              - region [ref=e249]:
+                - button "Expand entry details" [ref=e250]:
+                  - generic [ref=e251]:
+                    - generic [ref=e252]:
+                      - generic [ref=e254]: $3
+                      - generic [ref=e255]: To win $24.06
+                    - generic [ref=e257]: Lost
+                - button "Expand entry details" [ref=e260]:
+                  - img "Expand" [ref=e261]
+          - generic [ref=e263]:
+            - button [active] [ref=e264]:
+              - img [ref=e265]
+            - button "6" [ref=e267]:
+              - generic [ref=e268]: "6"
+            - button "7" [ref=e269]:
+              - generic [ref=e270]: "7"
+            - button "8" [ref=e271]:
+              - generic [ref=e272]: "8"
+            - button "9" [ref=e273]:
+              - generic [ref=e274]: "9"
+            - button "10" [ref=e275]:
+              - generic [ref=e276]: "10"
+            - button [ref=e277]:
+              - img [ref=e278]
+      - contentinfo [ref=e280]:
+        - navigation [ref=e281]:
+          - list [ref=e282]:
+            - listitem [ref=e283]:
+              - button "Home" [ref=e284] [cursor=pointer]:
+                - generic [ref=e285]:
+                  - img [ref=e286]
+                  - generic [ref=e287]: Home
+            - listitem [ref=e288]:
+              - button "Entries 133" [ref=e289] [cursor=pointer]:
+                - generic [ref=e290]:
+                  - img [ref=e291]
+                  - generic [ref=e292]: Entries
+                - generic [ref=e293]: "133"
+            - listitem [ref=e294]:
+              - button "Feed" [ref=e295] [cursor=pointer]:
+                - generic [ref=e296]:
+                  - img [ref=e297]
+                  - generic [ref=e298]: Feed
+            - listitem [ref=e299]:
+              - button "Rewards" [ref=e300] [cursor=pointer]:
+                - generic [ref=e301]:
+                  - img [ref=e302]
+                  - generic [ref=e303]: Rewards
+            - listitem [ref=e304]:
+              - button "Packs" [ref=e305] [cursor=pointer]:
+                - generic [ref=e306]:
+                  - img [ref=e307]
+                  - generic [ref=e308]: Packs
+    - generic:
+      - region "Notifications Alt+T"
+  - alert [ref=e309]: ParlayPlay | Fun Fantasy Sports - My Entries - History
+```

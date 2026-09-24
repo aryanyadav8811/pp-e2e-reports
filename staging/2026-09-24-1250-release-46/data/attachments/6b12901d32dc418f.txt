@@ -1,0 +1,3 @@
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/challenges-sp/payout-structure/ -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/challenges-sp/crossgame/ -> 400

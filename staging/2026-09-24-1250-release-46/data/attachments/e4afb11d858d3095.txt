@@ -1,0 +1,7 @@
+14:21:35.221 INFO auth[qa***]: worker 1 is the login leader {
+  project: 'Desktop'
+}
+14:21:38.818 INFO auth[qa***]: login complete, session saved {
+  durationMs: 3596
+}
+14:21:38.943 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}

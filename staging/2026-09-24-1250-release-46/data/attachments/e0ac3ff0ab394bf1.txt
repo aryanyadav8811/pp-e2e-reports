@@ -1,0 +1,6 @@
+GET https://staging.parlayplay.io/api/v1/contestgroup/metadata/ -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/challenges-sp/payout-structure/ -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED cancelled
+GET https://staging.parlayplay.io/api/v1/crossgame/offering/ -> FAILED cancelled
+GET https://staging.parlayplay.io/api/v1/entries-summary/ -> FAILED cancelled
+GET https://staging.parlayplay.io/api/v1/entries-paged/ -> FAILED cancelled

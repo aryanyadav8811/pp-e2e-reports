@@ -1,0 +1,14 @@
+env=staging
+project=Mobile Safari
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=modals/userlimits.spec.ts:46
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.638s INFO  auth[qa***]: worker 0 is the login leader
++9.069s INFO  auth[qa***]: login complete, session saved {"durationMs":8432}
++9.175s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

@@ -1,0 +1,13 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Failed to load resource: the server responded with a status of 400 ()
+[pageerror] /staging.parlayplay.io" from accessing a frame with origin "https://tr.snapchat.com". Protocols, domains, and ports must match.
+[pageerror] /staging.parlayplay.io" from accessing a frame with origin "https://tr.snapchat.com". Protocols, domains, and ports must match.
+[error] Failed to load resource: the server responded with a status of 400 ()
+[error] Failed to load resource: the server responded with a status of 400 ()
+[pageerror] CanceledError: canceled
+[error] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: WebSocket is closed before the connection is established.
+[pageerror] CanceledError: canceled
+[error] Error fetching data: AxiosError: Network Error
+[error] Error fetching data: AxiosError: Network Error
+[pageerror] AxiosError: Network Error
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)

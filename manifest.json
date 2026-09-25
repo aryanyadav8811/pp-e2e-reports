@@ -1,12 +1,57 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T10:41:57.059Z",
+  "updatedAt": "2026-09-25T11:56:18.178Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
-      "latest": "2026-09-25-1012-aryan-e2e-ephemeral-users",
-      "buildOrder": 7,
+      "latest": "2026-09-25-1151-aryan-e2e-ephemeral-users",
+      "buildOrder": 8,
       "runs": [
+        {
+          "runId": "2026-09-25-1151-aryan-e2e-ephemeral-users",
+          "env": "dev",
+          "suite": "sanity",
+          "release": "aryan-e2e-ephemeral-users",
+          "ref": "e82e2b899be48f31bdf5f3d04ae81cea5b127f2e",
+          "sha": "e82e2b899be48f31bdf5f3d04ae81cea5b127f2e",
+          "baseURL": "https://dev.parlayplay.io/",
+          "source": "ci",
+          "trigger": "manual (aryanyadav8811)",
+          "startedAt": "2026-09-25T11:53:32.147Z",
+          "finishedAt": "2026-09-25T11:55:37.087Z",
+          "durationMs": 124940,
+          "publishedAt": "2026-09-25T11:56:18.125Z",
+          "workflowRunId": "36131707767",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/36131707767",
+          "artifact": "allure-results-2026-09-25-1151-aryan-e2e-ephemeral-users",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 7,
+            "failed": 0,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 7
+          },
+          "ciCounts": {
+            "passed": 7,
+            "failed": 0,
+            "broken": 0,
+            "skipped": 0,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 7
+          },
+          "playwright": {
+            "expected": 7,
+            "unexpected": 0,
+            "flaky": 0,
+            "skipped": 0
+          },
+          "failed": [],
+          "appends": []
+        },
         {
           "runId": "2026-09-25-1012-aryan-e2e-ephemeral-users",
           "env": "dev",

@@ -1,0 +1,50 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-ephemeral-users
+
+**User:** default (bi***)
+
+**Tags:** @smoke @prod @critical","7793","User can log in with a valid username","Mobile Chrome","2026-09-25","passed","2026-09-25","Login - Valid Credentials","","",""
+"**Spec:** `home/home-search.spec.ts:20`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-ephemeral-users
+
+**User:** default (bi***)
+
+**Tags:** @home @search @prod @smoke @critical","6019","Gibberish query shows the empty state, clearing restores the grid","Mobile Chrome","2026-09-25","passed","2026-09-25","Home - Feed Search","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:26`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-ephemeral-users
+
+**User:** default (bi***)
+
+**Tags:** @contests @mutates @money @smoke @prod @critical @money","16448","Five-pick contest is submitted successfully","Mobile Chrome","2026-09-25","passed","2026-09-25","Contests - Enter Contest","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:88`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-ephemeral-users
+
+**User:** default (bi***)
+
+**Tags:** @navigation @prod @smoke @critical","6445","Only one tab is active at a time and Home restores","Mobile Chrome","2026-09-25","passed","2026-09-25","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-ephemeral-users
+
+**User:** default (bi***)
+
+**Tags:** @auth @smoke @prod @critical","12104","Logged-in user can log out","Mobile Chrome","2026-09-25","passed","2026-09-25","Login - Logout Flow","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-ephemeral-users
+
+**User:** default (bi***)
+
+**Tags:** @entries @smoke @prod @critical","7491","User can switch between the Active and History tabs","Mobile Chrome","2026-09-25","passed","2026-09-25","My Entries - Active and History","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-ephemeral-users
+
+**User:** default (bi***)
+
+**Tags:** @entries @smoke @prod @critical","8420","Active tab shows the Entry Amount and Max Payout stats","Mobile Chrome","2026-09-25","passed","2026-09-25","My Entries - Active and History","","",""

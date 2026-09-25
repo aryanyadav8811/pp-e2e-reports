@@ -1,0 +1,12 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18361
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18423
+    at async t.zr (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:135964)
+    at async t.init (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:136597)
+    at async https://dev.parlayplay.
+[error] Access to fetch at 'https://cdn.staging.parlayplay.io/static/pdfs/terms_of_service.pdf?v=2026-09-25' from origin 'https://dev.parlayplay.io' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://staging.parlayplay.io' that is not equal to the supplied origin. Have the server send the header with a valid value.
+[error] Failed to load resource: net::ERR_FAILED
+[error] Access to fetch at 'https://cdn.staging.parlayplay.io/static/pdfs/terms_of_service.pdf?v=2026-09-25' from origin 'https://dev.parlayplay.io' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://staging.parlayplay.io' that is not equal to the supplied origin. Have the server send the header with a valid value.
+[error] Failed to load resource: net::ERR_FAILED

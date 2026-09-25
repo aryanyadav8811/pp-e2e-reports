@@ -1,0 +1,7 @@
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io
+[error] Origin https://dev.parlayplay.io is not allowed by Access-Control-Allow-Origin. Status code: 200
+[pageerror] /cdn.staging.parlayplay.io/static/pdfs/responsible_gaming.pdf?v=2026-09-25 due to access control checks.
+[error] Failed to load resource: Origin https://dev.parlayplay.io is not allowed by Access-Control-Allow-Origin. Status code: 200
+[error] Origin https://dev.parlayplay.io is not allowed by Access-Control-Allow-Origin. Status code: 200
+[pageerror] /cdn.staging.parlayplay.io/static/pdfs/responsible_gaming.pdf?v=2026-09-25 due to access control checks.
+[error] Failed to load resource: Origin https://dev.parlayplay.io is not allowed by Access-Control-Allow-Origin. Status code: 200

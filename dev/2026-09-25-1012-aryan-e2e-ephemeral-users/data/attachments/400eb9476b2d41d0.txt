@@ -1,0 +1,12 @@
+env=dev
+project=Mobile Safari
+release=aryan-e2e-ephemeral-users
+build=2026-09-25-1012-aryan-e2e-ephemeral-users
+sha=e82e2b899be48f31bdf5f3d04ae81cea5b127f2e
+user=ephemeral s1w0 (e2***)
+spec=modals/userlimits.spec.ts:46
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://dev.parlayplay.io/
+
++0.114s DEBUG session[primary]: alive

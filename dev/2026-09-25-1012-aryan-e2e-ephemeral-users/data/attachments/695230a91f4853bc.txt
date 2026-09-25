@@ -1,0 +1,12 @@
+env=dev
+project=Desktop
+release=aryan-e2e-ephemeral-users
+build=2026-09-25-1012-aryan-e2e-ephemeral-users
+sha=e82e2b899be48f31bdf5f3d04ae81cea5b127f2e
+user=ephemeral s0w1 (e2***)
+spec=packs/opening-iframe.spec.ts:18
+retry=0
+status=failed (expected passed)
+lastUrl=https://dev.parlayplay.io/packs/pack/2
+
++0.196s DEBUG session[packs]: alive

@@ -1,0 +1,2 @@
+GET https://dev.parlayplay.io/_next/static/chunks/webpack-78f7d30253d0fa3e.js -> 502
+GET https://dev.parlayplay.io/_next/static/chunks/webpack-78f7d30253d0fa3e.js -> FAILED Load request cancelled

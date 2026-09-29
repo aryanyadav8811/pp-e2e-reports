@@ -1,0 +1,12 @@
+env=dev
+project=Mobile Chrome
+release=aryan-e2e-fully-parallel
+build=2026-09-29-1636-aryan-e2e-fully-parallel
+sha=404a74bdde863d7e3e1b13a271b42a34fa86e1fc
+user=ephemeral s2w3 (e2***)
+spec=entries/entries.spec.ts:19
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://dev.parlayplay.io/challenges/pending
+
++0.063s DEBUG session[primary]: alive

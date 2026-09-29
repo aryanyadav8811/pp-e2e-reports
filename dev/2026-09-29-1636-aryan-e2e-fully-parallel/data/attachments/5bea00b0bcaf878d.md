@@ -1,0 +1,630 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: packs/opening-iframe.spec.ts >> Packs - opening iframe >> Buy launches the Repackz opening iframe with a close bar
+- Location: tests/packs/opening-iframe.spec.ts:18:3
+
+# Error details
+
+```
+TimeoutError: locator.waitFor: Timeout 45000ms exceeded.
+Call log:
+  - waiting for locator('iframe[title="Open pack"]').filter({ visible: true }).first() to be visible
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Parlay Play Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Parlay Play Logo" [ref=e8]
+          - generic [ref=e9]:
+            - list [ref=e10]:
+              - listitem [ref=e11]:
+                - link "Home" [ref=e12] [cursor=pointer]:
+                  - /url: /
+                  - generic [ref=e14]: Home
+              - listitem [ref=e15]:
+                - link "Packs" [ref=e16] [cursor=pointer]:
+                  - /url: /packs
+                  - generic [ref=e18]: Packs
+              - listitem [ref=e19]:
+                - link "Feed" [ref=e20] [cursor=pointer]:
+                  - /url: /challenges/feed
+                  - generic [ref=e22]: Feed
+              - listitem [ref=e23]:
+                - link "Rewards" [ref=e24] [cursor=pointer]:
+                  - /url: /rewards
+                  - generic [ref=e26]: Rewards
+              - listitem [ref=e27]:
+                - link "Track Picks" [ref=e28] [cursor=pointer]:
+                  - /url: /challenges/pending
+                  - generic [ref=e30]: Track Picks
+            - button "Claim your $100 Deposit Match" [ref=e31] [cursor=pointer]
+            - generic [ref=e32]:
+              - generic [ref=e35]: $500.00
+              - button "Toggle Menu" [ref=e36]:
+                - img [ref=e37]
+      - main [ref=e39]:
+        - generic [ref=e41]:
+          - generic [ref=e45]:
+            - button "previous slide" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+            - generic [ref=e50]:
+              - generic [ref=e52]:
+                - generic [ref=e53]:
+                  - text: $100
+                  - img "black lightning bol" [ref=e54]
+                - generic [ref=e56]: =
+                - generic [ref=e57]:
+                  - text: $200
+                  - img "black lightning bol" [ref=e58]
+                - generic [ref=e59]:
+                  - text: We match your 1st deposit
+                  - text: We match your first deposit up to $100.
+                  - button "Deposit Now" [ref=e61] [cursor=pointer]
+              - generic [ref=e63]:
+                - generic [ref=e64]:
+                  - generic [ref=e65]: Receive a referral Bonus!
+                  - generic [ref=e66]: $20
+                - generic [ref=e67]:
+                  - text: Refer a Friend
+                  - text: when they make their first deposit
+                  - button "Invite Now" [ref=e69] [cursor=pointer]
+            - button "next slide" [ref=e70] [cursor=pointer]:
+              - img [ref=e71]
+          - generic [ref=e75]:
+            - link "Back" [ref=e76] [cursor=pointer]:
+              - /url: /packs
+              - img [ref=e77]
+              - generic [ref=e79]: Back
+            - img "Basketball Premier Pack" [ref=e81]
+            - heading "Basketball Premier Pack" [level=1] [ref=e82]
+            - paragraph [ref=e83]: "Card value: $25.30 – $1200.00"
+            - paragraph [ref=e84]: Every pack contains one authentic graded card. Keep it or sell it back for 100% Fair Market Value.
+            - generic [ref=e85]:
+              - button "Odds" [ref=e86]:
+                - img [ref=e87]
+                - text: Odds
+              - button "How it works" [ref=e89]:
+                - img [ref=e90]
+                - text: How it works
+            - button "Buy for $50" [ref=e94]
+            - region "More packs" [ref=e95]:
+              - heading "More Packs" [level=2] [ref=e96]
+              - generic [ref=e97]:
+                - link "MAX PULL $3,500 Football Pro Pack Football Pro Pack $100" [ref=e99] [cursor=pointer]:
+                  - /url: /packs/pack/1
+                  - generic [ref=e100]: MAX PULL $3,500
+                  - img "Football Pro Pack" [ref=e102]
+                  - generic [ref=e103]:
+                    - heading "Football Pro Pack" [level=3] [ref=e104]
+                    - paragraph [ref=e105]: $100
+                - link "MAX PULL $400 Multi-Sport Starter Pack Multi-Sport Starter Pack $25" [ref=e107] [cursor=pointer]:
+                  - /url: /packs/pack/9
+                  - generic [ref=e108]: MAX PULL $400
+                  - img "Multi-Sport Starter Pack" [ref=e110]
+                  - generic [ref=e111]:
+                    - heading "Multi-Sport Starter Pack" [level=3] [ref=e112]
+                    - paragraph [ref=e113]: $25
+                - link "MAX PULL $3,500 Multi-Sport Pro Pack Multi-Sport Pro Pack $100" [ref=e115] [cursor=pointer]:
+                  - /url: /packs/pack/11
+                  - generic [ref=e116]: MAX PULL $3,500
+                  - img "Multi-Sport Pro Pack" [ref=e118]
+                  - generic [ref=e119]:
+                    - heading "Multi-Sport Pro Pack" [level=3] [ref=e120]
+                    - paragraph [ref=e121]: $100
+                - link "MAX PULL $7,500 Multi-Sport Elite Pack Multi-Sport Elite Pack $250" [ref=e123] [cursor=pointer]:
+                  - /url: /packs/pack/12
+                  - generic [ref=e124]: MAX PULL $7,500
+                  - img "Multi-Sport Elite Pack" [ref=e126]
+                  - generic [ref=e127]:
+                    - heading "Multi-Sport Elite Pack" [level=3] [ref=e128]
+                    - paragraph [ref=e129]: $250
+                - link "MAX PULL $1,000 Baseball Premier Pack Baseball Premier Pack $50" [ref=e131] [cursor=pointer]:
+                  - /url: /packs/pack/3
+                  - generic [ref=e132]: MAX PULL $1,000
+                  - generic [ref=e133]:
+                    - img "Baseball Premier Pack"
+                  - generic [ref=e134]:
+                    - heading "Baseball Premier Pack" [level=3] [ref=e135]
+                    - paragraph [ref=e136]: $50
+                - link "MAX PULL $2,500 Pokémon Pro Pack Pokémon Pro Pack $100" [ref=e138] [cursor=pointer]:
+                  - /url: /packs/pack/7
+                  - generic [ref=e139]: MAX PULL $2,500
+                  - generic [ref=e140]:
+                    - img "Pokémon Pro Pack"
+                  - generic [ref=e141]:
+                    - heading "Pokémon Pro Pack" [level=3] [ref=e142]
+                    - paragraph [ref=e143]: $100
+            - region "Potential Hits" [ref=e144]:
+              - heading "Potential Hits" [level=2] [ref=e145]
+              - generic [ref=e146]:
+                - button "2019 PANINI MOSAIC PURPLE/GOLD SNAKESKIN LUKA DONCIC 44 PSA 10 $813.78 est. 2019 PANINI MOSAIC PURPLE/GOLD SNAKESKIN LUKA DONCIC 44 PSA 10" [ref=e147]:
+                  - generic [ref=e148]:
+                    - img "2019 PANINI MOSAIC PURPLE/GOLD SNAKESKIN LUKA DONCIC 44 PSA 10" [ref=e149]
+                    - generic [ref=e150]: $813.78 est.
+                  - generic [ref=e151]: 2019 PANINI MOSAIC PURPLE/GOLD SNAKESKIN LUKA DONCIC 44 PSA 10
+                - button "2024 PANINI PRIZM BLACK GOLD PRIZM DEVIN BOOKER 8 PSA 9 $387.09 est. 2024 PANINI PRIZM BLACK GOLD PRIZM DEVIN BOOKER 8 PSA 9" [ref=e152]:
+                  - generic [ref=e153]:
+                    - img "2024 PANINI PRIZM BLACK GOLD PRIZM DEVIN BOOKER 8 PSA 9" [ref=e154]
+                    - generic [ref=e155]: $387.09 est.
+                  - generic [ref=e156]: 2024 PANINI PRIZM BLACK GOLD PRIZM DEVIN BOOKER 8 PSA 9
+                - button "2020 PANINI FLUX EQUINOX AUTOGRAPHS EQUINOX AUTOGRAPHS-GOLD OSCAR ROBERTSON EQ-OSC PSA 10 $297.00 est. 2020 PANINI FLUX EQUINOX AUTOGRAPHS EQUINOX AUTOGRAPHS-GOLD OSCAR ROBERTSON EQ-OSC PSA 10" [ref=e157]:
+                  - generic [ref=e158]:
+                    - img "2020 PANINI FLUX EQUINOX AUTOGRAPHS EQUINOX AUTOGRAPHS-GOLD OSCAR ROBERTSON EQ-OSC PSA 10" [ref=e159]
+                    - generic [ref=e160]: $297.00 est.
+                  - generic [ref=e161]: 2020 PANINI FLUX EQUINOX AUTOGRAPHS EQUINOX AUTOGRAPHS-GOLD OSCAR ROBERTSON EQ-OSC PSA 10
+                - button "2023 PANINI DONRUSS ELITE DIMENSIONS STEPHEN CURRY 9 PSA 9 $262.35 est. 2023 PANINI DONRUSS ELITE DIMENSIONS STEPHEN CURRY 9 PSA 9" [ref=e162]:
+                  - generic [ref=e163]:
+                    - img "2023 PANINI DONRUSS ELITE DIMENSIONS STEPHEN CURRY 9 PSA 9" [ref=e164]
+                    - generic [ref=e165]: $262.35 est.
+                  - generic [ref=e166]: 2023 PANINI DONRUSS ELITE DIMENSIONS STEPHEN CURRY 9 PSA 9
+                - button "2013 PANINI BLACK FRIDAY LAVA FLOW KOBE BRYANT 2 PSA 8 $212.85 est. 2013 PANINI BLACK FRIDAY LAVA FLOW KOBE BRYANT 2 PSA 8" [ref=e167]:
+                  - generic [ref=e168]:
+                    - img "2013 PANINI BLACK FRIDAY LAVA FLOW KOBE BRYANT 2 PSA 8" [ref=e169]
+                    - generic [ref=e170]: $212.85 est.
+                  - generic [ref=e171]: 2013 PANINI BLACK FRIDAY LAVA FLOW KOBE BRYANT 2 PSA 8
+                - button "2024 TOPPS NOW MLS CURRY/MESSI 128 PSA 10 $181.17 est. 2024 TOPPS NOW MLS CURRY/MESSI 128 PSA 10" [ref=e172]:
+                  - generic [ref=e173]:
+                    - img "2024 TOPPS NOW MLS CURRY/MESSI 128 PSA 10" [ref=e174]
+                    - generic [ref=e175]: $181.17 est.
+                  - generic [ref=e176]: 2024 TOPPS NOW MLS CURRY/MESSI 128 PSA 10
+                - button "2014 PANINI PRIZM PURPLE DIE-CUT PRIZM SHAQUILLE O'NEAL 228 PSA 10 $173.25 est. 2014 PANINI PRIZM PURPLE DIE-CUT PRIZM SHAQUILLE O'NEAL 228 PSA 10" [ref=e177]:
+                  - generic [ref=e178]:
+                    - img "2014 PANINI PRIZM PURPLE DIE-CUT PRIZM SHAQUILLE O'NEAL 228 PSA 10" [ref=e179]
+                    - generic [ref=e180]: $173.25 est.
+                  - generic [ref=e181]: 2014 PANINI PRIZM PURPLE DIE-CUT PRIZM SHAQUILLE O'NEAL 228 PSA 10
+                - button "2023 PANINI NOIR ROOKIE JUMBO MATERIALS ROOKIE JUMBO MAT-PRIME AUSAR THOMPSON RJMAUS PSA 9 $148.50 est. 2023 PANINI NOIR ROOKIE JUMBO MATERIALS ROOKIE JUMBO MAT-PRIME AUSAR THOMPSON RJMAUS PSA 9" [ref=e182]:
+                  - generic [ref=e183]:
+                    - img "2023 PANINI NOIR ROOKIE JUMBO MATERIALS ROOKIE JUMBO MAT-PRIME AUSAR THOMPSON RJMAUS PSA 9" [ref=e184]
+                    - generic [ref=e185]: $148.50 est.
+                  - generic [ref=e186]: 2023 PANINI NOIR ROOKIE JUMBO MATERIALS ROOKIE JUMBO MAT-PRIME AUSAR THOMPSON RJMAUS PSA 9
+                - button "2021 PANINI SELECT NEON GREEN PRIZM JALEN GREEN 7 PSA 10 $114.30 est. 2021 PANINI SELECT NEON GREEN PRIZM JALEN GREEN 7 PSA 10" [ref=e187]:
+                  - generic [ref=e188]:
+                    - img "2021 PANINI SELECT NEON GREEN PRIZM JALEN GREEN 7 PSA 10" [ref=e189]
+                    - generic [ref=e190]: $114.30 est.
+                  - generic [ref=e191]: 2021 PANINI SELECT NEON GREEN PRIZM JALEN GREEN 7 PSA 10
+                - button "2024 PANINI MOSAIC GOLD SNAKESKIN DAMIAN LILLARD 155 PSA 10 $113.85 est. 2024 PANINI MOSAIC GOLD SNAKESKIN DAMIAN LILLARD 155 PSA 10" [ref=e192]:
+                  - generic [ref=e193]:
+                    - img "2024 PANINI MOSAIC GOLD SNAKESKIN DAMIAN LILLARD 155 PSA 10" [ref=e194]
+                    - generic [ref=e195]: $113.85 est.
+                  - generic [ref=e196]: 2024 PANINI MOSAIC GOLD SNAKESKIN DAMIAN LILLARD 155 PSA 10
+                - button "2020 PANINI COURT KINGS PINK LUKA DONCIC 59 PSA 10 $107.10 est. 2020 PANINI COURT KINGS PINK LUKA DONCIC 59 PSA 10" [ref=e197]:
+                  - generic [ref=e198]:
+                    - img "2020 PANINI COURT KINGS PINK LUKA DONCIC 59 PSA 10" [ref=e199]
+                    - generic [ref=e200]: $107.10 est.
+                  - generic [ref=e201]: 2020 PANINI COURT KINGS PINK LUKA DONCIC 59 PSA 10
+                - button "2017 PANINI SELECT PINK PRIZM KYRIE IRVING 86 PSA 10 $102.60 est. 2017 PANINI SELECT PINK PRIZM KYRIE IRVING 86 PSA 10" [ref=e202]:
+                  - generic [ref=e203]:
+                    - img "2017 PANINI SELECT PINK PRIZM KYRIE IRVING 86 PSA 10" [ref=e204]
+                    - generic [ref=e205]: $102.60 est.
+                  - generic [ref=e206]: 2017 PANINI SELECT PINK PRIZM KYRIE IRVING 86 PSA 10
+                - button "2021 PANINI MOSAIC WHITE SPARKLE JALEN BRUNSON 117 PSA 10 $93.06 est. 2021 PANINI MOSAIC WHITE SPARKLE JALEN BRUNSON 117 PSA 10" [ref=e207]:
+                  - generic [ref=e208]:
+                    - img "2021 PANINI MOSAIC WHITE SPARKLE JALEN BRUNSON 117 PSA 10" [ref=e209]
+                    - generic [ref=e210]: $93.06 est.
+                  - generic [ref=e211]: 2021 PANINI MOSAIC WHITE SPARKLE JALEN BRUNSON 117 PSA 10
+                - button "2022 PANINI PRIZM MONOPOLY MONOPOLY BLACK STEPHEN CURRY 28 PSA 10 $89.10 est. 2022 PANINI PRIZM MONOPOLY MONOPOLY BLACK STEPHEN CURRY 28 PSA 10" [ref=e212]:
+                  - generic [ref=e213]:
+                    - img "2022 PANINI PRIZM MONOPOLY MONOPOLY BLACK STEPHEN CURRY 28 PSA 10" [ref=e214]
+                    - generic [ref=e215]: $89.10 est.
+                  - generic [ref=e216]: 2022 PANINI PRIZM MONOPOLY MONOPOLY BLACK STEPHEN CURRY 28 PSA 10
+                - button "2023 PANINI SELECT GREEN DISCO PAUL GEORGE 14 PSA 10 $89.10 est. 2023 PANINI SELECT GREEN DISCO PAUL GEORGE 14 PSA 10" [ref=e217]:
+                  - generic [ref=e218]:
+                    - img "2023 PANINI SELECT GREEN DISCO PAUL GEORGE 14 PSA 10" [ref=e219]
+                    - generic [ref=e220]: $89.10 est.
+                  - generic [ref=e221]: 2023 PANINI SELECT GREEN DISCO PAUL GEORGE 14 PSA 10
+                - button "1993 STADIUM CLUB ANFERNEE HARDAWAY 308 PSA 10 $84.60 est. 1993 STADIUM CLUB ANFERNEE HARDAWAY 308 PSA 10" [ref=e222]:
+                  - generic [ref=e223]:
+                    - img "1993 STADIUM CLUB ANFERNEE HARDAWAY 308 PSA 10" [ref=e224]
+                    - generic [ref=e225]: $84.60 est.
+                  - generic [ref=e226]: 1993 STADIUM CLUB ANFERNEE HARDAWAY 308 PSA 10
+                - button "2021 PANINI PRIZM PINK ICE STEPHEN CURRY 154 PSA 10 $74.25 est. 2021 PANINI PRIZM PINK ICE STEPHEN CURRY 154 PSA 10" [ref=e227]:
+                  - generic [ref=e228]:
+                    - img "2021 PANINI PRIZM PINK ICE STEPHEN CURRY 154 PSA 10" [ref=e229]
+                    - generic [ref=e230]: $74.25 est.
+                  - generic [ref=e231]: 2021 PANINI PRIZM PINK ICE STEPHEN CURRY 154 PSA 10
+                - button "2008 eTOPPS DWYANE WADE 22 PSA 10 $72.00 est. 2008 eTOPPS DWYANE WADE 22 PSA 10" [ref=e232]:
+                  - generic [ref=e233]:
+                    - img "2008 eTOPPS DWYANE WADE 22 PSA 10" [ref=e234]
+                    - generic [ref=e235]: $72.00 est.
+                  - generic [ref=e236]: 2008 eTOPPS DWYANE WADE 22 PSA 10
+                - button "2023 PANINI MOSAIC GENESIS JAIME JAQUEZ JR. 246 PSA 10 $71.10 est. 2023 PANINI MOSAIC GENESIS JAIME JAQUEZ JR. 246 PSA 10" [ref=e237]:
+                  - generic [ref=e238]:
+                    - img "2023 PANINI MOSAIC GENESIS JAIME JAQUEZ JR. 246 PSA 10" [ref=e239]
+                    - generic [ref=e240]: $71.10 est.
+                  - generic [ref=e241]: 2023 PANINI MOSAIC GENESIS JAIME JAQUEZ JR. 246 PSA 10
+                - button "2023 PANINI CONTENDERS OPTIC BLUE LUKA DONCIC 43 PSA 8 $70.29 est. 2023 PANINI CONTENDERS OPTIC BLUE LUKA DONCIC 43 PSA 8" [ref=e242]:
+                  - generic [ref=e243]:
+                    - img "2023 PANINI CONTENDERS OPTIC BLUE LUKA DONCIC 43 PSA 8" [ref=e244]
+                    - generic [ref=e245]: $70.29 est.
+                  - generic [ref=e246]: 2023 PANINI CONTENDERS OPTIC BLUE LUKA DONCIC 43 PSA 8
+                - button "2024 S.I. FOR KIDS JALEN BRUNSON 1128 PSA 8 $69.30 est. 2024 S.I. FOR KIDS JALEN BRUNSON 1128 PSA 8" [ref=e247]:
+                  - generic [ref=e248]:
+                    - img "2024 S.I. FOR KIDS JALEN BRUNSON 1128 PSA 8" [ref=e249]
+                    - generic [ref=e250]: $69.30 est.
+                  - generic [ref=e251]: 2024 S.I. FOR KIDS JALEN BRUNSON 1128 PSA 8
+                - button "2024 PANINI HAUNTED HOOPS LeBRON JAMES 282 PSA 10 $64.35 est. 2024 PANINI HAUNTED HOOPS LeBRON JAMES 282 PSA 10" [ref=e252]:
+                  - generic [ref=e253]:
+                    - img "2024 PANINI HAUNTED HOOPS LeBRON JAMES 282 PSA 10" [ref=e254]
+                    - generic [ref=e255]: $64.35 est.
+                  - generic [ref=e256]: 2024 PANINI HAUNTED HOOPS LeBRON JAMES 282 PSA 10
+                - button "2023 PANINI DONRUSS OPTIC EXPRESS LANE EXPRESS LANE-BLUE LUKA DONCIC 13 PSA 10 $64.35 est. 2023 PANINI DONRUSS OPTIC EXPRESS LANE EXPRESS LANE-BLUE LUKA DONCIC 13 PSA 10" [ref=e257]:
+                  - generic [ref=e258]:
+                    - img "2023 PANINI DONRUSS OPTIC EXPRESS LANE EXPRESS LANE-BLUE LUKA DONCIC 13 PSA 10" [ref=e259]
+                    - generic [ref=e260]: $64.35 est.
+                  - generic [ref=e261]: 2023 PANINI DONRUSS OPTIC EXPRESS LANE EXPRESS LANE-BLUE LUKA DONCIC 13 PSA 10
+                - button "2018 PANINI CONTENDERS HALL OF FAME CONTENDERS HOF CONTENDER-CRACKED ICE DIRK NOWITZKI 1 PSA 9 $64.35 est. 2018 PANINI CONTENDERS HALL OF FAME CONTENDERS HOF CONTENDER-CRACKED ICE DIRK NOWITZKI 1 PSA 9" [ref=e262]:
+                  - generic [ref=e263]:
+                    - img "2018 PANINI CONTENDERS HALL OF FAME CONTENDERS HOF CONTENDER-CRACKED ICE DIRK NOWITZKI 1 PSA 9" [ref=e264]
+                    - generic [ref=e265]: $64.35 est.
+                  - generic [ref=e266]: 2018 PANINI CONTENDERS HALL OF FAME CONTENDERS HOF CONTENDER-CRACKED ICE DIRK NOWITZKI 1 PSA 9
+                - button "2022 PANINI PRIZM DRAFT PICKS VENOM PRIZM ZION WILLIAMSON 49 PSA 10 $59.40 est. 2022 PANINI PRIZM DRAFT PICKS VENOM PRIZM ZION WILLIAMSON 49 PSA 10" [ref=e267]:
+                  - generic [ref=e268]:
+                    - img "2022 PANINI PRIZM DRAFT PICKS VENOM PRIZM ZION WILLIAMSON 49 PSA 10" [ref=e269]
+                    - generic [ref=e270]: $59.40 est.
+                  - generic [ref=e271]: 2022 PANINI PRIZM DRAFT PICKS VENOM PRIZM ZION WILLIAMSON 49 PSA 10
+                - button "2023 PANINI SELECT ROOKIE REVOLUTION ROOKIE REV-PINK CRACKED ICE BRANDON MILLER 5 PSA 10 $59.40 est. 2023 PANINI SELECT ROOKIE REVOLUTION ROOKIE REV-PINK CRACKED ICE BRANDON MILLER 5 PSA 10" [ref=e272]:
+                  - generic [ref=e273]:
+                    - img "2023 PANINI SELECT ROOKIE REVOLUTION ROOKIE REV-PINK CRACKED ICE BRANDON MILLER 5 PSA 10" [ref=e274]
+                    - generic [ref=e275]: $59.40 est.
+                  - generic [ref=e276]: 2023 PANINI SELECT ROOKIE REVOLUTION ROOKIE REV-PINK CRACKED ICE BRANDON MILLER 5 PSA 10
+                - button "2020 PANINI DONRUSS OPTIC PURPLE LUKA DONCIC 86 PSA 10 $59.40 est. 2020 PANINI DONRUSS OPTIC PURPLE LUKA DONCIC 86 PSA 10" [ref=e277]:
+                  - generic [ref=e278]:
+                    - img "2020 PANINI DONRUSS OPTIC PURPLE LUKA DONCIC 86 PSA 10" [ref=e279]
+                    - generic [ref=e280]: $59.40 est.
+                  - generic [ref=e281]: 2020 PANINI DONRUSS OPTIC PURPLE LUKA DONCIC 86 PSA 10
+                - button "2023 PANINI PRIZM MULTI WAVE JOHN STOCKTON 198 PSA 10 $59.40 est. 2023 PANINI PRIZM MULTI WAVE JOHN STOCKTON 198 PSA 10" [ref=e282]:
+                  - generic [ref=e283]:
+                    - img "2023 PANINI PRIZM MULTI WAVE JOHN STOCKTON 198 PSA 10" [ref=e284]
+                    - generic [ref=e285]: $59.40 est.
+                  - generic [ref=e286]: 2023 PANINI PRIZM MULTI WAVE JOHN STOCKTON 198 PSA 10
+                - button "2022 PANINI MOSAIC OVERDRIVE ANTHONY EDWARDS 18 PSA 10 $59.40 est. 2022 PANINI MOSAIC OVERDRIVE ANTHONY EDWARDS 18 PSA 10" [ref=e287]:
+                  - generic [ref=e288]:
+                    - img "2022 PANINI MOSAIC OVERDRIVE ANTHONY EDWARDS 18 PSA 10" [ref=e289]
+                    - generic [ref=e290]: $59.40 est.
+                  - generic [ref=e291]: 2022 PANINI MOSAIC OVERDRIVE ANTHONY EDWARDS 18 PSA 10
+                - button "2023 PANINI PHOENIX COURT OF THE KINGS COURT OF THE KINGS-PINK LeBRON JAMES 16 PSA 9 $55.26 est. 2023 PANINI PHOENIX COURT OF THE KINGS COURT OF THE KINGS-PINK LeBRON JAMES 16 PSA 9" [ref=e292]:
+                  - generic [ref=e293]:
+                    - img "2023 PANINI PHOENIX COURT OF THE KINGS COURT OF THE KINGS-PINK LeBRON JAMES 16 PSA 9" [ref=e294]
+                    - generic [ref=e295]: $55.26 est.
+                  - generic [ref=e296]: 2023 PANINI PHOENIX COURT OF THE KINGS COURT OF THE KINGS-PINK LeBRON JAMES 16 PSA 9
+                - button "2023 PANINI PRIZM SILVER PRIZM BRANDIN PODZIEMSKI 147 PSA 10 $54.45 est. 2023 PANINI PRIZM SILVER PRIZM BRANDIN PODZIEMSKI 147 PSA 10" [ref=e297]:
+                  - generic [ref=e298]:
+                    - img "2023 PANINI PRIZM SILVER PRIZM BRANDIN PODZIEMSKI 147 PSA 10" [ref=e299]
+                    - generic [ref=e300]: $54.45 est.
+                  - generic [ref=e301]: 2023 PANINI PRIZM SILVER PRIZM BRANDIN PODZIEMSKI 147 PSA 10
+                - button "2023 PANINI PRIZM DECA RED PRIZM CADE CUNNINGHAM 291 PSA 9 $52.20 est. 2023 PANINI PRIZM DECA RED PRIZM CADE CUNNINGHAM 291 PSA 9" [ref=e302]:
+                  - generic [ref=e303]:
+                    - img "2023 PANINI PRIZM DECA RED PRIZM CADE CUNNINGHAM 291 PSA 9" [ref=e304]
+                    - generic [ref=e305]: $52.20 est.
+                  - generic [ref=e306]: 2023 PANINI PRIZM DECA RED PRIZM CADE CUNNINGHAM 291 PSA 9
+                - button "2024 PANINI SELECT BLUE TECTONIC LUKA DONCIC 141 PSA 9 $49.50 est. 2024 PANINI SELECT BLUE TECTONIC LUKA DONCIC 141 PSA 9" [ref=e307]:
+                  - generic [ref=e308]:
+                    - img "2024 PANINI SELECT BLUE TECTONIC LUKA DONCIC 141 PSA 9" [ref=e309]
+                    - generic [ref=e310]: $49.50 est.
+                  - generic [ref=e311]: 2024 PANINI SELECT BLUE TECTONIC LUKA DONCIC 141 PSA 9
+                - button "2023 TOPPS COSMIC CHROME GALAXY GREATS ANFERNEE HARDAWAY GG11 PSA 10 $48.51 est. 2023 TOPPS COSMIC CHROME GALAXY GREATS ANFERNEE HARDAWAY GG11 PSA 10" [ref=e312]:
+                  - generic [ref=e313]:
+                    - img "2023 TOPPS COSMIC CHROME GALAXY GREATS ANFERNEE HARDAWAY GG11 PSA 10" [ref=e314]
+                    - generic [ref=e315]: $48.51 est.
+                  - generic [ref=e316]: 2023 TOPPS COSMIC CHROME GALAXY GREATS ANFERNEE HARDAWAY GG11 PSA 10
+                - button "2024 PANINI DONRUSS OPTIC PINK GLITTER JARED McCAIN 270 PSA 9 $45.54 est. 2024 PANINI DONRUSS OPTIC PINK GLITTER JARED McCAIN 270 PSA 9" [ref=e317]:
+                  - generic [ref=e318]:
+                    - img "2024 PANINI DONRUSS OPTIC PINK GLITTER JARED McCAIN 270 PSA 9" [ref=e319]
+                    - generic [ref=e320]: $45.54 est.
+                  - generic [ref=e321]: 2024 PANINI DONRUSS OPTIC PINK GLITTER JARED McCAIN 270 PSA 9
+                - button "2001 TOPPS CHAMPIONS u0026 CONTENDERS CHRIS WEBBER 13 PSA 10 $44.55 est. 2001 TOPPS CHAMPIONS u0026 CONTENDERS CHRIS WEBBER 13 PSA 10" [ref=e322]:
+                  - generic [ref=e323]:
+                    - img "2001 TOPPS CHAMPIONS u0026 CONTENDERS CHRIS WEBBER 13 PSA 10" [ref=e324]
+                    - generic [ref=e325]: $44.55 est.
+                  - generic [ref=e326]: 2001 TOPPS CHAMPIONS u0026 CONTENDERS CHRIS WEBBER 13 PSA 10
+                - button "2021 PANINI PRIZM EMERGENT EMERGENT FRANZ WAGNER 23 PSA 10 $44.55 est. 2021 PANINI PRIZM EMERGENT EMERGENT FRANZ WAGNER 23 PSA 10" [ref=e327]:
+                  - generic [ref=e328]:
+                    - img "2021 PANINI PRIZM EMERGENT EMERGENT FRANZ WAGNER 23 PSA 10" [ref=e329]
+                    - generic [ref=e330]: $44.55 est.
+                  - generic [ref=e331]: 2021 PANINI PRIZM EMERGENT EMERGENT FRANZ WAGNER 23 PSA 10
+                - button "2024 PANINI SELECT BLUE LUKA DONCIC 56 PSA 10 $44.55 est. 2024 PANINI SELECT BLUE LUKA DONCIC 56 PSA 10" [ref=e332]:
+                  - generic [ref=e333]:
+                    - img "2024 PANINI SELECT BLUE LUKA DONCIC 56 PSA 10" [ref=e334]
+                    - generic [ref=e335]: $44.55 est.
+                  - generic [ref=e336]: 2024 PANINI SELECT BLUE LUKA DONCIC 56 PSA 10
+                - button "2025 TOPPS HOLIDAY RED METALLIC GLITTER RUSSELL WESTBROOK H81 PSA 9 $44.55 est. 2025 TOPPS HOLIDAY RED METALLIC GLITTER RUSSELL WESTBROOK H81 PSA 9" [ref=e337]:
+                  - generic [ref=e338]:
+                    - img "2025 TOPPS HOLIDAY RED METALLIC GLITTER RUSSELL WESTBROOK H81 PSA 9" [ref=e339]
+                    - generic [ref=e340]: $44.55 est.
+                  - generic [ref=e341]: 2025 TOPPS HOLIDAY RED METALLIC GLITTER RUSSELL WESTBROOK H81 PSA 9
+                - button "2019 PANINI CONTENDERS LeBRON JAMES 70 PSA 10 $44.55 est. 2019 PANINI CONTENDERS LeBRON JAMES 70 PSA 10" [ref=e342]:
+                  - generic [ref=e343]:
+                    - img "2019 PANINI CONTENDERS LeBRON JAMES 70 PSA 10" [ref=e344]
+                    - generic [ref=e345]: $44.55 est.
+                  - generic [ref=e346]: 2019 PANINI CONTENDERS LeBRON JAMES 70 PSA 10
+                - button "2023 PANINI PRIZM MONOPOLY ALL-STAR ALL-STAR-PURPLE LeBRON JAMES PS9 PSA 10 $43.56 est. 2023 PANINI PRIZM MONOPOLY ALL-STAR ALL-STAR-PURPLE LeBRON JAMES PS9 PSA 10" [ref=e347]:
+                  - generic [ref=e348]:
+                    - img "2023 PANINI PRIZM MONOPOLY ALL-STAR ALL-STAR-PURPLE LeBRON JAMES PS9 PSA 10" [ref=e349]
+                    - generic [ref=e350]: $43.56 est.
+                  - generic [ref=e351]: 2023 PANINI PRIZM MONOPOLY ALL-STAR ALL-STAR-PURPLE LeBRON JAMES PS9 PSA 10
+                - button "2023 PANINI PRIZM KING SNAKE KARL-ANTHONY TOWNS 78 PSA 9 $43.20 est. 2023 PANINI PRIZM KING SNAKE KARL-ANTHONY TOWNS 78 PSA 9" [ref=e352]:
+                  - generic [ref=e353]:
+                    - img "2023 PANINI PRIZM KING SNAKE KARL-ANTHONY TOWNS 78 PSA 9" [ref=e354]
+                    - generic [ref=e355]: $43.20 est.
+                  - generic [ref=e356]: 2023 PANINI PRIZM KING SNAKE KARL-ANTHONY TOWNS 78 PSA 9
+                - button "2020 PANINI CHRONICLES LeBRON JAMES 152 PSA 10 $42.57 est. 2020 PANINI CHRONICLES LeBRON JAMES 152 PSA 10" [ref=e357]:
+                  - generic [ref=e358]:
+                    - img "2020 PANINI CHRONICLES LeBRON JAMES 152 PSA 10" [ref=e359]
+                    - generic [ref=e360]: $42.57 est.
+                  - generic [ref=e361]: 2020 PANINI CHRONICLES LeBRON JAMES 152 PSA 10
+                - button "2021 PANINI DONRUSS OPTIC ELITE DOMINATORS ELITE DOMINATORS G.ANTETOKOUNMPO 5 PSA 10 $40.59 est. 2021 PANINI DONRUSS OPTIC ELITE DOMINATORS ELITE DOMINATORS G.ANTETOKOUNMPO 5 PSA 10" [ref=e362]:
+                  - generic [ref=e363]:
+                    - img "2021 PANINI DONRUSS OPTIC ELITE DOMINATORS ELITE DOMINATORS G.ANTETOKOUNMPO 5 PSA 10" [ref=e364]
+                    - generic [ref=e365]: $40.59 est.
+                  - generic [ref=e366]: 2021 PANINI DONRUSS OPTIC ELITE DOMINATORS ELITE DOMINATORS G.ANTETOKOUNMPO 5 PSA 10
+                - button "2008 TOPPS HARDWOOD STANDING-HARDWOOD RUSSELL WESTBROOK 104 PSA 9 $39.60 est. 2008 TOPPS HARDWOOD STANDING-HARDWOOD RUSSELL WESTBROOK 104 PSA 9" [ref=e367]:
+                  - generic [ref=e368]:
+                    - img "2008 TOPPS HARDWOOD STANDING-HARDWOOD RUSSELL WESTBROOK 104 PSA 9" [ref=e369]
+                    - generic [ref=e370]: $39.60 est.
+                  - generic [ref=e371]: 2008 TOPPS HARDWOOD STANDING-HARDWOOD RUSSELL WESTBROOK 104 PSA 9
+                - button "2015 PANINI IMMACULATE COLLECTION SIGNATURES SIGNATURES VICTOR OLADIPO S-VO Auto GEM MT 10 PSA 8 $35.64 est. 2015 PANINI IMMACULATE COLLECTION SIGNATURES SIGNATURES VICTOR OLADIPO S-VO Auto GEM MT 10 PSA 8" [ref=e372]:
+                  - generic [ref=e373]:
+                    - img "2015 PANINI IMMACULATE COLLECTION SIGNATURES SIGNATURES VICTOR OLADIPO S-VO Auto GEM MT 10 PSA 8" [ref=e374]
+                    - generic [ref=e375]: $35.64 est.
+                  - generic [ref=e376]: 2015 PANINI IMMACULATE COLLECTION SIGNATURES SIGNATURES VICTOR OLADIPO S-VO Auto GEM MT 10 PSA 8
+                - button "2023 PANINI PRIZM PINK ICE DERECK LIVELY II 163 PSA 10 $33.66 est. 2023 PANINI PRIZM PINK ICE DERECK LIVELY II 163 PSA 10" [ref=e377]:
+                  - generic [ref=e378]:
+                    - img "2023 PANINI PRIZM PINK ICE DERECK LIVELY II 163 PSA 10" [ref=e379]
+                    - generic [ref=e380]: $33.66 est.
+                  - generic [ref=e381]: 2023 PANINI PRIZM PINK ICE DERECK LIVELY II 163 PSA 10
+                - button "2023 PANINI SELECT LIGHT BLUE DISCO TRAYCE JACKSON-DAVIS 117 PSA 10 $31.68 est. 2023 PANINI SELECT LIGHT BLUE DISCO TRAYCE JACKSON-DAVIS 117 PSA 10" [ref=e382]:
+                  - generic [ref=e383]:
+                    - img "2023 PANINI SELECT LIGHT BLUE DISCO TRAYCE JACKSON-DAVIS 117 PSA 10" [ref=e384]
+                    - generic [ref=e385]: $31.68 est.
+                  - generic [ref=e386]: 2023 PANINI SELECT LIGHT BLUE DISCO TRAYCE JACKSON-DAVIS 117 PSA 10
+                - button "2022 PANINI SELECT SNAPSHOTS LUKA DONCIC 5 PSA 10 $30.69 est. 2022 PANINI SELECT SNAPSHOTS LUKA DONCIC 5 PSA 10" [ref=e387]:
+                  - generic [ref=e388]:
+                    - img "2022 PANINI SELECT SNAPSHOTS LUKA DONCIC 5 PSA 10" [ref=e389]
+                    - generic [ref=e390]: $30.69 est.
+                  - generic [ref=e391]: 2022 PANINI SELECT SNAPSHOTS LUKA DONCIC 5 PSA 10
+                - button "1994 FLEER JAM SESSION GAMEBREAKER GAME BREAKER SCOTTIE PIPPEN 7 PSA 9 $30.69 est. 1994 FLEER JAM SESSION GAMEBREAKER GAME BREAKER SCOTTIE PIPPEN 7 PSA 9" [ref=e392]:
+                  - generic [ref=e393]:
+                    - img "1994 FLEER JAM SESSION GAMEBREAKER GAME BREAKER SCOTTIE PIPPEN 7 PSA 9" [ref=e394]
+                    - generic [ref=e395]: $30.69 est.
+                  - generic [ref=e396]: 1994 FLEER JAM SESSION GAMEBREAKER GAME BREAKER SCOTTIE PIPPEN 7 PSA 9
+          - generic [ref=e399]:
+            - generic [ref=e400]:
+              - link "Parlay Play Logo" [ref=e401] [cursor=pointer]:
+                - /url: /
+                - img "Parlay Play Logo" [ref=e403]
+              - generic [ref=e404]:
+                - generic [ref=e405]: Improve your experience. Download our app.
+                - generic [ref=e406]:
+                  - link "Apple Store" [ref=e407] [cursor=pointer]:
+                    - /url: https://parlayplay.onelink.me/oLJk/gnqpwjha
+                    - img "Apple Store" [ref=e408]
+                  - link "Google Play Store" [ref=e409] [cursor=pointer]:
+                    - /url: https://parlayplay.onelink.me/oLJk/fh7u6juo
+                    - img "Google Play Store" [ref=e410]
+            - generic [ref=e411]:
+              - link "Privacy" [ref=e412] [cursor=pointer]:
+                - /url: /privacy-policy
+              - link "Fantasy Terms" [ref=e413] [cursor=pointer]:
+                - /url: /terms
+              - link "Packs Terms" [ref=e414] [cursor=pointer]:
+                - /url: /terms/packs
+              - link "Responsible Gaming" [ref=e415] [cursor=pointer]:
+                - /url: /responsible-gaming
+              - link "Gaming Rules" [ref=e416] [cursor=pointer]:
+                - /url: /rules
+              - link "FAQ" [ref=e417] [cursor=pointer]:
+                - /url: https://intercom.help/parlayplay/en/
+              - link "Contact Us" [ref=e418] [cursor=pointer]:
+                - /url: /
+              - paragraph [ref=e419]: © ParlayPlay 2026 - All Rights Reserved
+            - list [ref=e420]:
+              - listitem [ref=e421]:
+                - generic [ref=e422]:
+                  - log [ref=e424]
+                  - generic [ref=e425]:
+                    - generic [ref=e426]:
+                      - generic [ref=e427]: 🇺🇸English
+                      - combobox "Select language" [ref=e428]
+                    - img [ref=e432]
+              - listitem [ref=e434]:
+                - img "18+-icon" [ref=e435]
+              - listitem [ref=e436]:
+                - link "ParlayPlay on Twitter" [ref=e437] [cursor=pointer]:
+                  - /url: https://twitter.com/parlay_play?lang=en
+                  - img [ref=e438]
+              - listitem [ref=e440]:
+                - link "ParlayPlay on Facebook" [ref=e441] [cursor=pointer]:
+                  - /url: https://www.facebook.com/ParlayPlay.io/
+                  - img [ref=e442]
+              - listitem [ref=e444]:
+                - link "ParlayPlay on Instagram" [ref=e445] [cursor=pointer]:
+                  - /url: https://www.instagram.com/parlayplay_?igsh=bHBldWQyMmV2b3Y4
+                  - img [ref=e446]
+              - listitem [ref=e448]:
+                - link "ParlayPlay on Discord" [ref=e449] [cursor=pointer]:
+                  - /url: https://discord.com/invite/parlayplay
+                  - img [ref=e450]
+    - generic:
+      - region "Notifications Alt+T"
+  - alert [ref=e452]: ParlayPlay | Fun Fantasy Sports
+  - iframe [ref=e453]:
+    
+  - button "Open Intercom Messenger" [ref=e454] [cursor=pointer]:
+    - img [ref=e456]
+    - generic:
+      - img
+```
+
+# Test source
+
+```ts
+  135 |   get buyAnotherPackButton(): Locator {
+  136 |     return this.packFrame.getByRole('button', {
+  137 |       name: /^Buy another pack for \$/,
+  138 |     });
+  139 |   }
+  140 | 
+  141 |   get redeemItemButton(): Locator {
+  142 |     return this.packFrame.getByRole('button', { name: 'Redeem This Item' });
+  143 |   }
+  144 | 
+  145 |   // Matched by text, not accessible name: several Repackz CTAs render their
+  146 |   // label in an aria-hidden child, so getByRole({ name }) finds nothing.
+  147 |   get confirmShippingButton(): Locator {
+  148 |     return this.packFrame.locator('button').filter({ hasText: 'Confirm Shipping' }).first();
+  149 |   }
+  150 | 
+  151 |   // Clicking this charges shipping + handling (Django /shipping-debit).
+  152 |   get submitShippingButton(): Locator {
+  153 |     return this.packFrame
+  154 |       .locator('button')
+  155 |       .filter({ hasText: /^Submit$/ })
+  156 |       .first();
+  157 |   }
+  158 | 
+  159 |   get shippingTab(): Locator {
+  160 |     return this.packFrame.getByRole('tab').filter({ hasText: 'Shipping' });
+  161 |   }
+  162 | 
+  163 |   // Delivery layout varies by Repackz build (desktop button vs mobile tile);
+  164 |   // the "<n> item" count is the stable signal in both.
+  165 |   get deliveryRows(): Locator {
+  166 |     return this.packFrame.getByText(/\d+\s+items?/);
+  167 |   }
+  168 | 
+  169 |   constructor(page: Page) {
+  170 |     super(page);
+  171 |   }
+  172 | 
+  173 |   async headerBalanceUsd(): Promise<number> {
+  174 |     const label = await this.page
+  175 |       .getByRole('banner')
+  176 |       .getByText(/^\$[\d,]+\.\d{2}$/)
+  177 |       .first()
+  178 |       .textContent();
+  179 |     const match = (label ?? '').match(/\$([\d,]+\.\d{2})/);
+  180 |     return match ? Number(match[1].replace(/,/g, '')) : NaN;
+  181 |   }
+  182 | 
+  183 |   get detailHeading(): Locator {
+  184 |     return this.page.getByRole('heading', { level: 1 }).filter({ visible: true }).first();
+  185 |   }
+  186 | 
+  187 |   async openLobby(): Promise<void> {
+  188 |     await this.open('/packs');
+  189 |     await this.openAPackHeading.waitFor({ state: 'visible', timeout: 30_000 });
+  190 |   }
+  191 | 
+  192 |   async openFirstPack(): Promise<string> {
+  193 |     const first = this.packTiles.first();
+  194 |     await first.waitFor({ state: 'visible', timeout: 30_000 });
+  195 |     const href = (await first.getAttribute('href')) ?? '';
+  196 |     await first.click();
+  197 |     await this.page.waitForURL('**/packs/pack/**');
+  198 |     await this.buyButton.waitFor({ state: 'visible', timeout: 30_000 });
+  199 |     return href;
+  200 |   }
+  201 | 
+  202 |   /**
+  203 |    * Keeps money-flow spend minimal — the first catalog tile can be a $100 pack
+  204 |    * that a drained staging balance can't afford.
+  205 |    */
+  206 |   async openCheapestPack(): Promise<void> {
+  207 |     const tiles = this.packTiles;
+  208 |     await tiles.first().waitFor({ state: 'visible', timeout: 30_000 });
+  209 |     const count = await tiles.count();
+  210 |     let bestIdx = 0;
+  211 |     let bestPrice = Infinity;
+  212 |     for (let i = 0; i < count; i++) {
+  213 |       const text = (await tiles.nth(i).textContent()) ?? '';
+  214 |       const match = text.match(/\$([\d,]+(?:\.\d+)?)/);
+  215 |       const price = match ? Number(match[1].replace(/,/g, '')) : Infinity;
+  216 |       if (price < bestPrice) {
+  217 |         bestPrice = price;
+  218 |         bestIdx = i;
+  219 |       }
+  220 |     }
+  221 |     await tiles.nth(bestIdx).click();
+  222 |     await this.page.waitForURL('**/packs/pack/**');
+  223 |     await this.buyButton.waitFor({ state: 'visible', timeout: 30_000 });
+  224 |   }
+  225 | 
+  226 |   async buyPriceUsd(): Promise<number> {
+  227 |     const label = (await this.buyButton.textContent()) ?? '';
+  228 |     const match = label.match(/\$([\d,]+(?:\.\d+)?)/);
+  229 |     return match ? Number(match[1].replace(/,/g, '')) : NaN;
+  230 |   }
+  231 | 
+  232 |   /** Does NOT charge — the money-moving "RIP" button lives inside the iframe. */
+  233 |   async buyAndAwaitIframe(): Promise<void> {
+  234 |     await this.buyButton.click();
+> 235 |     await this.openPackIframe.waitFor({ state: 'visible', timeout: 45_000 });
+      |                               ^ TimeoutError: locator.waitFor: Timeout 45000ms exceeded.
+  236 |   }
+  237 | 
+  238 |   /**
+  239 |    * Repackz staging intermittently 502s on `POST /packs/sessions/`, leaving
+  240 |    * the Buy CTA in place with no iframe. Specs `test.skip` on false so a
+  241 |    * provider outage reads as skipped, not a spurious failure.
+  242 |    */
+  243 |   async buyAndTryAwaitIframe(timeoutMs = 30_000): Promise<boolean> {
+  244 |     await this.buyButton.click();
+  245 |     return this.openPackIframe
+  246 |       .waitFor({ state: 'visible', timeout: timeoutMs })
+  247 |       .then(() => true)
+  248 |       .catch(() => false);
+  249 |   }
+  250 | 
+  251 |   // Pack money movements land in /transactions as balance-log rows ("Pack
+  252 |   // Purchase", "Pack Sell-Back", "Pack Shipping", "Card Shipped", "Pack Refund").
+  253 |   readonly transactionLogHeading = this.byText('Transaction Log');
+  254 | 
+  255 |   // The type <select> is the one offering a "Packs" option; the other is the month picker.
+  256 |   get transactionTypeFilter(): Locator {
+  257 |     return this.page
+  258 |       .getByRole('combobox')
+  259 |       .filter({
+  260 |         has: this.page.getByRole('option', { name: 'Packs', exact: true }),
+  261 |       })
+  262 |       .first();
+  263 |   }
+  264 | 
+  265 |   // Newest first.
+  266 |   get transactionRows(): Locator {
+  267 |     return this.page.locator('div.bg-bgSecondary.rounded-full').filter({ visible: true });
+  268 |   }
+  269 | 
+  270 |   async openTransactions(): Promise<void> {
+  271 |     await this.open('/transactions');
+  272 |     await this.transactionLogHeading.waitFor({
+  273 |       state: 'visible',
+  274 |       timeout: 30_000,
+  275 |     });
+  276 |   }
+  277 | 
+  278 |   async filterTransactionsToPacks(): Promise<void> {
+  279 |     await this.transactionTypeFilter.selectOption({ label: 'Packs' });
+  280 |   }
+  281 | 
+  282 |   transactionRow(actionLabel: string, amount?: string): Locator {
+  283 |     let row = this.transactionRows.filter({ hasText: actionLabel });
+  284 |     if (amount) row = row.filter({ hasText: amount });
+  285 |     return row.first();
+  286 |   }
+  287 | }
+  288 | 
+```

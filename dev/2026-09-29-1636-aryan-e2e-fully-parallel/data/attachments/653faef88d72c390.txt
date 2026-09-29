@@ -1,0 +1,12 @@
+env=dev
+project=Mobile Chrome
+release=aryan-e2e-fully-parallel
+build=2026-09-29-1636-aryan-e2e-fully-parallel
+sha=404a74bdde863d7e3e1b13a271b42a34fa86e1fc
+user=ephemeral s2w2 (e2***)
+spec=rewards/promo-contests.spec.ts:10
+retry=0
+status=failed (expected passed)
+lastUrl=https://dev.parlayplay.io/rewards/promotions
+
++0.064s DEBUG session[primary]: alive

@@ -1,0 +1,23 @@
+env=dev
+project=Desktop
+release=aryan-e2e-fully-parallel
+build=2026-09-29-1636-aryan-e2e-fully-parallel
+sha=404a74bdde863d7e3e1b13a271b42a34fa86e1fc
+user=ephemeral s0w3 (e2***)
+spec=slip-sharing/share-and-tail.spec.ts:168
+retry=0
+status=failed (expected passed)
+lastUrl=https://dev.parlayplay.io/
+
++0.277s DEBUG session[e2***]: alive
++1.901s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++10.924s WARN  contest: pick pool exhausted on this stat tab {"attempt":1,"statIdx":0,"error":"Could not select 3 valid picks"}
++11.810s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"Could not select 3 valid picks"}
++19.579s WARN  contest: pick pool exhausted on this stat tab {"attempt":2,"statIdx":1,"error":"Could not select 3 valid picks"}
++20.238s WARN  contest: rotating to the next stat tab after a rejection {"attempt":3,"statIdx":2,"lastError":"Could not select 3 valid picks"}
++27.937s WARN  contest: pick pool exhausted on this stat tab {"attempt":3,"statIdx":2,"error":"Could not select 3 valid picks"}
++28.876s WARN  contest: rotating to the next stat tab after a rejection {"attempt":4,"statIdx":3,"lastError":"Could not select 3 valid picks"}
++36.551s WARN  contest: pick pool exhausted on this stat tab {"attempt":4,"statIdx":3,"error":"Could not select 3 valid picks"}
++37.301s WARN  contest: rotating to the next stat tab after a rejection {"attempt":5,"statIdx":4,"lastError":"Could not select 3 valid picks"}
++45.165s WARN  contest: pick pool exhausted on this stat tab {"attempt":5,"statIdx":4,"error":"Could not select 3 valid picks"}
++45.165s ERROR contest: giving up — could not place an entry {"maxAttempts":5,"throttleRetries":0,"lastError":"Could not select 3 valid picks"}

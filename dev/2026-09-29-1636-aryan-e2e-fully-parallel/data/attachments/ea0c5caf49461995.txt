@@ -1,0 +1,58 @@
+[error] Failed to refresh user data: CanceledError: canceled
+    at th (https://dev.parlayplay.io/_next/static/chunks/pages/_app-054da45e294d6e39.js:1:123893)
+    at tb.tm (https://dev.parlayplay.io/_next/static/chunks/pages/_app-054da45e294d6e39.js:1:123930)
+    at async tb.request (https://dev.parlayplay.io/_next/static/chunks/pages/_app-054da45e294d6e39.js:1:125673)
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18361
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18423
+    at async t.zr (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:135964)
+    at async t.init (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:136597)
+    at async https://dev.parlayplay.
+[error] Failed to refresh user data: CanceledError: canceled
+    at th (https://dev.parlayplay.io/_next/static/chunks/pages/_app-054da45e294d6e39.js:1:123893)
+    at tb.tm (https://dev.parlayplay.io/_next/static/chunks/pages/_app-054da45e294d6e39.js:1:123930)
+    at async tb.request (https://dev.parlayplay.io/_next/static/chunks/pages/_app-054da45e294d6e39.js:1:125673)
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18361
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18423
+    at async t.zr (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:135964)
+    at async t.init (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:136597)
+    at async https://dev.parlayplay.
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18361
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18423
+    at async t.zr (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:135964)
+    at async t.init (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:136597)
+    at async https://dev.parlayplay.
+[warning] [.WebGL-0xdfc034ae400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18361
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18423
+    at async t.zr (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:135964)
+    at async t.init (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:136597)
+    at async https://dev.parlayplay.
+[warning] [.WebGL-0xdfc0dc2f800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18361
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18423
+    at async t.zr (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:135964)
+    at async t.init (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:136597)
+    at async https://dev.parlayplay.
+[warning] [.WebGL-0xdfc04984c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18361
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18423
+    at async t.zr (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:135964)
+    at async t.init (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:136597)
+    at async https://dev.parlayplay.
+[warning] [.WebGL-0xdfc0e902c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18361
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:18423
+    at async t.zr (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:135964)
+    at async t.init (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:136597)
+    at async https://dev.parlayplay.

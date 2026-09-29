@@ -1,0 +1,6 @@
+"BROKEN","CATEGORY","FAILED","PASSED","SKIPPED","UNKNOWN"
+"0","Test defect: locator / strict mode","14","0","0","0"
+"0","Environment: contest placement exhausted","8","0","0","0"
+"0","Product defects","4","0","0","0"
+"8","Test defect: timeout","2","0","0","0"
+"0","Skipped: data / precondition","0","0","89","0"

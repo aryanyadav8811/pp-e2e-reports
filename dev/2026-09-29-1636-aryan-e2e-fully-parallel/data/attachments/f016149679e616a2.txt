@@ -1,0 +1,12 @@
+env=dev
+project=Desktop
+release=aryan-e2e-fully-parallel
+build=2026-09-29-1636-aryan-e2e-fully-parallel
+sha=404a74bdde863d7e3e1b13a271b42a34fa86e1fc
+user=ephemeral s0w2 (e2***)
+spec=slip-persistence/slip-persistence.spec.ts:28
+retry=0
+status=failed (expected passed)
+lastUrl=https://dev.parlayplay.io/
+
++0.044s DEBUG session[primary]: alive

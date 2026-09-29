@@ -1,0 +1,15 @@
+env=dev
+project=Mobile Chrome
+release=aryan-e2e-fully-parallel
+build=2026-09-29-1636-aryan-e2e-fully-parallel
+sha=404a74bdde863d7e3e1b13a271b42a34fa86e1fc
+user=ephemeral s2w1 (e2***)
+spec=entries/entry-card.spec.ts:261
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://dev.parlayplay.io/challenges/pending
+
++0.069s DEBUG session[primary]: alive
++1.453s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++14.433s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-850519","player-1411636","player-852043"]}
++16.509s INFO  contest: entry placed {"attempt":1,"pickIds":["player-850519","player-1411636","player-852043"]}

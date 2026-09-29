@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T11:56:18.178Z",
+  "updatedAt": "2026-09-29T12:12:20.437Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
@@ -712,9 +712,160 @@
       ]
     },
     "staging": {
-      "latest": "2026-09-24-1250-release-46",
-      "buildOrder": 13,
+      "latest": "2026-09-29-1127-release-46",
+      "buildOrder": 14,
       "runs": [
+        {
+          "runId": "2026-09-29-1127-release-46",
+          "env": "staging",
+          "suite": "full",
+          "release": "release-46",
+          "ref": "a2c1f26e50917d638935181ce7e80a42c15e438c",
+          "sha": "a2c1f26e50917d638935181ce7e80a42c15e438c",
+          "baseURL": "https://staging.parlayplay.io/",
+          "source": "ci",
+          "trigger": "manual (aryanyadav8811)",
+          "startedAt": "2026-09-29T11:28:38.534Z",
+          "finishedAt": "2026-09-29T12:11:27.115Z",
+          "durationMs": 2568581,
+          "publishedAt": "2026-09-29T12:12:20.155Z",
+          "workflowRunId": "36560733955",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/36560733955",
+          "artifact": "allure-results-2026-09-29-1127-release-46",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 361,
+            "failed": 12,
+            "broken": 3,
+            "skipped": 38,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 414
+          },
+          "ciCounts": {
+            "passed": 361,
+            "failed": 12,
+            "broken": 3,
+            "skipped": 38,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 414
+          },
+          "playwright": {
+            "expected": 361,
+            "unexpected": 15,
+            "flaky": 0,
+            "skipped": 38
+          },
+          "failed": [
+            {
+              "project": "Desktop",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five-pick contest is submitted successfully",
+              "status": "broken",
+              "message": "Test timeout of 120000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Placed contest appears in the My Entries list",
+              "status": "failed",
+              "message": "Error: Timeout 30000ms exceeded while waiting on the predicate"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "entries/entries.spec.ts",
+              "name": "Switching the time range from the last page settles on data or the empty state",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "entries/entries.spec.ts",
+              "name": "Pagination advances through every history page",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "home/home-search.spec.ts",
+              "name": "A common letter narrows the grid without emptying it",
+              "status": "failed",
+              "message": "Error: expect(received).toBeLessThanOrEqual(expected)"
+            },
+            {
+              "project": "Desktop",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: Could not select 5 valid picks"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "navigation/footer-nav.spec.ts",
+              "name": "Fifth tab (Free2Play or Packs) routes and takes the indicator",
+              "status": "failed",
+              "message": "TimeoutError: locator.click: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "packs/lobby.spec.ts",
+              "name": "A 'See all' link opens a subcategory listing",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Shows an error when the email is already taken",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            }
+          ],
+          "appends": []
+        },
         {
           "runId": "2026-09-24-1250-release-46",
           "env": "staging",
@@ -1542,77 +1693,6 @@
             }
           ],
           "appends": []
-        },
-        {
-          "runId": "2026-09-10-1309-release-44",
-          "env": "staging",
-          "suite": "full",
-          "release": "release-44",
-          "ref": "3367ba96cb1298eaa1e52887273cd83414491c1d",
-          "sha": "3367ba96cb1298eaa1e52887273cd83414491c1d",
-          "baseURL": "https://staging.parlayplay.io/",
-          "source": "ci",
-          "trigger": "manual (Sanskriti7379)",
-          "startedAt": "2026-09-10T13:10:49.196Z",
-          "finishedAt": "2026-09-10T14:16:14.512Z",
-          "durationMs": 3925316,
-          "publishedAt": "2026-09-10T13:54:31.096Z",
-          "workflowRunId": "34479574883",
-          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/34479574883",
-          "artifact": "allure-results-2026-09-10-1309-release-44",
-          "resultsInRepo": false,
-          "counts": {
-            "passed": 378,
-            "failed": 0,
-            "broken": 0,
-            "skipped": 42,
-            "unknown": 0,
-            "flaky": 6,
-            "total": 420
-          },
-          "ciCounts": {
-            "passed": 368,
-            "failed": 7,
-            "broken": 0,
-            "skipped": 42,
-            "unknown": 0,
-            "flaky": 0,
-            "total": 417
-          },
-          "playwright": {
-            "expected": 368,
-            "unexpected": 7,
-            "flaky": 0,
-            "skipped": 42
-          },
-          "failed": [],
-          "appends": [
-            {
-              "at": "2026-09-10T14:23:13.959Z",
-              "by": "apple",
-              "source": "local",
-              "added": 190,
-              "specs": [
-                "entries/entry-card.spec.ts",
-                "signup/signup.spec.ts",
-                "navigation/legal.spec.ts",
-                "packs/pack-detail.spec.ts",
-                "navigation/shell.spec.ts",
-                "contests/user-enter-contest.spec.ts",
-                "slip-sharing/share-and-tail.spec.ts",
-                "rewards/partner-rewards.spec.ts",
-                "navigation/footer-nav.spec.ts",
-                "slip-persistence/slip-persistence.spec.ts",
-                "packs/lobby.spec.ts",
-                "transactions/transactions.spec.ts",
-                "data-verification/picks-grid.spec.ts",
-                "data-verification/search.spec.ts",
-                "slip-sharing/tail-feed.spec.ts",
-                "stats/full-game-stat-selection.spec.ts"
-              ],
-              "note": "DFS-2925 gap-fill"
-            }
-          ]
         }
       ]
     }

@@ -1,0 +1,12 @@
+env=dev
+project=Mobile Safari
+release=aryan-e2e-fully-parallel
+build=2026-09-29-1511-aryan-e2e-fully-parallel
+sha=f4bb26cb76184ddb61182eedab131757eaea2249
+user=ephemeral s1w1 (e2***)
+spec=signup/signup.spec.ts:139
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://dev.parlayplay.io/account/signup
+
+(no log lines)

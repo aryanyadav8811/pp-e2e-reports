@@ -1,0 +1,1 @@
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io

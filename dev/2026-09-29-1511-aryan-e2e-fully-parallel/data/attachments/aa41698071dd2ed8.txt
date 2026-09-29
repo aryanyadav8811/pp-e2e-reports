@@ -1,0 +1,3 @@
+[error] [ONESIGNAL] init failed Error: Can only be used on: https://staging.parlayplay.io
+[pageerror] /dev.parlayplay.io" from accessing a frame with origin "https://tr.snapchat.com". Protocols, domains, and ports must match.
+[pageerror] /dev.parlayplay.io" from accessing a frame with origin "https://tr.snapchat.com". Protocols, domains, and ports must match.

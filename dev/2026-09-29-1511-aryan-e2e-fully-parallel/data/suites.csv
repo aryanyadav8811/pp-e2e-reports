@@ -1,0 +1,2816 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"**Spec:** `rewards/partner-rewards.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @rewards @prod","1755","Partner Rewards is the default tab, alongside a Promotions tab","Mobile Safari","2026-09-29","passed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:50`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @packs @staff","52818","Close bar dismisses the iframe and restores the Buy CTA","Desktop","2026-09-29","failed","2026-09-29","Packs - opening iframe","","",""
+"**Spec:** `auth/login.spec.ts:138`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","40505","Login is rejected with an empty username","Desktop","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:43`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @desktop @navigation @prod","5562","Logged-out carousel shows the $5 signup entry and the first-deposit match","Desktop","2026-09-29","passed","2026-09-29","Shell - desktop header promo carousel","","",""
+"","2","Placed contest appears in the My Entries list","Mobile Safari","2026-09-29","skipped","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `auth/login-modal-desktop.spec.ts:44`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @desktop @auth @prod","9408","Top-nav Login button opens the modal in place, without navigation","Desktop","2026-09-29","passed","2026-09-29","Login - Desktop Modal","","",""
+"**Spec:** `transactions/transactions.spec.ts:157`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @transactions @prod","1300","Transaction Log renders with the month and type filters","Mobile Chrome","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `packs/pack-detail.spec.ts:35`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @packs @staff","4033","Back link returns to the lobby","Mobile Chrome","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `menu/account-center.spec.ts:39`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @menu @prod","3677","Items are grouped under Account, Rewards and Support","Mobile Chrome","2026-09-29","passed","2026-09-29","Menu - Account Center","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @navigation @legal @prod","2339","/privacy-policy renders the Privacy Policy PDF","Desktop","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:243`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @data-verification @prod","302","Switching stat tabs renders that stat's API line on every card","Desktop","2026-09-29","skipped","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:22`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @desktop @navigation @prod","2483","Feed opens the login modal for a logged-out visitor","Desktop","2026-09-29","passed","2026-09-29","Shell - desktop logged-out top nav","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @navigation @prod","259","Entries tab sends a logged-out visitor to the free-signup login page","Desktop","2026-09-29","skipped","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `auth/login.spec.ts:130`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","39481","Login is rejected for an unknown username","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `transactions/transactions.spec.ts:204`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @transactions @prod","1534","First page rows mirror the balance-log API — label, date, signed amount, newest first","Mobile Safari","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:123`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @tailFeed @mutates @money","49397","Share toggle off keeps a newly placed contest off the You tab","Desktop","2026-09-29","failed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"","1","Picks Submitted screen exposes the description CTA and opens the editor","Mobile Safari","2026-09-29","skipped","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `auth/login.spec.ts:138`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","39045","Login is rejected with an empty username","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `entries/entry-card.spec.ts:211`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @entries @prod","4786","View Leaderboard opens the contest-group leaderboard modal","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:28`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @slipPersist @prod","25592","Slip persists through an Entries tab round-trip","Mobile Safari","2026-09-29","failed","2026-09-29","Slip persistence - navigation and reload","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @navigation @prod","362","Rewards tab sends a logged-out visitor to the free-signup login page","Desktop","2026-09-29","skipped","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @navigation @prod","264","Feed tab sends a logged-out visitor to the free-signup login page","Desktop","2026-09-29","skipped","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:107`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @tailFeed @mutates @money","2008","Following tab shows the empty state (single user, no follows)","Mobile Chrome","2026-09-29","passed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:18`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @packs @staff @smoke","52724","Buy launches the Repackz opening iframe with a close bar","Desktop","2026-09-29","failed","2026-09-29","Packs - opening iframe","","",""
+"**Spec:** `entries/entry-card.spec.ts:80`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @entries @prod","4504","History cards never render the pick-badge preview","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `menu/account-center.spec.ts:21`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @menu @prod","5075","Account Center opens from the burger with title, wallet summary and Deposit CTA","Mobile Safari","2026-09-29","passed","2026-09-29","Menu - Account Center","","",""
+"**Spec:** `stats/full-game-stat-selection.spec.ts:22`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @stats @prod","2224","First stat stays highlighted by default across Full Game league tabs","Mobile Chrome","2026-09-29","passed","2026-09-29","Stats - Full Game default selection","","",""
+"**Spec:** `theme/dark-mode.spec.ts:60`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @theme @staff","1413","Stored ""light"" preference boots the app light with the light logo","Mobile Chrome","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `packs/access.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @packs @staff","5990","Staff user sees the Packs entry and can open the lobby","Mobile Safari","2026-09-29","passed","2026-09-29","Packs - access control","","",""
+"**Spec:** `entries/entry-card.spec.ts:80`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @entries @prod","5421","History cards never render the pick-badge preview","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:107`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @tailFeed @mutates @money","2144","Following tab shows the empty state (single user, no follows)","Desktop","2026-09-29","passed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:160`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @tailFeed @mutates @money","17628","Share toggle on surfaces a newly placed contest on the You tab and it can be tailed","Mobile Chrome","2026-09-29","passed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:38`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @rewards @prod","16786","Partner offer cards render, or the empty state when none are available","Mobile Safari","2026-09-29","failed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `auth/login.spec.ts:78`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @smoke @prod","8463","User can log in with a valid email","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @navigation @legal @prod","2110","/responsible-gaming renders the Responsible Play PDF","Mobile Chrome","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `modals/userlimits.spec.ts:46`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @userLimit @mutates @smoke","21131","Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it","Mobile Safari","2026-09-29","failed","2026-09-29","User Limits - Limit Exceeded Modal","","",""
+"**Spec:** `auth/login.spec.ts:30`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","3279","Login page renders all expected elements","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Page Rendering","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:195`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @data-verification @prod","5984","Player cards render the offering API data","Desktop","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:55`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @prod","3966","Fifth tab (Free2Play or Packs) routes and takes the indicator","Mobile Chrome","2026-09-29","passed","2026-09-29","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:88`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @navigation @prod @smoke @critical","6813","Only one tab is active at a time and Home restores","Mobile Safari","2026-09-29","passed","2026-09-29","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `navigation/legal.spec.ts:41`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @navigation @legal @prod","3804","Signup Class Action Waiver link opens the Terms document at #class-action","Mobile Safari","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `packs/pack-detail.spec.ts:48`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @packs @staff","2987","View Odds opens the Pack Odds modal (when the pack has odds)","Desktop","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `entries/entries.spec.ts:263`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @entries @smoke @prod","6241","Pagination advances through every history page","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:34`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @slipShare @mutates @money","23590","Logged-in tailer clicks ""Tail this entry"" and submits the same picks","Mobile Chrome","2026-09-29","passed","2026-09-29","Slip sharing - share and tail","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:69`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @desktop @navigation @prod","2502","Logged-in carousel Invite Now opens the share dialog","Desktop","2026-09-29","passed","2026-09-29","Shell - desktop header promo carousel","","",""
+"**Spec:** `packs/pack-detail.spec.ts:64`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @packs @staff","2474","Quantity stepper is bounded at 1 and scales the Buy price","Desktop","2026-09-29","skipped","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `data-verification/entries-active.spec.ts:55`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @data-verification @prod","2642","Active entry cards render the entries-paged API data","Desktop","2026-09-29","passed","2026-09-29","Data verification - active entries","","",""
+"**Spec:** `entries/entry-card.spec.ts:39`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @entries @prod","3323","Active card shows the entry amount, payout and Insured/All In multiplier","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:168`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @slipShare @mutates @money","49251","Logged-out tailer signs in via the tail link, then auto-tails and submits","Desktop","2026-09-29","failed","2026-09-29","Slip sharing - share and tail","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @navigation @prod","4291","Packs tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-09-29","passed","2026-09-29","Shell - logged-out bottom nav","","",""
+"","1","Placed contest appears in the My Entries list","Desktop","2026-09-29","skipped","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `packs/pack-detail.spec.ts:93`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @packs @staff","2638","Unknown pack id shows the not-found message","Mobile Chrome","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `theme/dark-mode.spec.ts:131`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @theme","2485","Toggle visibility matches the staff gate for the logged-in user","Desktop","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `entries/entries.spec.ts:38`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @entries","5239","Active tab shows at most one page of entry cards, or the no-data state","Desktop","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `navigation/shell.spec.ts:62`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @navigation @prod","1995","/_offline renders the offline page and Reload reloads it","Desktop","2026-09-29","passed","2026-09-29","Shell - system pages","","",""
+"**Spec:** `data-verification/player-detail-modal.spec.ts:23`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @data-verification @prod","3856","Expert-opinion modal renders the API's player data","Desktop","2026-09-29","passed","2026-09-29","Data verification - player detail modal","","",""
+"**Spec:** `transactions/transactions.spec.ts:157`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @transactions @prod","1600","Transaction Log renders with the month and type filters","Desktop","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `navigation/shell.spec.ts:53`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @navigation @prod","1409","Unknown route renders the 404 page","Desktop","2026-09-29","passed","2026-09-29","Shell - system pages","","",""
+"**Spec:** `signup/signup.spec.ts:164`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w2 (e2***)
+
+**Tags:** @signup @mock-otp @smoke @creates-user","181310","Signup completes with the mocked OTP","Mobile Chrome","2026-09-29","broken","2026-09-29","Signup - OTP / 2FA","","",""
+"**Spec:** `signup/signup.spec.ts:50`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @signup @terms","2664","Deeplink with referral pre-populates the coupon field","Mobile Chrome","2026-09-29","passed","2026-09-29","Signup - Entry Points","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:34`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @slipShare @mutates @money","49233","Logged-in tailer clicks ""Tail this entry"" and submits the same picks","Desktop","2026-09-29","failed","2026-09-29","Slip sharing - share and tail","","",""
+"**Spec:** `entries/entry-card.spec.ts:153`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @entries @prod","3186","Tailers pill reads ""<n> tailers | $<reward>"" when an entry has tailers","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"","0","Share toggle on surfaces a newly placed contest on the You tab and it can be tailed","Desktop","2026-09-29","skipped","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `data-verification/entries-history.spec.ts:50`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w2 (e2***)
+
+**Tags:** @data-verification @prod","2934","History cards and summary render the history API data","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - history entries","","",""
+"**Spec:** `navigation/shell.spec.ts:53`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @prod","2072","Unknown route renders the 404 page","Mobile Safari","2026-09-29","passed","2026-09-29","Shell - system pages","","",""
+"**Spec:** `packs/pack-detail.spec.ts:64`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @packs @staff","3007","Quantity stepper is bounded at 1 and scales the Buy price","Mobile Chrome","2026-09-29","skipped","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `transactions/transactions.spec.ts:232`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @transactions @prod","1883","Each type filter requests its category and lists only that category","Mobile Chrome","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `entries/entry-card.spec.ts:134`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @entries @prod","5306","Live entries surface a Live indicator","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @rewards @prod","1410","Partner Rewards is the default tab, alongside a Promotions tab","Mobile Chrome","2026-09-29","passed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `auth/login-modal-desktop.spec.ts:18`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @desktop @auth @prod","2662","Deep link /account/login renders the form as a modal over the lobby","Desktop","2026-09-29","passed","2026-09-29","Login - Desktop Modal","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:123`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @tailFeed @mutates @money","16134","Share toggle off keeps a newly placed contest off the You tab","Mobile Chrome","2026-09-29","passed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:88`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @navigation @prod @smoke @critical","4033","Only one tab is active at a time and Home restores","Mobile Chrome","2026-09-29","passed","2026-09-29","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `signup/signup.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @signup @terms @smoke @prod","2655","Terms page leads to signup page","Mobile Chrome","2026-09-29","passed","2026-09-29","Signup - Entry Points","","",""
+"**Spec:** `data-verification/search.spec.ts:172`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @data-verification @prod","239","Search auto-switches the stat tab to one the searched player offers","Desktop","2026-09-29","skipped","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w2 (e2***)
+
+**Tags:** @entries @smoke @prod @critical","181070","Active tab shows the Entry Amount and Max Payout stats","Mobile Chrome","2026-09-29","broken","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `theme/dark-mode.spec.ts:45`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @theme @staff","1939","Stored ""dark"" preference boots the app dark with the dark logo","Mobile Safari","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"","1","Slip persists through a hard page reload","Mobile Safari","2026-09-29","skipped","2026-09-29","Slip persistence - navigation and reload","","",""
+"**Spec:** `entries/entry-card.spec.ts:96`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @entries @prod","5399","Dedicated chevron toggle expands and collapses the card","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:330`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @data-verification @prod","3877","Stats selector tabs equal the API stat names for the default league","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `auth/login.spec.ts:243`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","18143","User can log in again after logging out","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Logout Flow","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:83`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @desktop @navigation @prod","4182","Feed link routes to the feed and takes the underline","Desktop","2026-09-29","passed","2026-09-29","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `data-verification/entries-history.spec.ts:50`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @data-verification @prod","2788","History cards and summary render the history API data","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - history entries","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:118`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @rewards @prod","3591","Switching to the Promotions sub-tab routes to /rewards/promotions","Mobile Safari","2026-09-29","passed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `entries/entry-card.spec.ts:153`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @entries @prod","3748","Tailers pill reads ""<n> tailers | $<reward>"" when an entry has tailers","Desktop","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `signup/signup.spec.ts:50`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w1 (e2***)
+
+**Tags:** @signup @terms","4747","Deeplink with referral pre-populates the coupon field","Mobile Safari","2026-09-29","passed","2026-09-29","Signup - Entry Points","","",""
+"**Spec:** `auth/login.spec.ts:206`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","2862","Unauthenticated user sees the Join Now button on home","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Navigation","","",""
+"**Spec:** `auth/login.spec.ts:100`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)","5813","Login honours the ""next"" query param redirect","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:98`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @desktop @navigation @prod","4960","Wallet pill shows the balance and the burger toggles the account dropdown","Desktop","2026-09-29","passed","2026-09-29","Desktop top nav - routing and wallet pill","","",""
+"","1","Picks Submitted screen exposes the description CTA and opens the editor","Desktop","2026-09-29","skipped","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `settings/player-limits.spec.ts:18`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @settings @prod","3584","My Settings no longer renders the Player Limits controls","Mobile Chrome","2026-09-29","passed","2026-09-29","Settings - Player Limits","","",""
+"**Spec:** `auth/login.spec.ts:130`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","39621","Login is rejected for an unknown username","Desktop","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `theme/dark-mode.spec.ts:60`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @theme @staff","2142","Stored ""light"" preference boots the app light with the light logo","Desktop","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `entries/entry-card.spec.ts:119`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @entries @prod","4195","History entry surfaces a Won / Lost / Cancelled result pill","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:26`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @contests @mutates @money @smoke @prod @critical @money","54372","Five-pick contest is submitted successfully","Desktop","2026-09-29","failed","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `signup/signup.spec.ts:164`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @signup @mock-otp @smoke @creates-user","184162","Signup completes with the mocked OTP","Mobile Safari","2026-09-29","broken","2026-09-29","Signup - OTP / 2FA","","",""
+"**Spec:** `packs/lobby.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @packs @staff @smoke","2137","Lobby renders the Open a Pack catalog with at least one pack tile","Mobile Chrome","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `navigation/entries-nav-indicator.spec.ts:21`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @prod","4183","Indicator stays under ""Entries"" when toggling Active and History","Mobile Chrome","2026-09-29","passed","2026-09-29","Bottom nav - Entries active indicator","","",""
+"**Spec:** `home/home-search.spec.ts:20`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @home @search @prod @smoke @critical","4431","Gibberish query shows the empty state, clearing restores the grid","Mobile Chrome","2026-09-29","passed","2026-09-29","Home - Feed Search","","",""
+"**Spec:** `packs/access.spec.ts:11`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @packs @smoke @prod","2282","Unauthenticated visit to /packs redirects to login with a next param","Desktop","2026-09-29","passed","2026-09-29","Packs - access control","","",""
+"**Spec:** `navigation/legal.spec.ts:108`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @navigation @legal @footer @prod","1836","Every internal footer link resolves 200 and external links are absolute https","Desktop","2026-09-29","passed","2026-09-29","Legal - footer links","","",""
+"**Spec:** `packs/access.spec.ts:27`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @packs @staff","3701","Staff user sees the Packs entry and can open the lobby","Desktop","2026-09-29","passed","2026-09-29","Packs - access control","","",""
+"**Spec:** `signup/signup.spec.ts:32`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @signup @terms","3833","Header ""Join Now"" opens Terms page","Mobile Safari","2026-09-29","passed","2026-09-29","Signup - Entry Points","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:23`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @prod","4437","Feed tab routes to /challenges/feed and takes the indicator","Mobile Safari","2026-09-29","passed","2026-09-29","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `transactions/transactions.spec.ts:421`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @transactions @contests @mutates @money","20061","Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows","Mobile Safari","2026-09-29","passed","2026-09-29","Transactions - contest rows","","",""
+"**Spec:** `navigation/shell.spec.ts:80`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @prod","3712","?coupon and ?btag are stored as the referral cookies","Mobile Safari","2026-09-29","passed","2026-09-29","Shell - system pages","","",""
+"**Spec:** `modals/userlimits.spec.ts:46`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @userLimit @mutates @smoke","13747","Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it","Desktop","2026-09-29","failed","2026-09-29","User Limits - Limit Exceeded Modal","","",""
+"**Spec:** `navigation/legal.spec.ts:67`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @navigation @legal @prod","3558","/contact-us redirects to the lobby and opens the Intercom messenger","Desktop","2026-09-29","passed","2026-09-29","Legal - contact","","",""
+"**Spec:** `packs/pack-detail.spec.ts:35`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @packs @staff","6532","Back link returns to the lobby","Mobile Safari","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:23`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @prod","2313","Feed tab routes to /challenges/feed and takes the indicator","Mobile Chrome","2026-09-29","passed","2026-09-29","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `entries/entry-card.spec.ts:80`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @entries @prod","4616","History cards never render the pick-badge preview","Desktop","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:25`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @desktop @navigation @prod","2404","Primary links render with their destinations","Desktop","2026-09-29","passed","2026-09-29","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `rewards/promo-contests.spec.ts:10`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @rewards @mutates @money @test-api","21176","Contest entry uses a promo selected from the Promotions tab","Mobile Safari","2026-09-29","failed","2026-09-29","Rewards - promo contest entry","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:168`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @slipShare @mutates @money","22753","Logged-out tailer signs in via the tail link, then auto-tails and submits","Mobile Chrome","2026-09-29","passed","2026-09-29","Slip sharing - share and tail","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:330`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w2 (e2***)
+
+**Tags:** @data-verification @prod","3054","Stats selector tabs equal the API stat names for the default league","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `navigation/shell.spec.ts:80`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @prod","1323","?coupon and ?btag are stored as the referral cookies","Mobile Chrome","2026-09-29","passed","2026-09-29","Shell - system pages","","",""
+"**Spec:** `theme/dark-mode.spec.ts:181`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @theme @staff","1426","OS dark appearance resolves to dark","Mobile Chrome","2026-09-29","passed","2026-09-29","Theme - dark mode > System preference - no stored choice","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @entries @smoke @prod @critical","4267","User can switch between the Active and History tabs","Desktop","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `navigation/entries-nav-indicator.spec.ts:21`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @prod","7550","Indicator stays under ""Entries"" when toggling Active and History","Mobile Safari","2026-09-29","passed","2026-09-29","Bottom nav - Entries active indicator","","",""
+"**Spec:** `navigation/shell.spec.ts:80`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @navigation @prod","1603","?coupon and ?btag are stored as the referral cookies","Desktop","2026-09-29","passed","2026-09-29","Shell - system pages","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:22`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @desktop @navigation @prod","3122","Track Picks opens the login modal for a logged-out visitor","Desktop","2026-09-29","passed","2026-09-29","Shell - desktop logged-out top nav","","",""
+"**Spec:** `packs/pack-detail.spec.ts:17`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @packs @staff @smoke","3573","Detail page shows the pack name, Buy CTA and a back link","Mobile Chrome","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @legal @prod","4481","/terms renders the Terms Of Service PDF","Mobile Chrome","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @legal @prod","2424","/privacy-policy renders the Privacy Policy PDF","Mobile Chrome","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `auth/login.spec.ts:122`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","34087","Login is rejected with an invalid password","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:100`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)","4928","Login honours the ""next"" query param redirect","Desktop","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `packs/lobby.spec.ts:67`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @packs @staff","5450","A 'See all' link opens a subcategory listing","Desktop","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `packs/pack-detail.spec.ts:64`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @packs @staff","4062","Quantity stepper is bounded at 1 and scales the Buy price","Mobile Safari","2026-09-29","skipped","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `navigation/legal.spec.ts:89`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @navigation @legal @prod","1955","/contact-us renders no HubSpot ticket form on any breakpoint","Desktop","2026-09-29","passed","2026-09-29","Legal - contact","","",""
+"**Spec:** `menu/account-center.spec.ts:69`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @menu @prod","6788","Items route to their destination pages","Mobile Safari","2026-09-29","passed","2026-09-29","Menu - Account Center","","",""
+"**Spec:** `packs/access.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @packs @smoke @prod","2356","Unauthenticated visit to /packs redirects to login with a next param","Mobile Safari","2026-09-29","passed","2026-09-29","Packs - access control","","",""
+"**Spec:** `auth/login.spec.ts:146`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","35079","Login is rejected with an empty password","Desktop","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `packs/access.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @packs @staff","2738","Staff user sees the Packs entry and can open the lobby","Mobile Chrome","2026-09-29","passed","2026-09-29","Packs - access control","","",""
+"**Spec:** `home/home-search.spec.ts:20`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @home @search @prod @smoke @critical","5013","Gibberish query shows the empty state, clearing restores the grid","Mobile Safari","2026-09-29","passed","2026-09-29","Home - Feed Search","","",""
+"**Spec:** `rewards/promo-contests.spec.ts:10`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @rewards @mutates @money @test-api","18047","Contest entry uses a promo selected from the Promotions tab","Mobile Chrome","2026-09-29","failed","2026-09-29","Rewards - promo contest entry","","",""
+"**Spec:** `auth/login.spec.ts:39`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","1970","Login page is reachable by direct URL","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Page Rendering","","",""
+"**Spec:** `theme/dark-mode.spec.ts:75`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @theme @staff","6767","Staff toggle flips the theme, swaps the logo and persists across reload","Mobile Chrome","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `auth/login.spec.ts:47`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","1911","Password field masks its input","Desktop","2026-09-29","passed","2026-09-29","Login - Page Rendering","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @entries @smoke @prod @critical","5395","User can switch between the Active and History tabs","Mobile Safari","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `settings/settings.spec.ts:16`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @settings @prod","3075","My Settings shows the username, email and name from the user API","Mobile Chrome","2026-09-29","passed","2026-09-29","Settings - My Settings","","",""
+"**Spec:** `auth/login.spec.ts:39`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","3653","Login page is reachable by direct URL","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Page Rendering","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:66`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @rewards @prod","1322","Claimed offers are non-interactive and sorted below unclaimed offers","Mobile Chrome","2026-09-29","skipped","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `navigation/shell.spec.ts:62`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @navigation @prod","1698","/_offline renders the offline page and Reload reloads it","Mobile Chrome","2026-09-29","passed","2026-09-29","Shell - system pages","","",""
+"**Spec:** `theme/dark-mode.spec.ts:159`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @theme @prod","1098","Login page renders its form in dark mode","Mobile Chrome","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `auth/login.spec.ts:164`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","39978","Error clears on retry with valid credentials","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `theme/dark-mode.spec.ts:131`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @theme","1994","Toggle visibility matches the staff gate for the logged-in user","Mobile Chrome","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `signup/signup.spec.ts:32`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @signup @terms","2172","Header ""Join Now"" opens Terms page","Mobile Chrome","2026-09-29","passed","2026-09-29","Signup - Entry Points","","",""
+"**Spec:** `entries/entries.spec.ts:121`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @entries","5049","Cancel Entry countdown stays within the 5-minute window","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `entries/entries.spec.ts:263`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @entries @smoke @prod","4086","Pagination advances through every history page","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `auth/login.spec.ts:130`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","35103","Login is rejected for an unknown username","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"","0","Slip persists through a Rewards tab round-trip","Mobile Safari","2026-09-29","skipped","2026-09-29","Slip persistence - navigation and reload","","",""
+"","1","Shows an error when password confirmation does not match","Mobile Safari","2026-09-29","skipped","2026-09-29","Signup - Form Fields","","",""
+"**Spec:** `home/home-search.spec.ts:48`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @home @search @prod","2013","A common letter narrows the grid without emptying it","Mobile Chrome","2026-09-29","passed","2026-09-29","Home - Feed Search","","",""
+"**Spec:** `packs/lobby.spec.ts:54`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @packs @staff","4941","Pending Packs row lists 'Open Pack' actions when the user owns open rounds","Mobile Safari","2026-09-29","skipped","2026-09-29","Packs - lobby","","",""
+"**Spec:** `navigation/shell.spec.ts:53`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @prod","1235","Unknown route renders the 404 page","Mobile Chrome","2026-09-29","passed","2026-09-29","Shell - system pages","","",""
+"**Spec:** `entries/entries.spec.ts:211`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @entries","3965","First history card shows the amount, result and pick count from the API","Mobile Chrome","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `navigation/legal.spec.ts:80`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @legal @prod","1703","/contact still resolves, through /contact-us into the lobby","Mobile Chrome","2026-09-29","passed","2026-09-29","Legal - contact","","",""
+"","2","Slip persists through a Rewards tab round-trip","Mobile Chrome","2026-09-29","skipped","2026-09-29","Slip persistence - navigation and reload","","",""
+"**Spec:** `auth/login.spec.ts:100`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)","4358","Login honours the ""next"" query param redirect","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth @smoke @prod @critical","8540","Logged-in user can log out","Desktop","2026-09-29","passed","2026-09-29","Login - Logout Flow","","",""
+"","1","Placed contest appears in the My Entries list","Mobile Chrome","2026-09-29","skipped","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `entries/entries.spec.ts:147`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @entries @smoke @prod","6105","History summary stats match the API for the 6 Months range","Mobile Safari","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `data-verification/player-detail-modal.spec.ts:23`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w2 (e2***)
+
+**Tags:** @data-verification @prod","3672","Expert-opinion modal renders the API's player data","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - player detail modal","","",""
+"**Spec:** `auth/login.spec.ts:47`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","3308","Password field masks its input","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Page Rendering","","",""
+"**Spec:** `auth/login.spec.ts:122`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","39592","Login is rejected with an invalid password","Desktop","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `theme/dark-mode.spec.ts:75`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @theme @staff","7744","Staff toggle flips the theme, swaps the logo and persists across reload","Desktop","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth @smoke @prod @critical","14649","Logged-in user can log out","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Logout Flow","","",""
+"**Spec:** `navigation/legal.spec.ts:41`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @legal @prod","2262","Signup Class Action Waiver link opens the Terms document at #class-action","Mobile Chrome","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `entries/entries.spec.ts:67`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @entries","3308","Entry card expands and collapses via its header button","Mobile Chrome","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `data-verification/entries-history.spec.ts:50`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @data-verification @prod","3023","History cards and summary render the history API data","Desktop","2026-09-29","passed","2026-09-29","Data verification - history entries","","",""
+"**Spec:** `navigation/legal.spec.ts:89`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @navigation @legal @prod","2019","/contact-us renders no HubSpot ticket form on any breakpoint","Mobile Chrome","2026-09-29","passed","2026-09-29","Legal - contact","","",""
+"**Spec:** `entries/entries.spec.ts:121`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @entries","3140","Cancel Entry countdown stays within the 5-minute window","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:174`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @entries @prod","3597","Share button opens the share-slip modal for shareable entries","Desktop","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `auth/login.spec.ts:30`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","2436","Login page renders all expected elements","Desktop","2026-09-29","passed","2026-09-29","Login - Page Rendering","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:65`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @desktop @navigation @prod","4482","Track Picks routes to pending and stays active on history","Desktop","2026-09-29","passed","2026-09-29","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `data-verification/search.spec.ts:101`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @data-verification @prod","2755","Searching an API player's full name shows only matching cards","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - feed search","","",""
+"","2","Confirming cancel twice fires the cancel request only once (double-submit guard)","Desktop","2026-09-29","skipped","2026-09-29","My Entries - cancel entry","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:91`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @desktop @navigation @prod","5693","Logged-in carousel Deposit Now opens the account dropdown with the Deposit link","Desktop","2026-09-29","passed","2026-09-29","Shell - desktop header promo carousel","","",""
+"**Spec:** `packs/lobby.spec.ts:54`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @packs @staff","1741","Pending Packs row lists 'Open Pack' actions when the user owns open rounds","Mobile Chrome","2026-09-29","skipped","2026-09-29","Packs - lobby","","",""
+"**Spec:** `entries/entry-card.spec.ts:60`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @entries @prod","3873","Collapsed active card shows the pick-badge preview; expanding hides it","Desktop","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:160`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @tailFeed @mutates @money","21611","Share toggle on surfaces a newly placed contest on the You tab and it can be tailed","Mobile Safari","2026-09-29","passed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `entries/entries.spec.ts:323`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @entries","4103","Switching the time range from the last page settles on data or the empty state","Desktop","2026-09-29","skipped","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @prod","4982","Feed tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-09-29","passed","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `entries/entry-card.spec.ts:261`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @entries @contests @mutates @money","302188","Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere","Mobile Chrome","2026-09-29","broken","2026-09-29","My Entries - cancel entry","","",""
+"**Spec:** `entries/entries.spec.ts:147`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @entries @smoke @prod","4292","History summary stats match the API for the 6 Months range","Mobile Chrome","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @entries @smoke @prod @critical","3839","User can switch between the Active and History tabs","Mobile Chrome","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:60`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @entries @prod","4583","Collapsed active card shows the pick-badge preview; expanding hides it","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @smoke @prod @critical","5653","User can log in with a valid username","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:154`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","38696","Login is rejected with both fields empty","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `signup/signup.spec.ts:42`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @signup @terms","4469","Footer ""Sign Up"" opens Terms page","Mobile Safari","2026-09-29","passed","2026-09-29","Signup - Entry Points","","",""
+"**Spec:** `entries/entry-card.spec.ts:174`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @entries @prod","3039","Share button opens the share-slip modal for shareable entries","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `auth/login.spec.ts:30`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","2370","Login page renders all expected elements","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Page Rendering","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @entries @smoke @prod @critical","180678","Active tab shows the Entry Amount and Max Payout stats","Desktop","2026-09-29","broken","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:60`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @entries @prod","3890","Collapsed active card shows the pick-badge preview; expanding hides it","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `theme/dark-mode.spec.ts:181`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @theme @staff","1548","OS dark appearance resolves to dark","Desktop","2026-09-29","passed","2026-09-29","Theme - dark mode > System preference - no stored choice","","",""
+"","1","Slip persists through a hard page reload","Mobile Chrome","2026-09-29","skipped","2026-09-29","Slip persistence - navigation and reload","","",""
+"**Spec:** `signup/signup.spec.ts:81`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @signup","4767","All required fields are visible","Mobile Safari","2026-09-29","passed","2026-09-29","Signup - Form Fields","","",""
+"","2","Submitting a contest raises the entry amount and max payout totals","Desktop","2026-09-29","skipped","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `data-verification/player-detail-modal.spec.ts:23`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w1 (e2***)
+
+**Tags:** @data-verification @prod","5998","Expert-opinion modal renders the API's player data","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - player detail modal","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:66`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @rewards @prod","1412","Claimed offers are non-interactive and sorted below unclaimed offers","Desktop","2026-09-29","skipped","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `menu/account-center.spec.ts:39`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @menu @prod","4600","Items are grouped under Account, Rewards and Support","Mobile Safari","2026-09-29","passed","2026-09-29","Menu - Account Center","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w1 (e2***)
+
+**Tags:** @entries @smoke @prod @critical","180362","Active tab shows the Entry Amount and Max Payout stats","Mobile Safari","2026-09-29","broken","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @navigation @prod","330","Packs tab sends a logged-out visitor to the free-signup login page","Desktop","2026-09-29","skipped","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `data-verification/search.spec.ts:101`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @data-verification @prod","234","Searching an API player's full name shows only matching cards","Desktop","2026-09-29","skipped","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `entries/entry-card.spec.ts:153`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @entries @prod","5925","Tailers pill reads ""<n> tailers | $<reward>"" when an entry has tailers","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:89`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @tailFeed @mutates @money","2237","For You tab renders (empty hero in single-user envs, cards otherwise)","Mobile Safari","2026-09-29","passed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:50`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @packs @staff","49131","Close bar dismisses the iframe and restores the Buy CTA","Mobile Chrome","2026-09-29","failed","2026-09-29","Packs - opening iframe","","",""
+"**Spec:** `entries/entries.spec.ts:211`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @entries","6043","First history card shows the amount, result and pick count from the API","Mobile Safari","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:28`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @slipPersist @prod","11323","Slip persists through an Entries tab round-trip","Desktop","2026-09-29","failed","2026-09-29","Slip persistence - navigation and reload","","",""
+"**Spec:** `settings/settings.spec.ts:16`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @settings @prod","3584","My Settings shows the username, email and name from the user API","Mobile Safari","2026-09-29","passed","2026-09-29","Settings - My Settings","","",""
+"**Spec:** `packs/pack-detail.spec.ts:48`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @packs @staff","4762","View Odds opens the Pack Odds modal (when the pack has odds)","Mobile Safari","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `entries/entry-card.spec.ts:211`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @entries @prod","5422","View Leaderboard opens the contest-group leaderboard modal","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `data-verification/search.spec.ts:247`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @data-verification @prod","241","No-result, minimum-length and clear behaviours","Desktop","2026-09-29","skipped","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `signup/signup.spec.ts:214`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @signup @validation","20569","Shows an error when the email is already taken","Mobile Safari","2026-09-29","failed","2026-09-29","Signup - Validation","","",""
+"**Spec:** `transactions/transactions.spec.ts:157`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @transactions @prod","2046","Transaction Log renders with the month and type filters","Mobile Safari","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `signup/signup.spec.ts:94`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @signup","5576","Form accepts valid data in all fields","Mobile Chrome","2026-09-29","passed","2026-09-29","Signup - Form Fields","","",""
+"**Spec:** `modals/userlimits.spec.ts:46`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @userLimit @mutates @smoke","17115","Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it","Mobile Chrome","2026-09-29","failed","2026-09-29","User Limits - Limit Exceeded Modal","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:168`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @slipShare @mutates @money","29562","Logged-out tailer signs in via the tail link, then auto-tails and submits","Mobile Safari","2026-09-29","passed","2026-09-29","Slip sharing - share and tail","","",""
+"**Spec:** `navigation/legal.spec.ts:108`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @legal @footer @prod","1783","Every internal footer link resolves 200 and external links are absolute https","Mobile Chrome","2026-09-29","passed","2026-09-29","Legal - footer links","","",""
+"**Spec:** `entries/entry-card.spec.ts:134`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @entries @prod","2761","Live entries surface a Live indicator","Desktop","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @navigation @prod","3312","Entries tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-09-29","passed","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `packs/lobby.spec.ts:54`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @packs @staff","2224","Pending Packs row lists 'Open Pack' actions when the user owns open rounds","Desktop","2026-09-29","skipped","2026-09-29","Packs - lobby","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @prod","3044","Feed tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-09-29","passed","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `theme/dark-mode.spec.ts:60`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @theme @staff","2023","Stored ""light"" preference boots the app light with the light logo","Mobile Safari","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `settings/settings.spec.ts:16`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @settings @prod","3542","My Settings shows the username, email and name from the user API","Desktop","2026-09-29","passed","2026-09-29","Settings - My Settings","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:47`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @desktop @navigation @prod","2847","Home is active on landing and the underline moves to Rewards","Desktop","2026-09-29","passed","2026-09-29","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:330`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @data-verification @prod","439","Stats selector tabs equal the API stat names for the default league","Desktop","2026-09-29","skipped","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `entries/entries.spec.ts:67`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @entries","5320","Entry card expands and collapses via its header button","Desktop","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `entries/entries.spec.ts:67`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @entries","5070","Entry card expands and collapses via its header button","Mobile Safari","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:95`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w1 (e2***)
+
+**Tags:** @rewards @prod","17550","An available offer exposes an enabled CTA","Mobile Safari","2026-09-29","failed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @smoke @prod @critical","5173","User can log in with a valid username","Desktop","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `navigation/shell.spec.ts:62`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @navigation @prod","2398","/_offline renders the offline page and Reload reloads it","Mobile Safari","2026-09-29","passed","2026-09-29","Shell - system pages","","",""
+"**Spec:** `transactions/transactions.spec.ts:374`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @transactions @prod","1493","Empty state renders for a month with no transactions","Mobile Chrome","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:27`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @rewards @prod","1294","Partner Rewards is the default tab, alongside a Promotions tab","Desktop","2026-09-29","passed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:118`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @rewards @prod","1665","Switching to the Promotions sub-tab routes to /rewards/promotions","Desktop","2026-09-29","passed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `entries/entries.spec.ts:323`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @entries","4103","Switching the time range from the last page settles on data or the empty state","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:174`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @entries @prod","5728","Share button opens the share-slip modal for shareable entries","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:41`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @prod","2096","Rewards tab routes into /rewards and takes the indicator","Mobile Chrome","2026-09-29","passed","2026-09-29","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `packs/lobby.spec.ts:29`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @packs @staff","9571","Pack tiles link to a /packs/pack/<id> detail route","Mobile Safari","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @legal @prod","3282","/terms renders the Terms Of Service PDF","Mobile Safari","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `data-verification/search.spec.ts:247`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @data-verification @prod","5773","No-result, minimum-length and clear behaviours","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `transactions/transactions.spec.ts:204`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @transactions @prod","1686","First page rows mirror the balance-log API — label, date, signed amount, newest first","Desktop","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `stats/full-game-stat-selection.spec.ts:22`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @stats @prod","3415","First stat stays highlighted by default across Full Game league tabs","Mobile Safari","2026-09-29","passed","2026-09-29","Stats - Full Game default selection","","",""
+"**Spec:** `navigation/legal.spec.ts:67`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @navigation @legal @prod","3329","/contact-us redirects to the lobby and opens the Intercom messenger","Mobile Chrome","2026-09-29","passed","2026-09-29","Legal - contact","","",""
+"**Spec:** `entries/entry-card.spec.ts:364`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @entries @contests @mutates @money","21694","Confirming cancel twice fires the cancel request only once (double-submit guard)","Mobile Safari","2026-09-29","passed","2026-09-29","My Entries - cancel entry","","",""
+"**Spec:** `menu/account-dropdown-desktop.spec.ts:75`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @desktop @menu @prod","2868","Navigating via a menu item closes the dropdown and routes","Desktop","2026-09-29","passed","2026-09-29","Menu - Desktop Account Dropdown","","",""
+"**Spec:** `settings/player-limits.spec.ts:18`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @settings @prod","4589","My Settings no longer renders the Player Limits controls","Mobile Safari","2026-09-29","passed","2026-09-29","Settings - Player Limits","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @navigation @legal @prod","3814","/responsible-gaming renders the Responsible Play PDF","Mobile Safari","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `entries/entries.spec.ts:147`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @entries @smoke @prod","4226","History summary stats match the API for the 6 Months range","Desktop","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `packs/access.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @packs @smoke @prod","1561","Unauthenticated visit to /packs redirects to login with a next param","Mobile Chrome","2026-09-29","passed","2026-09-29","Packs - access control","","",""
+"**Spec:** `auth/login.spec.ts:243`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","10875","User can log in again after logging out","Desktop","2026-09-29","passed","2026-09-29","Login - Logout Flow","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:26`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @contests @mutates @money @smoke @prod @critical @money","50352","Five-pick contest is submitted successfully","Mobile Safari","2026-09-29","failed","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `auth/login.spec.ts:154`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","38074","Login is rejected with both fields empty","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"","2","Submitting a contest raises the entry amount and max payout totals","Mobile Safari","2026-09-29","skipped","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `auth/login.spec.ts:146`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","39702","Login is rejected with an empty password","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:164`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","40964","Error clears on retry with valid credentials","Desktop","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `packs/lobby.spec.ts:67`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @packs @staff","2588","A 'See all' link opens a subcategory listing","Mobile Chrome","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `packs/pack-detail.spec.ts:35`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @packs @staff","3377","Back link returns to the lobby","Desktop","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `contests/slip-panel-desktop.spec.ts:30`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @desktop @contests @prod","9027","Prompt advances on pick select and reverts on remove","Desktop","2026-09-29","passed","2026-09-29","Contests - Desktop Pick Slip","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:243`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w1 (e2***)
+
+**Tags:** @data-verification @prod","6836","Switching stat tabs renders that stat's API line on every card","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:426`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @data-verification @prod","2816","Match selector lists every API match for the default league","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `theme/dark-mode.spec.ts:181`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @theme @staff","2044","OS dark appearance resolves to dark","Mobile Safari","2026-09-29","passed","2026-09-29","Theme - dark mode > System preference - no stored choice","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @navigation @prod","3372","Packs tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-09-29","passed","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @prod","3294","Rewards tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-09-29","passed","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `entries/entry-card.spec.ts:39`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @entries @prod","4474","Active card shows the entry amount, payout and Insured/All In multiplier","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `navigation/legal.spec.ts:41`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @navigation @legal @prod","3038","Signup Class Action Waiver link opens the Terms document at #class-action","Desktop","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:365`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @data-verification @prod","3600","League selector tabs correspond to leagues present in the API","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"","1","Slip persists through a hard page reload","Desktop","2026-09-29","skipped","2026-09-29","Slip persistence - navigation and reload","","",""
+"**Spec:** `entries/entry-card.spec.ts:119`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @entries @prod","4140","History entry surfaces a Won / Lost / Cancelled result pill","Desktop","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `packs/pack-detail.spec.ts:17`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @packs @staff @smoke","8035","Detail page shows the pack name, Buy CTA and a back link","Mobile Safari","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `signup/signup.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @signup @terms @smoke @prod","2936","Terms page leads to signup page","Mobile Safari","2026-09-29","passed","2026-09-29","Signup - Entry Points","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:22`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @desktop @navigation @prod","2986","Rewards opens the login modal for a logged-out visitor","Desktop","2026-09-29","passed","2026-09-29","Shell - desktop logged-out top nav","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:123`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @tailFeed @mutates @money","49113","Share toggle off keeps a newly placed contest off the You tab","Mobile Safari","2026-09-29","passed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `auth/login.spec.ts:90`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)","6730","User lands on home after a successful login","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `stats/full-game-stat-selection.spec.ts:22`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @stats @prod","244","First stat stays highlighted by default across Full Game league tabs","Desktop","2026-09-29","skipped","2026-09-29","Stats - Full Game default selection","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:18`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @packs @staff @smoke","48965","Buy launches the Repackz opening iframe with a close bar","Mobile Chrome","2026-09-29","failed","2026-09-29","Packs - opening iframe","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:118`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @rewards @prod","1752","Switching to the Promotions sub-tab routes to /rewards/promotions","Mobile Chrome","2026-09-29","passed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:38`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @rewards @prod","1455","Partner offer cards render, or the empty state when none are available","Desktop","2026-09-29","passed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:365`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @data-verification @prod","2722","League selector tabs correspond to leagues present in the API","Desktop","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `auth/login.spec.ts:183`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","6347","Forgot password link navigates to password reset","Desktop","2026-09-29","passed","2026-09-29","Login - Navigation","","",""
+"**Spec:** `signup/signup.spec.ts:81`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @signup","3087","All required fields are visible","Mobile Chrome","2026-09-29","passed","2026-09-29","Signup - Form Fields","","",""
+"**Spec:** `packs/pack-detail.spec.ts:93`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @packs @staff","2936","Unknown pack id shows the not-found message","Desktop","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `navigation/legal.spec.ts:108`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @navigation @legal @footer @prod","2664","Every internal footer link resolves 200 and external links are absolute https","Mobile Safari","2026-09-29","passed","2026-09-29","Legal - footer links","","",""
+"**Spec:** `entries/entries.spec.ts:38`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @entries","5650","Active tab shows at most one page of entry cards, or the no-data state","Mobile Safari","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `transactions/transactions.spec.ts:307`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @transactions @prod","1530","Paging loads the next rows and keeps newest-first order across pages","Mobile Safari","2026-09-29","skipped","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:66`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @rewards @prod","17619","Claimed offers are non-interactive and sorted below unclaimed offers","Mobile Safari","2026-09-29","failed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `signup/signup.spec.ts:214`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @signup @validation","3719","Shows an error when the email is already taken","Mobile Chrome","2026-09-29","passed","2026-09-29","Signup - Validation","","",""
+"**Spec:** `packs/pack-detail.spec.ts:93`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @packs @staff","5360","Unknown pack id shows the not-found message","Mobile Safari","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `auth/login.spec.ts:154`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","40009","Login is rejected with both fields empty","Desktop","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `packs/pack-detail.spec.ts:17`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @packs @staff @smoke","4037","Detail page shows the pack name, Buy CTA and a back link","Desktop","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `auth/login.spec.ts:183`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","3293","Forgot password link navigates to password reset","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Navigation","","",""
+"**Spec:** `entries/entries.spec.ts:323`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @entries","5930","Switching the time range from the last page settles on data or the empty state","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:426`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @data-verification @prod","2229","Match selector lists every API match for the default league","Desktop","2026-09-29","skipped","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `auth/login.spec.ts:183`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","5097","Forgot password link navigates to password reset","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Navigation","","",""
+"**Spec:** `entries/entry-card.spec.ts:261`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @entries @contests @mutates @money","27658","Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere","Mobile Safari","2026-09-29","passed","2026-09-29","My Entries - cancel entry","","",""
+"**Spec:** `auth/login.spec.ts:90`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)","4977","User lands on home after a successful login","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `transactions/transactions.spec.ts:347`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @transactions @prod","1292","Contest Settled rows credit the payout","Mobile Chrome","2026-09-29","skipped","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `entries/entries.spec.ts:211`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @entries","4394","First history card shows the amount, result and pick count from the API","Desktop","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `navigation/legal.spec.ts:80`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @navigation @legal @prod","1884","/contact still resolves, through /contact-us into the lobby","Desktop","2026-09-29","passed","2026-09-29","Legal - contact","","",""
+"**Spec:** `signup/signup.spec.ts:139`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @signup @mock-otp","181308","""Text me a Code"" opens the OTP modal","Mobile Chrome","2026-09-29","broken","2026-09-29","Signup - OTP / 2FA","","",""
+"**Spec:** `navigation/legal.spec.ts:89`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @navigation @legal @prod","2647","/contact-us renders no HubSpot ticket form on any breakpoint","Mobile Safari","2026-09-29","passed","2026-09-29","Legal - contact","","",""
+"**Spec:** `entries/entries.spec.ts:185`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @entries","4701","Switching from 6 Months to 7 Days never increases the history count","Mobile Chrome","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `auth/login.spec.ts:78`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @smoke @prod","5026","User can log in with a valid email","Desktop","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @navigation @legal @prod","4425","/terms renders the Terms Of Service PDF","Desktop","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `signup/signup.spec.ts:42`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @signup @terms","2131","Footer ""Sign Up"" opens Terms page","Mobile Chrome","2026-09-29","passed","2026-09-29","Signup - Entry Points","","",""
+"**Spec:** `entries/history-leaderboard-faq.spec.ts:22`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @entries @leaderboard @prod","1542","View Leaderboard on a history card opens the leaderboard modal with a working FAQ link","Desktop","2026-09-29","skipped","2026-09-29","My Entries - History Leaderboard FAQ","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @legal @prod","2197","/terms/packs renders the Packs Terms PDF","Mobile Chrome","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `data-verification/search.spec.ts:172`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @data-verification @prod","3505","Search auto-switches the stat tab to one the searched player offers","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:426`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @data-verification @prod","3402","Match selector lists every API match for the default league","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `auth/login.spec.ts:146`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","37882","Login is rejected with an empty password","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @navigation @legal @prod","2501","/responsible-gaming renders the Responsible Play PDF","Desktop","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `auth/login.spec.ts:90`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)","5125","User lands on home after a successful login","Desktop","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:41`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @navigation @prod","4677","Rewards tab routes into /rewards and takes the indicator","Mobile Safari","2026-09-29","passed","2026-09-29","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @navigation @legal @prod","3457","/privacy-policy renders the Privacy Policy PDF","Mobile Safari","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `navigation/footer-age-badge.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @navigation @footer @prod","2221","Home footer shows the 18+ age badge and no 21+ anywhere","Mobile Chrome","2026-09-29","passed","2026-09-29","Footer - age badge","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:26`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @contests @mutates @money @smoke @prod @critical @money","45424","Five-pick contest is submitted successfully","Mobile Chrome","2026-09-29","failed","2026-09-29","Contests - Enter Contest","","",""
+"","0","Confirming cancel twice fires the cancel request only once (double-submit guard)","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - cancel entry","","",""
+"**Spec:** `transactions/transactions.spec.ts:347`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @transactions @prod","1666","Contest Settled rows credit the payout","Mobile Safari","2026-09-29","skipped","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `auth/login.spec.ts:78`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @smoke @prod","5517","User can log in with a valid email","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `theme/dark-mode.spec.ts:131`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @theme","2239","Toggle visibility matches the staff gate for the logged-in user","Mobile Safari","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:243`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @data-verification @prod","6375","Switching stat tabs renders that stat's API line on every card","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `data-verification/search.spec.ts:142`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @data-verification @prod","2607","Searching a team abbreviation shows that team's players","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `theme/dark-mode.spec.ts:45`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @theme @staff","1421","Stored ""dark"" preference boots the app dark with the dark logo","Mobile Chrome","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `rewards/promo-contests.spec.ts:10`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @rewards @mutates @money @test-api","17597","Contest entry uses a promo selected from the Promotions tab","Desktop","2026-09-29","failed","2026-09-29","Rewards - promo contest entry","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:55`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @prod","8799","Fifth tab (Free2Play or Packs) routes and takes the indicator","Mobile Safari","2026-09-29","passed","2026-09-29","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `transactions/transactions.spec.ts:307`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @transactions @prod","1477","Paging loads the next rows and keeps newest-first order across pages","Desktop","2026-09-29","skipped","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `theme/dark-mode.spec.ts:75`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @theme @staff","8777","Staff toggle flips the theme, swaps the logo and persists across reload","Mobile Safari","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `data-verification/search.spec.ts:172`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @data-verification @prod","4445","Search auto-switches the stat tab to one the searched player offers","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:95`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @rewards @prod","1503","An available offer exposes an enabled CTA","Desktop","2026-09-29","passed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `packs/lobby.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @packs @staff @smoke","6397","Lobby renders the Open a Pack catalog with at least one pack tile","Mobile Safari","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `packs/lobby.spec.ts:67`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @packs @staff","6731","A 'See all' link opens a subcategory listing","Mobile Safari","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:195`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @data-verification @prod","6357","Player cards render the offering API data","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `contests/slip-panel-desktop.spec.ts:23`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @desktop @contests @prod","5023","Empty slip shows the Let's Start onboarding panel","Desktop","2026-09-29","passed","2026-09-29","Contests - Desktop Pick Slip","","",""
+"","2","Submitting a contest raises the entry amount and max payout totals","Mobile Chrome","2026-09-29","skipped","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `transactions/transactions.spec.ts:421`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @transactions @contests @mutates @money","17020","Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows","Mobile Chrome","2026-09-29","passed","2026-09-29","Transactions - contest rows","","",""
+"**Spec:** `transactions/transactions.spec.ts:232`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @transactions @prod","2464","Each type filter requests its category and lists only that category","Mobile Safari","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `packs/lobby.spec.ts:41`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @packs @staff","2324","Just Opened section shows recent pulls, or is absent when there are none","Desktop","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `entries/entry-card.spec.ts:96`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @entries @prod","3430","Dedicated chevron toggle expands and collapses the card","Desktop","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `transactions/transactions.spec.ts:232`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @transactions @prod","2452","Each type filter requests its category and lists only that category","Desktop","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:365`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w2 (e2***)
+
+**Tags:** @data-verification @prod","2801","League selector tabs correspond to leagues present in the API","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `transactions/transactions.spec.ts:276`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @transactions @prod","1344","Switching month reloads the log for that month","Mobile Chrome","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `packs/lobby.spec.ts:29`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @packs @staff","3792","Pack tiles link to a /packs/pack/<id> detail route","Desktop","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `auth/login.spec.ts:39`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","2177","Login page is reachable by direct URL","Desktop","2026-09-29","passed","2026-09-29","Login - Page Rendering","","",""
+"**Spec:** `theme/dark-mode.spec.ts:159`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @theme @prod","1332","Login page renders its form in dark mode","Mobile Safari","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `auth/login-modal-desktop.spec.ts:64`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @desktop @auth @prod","5298","Submitting valid credentials in the modal signs the user in","Desktop","2026-09-29","passed","2026-09-29","Login - Desktop Modal","","",""
+"**Spec:** `packs/lobby.spec.ts:11`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @packs @staff @smoke","2738","Lobby renders the Open a Pack catalog with at least one pack tile","Desktop","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `navigation/legal.spec.ts:80`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @navigation @legal @prod","1820","/contact still resolves, through /contact-us into the lobby","Mobile Safari","2026-09-29","passed","2026-09-29","Legal - contact","","",""
+"**Spec:** `entries/entries.spec.ts:185`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @entries","4663","Switching from 6 Months to 7 Days never increases the history count","Desktop","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `signup/signup.spec.ts:139`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w1 (e2***)
+
+**Tags:** @signup @mock-otp","184062","""Text me a Code"" opens the OTP modal","Mobile Safari","2026-09-29","broken","2026-09-29","Signup - OTP / 2FA","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @legal @prod","3209","/rules renders the Game Rules PDF","Mobile Safari","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @navigation @prod","4929","Entries tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-09-29","passed","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `transactions/transactions.spec.ts:421`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @transactions @contests @mutates @money","44236","Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows","Desktop","2026-09-29","failed","2026-09-29","Transactions - contest rows","","",""
+"**Spec:** `auth/login.spec.ts:164`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","43091","Error clears on retry with valid credentials","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @navigation @legal @prod","2454","/terms/packs renders the Packs Terms PDF","Desktop","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:34`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @slipShare @mutates @money","28425","Logged-in tailer clicks ""Tail this entry"" and submits the same picks","Mobile Safari","2026-09-29","passed","2026-09-29","Slip sharing - share and tail","","",""
+"**Spec:** `menu/account-dropdown-desktop.spec.ts:47`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @desktop @menu @prod","4038","Menu items link to the same destinations as the mobile Account Center","Desktop","2026-09-29","passed","2026-09-29","Menu - Desktop Account Dropdown","","",""
+"**Spec:** `transactions/transactions.spec.ts:374`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @transactions @prod","2844","Empty state renders for a month with no transactions","Desktop","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `data-verification/entries-active.spec.ts:55`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w1 (e2***)
+
+**Tags:** @data-verification @prod","2854","Active entry cards render the entries-paged API data","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - active entries","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:18`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @packs @staff @smoke","55037","Buy launches the Repackz opening iframe with a close bar","Mobile Safari","2026-09-29","failed","2026-09-29","Packs - opening iframe","","",""
+"**Spec:** `navigation/footer-age-badge.spec.ts:11`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @navigation @footer @prod","2091","Home footer shows the 18+ age badge and no 21+ anywhere","Desktop","2026-09-29","passed","2026-09-29","Footer - age badge","","",""
+"","0","Shows an error when password confirmation does not match","Mobile Chrome","2026-09-29","skipped","2026-09-29","Signup - Form Fields","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth @smoke @prod @critical","8649","Logged-in user can log out","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Logout Flow","","",""
+"**Spec:** `entries/entry-card.spec.ts:261`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @entries @contests @mutates @money","48659","Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere","Desktop","2026-09-29","failed","2026-09-29","My Entries - cancel entry","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:89`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @tailFeed @mutates @money","1213","For You tab renders (empty hero in single-user envs, cards otherwise)","Mobile Chrome","2026-09-29","passed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @navigation @prod","4931","Rewards tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-09-29","passed","2026-09-29","Shell - logged-out bottom nav","","",""
+"**Spec:** `transactions/transactions.spec.ts:204`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @transactions @prod","1239","First page rows mirror the balance-log API — label, date, signed amount, newest first","Mobile Chrome","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `packs/lobby.spec.ts:41`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @packs @staff","5490","Just Opened section shows recent pulls, or is absent when there are none","Mobile Safari","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @navigation @legal @prod","2247","/rules renders the Game Rules PDF","Desktop","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `transactions/transactions.spec.ts:347`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @transactions @prod","2331","Contest Settled rows credit the payout","Desktop","2026-09-29","skipped","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `auth/login.spec.ts:206`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","2455","Unauthenticated user sees the Join Now button on home","Desktop","2026-09-29","passed","2026-09-29","Login - Navigation","","",""
+"**Spec:** `entries/entries.spec.ts:121`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @entries","2890","Cancel Entry countdown stays within the 5-minute window","Desktop","2026-09-29","skipped","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:119`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @entries @prod","6313","History entry surfaces a Won / Lost / Cancelled result pill","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `data-verification/search.spec.ts:142`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @data-verification @prod","4002","Searching a team abbreviation shows that team's players","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `auth/login.spec.ts:47`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","1913","Password field masks its input","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Page Rendering","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @legal @prod","3464","/terms/packs renders the Packs Terms PDF","Mobile Safari","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `entries/entries.spec.ts:263`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @entries @smoke @prod","4318","Pagination advances through every history page","Desktop","2026-09-29","skipped","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:211`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @entries @prod","3167","View Leaderboard opens the contest-group leaderboard modal","Desktop","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `packs/lobby.spec.ts:29`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @packs @staff","2581","Pack tiles link to a /packs/pack/<id> detail route","Mobile Chrome","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `entries/history-leaderboard-faq.spec.ts:22`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @entries @leaderboard @prod","1851","View Leaderboard on a history card opens the leaderboard modal with a working FAQ link","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - History Leaderboard FAQ","","",""
+"","1","Picks Submitted screen exposes the description CTA and opens the editor","Mobile Chrome","2026-09-29","skipped","2026-09-29","Contests - Enter Contest","","",""
+"**Spec:** `navigation/footer-age-badge.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @footer @prod","3654","Home footer shows the 18+ age badge and no 21+ anywhere","Mobile Safari","2026-09-29","passed","2026-09-29","Footer - age badge","","",""
+"**Spec:** `menu/account-center.spec.ts:21`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @menu @prod","3614","Account Center opens from the burger with title, wallet summary and Deposit CTA","Mobile Chrome","2026-09-29","passed","2026-09-29","Menu - Account Center","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @navigation @legal @prod","2281","/rules renders the Game Rules PDF","Mobile Chrome","2026-09-29","passed","2026-09-29","Legal - policy documents","","",""
+"**Spec:** `data-verification/search.spec.ts:101`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @data-verification @prod","4319","Searching an API player's full name shows only matching cards","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `transactions/transactions.spec.ts:374`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @transactions @prod","1953","Empty state renders for a month with no transactions","Mobile Safari","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `packs/lobby.spec.ts:41`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @packs @staff","1977","Just Opened section shows recent pulls, or is absent when there are none","Mobile Chrome","2026-09-29","passed","2026-09-29","Packs - lobby","","",""
+"**Spec:** `menu/account-dropdown-desktop.spec.ts:24`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w2 (e2***)
+
+**Tags:** @desktop @menu @prod","4274","Dropdown shows the Deposit CTA and the Account/Rewards/Support groups","Desktop","2026-09-29","passed","2026-09-29","Menu - Desktop Account Dropdown","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:95`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @rewards @prod","1345","An available offer exposes an enabled CTA","Mobile Chrome","2026-09-29","skipped","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:89`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @tailFeed @mutates @money","1890","For You tab renders (empty hero in single-user envs, cards otherwise)","Desktop","2026-09-29","passed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:50`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @packs @staff","56509","Close bar dismisses the iframe and restores the Buy CTA","Mobile Safari","2026-09-29","failed","2026-09-29","Packs - opening iframe","","",""
+"**Spec:** `menu/account-center.spec.ts:69`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @menu @prod","4573","Items route to their destination pages","Mobile Chrome","2026-09-29","passed","2026-09-29","Menu - Account Center","","",""
+"**Spec:** `signup/signup.spec.ts:94`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @signup","9182","Form accepts valid data in all fields","Mobile Safari","2026-09-29","passed","2026-09-29","Signup - Form Fields","","",""
+"","1","Slip persists through a Rewards tab round-trip","Desktop","2026-09-29","skipped","2026-09-29","Slip persistence - navigation and reload","","",""
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @smoke @prod @critical","8517","User can log in with a valid username","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Valid Credentials","","",""
+"**Spec:** `settings/player-limits.spec.ts:18`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @settings @prod","3200","My Settings no longer renders the Player Limits controls","Desktop","2026-09-29","passed","2026-09-29","Settings - Player Limits","","",""
+"**Spec:** `home/home-search.spec.ts:48`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @home @search @prod","3239","A common letter narrows the grid without emptying it","Mobile Safari","2026-09-29","passed","2026-09-29","Home - Feed Search","","",""
+"**Spec:** `home/home-search.spec.ts:20`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @home @search @prod @smoke @critical","3045","Gibberish query shows the empty state, clearing restores the grid","Desktop","2026-09-29","passed","2026-09-29","Home - Feed Search","","",""
+"**Spec:** `entries/entries.spec.ts:185`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @entries","6178","Switching from 6 Months to 7 Days never increases the history count","Mobile Safari","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:38`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @rewards @prod","1401","Partner offer cards render, or the empty state when none are available","Mobile Chrome","2026-09-29","passed","2026-09-29","Rewards - Partner Rewards","","",""
+"**Spec:** `entries/entry-card.spec.ts:96`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @entries @prod","3204","Dedicated chevron toggle expands and collapses the card","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `auth/login.spec.ts:122`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","39977","Login is rejected with an invalid password","Mobile Safari","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `entries/entries.spec.ts:38`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @entries","4612","Active tab shows at most one page of entry cards, or the no-data state","Mobile Chrome","2026-09-29","passed","2026-09-29","My Entries - Active and History","","",""
+"**Spec:** `theme/dark-mode.spec.ts:159`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @theme @prod","1275","Login page renders its form in dark mode","Desktop","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:28`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @slipPersist @prod","24090","Slip persists through an Entries tab round-trip","Mobile Chrome","2026-09-29","failed","2026-09-29","Slip persistence - navigation and reload","","",""
+"**Spec:** `theme/dark-mode.spec.ts:45`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @theme @staff","1840","Stored ""dark"" preference boots the app dark with the dark logo","Desktop","2026-09-29","passed","2026-09-29","Theme - dark mode","","",""
+"**Spec:** `auth/login.spec.ts:206`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","2182","Unauthenticated user sees the Join Now button on home","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Navigation","","",""
+"**Spec:** `data-verification/entries-active.spec.ts:55`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w1 (e2***)
+
+**Tags:** @data-verification @prod","2949","Active entry cards render the entries-paged API data","Mobile Chrome","2026-09-29","passed","2026-09-29","Data verification - active entries","","",""
+"**Spec:** `packs/pack-detail.spec.ts:48`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @packs @staff","3767","View Odds opens the Pack Odds modal (when the pack has odds)","Mobile Chrome","2026-09-29","passed","2026-09-29","Packs - pack detail","","",""
+"**Spec:** `navigation/legal.spec.ts:67`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @navigation @legal @prod","4751","/contact-us redirects to the lobby and opens the Intercom messenger","Mobile Safari","2026-09-29","passed","2026-09-29","Legal - contact","","",""
+"**Spec:** `transactions/transactions.spec.ts:276`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w0 (e2***)
+
+**Tags:** @transactions @prod","1701","Switching month reloads the log for that month","Desktop","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:107`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @tailFeed @mutates @money","4238","Following tab shows the empty state (single user, no follows)","Mobile Safari","2026-09-29","passed","2026-09-29","Tail feed - share toggle and tailing","","",""
+"**Spec:** `auth/login.spec.ts:138`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","37714","Login is rejected with an empty username","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Invalid Credentials","","",""
+"**Spec:** `entries/history-leaderboard-faq.spec.ts:22`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w0 (e2***)
+
+**Tags:** @entries @leaderboard @prod","2727","View Leaderboard on a history card opens the leaderboard modal with a working FAQ link","Mobile Safari","2026-09-29","skipped","2026-09-29","My Entries - History Leaderboard FAQ","","",""
+"**Spec:** `transactions/transactions.spec.ts:307`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w0 (e2***)
+
+**Tags:** @transactions @prod","1081","Paging loads the next rows and keeps newest-first order across pages","Mobile Chrome","2026-09-29","skipped","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `entries/entry-card.spec.ts:134`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s2w3 (e2***)
+
+**Tags:** @entries @prod","3276","Live entries surface a Live indicator","Mobile Chrome","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""
+"**Spec:** `transactions/transactions.spec.ts:276`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w2 (e2***)
+
+**Tags:** @transactions @prod","1825","Switching month reloads the log for that month","Mobile Safari","2026-09-29","passed","2026-09-29","Transactions - transaction log","","",""
+"**Spec:** `home/home-search.spec.ts:48`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w3 (e2***)
+
+**Tags:** @home @search @prod","1643","A common letter narrows the grid without emptying it","Desktop","2026-09-29","passed","2026-09-29","Home - Feed Search","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:195`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @data-verification @prod","6056","Player cards render the offering API data","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - picks grid","","",""
+"**Spec:** `auth/login.spec.ts:243`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s3w0 (e2***)
+
+**Tags:** @auth","10342","User can log in again after logging out","Mobile Chrome","2026-09-29","passed","2026-09-29","Login - Logout Flow","","",""
+"**Spec:** `data-verification/search.spec.ts:247`
+
+**Project:** Mobile Safari · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s1w3 (e2***)
+
+**Tags:** @data-verification @prod","7531","No-result, minimum-length and clear behaviours","Mobile Safari","2026-09-29","passed","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `data-verification/search.spec.ts:142`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @data-verification @prod","233","Searching a team abbreviation shows that team's players","Desktop","2026-09-29","skipped","2026-09-29","Data verification - feed search","","",""
+"**Spec:** `entries/entry-card.spec.ts:39`
+
+**Project:** Desktop · **Env:** dev · **Release:** aryan-e2e-fully-parallel
+
+**User:** ephemeral s0w1 (e2***)
+
+**Tags:** @entries @prod","3153","Active card shows the entry amount, payout and Insured/All In multiplier","Desktop","2026-09-29","skipped","2026-09-29","My Entries - entry card","","",""

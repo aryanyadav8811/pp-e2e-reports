@@ -1,12 +1,303 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T13:03:54.155Z",
+  "updatedAt": "2026-09-29T15:30:53.563Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
-      "latest": "2026-09-25-1151-aryan-e2e-ephemeral-users",
-      "buildOrder": 8,
+      "latest": "2026-09-29-1511-aryan-e2e-fully-parallel",
+      "buildOrder": 9,
       "runs": [
+        {
+          "runId": "2026-09-29-1511-aryan-e2e-fully-parallel",
+          "env": "dev",
+          "suite": "full",
+          "release": "aryan-e2e-fully-parallel",
+          "ref": "f4bb26cb76184ddb61182eedab131757eaea2249",
+          "sha": "f4bb26cb76184ddb61182eedab131757eaea2249",
+          "baseURL": "https://dev.parlayplay.io/",
+          "source": "ci",
+          "trigger": "manual (aryanyadav8811)",
+          "startedAt": "2026-09-29T15:14:22.852Z",
+          "finishedAt": "2026-09-29T15:29:39.972Z",
+          "durationMs": 917120,
+          "publishedAt": "2026-09-29T15:30:53.443Z",
+          "workflowRunId": "36588344796",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/36588344796",
+          "artifact": "allure-results-2026-09-29-1511-aryan-e2e-fully-parallel",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 300,
+            "failed": 27,
+            "broken": 8,
+            "skipped": 86,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 421
+          },
+          "ciCounts": {
+            "passed": 300,
+            "failed": 27,
+            "broken": 8,
+            "skipped": 86,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 421
+          },
+          "playwright": {
+            "expected": 300,
+            "unexpected": 35,
+            "flaky": 0,
+            "skipped": 86
+          },
+          "failed": [
+            {
+              "project": "Desktop",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five-pick contest is submitted successfully",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: Could not select 5 valid picks) — every attempted stat tab ran out of selectable cards; the environment's offering is likely too thin for t"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five-pick contest is submitted successfully",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: Could not select 5 valid picks) — every attempted stat tab ran out of selectable cards; the environment's offering is likely too thin for t"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Five-pick contest is submitted successfully",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: Could not select 5 valid picks) — every attempted stat tab ran out of selectable cards; the environment's offering is likely too thin for t"
+            },
+            {
+              "project": "Desktop",
+              "file": "entries/entries.spec.ts",
+              "name": "Active tab shows the Entry Amount and Max Payout stats",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "entries/entries.spec.ts",
+              "name": "Active tab shows the Entry Amount and Max Payout stats",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "entries/entries.spec.ts",
+              "name": "Active tab shows the Entry Amount and Max Payout stats",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "entries/entry-card.spec.ts",
+              "name": "Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: Could not select 3 valid picks) — every attempted stat tab ran out of selectable cards; the environment's offering is likely too thin for t"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "entries/entry-card.spec.ts",
+              "name": "Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere",
+              "status": "broken",
+              "message": "Test timeout of 300000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: Could not select 5 valid picks"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: Could not select 5 valid picks"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: Could not select 5 valid picks"
+            },
+            {
+              "project": "Desktop",
+              "file": "packs/opening-iframe.spec.ts",
+              "name": "Buy launches the Repackz opening iframe with a close bar",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 45000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "packs/opening-iframe.spec.ts",
+              "name": "Close bar dismisses the iframe and restores the Buy CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 45000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "packs/opening-iframe.spec.ts",
+              "name": "Close bar dismisses the iframe and restores the Buy CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 45000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "packs/opening-iframe.spec.ts",
+              "name": "Buy launches the Repackz opening iframe with a close bar",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 45000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "packs/opening-iframe.spec.ts",
+              "name": "Buy launches the Repackz opening iframe with a close bar",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 45000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "packs/opening-iframe.spec.ts",
+              "name": "Close bar dismisses the iframe and restores the Buy CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 45000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "rewards/promo-contests.spec.ts",
+              "name": "Contest entry uses a promo selected from the Promotions tab",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/promo-contests.spec.ts",
+              "name": "Contest entry uses a promo selected from the Promotions tab",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "rewards/promo-contests.spec.ts",
+              "name": "Contest entry uses a promo selected from the Promotions tab",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "signup/signup.spec.ts",
+              "name": "\"Text me a Code\" opens the OTP modal",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "signup/signup.spec.ts",
+              "name": "Signup completes with the mocked OTP",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Signup completes with the mocked OTP",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Shows an error when the email is already taken",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "\"Text me a Code\" opens the OTP modal",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "slip-persistence/slip-persistence.spec.ts",
+              "name": "Slip persists through an Entries tab round-trip",
+              "status": "failed",
+              "message": "Error: Could not select 3 valid picks"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "slip-persistence/slip-persistence.spec.ts",
+              "name": "Slip persists through an Entries tab round-trip",
+              "status": "failed",
+              "message": "Error: Expected persisted picks [\"1411636\",\"850519\",\"852043\"] in localStorage"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "slip-persistence/slip-persistence.spec.ts",
+              "name": "Slip persists through an Entries tab round-trip",
+              "status": "failed",
+              "message": "Error: Expected persisted picks [\"1411636\",\"850519\",\"852043\"] in localStorage"
+            },
+            {
+              "project": "Desktop",
+              "file": "slip-sharing/share-and-tail.spec.ts",
+              "name": "Logged-out tailer signs in via the tail link, then auto-tails and submits",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: Could not select 3 valid picks) — every attempted stat tab ran out of selectable cards; the environment's offering is likely too thin for t"
+            },
+            {
+              "project": "Desktop",
+              "file": "slip-sharing/share-and-tail.spec.ts",
+              "name": "Logged-in tailer clicks \"Tail this entry\" and submits the same picks",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: Could not select 3 valid picks) — every attempted stat tab ran out of selectable cards; the environment's offering is likely too thin for t"
+            },
+            {
+              "project": "Desktop",
+              "file": "slip-sharing/tail-feed.spec.ts",
+              "name": "Share toggle off keeps a newly placed contest off the You tab",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: Could not select 3 valid picks) — every attempted stat tab ran out of selectable cards; the environment's offering is likely too thin for t"
+            },
+            {
+              "project": "Desktop",
+              "file": "transactions/transactions.spec.ts",
+              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
+              "status": "failed",
+              "message": "Error: Could not place contest after 5 attempts (last error: Could not select 3 valid picks) — every attempted stat tab ran out of selectable cards; the environment's offering is likely too thin for t"
+            }
+          ],
+          "appends": []
+        },
         {
           "runId": "2026-09-25-1151-aryan-e2e-ephemeral-users",
           "env": "dev",
@@ -642,72 +933,6 @@
           "playwright": null,
           "failed": [],
           "appends": []
-        },
-        {
-          "runId": "2026-08-31-1210-trial",
-          "env": "dev",
-          "suite": "full",
-          "release": "trial",
-          "ref": null,
-          "sha": null,
-          "baseURL": "https://dev.parlayplay.io/",
-          "source": "local",
-          "trigger": null,
-          "startedAt": "2026-08-31T12:05:03.607Z",
-          "finishedAt": "2026-08-31T12:19:25.038Z",
-          "durationMs": 861431,
-          "publishedAt": "2026-08-31T12:10:19.721Z",
-          "workflowRunId": null,
-          "workflowRunUrl": null,
-          "artifact": null,
-          "resultsInRepo": true,
-          "counts": {
-            "passed": 6,
-            "failed": 2,
-            "broken": 0,
-            "skipped": 0,
-            "unknown": 0,
-            "flaky": 1,
-            "total": 8
-          },
-          "ciCounts": {
-            "passed": 5,
-            "failed": 3,
-            "broken": 0,
-            "skipped": 0,
-            "unknown": 0,
-            "flaky": 0,
-            "total": 8
-          },
-          "playwright": null,
-          "failed": [
-            {
-              "project": "Mobile Chrome",
-              "file": "navigation/entries-nav-indicator.spec.ts",
-              "name": "Indicator stays under \"Entries\" when toggling Active and History",
-              "status": "failed",
-              "message": "Error: page.waitForURL: Target page, context or browser has been closed"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "navigation/footer-nav.spec.ts",
-              "name": "Rewards tab routes into /rewards and takes the indicator",
-              "status": "failed",
-              "message": "Error: page.waitForURL: Target page, context or browser has been closed"
-            }
-          ],
-          "appends": [
-            {
-              "at": "2026-08-31T12:20:33.528Z",
-              "by": "apple",
-              "source": "local",
-              "added": 1,
-              "specs": [
-                "settings/settings.spec.ts"
-              ],
-              "note": "trial fix"
-            }
-          ]
         }
       ]
     },

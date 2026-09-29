@@ -1,0 +1,25 @@
+env=dev
+project=Mobile Safari
+release=aryan-e2e-fully-parallel
+build=2026-09-29-1511-aryan-e2e-fully-parallel
+sha=f4bb26cb76184ddb61182eedab131757eaea2249
+user=ephemeral s1w0 (e2***)
+spec=contests/user-enter-contest.spec.ts:26
+retry=0
+status=failed (expected passed)
+lastUrl=https://dev.parlayplay.io/
+
++0.645s INFO  auth[e2***]: worker 0 is the login leader
++14.448s INFO  auth[e2***]: login complete, session saved {"durationMs":13803}
++14.626s DEBUG session[primary]: alive
++17.082s INFO  contest: placing an entry {"pickCount":5,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++32.392s WARN  contest: pick pool exhausted on this stat tab {"attempt":1,"statIdx":0,"error":"Could not select 5 valid picks"}
++33.467s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"Could not select 5 valid picks"}
++44.607s WARN  contest: pick pool exhausted on this stat tab {"attempt":2,"statIdx":1,"error":"Could not select 5 valid picks"}
++45.772s WARN  contest: rotating to the next stat tab after a rejection {"attempt":3,"statIdx":2,"lastError":"Could not select 5 valid picks"}
++50.994s WARN  contest: pick pool exhausted on this stat tab {"attempt":3,"statIdx":2,"error":"Could not select 5 valid picks"}
++51.855s WARN  contest: rotating to the next stat tab after a rejection {"attempt":4,"statIdx":3,"lastError":"Could not select 5 valid picks"}
++57.013s WARN  contest: pick pool exhausted on this stat tab {"attempt":4,"statIdx":3,"error":"Could not select 5 valid picks"}
++57.765s WARN  contest: rotating to the next stat tab after a rejection {"attempt":5,"statIdx":4,"lastError":"Could not select 5 valid picks"}
++63.052s WARN  contest: pick pool exhausted on this stat tab {"attempt":5,"statIdx":4,"error":"Could not select 5 valid picks"}
++63.053s ERROR contest: giving up — could not place an entry {"maxAttempts":5,"throttleRetries":0,"lastError":"Could not select 5 valid picks"}

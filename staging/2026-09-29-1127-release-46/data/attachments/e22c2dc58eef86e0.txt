@@ -1,0 +1,14 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] [.WebGL-0x13c001e3400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] [.WebGL-0x13c001e3400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[error] Error: Permission blocked
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:4431
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:141191
+[warning] [.WebGL-0x13c001df800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)
+[warning] Radar trackVerified failed: TypeError: Cannot read properties of null (reading 'signals')
+    at en.trackVerified (https://staging.parlayplay.io/_next/static/chunks/4571.f3c1d2d241b9c315.js:1:60351)
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled

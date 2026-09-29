@@ -1,0 +1,58 @@
+12:20:42.327 WARN session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+12:20:42.412 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+12:20:43.743 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+12:20:51.398 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 1,
+  statIdx: 0,
+  error: 'Could not select 5 valid picks'
+}
+12:20:52.441 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: 'Could not select 5 valid picks'
+}
+12:20:59.828 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 2,
+  statIdx: 1,
+  error: 'Could not select 5 valid picks'
+}
+12:21:00.855 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 3,
+  statIdx: 2,
+  lastError: 'Could not select 5 valid picks'
+}
+12:21:08.469 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 3,
+  statIdx: 2,
+  error: 'Could not select 5 valid picks'
+}
+12:21:09.534 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 4,
+  statIdx: 3,
+  lastError: 'Could not select 5 valid picks'
+}
+12:21:16.953 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 4,
+  statIdx: 3,
+  error: 'Could not select 5 valid picks'
+}
+12:21:18.001 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 5,
+  statIdx: 4,
+  lastError: 'Could not select 5 valid picks'
+}
+12:21:25.458 WARN contest: pick pool exhausted on this stat tab {
+  attempt: 5,
+  statIdx: 4,
+  error: 'Could not select 5 valid picks'
+}
+12:21:25.458 ERROR contest: giving up — could not place an entry {
+  maxAttempts: 5,
+  throttleRetries: 0,
+  lastError: 'Could not select 5 valid picks'
+}

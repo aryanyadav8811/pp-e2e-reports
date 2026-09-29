@@ -1,0 +1,23 @@
+12:43:13.792 INFO auth[qa***]: worker 0 is the login leader {
+  project: 'Desktop'
+}
+12:43:16.716 INFO auth[qa***]: login complete, session saved {
+  durationMs: 2924
+}
+12:43:16.823 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+12:43:19.269 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+12:43:33.042 INFO contest: entry placed {
+  attempt: 1,
+  pickIds: [
+    'player-638176',
+    'player-638174',
+    'player-638487',
+    'player-850474',
+    'player-638226'
+  ]
+}

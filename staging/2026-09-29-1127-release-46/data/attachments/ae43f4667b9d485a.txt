@@ -1,0 +1,13 @@
+12:46:52.448 INFO auth[qa***]: worker 0 is the login leader {
+  project: 'Mobile Safari'
+}
+12:46:55.983 INFO auth[qa***]: login complete, session saved {
+  durationMs: 3535
+}
+12:46:56.081 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+12:46:57.911 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}

@@ -1,0 +1,20 @@
+12:28:22.549 INFO auth[qa***]: worker 1 is the login leader {
+  project: 'Desktop'
+}
+12:28:24.646 INFO auth[qa***]: login complete, session saved {
+  durationMs: 2097
+}
+12:28:26.031 INFO contest: placing an entry {
+  pickCount: 3,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+12:28:34.642 INFO contest: entry placed {
+  attempt: 1,
+  pickIds: [
+    'player-638176',
+    'player-638174',
+    'player-2268922'
+  ]
+}

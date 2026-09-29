@@ -1,0 +1,2 @@
+GET https://staging.parlayplay.io/api/v1/contestgroup/metadata/ -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED cancelled

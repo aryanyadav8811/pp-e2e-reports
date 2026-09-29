@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Safari
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=navigation/footer-nav.spec.ts:55
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://staging.parlayplay.io/account/login?showFreeSignup=true
+
++0.068s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

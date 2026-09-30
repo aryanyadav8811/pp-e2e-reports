@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Safari
+release=develop
+build=2026-09-30-1745-develop
+sha=cab8993125981592fe88a5fa282623a961ba217c
+user=ephemeral s1w3 (e2***)
+spec=navigation/legal.spec.ts:27
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/terms
+
+(no log lines)

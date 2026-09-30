@@ -1,0 +1,25 @@
+env=staging
+project=Mobile Chrome
+release=develop
+build=2026-09-30-1745-develop
+sha=cab8993125981592fe88a5fa282623a961ba217c
+user=ephemeral s2w2 (e2***)
+spec=transactions/transactions.spec.ts:421
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/transactions
+
++0.034s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++0.865s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++0.877s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++0.885s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++0.897s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++0.956s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++0.962s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++0.969s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++0.971s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++0.979s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++0.989s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++2.186s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++9.122s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-657223","player-641308","player-1361218"]}
++10.334s INFO  contest: entry placed {"attempt":1,"pickIds":["player-657223","player-641308","player-1361218"]}

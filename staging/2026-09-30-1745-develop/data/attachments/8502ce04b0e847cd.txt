@@ -1,0 +1,1 @@
+[warning] [.WebGL-0x307407380800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels

@@ -1,0 +1,18 @@
+env=staging
+project=Mobile Safari
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=contests/submission-validation.spec.ts:353
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/challenges/contest/5494a356-9e74-46dc-857f-e6fe0ed976b7
+
++0.067s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++2.200s INFO  contest: placing an entry {"pickCount":2,"entryAmount":1,"maxAttempts":5,"maxThrottleRetries":8}
++19.072s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-638176","player-638127"]}
++19.782s WARN  contest: submission rejected {"attempt":1,"error":"429 Request was throttled. Expected available in 3 seconds."}
++20.513s WARN  contest: submission throttled (429) — backing off {"attempt":1,"throttleRetries":1,"waitMs":19445}
++57.212s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-638176","player-638127"]}
++60.054s INFO  contest: entry placed {"attempt":1,"pickIds":["player-638176","player-638127"]}

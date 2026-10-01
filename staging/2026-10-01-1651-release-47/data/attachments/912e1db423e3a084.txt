@@ -1,0 +1,7 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=7.13.0&dd-evp-origin=browser&dd-request-id=e9615c3f-8ee2-4f61-9023-c3be07440405&batch_time=1790875838031&_dd.api=fetch due to access control checks.
+[warning] Radar SDK: Error calling /config: Request timed out.
+[pageerror] TypeError: Script https://staging.parlayplay.io/sw.js load failed
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Failed to load resource: the server responded with a status of 400 ()
+[pageerror] CanceledError: canceled

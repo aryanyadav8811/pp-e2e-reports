@@ -1,0 +1,3 @@
+POST https://staging.parlayplay.io/api/v1/challenges-sp/payout-structure/ -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/challenges-sp/payout-structure/ -> FAILED cancelled
+GET https://staging.parlayplay.io/api/v1/entries-summary/ -> FAILED cancelled

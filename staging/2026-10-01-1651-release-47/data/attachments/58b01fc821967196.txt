@@ -1,0 +1,9 @@
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[warning] Radar SDK: Error calling /config: Request timed out.
+[warning] Radar SDK: Error calling /config: Request timed out.
+[warning] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: WebSocket is closed before the connection is established.
+[warning] Radar SDK: Error calling /config: Request timed out.
+[warning] Radar SDK: userId not provided for trackVerified.

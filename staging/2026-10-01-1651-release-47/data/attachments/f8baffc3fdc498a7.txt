@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Safari
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=signup/signup.spec.ts:98
+retry=2
+status=failed (expected passed)
+lastUrl=-
+
++0.474s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive

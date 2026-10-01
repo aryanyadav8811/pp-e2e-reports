@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Chrome
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=signup/signup.spec.ts:333
+retry=2
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/account/signup
+
++1.203s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive

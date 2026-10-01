@@ -1,0 +1,12 @@
+env=staging
+project=Desktop
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=signup/signup-desktop.spec.ts:238
+retry=1
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/account/signup
+
++1.085s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive

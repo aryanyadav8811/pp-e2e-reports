@@ -1,0 +1,13 @@
+env=staging
+project=Mobile Safari
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=slip-persistence/slip-persistence.spec.ts:28
+retry=2
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.214s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive
++0.298s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

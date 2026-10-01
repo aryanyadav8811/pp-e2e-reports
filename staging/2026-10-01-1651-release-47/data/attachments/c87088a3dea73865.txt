@@ -1,0 +1,13 @@
+env=staging
+project=Mobile Chrome
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=settings/referrals.spec.ts:29
+retry=2
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/account/referrals
+
++0.125s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive
++0.193s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

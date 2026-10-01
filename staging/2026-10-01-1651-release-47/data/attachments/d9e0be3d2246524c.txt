@@ -1,0 +1,23 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Error: Permission blocked
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:4431
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:141191
+[error] Error: "line" is not a registered controller.
+    at ty._get (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:72182)
+    at ty.getController (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:71239)
+    at tU.buildOrUpdateControllers (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:83132)
+    at tU.update (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:83881)
+    at 
+[error] Error: "line" is not a registered controller.
+    at ty._get (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:72182)
+    at ty.getController (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:71239)
+    at tU.buildOrUpdateControllers (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:83132)
+    at tU.update (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:83881)
+    at 
+[error] A client-side exception has occurred, see here for more info: https://nextjs.org/docs/messages/client-side-exception-occurred
+[error] [ONESIGNAL] init failed Error: SDK already initialized
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:136541
+    at t.init (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:136594)
+    at https://staging.parlayplay.io/_next/static/chunks/pages/_app-3f3eb1d9cec8bf66.js:3:26951
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:140255
+    at t.push (https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.e

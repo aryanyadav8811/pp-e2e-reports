@@ -1,0 +1,15 @@
+env=staging
+project=Mobile Chrome
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=signup/signup.spec.ts:373
+retry=1
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/account/signup
+
++1.341s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive
++1.507s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++1.525s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++1.548s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}

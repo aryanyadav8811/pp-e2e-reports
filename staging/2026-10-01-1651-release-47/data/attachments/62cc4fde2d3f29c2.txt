@@ -1,0 +1,13 @@
+env=staging
+project=Desktop
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=settings/referrals.spec.ts:29
+retry=1
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/account/referrals
+
++0.132s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive
++0.206s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

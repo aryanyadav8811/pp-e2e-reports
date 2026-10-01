@@ -1,1 +1,0 @@
-GET https://staging.parlayplay.io/manifest.json -> 403

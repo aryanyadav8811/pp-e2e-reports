@@ -1,0 +1,51 @@
+GET https://staging.parlayplay.io/manifest.json -> 403
+GET https://staging.parlayplay.io/locales/es/common.json -> 403
+GET https://staging.parlayplay.io/locales/en/common.json -> 403
+GET https://staging.parlayplay.io/images/yellow_coin_bounce.json -> 403
+GET https://staging.parlayplay.io/images/warning_triangle.json -> 403
+GET https://staging.parlayplay.io/images/warning_triangle_inverted.json -> 403
+GET https://staging.parlayplay.io/images/warning_inverted.json -> 403
+GET https://staging.parlayplay.io/images/warning-white.json -> 403
+GET https://staging.parlayplay.io/images/warning-new.json -> 403
+GET https://staging.parlayplay.io/images/shareicon_yellow.json -> 403
+GET https://staging.parlayplay.io/_next/static/chunks/7021-0b0c3288c35516ff.js -> FAILED net::ERR_ABORTED
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/9957.e5b820a1877ff5e6.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/147.ff7bf298994d11c8.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/pages/index-4850b26634a33600.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/3487-e93ee6308192c0dc.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/2196-11b0d60ce9218f13.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/8158-3d792ee1f25be199.js -> FAILED net::ERR_ABORTED
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/8363-d7eef68d3900ba8b.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/1676-00181e5edba8a41a.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/3249-ec75654e398d5bcc.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/4894-e08bee381d6f78b8.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/2961-edaca46a51c3ad9c.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/4571.f3c1d2d241b9c315.js -> FAILED net::ERR_ABORTED
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/359-8b2292864a1dcab7.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/229-1e580944e1d9e024.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/4978-bb1c29664732d4c8.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/7021-0b0c3288c35516ff.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/pages/_app-3f3eb1d9cec8bf66.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/8158-3d792ee1f25be199.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/pages/index-4850b26634a33600.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/gkEwE_W25rOGkPc6CR49f/_ssgManifest.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/359-8b2292864a1dcab7.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/1676-00181e5edba8a41a.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/229-1e580944e1d9e024.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/4894-e08bee381d6f78b8.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/gkEwE_W25rOGkPc6CR49f/_buildManifest.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/8363-d7eef68d3900ba8b.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/3033-15543a33c75b094d.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/2196-11b0d60ce9218f13.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/main-0e6b499e7d23cb89.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/framework-711ef29bc66f648c.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/3249-ec75654e398d5bcc.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/4978-bb1c29664732d4c8.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/3487-e93ee6308192c0dc.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/media/f50a6ab3e3f02a02-s.p.woff2 -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/media/d476e8d97ad192ee-s.p.woff -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/media/1879584a1d245c1e-s.p.woff -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/media/acc7048833dd27c2-s.p.woff -> FAILED net::ERR_ABORTED

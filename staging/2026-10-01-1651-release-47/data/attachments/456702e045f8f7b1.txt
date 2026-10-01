@@ -1,0 +1,5 @@
+GET https://staging.parlayplay.io/api/v1/entries-paged/ -> FAILED Load request cancelled
+GET https://staging.parlayplay.io/api/v1/entries-summary/ -> FAILED Load request cancelled
+GET https://staging.parlayplay.io/api/v1/entries-summary/ -> FAILED Load request cancelled
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED Load request cancelled
+GET https://staging.parlayplay.io/api/v1/entries-paged/ -> FAILED Load request cancelled

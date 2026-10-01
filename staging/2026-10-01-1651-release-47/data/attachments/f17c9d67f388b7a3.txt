@@ -1,0 +1,25 @@
+env=staging
+project=Mobile Chrome
+release=release-47
+build=2026-10-01-1651-release-47
+sha=1ff6204fe2b6ae31fcc523a7cd90a88f38917dbd
+user=ephemeral s2w2 (et***)
+spec=transactions/transactions.spec.ts:421
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/transactions
+
++0.047s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++1.038s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++1.049s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++1.068s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++1.072s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++1.082s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++1.089s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++1.102s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++1.112s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++1.127s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++1.645s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++1.891s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++19.566s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-638176","player-638174","player-638127"]}
++20.963s INFO  contest: entry placed {"attempt":1,"pickIds":["player-638176","player-638174","player-638127"]}

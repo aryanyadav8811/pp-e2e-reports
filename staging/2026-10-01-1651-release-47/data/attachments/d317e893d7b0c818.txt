@@ -1,0 +1,7 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Error fetching data: AxiosError: Network Error
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Error fetching data: AxiosError: Network Error
+[pageerror] AxiosError: Network Error
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)

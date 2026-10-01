@@ -1,0 +1,13 @@
+[error] Error: "line" is not a registered controller.
+    at ty._get (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:72182)
+    at ty.getController (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:71239)
+    at tU.buildOrUpdateControllers (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:83132)
+    at tU.update (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:83881)
+    at 
+[error] Error: "line" is not a registered controller.
+    at ty._get (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:72182)
+    at ty.getController (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:71239)
+    at tU.buildOrUpdateControllers (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:83132)
+    at tU.update (https://staging.parlayplay.io/_next/static/chunks/6d2b60a9.a07632a2bab96da3.js:1:83881)
+    at 
+[error] A client-side exception has occurred, see here for more info: https://nextjs.org/docs/messages/client-side-exception-occurred

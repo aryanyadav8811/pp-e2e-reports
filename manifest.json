@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30T17:55:56.449Z",
+  "updatedAt": "2026-10-01T17:06:01.671Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
@@ -1195,9 +1195,335 @@
       ]
     },
     "staging": {
-      "latest": "2026-09-30-1745-develop",
-      "buildOrder": 15,
+      "latest": "2026-10-01-1651-release-47",
+      "buildOrder": 16,
       "runs": [
+        {
+          "runId": "2026-10-01-1651-release-47",
+          "env": "staging",
+          "suite": "full",
+          "release": "release-47",
+          "ref": "1ff6204fe2b6ae31fcc523a7cd90a88f38917dbd",
+          "sha": "1ff6204fe2b6ae31fcc523a7cd90a88f38917dbd",
+          "baseURL": "https://staging.parlayplay.io/",
+          "source": "ci",
+          "trigger": "manual (aryanyadav8811)",
+          "startedAt": "2026-10-01T16:54:06.973Z",
+          "finishedAt": "2026-10-01T17:05:06.772Z",
+          "durationMs": 659799,
+          "publishedAt": "2026-10-01T17:06:01.379Z",
+          "workflowRunId": "36894570167",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/36894570167",
+          "artifact": "allure-results-2026-10-01-1651-release-47",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 384,
+            "failed": 37,
+            "broken": 3,
+            "skipped": 69,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 493
+          },
+          "ciCounts": {
+            "passed": 384,
+            "failed": 37,
+            "broken": 3,
+            "skipped": 69,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 493
+          },
+          "playwright": {
+            "expected": 384,
+            "unexpected": 40,
+            "flaky": 0,
+            "skipped": 69
+          },
+          "failed": [
+            {
+              "project": "Desktop",
+              "file": "contests/submission-validation.spec.ts",
+              "name": "Placing picks logged out redirects to signup and the slip survives login",
+              "status": "failed",
+              "message": "Error: Expected persisted picks [\"1361214\",\"638176\"] in localStorage"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "contests/submission-validation.spec.ts",
+              "name": "Placing picks logged out redirects to signup and the slip survives login",
+              "status": "failed",
+              "message": "Error: Expected persisted picks [\"638127\",\"638176\"] in localStorage"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "contests/submission-validation.spec.ts",
+              "name": "A slip naming the same player twice is rejected by the server",
+              "status": "failed",
+              "message": "TypeError: expect(received).toMatch(expected)"
+            },
+            {
+              "project": "Desktop",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Submitting a contest raises the entry amount and max payout totals",
+              "status": "failed",
+              "message": "Error: expect(received).toBeGreaterThanOrEqual(expected)"
+            },
+            {
+              "project": "Desktop",
+              "file": "data-verification/player-detail-modal.spec.ts",
+              "name": "Expert-opinion modal renders the API's player data",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "data-verification/player-detail-modal.spec.ts",
+              "name": "Expert-opinion modal renders the API's player data",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "data-verification/player-detail-modal.spec.ts",
+              "name": "Expert-opinion modal renders the API's player data",
+              "status": "failed",
+              "message": "Error: expect(locator).toBeVisible() failed"
+            },
+            {
+              "project": "Desktop",
+              "file": "entries/entries.spec.ts",
+              "name": "Active tab shows the Entry Amount and Max Payout stats",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "entries/entries.spec.ts",
+              "name": "Active tab shows the Entry Amount and Max Payout stats",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "entries/entries.spec.ts",
+              "name": "Active tab shows the Entry Amount and Max Payout stats",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: submission must be rejected by the user limit"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: submission must be rejected by the user limit"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: submission must be rejected by the user limit"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "navigation/legal.spec.ts",
+              "name": "/responsible-gaming renders the Responsible Play PDF",
+              "status": "failed",
+              "message": "Error: PDF viewer paints at least one page"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "navigation/legal.spec.ts",
+              "name": "/terms/packs renders the Packs Terms PDF",
+              "status": "failed",
+              "message": "Error: PDF viewer paints at least one page"
+            },
+            {
+              "project": "Desktop",
+              "file": "navigation/shell-desktop.spec.ts",
+              "name": "Logged-in carousel Deposit Now opens the account dropdown with the Deposit link",
+              "status": "failed",
+              "message": "Error: account dropdown opens"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "settings/referrals.spec.ts",
+              "name": "Page shows the $20 referral bonus pitch and the personal signup link",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "settings/referrals.spec.ts",
+              "name": "Page shows the $20 referral bonus pitch and the personal signup link",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "settings/referrals.spec.ts",
+              "name": "Page shows the $20 referral bonus pitch and the personal signup link",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/signup-desktop.spec.ts",
+              "name": "Phone must be a US number that is not already registered",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/signup-desktop.spec.ts",
+              "name": "Email must be a valid address that is not already registered",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Desktop",
+              "file": "signup/signup-desktop.spec.ts",
+              "name": "Username must be 3+ letters that nobody owns yet",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "signup/signup.spec.ts",
+              "name": "Email must be a valid address that is not already registered",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "signup/signup.spec.ts",
+              "name": "Username must be 3–30 letters or digits that nobody owns yet",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "signup/signup.spec.ts",
+              "name": "Referral code must be a known coupon",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "signup/signup.spec.ts",
+              "name": "Deeplink with referral pre-populates the coupon field",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "signup/signup.spec.ts",
+              "name": "Phone must be a US or Canadian number that is not already registered",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Email must be a valid address that is not already registered",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Deeplink with referral pre-populates the coupon field",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Phone must be a US or Canadian number that is not already registered",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Referral code must be a known coupon",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "signup/signup.spec.ts",
+              "name": "Username must be 3–30 letters or digits that nobody owns yet",
+              "status": "failed",
+              "message": "Error: GET /api/v1/user/ failed: HTTP 403"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "slip-persistence/slip-persistence.spec.ts",
+              "name": "Slip persists through an Entries tab round-trip",
+              "status": "failed",
+              "message": "Error: Expected persisted picks [\"638127\",\"638174\",\"638176\"] in localStorage"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "slip-persistence/slip-persistence.spec.ts",
+              "name": "Slip persists through an Entries tab round-trip",
+              "status": "failed",
+              "message": "Error: Expected persisted picks [\"638127\",\"638174\",\"638176\"] in localStorage"
+            },
+            {
+              "project": "Desktop",
+              "file": "theme/dark-mode.spec.ts",
+              "name": "Toggle visibility matches the staff gate for the logged-in user",
+              "status": "failed",
+              "message": "Error: theme toggle rendered=false but user isStaff=true"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "transactions/transactions.spec.ts",
+              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
+              "status": "failed",
+              "message": "Error: expect(received).toBe(expected) // Object.is equality"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "transactions/transactions.spec.ts",
+              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
+              "status": "failed",
+              "message": "Error: expect(received).toBe(expected) // Object.is equality"
+            }
+          ],
+          "appends": []
+        },
         {
           "runId": "2026-09-30-1745-develop",
           "env": "staging",
@@ -1996,76 +2322,6 @@
                 "navigation/entries-nav-indicator.spec.ts"
               ],
               "note": "DFS-3041 gap-fill"
-            }
-          ]
-        },
-        {
-          "runId": "2026-09-11-1332-release-44",
-          "env": "staging",
-          "suite": "full",
-          "release": "release-44",
-          "ref": "5eef4f3c3d7268761c72dc5660930736d84e5ea0",
-          "sha": "5eef4f3c3d7268761c72dc5660930736d84e5ea0",
-          "baseURL": "https://staging.parlayplay.io/",
-          "source": "ci",
-          "trigger": "manual (aryanyadav8811)",
-          "startedAt": "2026-09-11T13:33:32.223Z",
-          "finishedAt": "2026-09-11T14:35:14.328Z",
-          "durationMs": 3702105,
-          "publishedAt": "2026-09-11T14:11:43.770Z",
-          "workflowRunId": "34603816382",
-          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/34603816382",
-          "artifact": "allure-results-2026-09-11-1332-release-44",
-          "resultsInRepo": false,
-          "counts": {
-            "passed": 378,
-            "failed": 0,
-            "broken": 0,
-            "skipped": 39,
-            "unknown": 0,
-            "flaky": 18,
-            "total": 417
-          },
-          "ciCounts": {
-            "passed": 356,
-            "failed": 19,
-            "broken": 1,
-            "skipped": 38,
-            "unknown": 0,
-            "flaky": 0,
-            "total": 414
-          },
-          "playwright": {
-            "expected": 356,
-            "unexpected": 20,
-            "flaky": 0,
-            "skipped": 38
-          },
-          "failed": [],
-          "appends": [
-            {
-              "at": "2026-09-11T15:11:23.138Z",
-              "by": "apple",
-              "source": "local",
-              "added": 196,
-              "specs": [
-                "slip-sharing/tail-feed.spec.ts",
-                "transactions/transactions.spec.ts",
-                "entries/entry-card.spec.ts",
-                "signup/signup.spec.ts",
-                "packs/lobby.spec.ts",
-                "contests/user-enter-contest.spec.ts",
-                "packs/pack-detail.spec.ts",
-                "rewards/partner-rewards.spec.ts",
-                "data-verification/picks-grid.spec.ts",
-                "data-verification/search.spec.ts",
-                "modals/userlimits.spec.ts",
-                "slip-sharing/share-and-tail.spec.ts",
-                "navigation/shell.spec.ts",
-                "stats/full-game-stat-selection.spec.ts",
-                "navigation/footer-nav.spec.ts"
-              ],
-              "note": "DFS-2946 gap-fill"
             }
           ]
         }

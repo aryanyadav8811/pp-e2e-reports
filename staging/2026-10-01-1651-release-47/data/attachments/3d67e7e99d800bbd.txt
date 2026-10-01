@@ -1,0 +1,18 @@
+GET https://staging.parlayplay.io/manifest.json -> 403
+GET https://staging.parlayplay.io/locales/es/common.json -> 403
+GET https://staging.parlayplay.io/images/yellow_coin_bounce.json -> 403
+GET https://staging.parlayplay.io/locales/en/common.json -> 403
+GET https://staging.parlayplay.io/images/warning_triangle_inverted.json -> 403
+GET https://staging.parlayplay.io/images/warning_triangle.json -> 403
+GET https://staging.parlayplay.io/images/warning_inverted.json -> 403
+GET https://staging.parlayplay.io/images/warning-white.json -> 403
+GET https://staging.parlayplay.io/images/warning-new.json -> 403
+GET https://staging.parlayplay.io/images/shareicon_yellow.json -> 403
+GET https://staging.parlayplay.io/_next/static/chunks/pages/responsible-gaming-3b1c8da4f1d3da44.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/pages/privacy-policy-12a4e2de0cfcda85.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/pages/rules-132f8627a5fd99ec.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/pages/terms-75c72ca2f78c5c74.js -> FAILED net::ERR_ABORTED
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED net::ERR_ABORTED
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED net::ERR_ABORTED
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/pages/_app-3f3eb1d9cec8bf66.js -> FAILED net::ERR_ABORTED

@@ -1,0 +1,3 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[pageerror] /staging.parlayplay.io" from accessing a frame with origin "https://tr.snapchat.com". Protocols, domains, and ports must match.
+[pageerror] /staging.parlayplay.io" from accessing a frame with origin "https://tr.snapchat.com". Protocols, domains, and ports must match.

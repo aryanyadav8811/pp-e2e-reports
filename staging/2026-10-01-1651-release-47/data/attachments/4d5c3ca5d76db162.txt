@@ -1,0 +1,5 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Error: "line" is not a registered controller.
+[error] Error: "line" is not a registered controller.
+[error] A client-side exception has occurred, see here for more info: https://nextjs.org/docs/messages/client-side-exception-occurred
+[error] [ONESIGNAL] init failed Error: SDK already initialized

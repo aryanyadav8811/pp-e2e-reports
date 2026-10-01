@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Safari
+release=release-47
+build=2026-10-01-1651-release-47
+sha=1ff6204fe2b6ae31fcc523a7cd90a88f38917dbd
+user=ephemeral s1w1 (et***)
+spec=data-verification/player-detail-modal.spec.ts:23
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.075s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

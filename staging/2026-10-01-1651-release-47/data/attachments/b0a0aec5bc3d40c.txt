@@ -1,0 +1,12 @@
+env=staging
+project=Mobile Chrome
+release=release-47
+build=2026-10-01-1651-release-47
+sha=1ff6204fe2b6ae31fcc523a7cd90a88f38917dbd
+user=ephemeral s2w2 (et***)
+spec=signup/signup.spec.ts:98
+retry=0
+status=failed (expected passed)
+lastUrl=-
+
+(no log lines)

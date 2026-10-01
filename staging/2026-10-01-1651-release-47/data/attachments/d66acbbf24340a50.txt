@@ -1,0 +1,2 @@
+[warning] Radar SDK: userId not provided for trackVerified.
+[warning] [.WebGL-0x22dc0932e200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels

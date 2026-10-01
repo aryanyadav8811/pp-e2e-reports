@@ -1,0 +1,599 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: slip-persistence/slip-persistence.spec.ts >> Slip persistence - navigation and reload >> Slip persists through an Entries tab round-trip
+- Location: tests/slip-persistence/slip-persistence.spec.ts:28:5
+
+# Error details
+
+```
+Error: Expected persisted picks ["638127","638174","638176"] in localStorage
+
+expect(received).toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 1
+
+  Array [
+-   "638127",
++   "1275518",
+    "638174",
+    "638176",
+  ]
+
+Call Log:
+- Timeout 10000ms exceeded while waiting on the predicate
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Parlay Play Logo" [ref=e6]:
+            - /url: /
+            - img "Parlay Play Logo" [ref=e8]
+          - generic [ref=e10]:
+            - generic [ref=e13]: $500.00
+            - button "Toggle Menu" [ref=e14]:
+              - img [ref=e15]
+      - main [ref=e17]:
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - list [ref=e26]:
+                - button "MLB" [ref=e27] [cursor=pointer]
+                - button "NHL" [ref=e28] [cursor=pointer]
+                - button "CSGO" [ref=e29] [cursor=pointer]
+                - button "UFC" [ref=e30] [cursor=pointer]
+              - list [ref=e32]:
+                - listitem [ref=e33]:
+                  - button "ALL" [ref=e34] [cursor=pointer]:
+                    - generic [ref=e35]: ALL
+                - listitem [ref=e36]:
+                  - button "PHI@ATL 8:00PM" [ref=e37] [cursor=pointer]:
+                    - text: PHI@ATL
+                    - generic [ref=e38]: 8:00PM
+              - generic [ref=e39]:
+                - generic [ref=e40]:
+                  - generic [ref=e43]:
+                    - generic:
+                      - img
+                    - textbox "Search player or team" [ref=e44]
+                  - button "Change card style from grid" [ref=e46]
+                - list [ref=e48]:
+                  - listitem [ref=e49]:
+                    - button "Hits" [ref=e50]
+                  - listitem [ref=e51]:
+                    - button "Hits + Runs + RBIs" [ref=e52]
+                  - listitem [ref=e53]:
+                    - button "Singles" [ref=e54]
+                  - listitem [ref=e55]:
+                    - button "Doubles" [ref=e56]
+                  - listitem [ref=e57]:
+                    - button "Triples" [ref=e58]
+                  - listitem [ref=e59]:
+                    - button "Runs" [ref=e60]
+                  - listitem [ref=e61]:
+                    - button "RBIs" [ref=e62]
+                  - listitem [ref=e63]:
+                    - button "Homeruns" [ref=e64]
+                  - listitem [ref=e65]:
+                    - button "Total Bases" [ref=e66]
+                  - listitem [ref=e67]:
+                    - button "Strikeouts" [ref=e68]
+                  - listitem [ref=e69]:
+                    - button "Fantasy Points" [ref=e70]
+            - generic [ref=e71]:
+              - generic [ref=e76]:
+                - generic [ref=e79] [cursor=pointer]:
+                  - generic [ref=e80]:
+                    - generic [ref=e81]:
+                      - generic [ref=e82]: 100%
+                      - generic [ref=e83]: Deposit Match
+                    - generic [ref=e84]: New User Promotion
+                  - button "Deposit" [ref=e86]
+                - generic [ref=e90] [cursor=pointer]:
+                  - generic [ref=e91]: Pull real graded cards worth up to $10,000
+                  - generic [ref=e92]: Sell or ship instantly
+                  - button "Rip a pack" [ref=e93]:
+                    - generic [ref=e94]:
+                      - img [ref=e95]
+                      - text: Rip a pack
+                - generic [ref=e100] [cursor=pointer]:
+                  - generic [ref=e101]:
+                    - generic [ref=e102]: Refer a friend, get a $20 Free Entry
+                    - generic [ref=e103]: Referral bonus
+                  - button "Refer" [ref=e104]
+                - generic [ref=e107] [cursor=pointer]:
+                  - generic [ref=e108]:
+                    - generic [ref=e109]:
+                      - img [ref=e110]
+                      - generic [ref=e114]: Boosted Picks
+                    - generic [ref=e115]: "Every Pick Pays: Up to a 35% Boost!"
+                  - button "Details" [ref=e117]
+              - generic [ref=e121]:
+                - generic [ref=e124]:
+                  - generic [ref=e127]:
+                    - button "Open expert opinion for Matt Olson" [ref=e128]:
+                      - img [ref=e129]
+                    - img "Matt Olson" [ref=e132]
+                  - generic [ref=e133]:
+                    - generic [ref=e134]: Matt Olson
+                    - button "0.5 Hits" [ref=e135]:
+                      - generic [ref=e136]:
+                        - img [ref=e137]
+                        - img [ref=e139]
+                      - generic [ref=e141]: "0.5"
+                      - generic [ref=e142]: Hits
+                    - generic [ref=e143]:
+                      - generic [ref=e144]: PHI@ATL
+                      - generic [ref=e145]: 8:00PM
+                    - generic [ref=e146]:
+                      - button "Select over 0.5 Hits for 2.38 times" [ref=e147]:
+                        - img [ref=e148]
+                        - img [ref=e152]
+                        - generic [ref=e154]: 2.38x
+                      - button "Select over 0.5 Hits for 1.46 times" [ref=e155]:
+                        - generic [ref=e156]: 1.46x
+                        - img [ref=e157]
+                - generic [ref=e161]:
+                  - generic [ref=e164]:
+                    - button "Open expert opinion for Ozzie Albies" [ref=e165]:
+                      - img [ref=e166]
+                    - img "Ozzie Albies" [ref=e169]
+                  - generic [ref=e170]:
+                    - generic [ref=e171]: Ozzie Albies
+                    - button "0.5 Hits" [ref=e172]:
+                      - generic [ref=e173]:
+                        - img [ref=e174]
+                        - img [ref=e176]
+                      - generic [ref=e178]: "0.5"
+                      - generic [ref=e179]: Hits
+                    - generic [ref=e180]:
+                      - generic [ref=e181]: PHI@ATL
+                      - generic [ref=e182]: 8:00PM
+                    - generic [ref=e183]:
+                      - button "Select over 0.5 Hits for 2.18 times" [ref=e184]:
+                        - img [ref=e185]
+                        - img [ref=e189]
+                        - generic [ref=e191]: 2.18x
+                      - button "Select over 0.5 Hits for 1.51 times" [ref=e192]:
+                        - generic [ref=e193]: 1.51x
+                        - img [ref=e194]
+                - generic [ref=e198]:
+                  - generic [ref=e201]:
+                    - button "Open expert opinion for Sean Murphy" [ref=e202]:
+                      - img [ref=e203]
+                    - img "Sean Murphy" [ref=e206]
+                  - generic [ref=e207]:
+                    - generic [ref=e208]: Sean Murphy
+                    - button "0.5 Hits" [ref=e209]:
+                      - generic [ref=e210]:
+                        - img [ref=e211]
+                        - img [ref=e213]
+                      - generic [ref=e215]: "0.5"
+                      - generic [ref=e216]: Hits
+                    - generic [ref=e217]:
+                      - generic [ref=e218]: PHI@ATL
+                      - generic [ref=e219]: 8:00PM
+                    - generic [ref=e220]:
+                      - button "Select over 0.5 Hits for 1.72 times" [ref=e221]:
+                        - img [ref=e222]
+                        - generic [ref=e224]: 1.72x
+                      - button "Select over 0.5 Hits for 1.86 times" [ref=e225]:
+                        - generic [ref=e226]: 1.86x
+                        - img [ref=e227]
+                - generic [ref=e231]:
+                  - generic [ref=e234]:
+                    - button "Open expert opinion for Michael Harris" [ref=e235]:
+                      - img [ref=e236]
+                    - img "Michael Harris" [ref=e239]
+                  - generic [ref=e240]:
+                    - generic [ref=e241]: M. Harris
+                    - button "0.5 Hits" [ref=e242]:
+                      - generic [ref=e243]:
+                        - img [ref=e244]
+                        - img [ref=e246]
+                      - generic [ref=e248]: "0.5"
+                      - generic [ref=e249]: Hits
+                    - generic [ref=e250]:
+                      - generic [ref=e251]: PHI@ATL
+                      - generic [ref=e252]: 8:00PM
+                    - generic [ref=e253]:
+                      - button "Select over 0.5 Hits for 2.6 times" [ref=e254]:
+                        - img [ref=e255]
+                        - generic [ref=e257]: 2.6x
+                      - button "Select over 0.5 Hits for 1.32 times" [ref=e258]:
+                        - generic [ref=e259]: 1.32x
+                        - img [ref=e260]
+                - generic [ref=e264]:
+                  - generic [ref=e267]:
+                    - button "Open expert opinion for Drake Baldwin" [ref=e268]:
+                      - img [ref=e269]
+                    - img "Drake Baldwin" [ref=e272]
+                  - generic [ref=e273]:
+                    - generic [ref=e274]: Drake Baldwin
+                    - button "0.5 Hits" [ref=e275]:
+                      - generic [ref=e276]:
+                        - img [ref=e277]
+                        - img [ref=e279]
+                      - generic [ref=e281]: "0.5"
+                      - generic [ref=e282]: Hits
+                    - generic [ref=e283]:
+                      - generic [ref=e284]: PHI@ATL
+                      - generic [ref=e285]: 8:00PM
+                    - generic [ref=e286]:
+                      - button "Select over 0.5 Hits for 2.7 times" [ref=e287]:
+                        - img [ref=e288]
+                        - generic [ref=e290]: 2.7x
+                      - button "Select over 0.5 Hits for 1.3 times" [ref=e291]:
+                        - generic [ref=e292]: 1.3x
+                        - img [ref=e293]
+                - generic [ref=e297]:
+                  - generic [ref=e300]:
+                    - button "Open expert opinion for J.T. Realmuto" [ref=e301]:
+                      - img [ref=e302]
+                    - img "J.T. Realmuto" [ref=e305]
+                  - generic [ref=e306]:
+                    - generic [ref=e307]: J.T. Realmuto
+                    - button "0.5 Hits" [ref=e308]:
+                      - generic [ref=e309]:
+                        - img [ref=e310]
+                        - img [ref=e312]
+                      - generic [ref=e314]: "0.5"
+                      - generic [ref=e315]: Hits
+                    - generic [ref=e316]:
+                      - generic [ref=e317]: PHI@ATL
+                      - generic [ref=e318]: 8:00PM
+                    - generic [ref=e319]:
+                      - button "Select over 0.5 Hits for 2.15 times" [ref=e320]:
+                        - img [ref=e321]
+                        - img [ref=e325]
+                        - generic [ref=e327]: 2.15x
+                      - button "Select over 0.5 Hits for 1.53 times" [ref=e328]:
+                        - generic [ref=e329]: 1.53x
+                        - img [ref=e330]
+                - generic [ref=e334]:
+                  - generic [ref=e337]:
+                    - button "Open expert opinion for Kyle Schwarber" [ref=e338]:
+                      - img [ref=e339]
+                    - img "Kyle Schwarber" [ref=e342]
+                  - generic [ref=e343]:
+                    - generic [ref=e344]: K. Schwarber
+                    - button "0.5 Hits" [ref=e345]:
+                      - generic [ref=e346]:
+                        - img [ref=e347]
+                        - img [ref=e349]
+                      - generic [ref=e351]: "0.5"
+                      - generic [ref=e352]: Hits
+                    - generic [ref=e353]:
+                      - generic [ref=e354]: PHI@ATL
+                      - generic [ref=e355]: 8:00PM
+                    - generic [ref=e356]:
+                      - button "Select over 0.5 Hits for 2.22 times" [ref=e357]:
+                        - img [ref=e358]
+                        - generic [ref=e360]: 2.22x
+                      - button "Select over 0.5 Hits for 1.5 times" [ref=e361]:
+                        - generic [ref=e362]: 1.5x
+                        - img [ref=e363]
+                - generic [ref=e367]:
+                  - generic [ref=e370]:
+                    - button "Open expert opinion for Bryson Stott" [ref=e371]:
+                      - img [ref=e372]
+                    - img "Bryson Stott" [ref=e375]
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: Bryson Stott
+                    - button "0.5 Hits" [ref=e378]:
+                      - generic [ref=e379]:
+                        - img [ref=e380]
+                        - img [ref=e382]
+                      - generic [ref=e384]: "0.5"
+                      - generic [ref=e385]: Hits
+                    - generic [ref=e386]:
+                      - generic [ref=e387]: PHI@ATL
+                      - generic [ref=e388]: 8:00PM
+                    - generic [ref=e389]:
+                      - button "Select over 0.5 Hits for 2.52 times" [ref=e390]:
+                        - img [ref=e391]
+                        - generic [ref=e393]: 2.52x
+                      - button "Select over 0.5 Hits for 1.38 times" [ref=e394]:
+                        - generic [ref=e395]: 1.38x
+                        - img [ref=e396]
+            - generic [ref=e399]:
+              - img [ref=e401]
+              - generic [ref=e403]:
+                - generic [ref=e405]:
+                  - generic [ref=e406]: 6.85x
+                  - generic [ref=e407]: 7.19x
+                - generic [ref=e408]:
+                  - button "+ 10% Boost 🚀" [ref=e414]:
+                    - generic [ref=e415]: + 10% Boost 🚀
+                  - generic [ref=e425]: "Add 4th Pick: 10% Boost"
+              - button "Continue" [ref=e426] [cursor=pointer]
+          - generic [ref=e428]:
+            - generic [ref=e430]:
+              - link "Download ParlayPlay On The App Store" [ref=e431]:
+                - /url: https://parlayplay.onelink.me/oLJk/gnqpwjha
+                - img "Download ParlayPlay On The App Store" [ref=e432]
+              - paragraph [ref=e433]:
+                - text: Get the app.
+                - text: Better. Faster. Convenient
+            - navigation [ref=e434]:
+              - link "Privacy" [ref=e435]:
+                - /url: /privacy-policy
+              - link "Fantasy Terms" [ref=e436]:
+                - /url: /terms
+              - link "Packs Terms" [ref=e437]:
+                - /url: /terms/packs
+              - link "Responsible Gaming" [ref=e438]:
+                - /url: /responsible-gaming
+              - link "Gaming Rules" [ref=e439]:
+                - /url: /rules
+              - link "FAQ" [ref=e440]:
+                - /url: https://intercom.help/parlayplay/en/
+            - navigation [ref=e441]:
+              - generic [ref=e442]:
+                - paragraph [ref=e443]: © ParlayPlay 2026
+                - generic [ref=e444]:
+                  - link "ParlayPlay on Facebook" [ref=e445]:
+                    - /url: https://www.facebook.com/parlayplay.io
+                    - img [ref=e446]
+                  - link "ParlayPlay on Instagram" [ref=e448]:
+                    - /url: https://www.instagram.com/parlayplay_?igsh=bHBldWQyMmV2b3Y4
+                    - img [ref=e449]
+                  - link "ParlayPlay on Twitter" [ref=e451]:
+                    - /url: https://www.twitter.com/parlay_play
+                    - img [ref=e452]
+                  - link "ParlayPlay on Discord" [ref=e454]:
+                    - /url: https://discord.com/invite/parlayplay
+                    - img [ref=e455]
+                - img "18+ icon" [ref=e457]
+            - paragraph [ref=e459]
+      - contentinfo [ref=e460]:
+        - navigation [ref=e461]:
+          - list [ref=e462]:
+            - listitem [ref=e463]:
+              - button "Home" [active] [ref=e464] [cursor=pointer]:
+                - generic [ref=e465]:
+                  - img [ref=e466]
+                  - generic [ref=e467]: Home
+            - listitem [ref=e468]:
+              - button "Entries" [ref=e469] [cursor=pointer]:
+                - generic [ref=e470]:
+                  - img [ref=e471]
+                  - generic [ref=e472]: Entries
+            - listitem [ref=e473]:
+              - button "Feed" [ref=e474] [cursor=pointer]:
+                - generic [ref=e475]:
+                  - img [ref=e476]
+                  - generic [ref=e477]: Feed
+            - listitem [ref=e478]:
+              - button "Rewards" [ref=e479] [cursor=pointer]:
+                - generic [ref=e480]:
+                  - img [ref=e481]
+                  - generic [ref=e482]: Rewards
+            - listitem [ref=e483]:
+              - button "Packs" [ref=e484] [cursor=pointer]:
+                - generic [ref=e485]:
+                  - img [ref=e486]
+                  - generic [ref=e487]: Packs
+    - generic:
+      - region "Notifications Alt+T"
+  - alert [ref=e488]: ParlayPlay | Fun Fantasy Sports
+```
+
+# Test source
+
+```ts
+  382 |         }
+  383 |       }
+  384 | 
+  385 |       if (await this.noPlayerLabel.isVisible().catch(() => false)) {
+  386 |         continue;
+  387 |       }
+  388 | 
+  389 |       // Only cards near the viewport carry an id (desktop lazy-loads each card,
+  390 |       // mobile virtualises the grid), so a league can look dry after two cards.
+  391 |       // Scroll to mount more before moving on, carrying valid picks along.
+  392 |       const enumerated = new Set<string>();
+  393 |       let leagueExhausted = false;
+  394 |       let scrolls = 0;
+  395 |       while (!leagueExhausted) {
+  396 |         const playerIds = (await this.listVisiblePlayerIds()).filter((id) => !enumerated.has(id));
+  397 |         if (playerIds.length === 0) {
+  398 |           if (scrolls >= MAX_GRID_SCROLLS || !(await this.scrollGridForMoreCards())) break;
+  399 |           scrolls++;
+  400 |           continue;
+  401 |         }
+  402 |         playerIds.forEach((id) => enumerated.add(id));
+  403 | 
+  404 |         for (const playerId of playerIds) {
+  405 |           if (selected.has(playerId) || recentlyFailed.has(playerId) || excluded.has(playerId))
+  406 |             continue;
+  407 | 
+  408 |           if (await this.trySelectPick(this.playerCardById(playerId))) {
+  409 |             selected.add(playerId);
+  410 |             lastPickId = playerId;
+  411 | 
+  412 |             let continueFlag = await this.isContinueEnabled();
+  413 |             if (selected.size >= count && continueFlag) return Array.from(selected);
+  414 | 
+  415 |             while (!continueFlag && selected.size == count && lastPickId) {
+  416 |               await this.deselectPick(this.playerCardById(lastPickId));
+  417 |               selected.delete(lastPickId);
+  418 |               recentlyFailed.add(lastPickId);
+  419 | 
+  420 |               let replaced = false;
+  421 |               for (const nextId of playerIds) {
+  422 |                 if (selected.has(nextId) || recentlyFailed.has(nextId) || excluded.has(nextId))
+  423 |                   continue;
+  424 |                 if (await this.trySelectPick(this.playerCardById(nextId))) {
+  425 |                   selected.add(nextId);
+  426 |                   lastPickId = nextId;
+  427 |                   replaced = true;
+  428 |                   break;
+  429 |                 }
+  430 |               }
+  431 |               if (!replaced) {
+  432 |                 leagueExhausted = true;
+  433 |                 break;
+  434 |               }
+  435 |               continueFlag = await this.isContinueEnabled();
+  436 |             }
+  437 |             if (leagueExhausted) break;
+  438 | 
+  439 |             if (continueFlag && selected.size == count) return Array.from(selected);
+  440 |             if (continueFlag) recentlyFailed.clear();
+  441 |           }
+  442 |         }
+  443 |       }
+  444 |       // League pills sit above the grid; restore their hit area for the next tab.
+  445 |       if (scrolls > 0) await this.page.evaluate(() => window.scrollTo(0, 0));
+  446 |     }
+  447 | 
+  448 |     if (selected.size < count) throw new Error(`Could not select ${count} valid picks`);
+  449 |     return Array.from(selected);
+  450 |   }
+  451 | 
+  452 |   async pickFivePlayers(): Promise<string[]> {
+  453 |     return this.pickPlayers(5);
+  454 |   }
+  455 | 
+  456 |   /**
+  457 |    * Reads picks from the slip the app persists via `slipPersistence.saveSlip`
+  458 |    * rather than the DOM: when the backend omits a player's main/default
+  459 |    * altLine flag the card boots on a fallback line and the highlight isn't
+  460 |    * visible even though the pick is persisted.
+  461 |    */
+  462 |   async getPersistedPickIds(): Promise<string[]> {
+  463 |     return this.page.evaluate(() => {
+  464 |       const raw = localStorage.getItem('pp_persistent_slip:v1');
+  465 |       if (!raw) return [];
+  466 |       try {
+  467 |         const parsed = JSON.parse(raw);
+  468 |         return Object.keys(parsed.selectedPicks ?? {});
+  469 |       } catch {
+  470 |         return [];
+  471 |       }
+  472 |     });
+  473 |   }
+  474 | 
+  475 |   async assertPicksPersist(expectedIds: string[], timeout = 10_000): Promise<void> {
+  476 |     // Storage holds bare ids ("1089"); pickPlayers returns "player-1089".
+  477 |     const normalise = (id: string) => id.replace(/^player-/, '');
+  478 |     const expected = new Set(expectedIds.map(normalise));
+  479 | 
+  480 |     // Auto-save is debounced ~1s and the post-reload restore writes back
+  481 |     // asynchronously, so poll.
+> 482 |     await expect
+      |     ^ Error: Expected persisted picks ["638127","638174","638176"] in localStorage
+  483 |       .poll(
+  484 |         async () => {
+  485 |           const ids = await this.getPersistedPickIds();
+  486 |           return Array.from(new Set(ids.map(normalise))).sort();
+  487 |         },
+  488 |         {
+  489 |           timeout,
+  490 |           message: `Expected persisted picks ${JSON.stringify(
+  491 |             Array.from(expected).sort(),
+  492 |           )} in localStorage`,
+  493 |         },
+  494 |       )
+  495 |       .toEqual(Array.from(expected).sort());
+  496 |   }
+  497 | 
+  498 |   async waitForSlipPersisted(expectedPickCount: number, timeout = 5_000): Promise<void> {
+  499 |     await expect
+  500 |       .poll(
+  501 |         async () =>
+  502 |           this.page.evaluate(() => {
+  503 |             const raw = localStorage.getItem('pp_persistent_slip:v1');
+  504 |             if (!raw) return 0;
+  505 |             try {
+  506 |               return JSON.parse(raw).nrOfPicks ?? 0;
+  507 |             } catch {
+  508 |               return 0;
+  509 |             }
+  510 |           }),
+  511 |         {
+  512 |           timeout,
+  513 |           message: `Slip with ${expectedPickCount} picks was never written to localStorage`,
+  514 |         },
+  515 |       )
+  516 |       .toBe(expectedPickCount);
+  517 |   }
+  518 | 
+  519 |   async enterFinalContestPage() {
+  520 |     // Desktop already shows the submission form — no Continue hop.
+  521 |     if (await this.placePickBtn.isVisible().catch(() => false)) return;
+  522 |     await this.continueBtn.click();
+  523 |   }
+  524 | 
+  525 |   async clearSlip(): Promise<void> {
+  526 |     await this.page.evaluate(() => localStorage.removeItem('pp_persistent_slip:v1'));
+  527 |     await this.page.goto('/');
+  528 |     await this.waitForFeedReady();
+  529 |   }
+  530 | 
+  531 |   async selectStatByIndex(idx: number): Promise<void> {
+  532 |     const tab = this.statsSelector.locator('li button').nth(idx);
+  533 |     await expect(tab).toBeVisible();
+  534 |     await tab.click();
+  535 |     await this.waitForFeedReady();
+  536 |   }
+  537 | 
+  538 |   async enterEntriesPage() {
+  539 |     await this.entriesTab.click();
+  540 |   }
+  541 | 
+  542 |   async enterHomePage(): Promise<void> {
+  543 |     await this.homeTab.click();
+  544 |     await this.waitForFeedReady();
+  545 |     await expect(this.leagueSelector).toBeVisible();
+  546 |   }
+  547 | 
+  548 |   async enterMenu() {
+  549 |     // Specs can land here before the header mounts; bounded so a hung locator
+  550 |     // fails fast instead of absorbing the 10-min test timeout.
+  551 |     await this.toggleMenu.waitFor({ state: 'visible', timeout: 15_000 });
+  552 |     await this.toggleMenu.click({ timeout: 15_000 });
+  553 |   }
+  554 | 
+  555 |   async assertHomePage() {
+  556 |     await expect(this.leagueSelector).toBeVisible();
+  557 |   }
+  558 | 
+  559 |   async enterRewarsdsPage() {
+  560 |     await this.rewardsTab.click();
+  561 |   }
+  562 | 
+  563 |   // Every tab label span carries `border-playYellow`; the active one adds
+  564 |   // `border-b-2`, so assert on that class.
+  565 |   navIndicator(label: string): Locator {
+  566 |     return this.bottomNav.getByRole('button', { name: label }).locator('span.border-playYellow');
+  567 |   }
+  568 | 
+  569 |   async enterFeedPage() {
+  570 |     await this.feedTab.click();
+  571 |   }
+  572 | 
+  573 |   // When Packs occupies the fifth footer slot (see packsTab), Free2Play moves
+  574 |   // into the burger menu — exactly one of the two placements exists.
+  575 |   async enterFree2PlayPage() {
+  576 |     if (await this.free2PlayTab.isVisible().catch(() => false)) {
+  577 |       await this.free2PlayTab.click();
+  578 |       return;
+  579 |     }
+  580 |     await this.enterMenu();
+  581 |     await this.visible(this.page.getByRole('link', { name: 'Free2Play', exact: true })).click();
+  582 |   }
+```

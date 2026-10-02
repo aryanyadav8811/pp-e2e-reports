@@ -1,0 +1,2 @@
+[warning] [.WebGL-0xacc04f8aa00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[pageerror] canceled

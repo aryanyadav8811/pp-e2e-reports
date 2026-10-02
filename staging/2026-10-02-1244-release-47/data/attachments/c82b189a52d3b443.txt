@@ -1,0 +1,11 @@
+[error] Failed to refresh user data: CanceledError: canceled
+    at th (https://staging.parlayplay.io/_next/static/chunks/pages/_app-182069e7938d0955.js:1:123893)
+    at tb.tm (https://staging.parlayplay.io/_next/static/chunks/pages/_app-182069e7938d0955.js:1:123930)
+    at async tb.request (https://staging.parlayplay.io/_next/static/chunks/pages/_app-182069e7938d0955.js:1:125673)
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[error] Failed to refresh user data: CanceledError: canceled
+    at th (https://staging.parlayplay.io/_next/static/chunks/pages/_app-182069e7938d0955.js:1:123893)
+    at tb.tm (https://staging.parlayplay.io/_next/static/chunks/pages/_app-182069e7938d0955.js:1:123930)
+    at async tb.request (https://staging.parlayplay.io/_next/static/chunks/pages/_app-182069e7938d0955.js:1:125673)
+[warning] [.WebGL-0x327c02c1f200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels

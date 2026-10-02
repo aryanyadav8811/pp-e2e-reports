@@ -1,0 +1,12 @@
+env=staging
+project=Desktop
+release=release-47
+build=2026-10-02-1244-release-47
+sha=a2e4083b243458bd7b264989e15aee2bee2be9d8
+user=ephemeral s0w3 (et***)
+spec=navigation/top-nav-desktop.spec.ts:83
+retry=0
+status=failed (expected passed)
+lastUrl=-
+
++0.071s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

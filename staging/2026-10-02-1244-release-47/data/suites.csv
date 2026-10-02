@@ -1,0 +1,3440 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"**Spec:** `modals/userlimits.spec.ts:46`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @userLimit @mutates @smoke","41966","Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it","Mobile Safari","2026-10-02","failed","2026-10-02","User Limits - Limit Exceeded Modal","","",""
+"**Spec:** `transactions/transactions.spec.ts:347`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @transactions @prod","1484","Contest Settled rows credit the payout","Desktop","2026-10-02","skipped","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `packs/pack-detail.spec.ts:17`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @packs @staff @smoke","3769","Detail page shows the pack name, Buy CTA and a back link","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @navigation @prod","9786","Feed tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-10-02","passed","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `contests/submission-validation.spec.ts:129`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @contests","4719","A single pick never unlocks the slip","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth @smoke @prod @critical","4047","Logged-in user can log out","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Logout Flow","","",""
+"**Spec:** `menu/account-center.spec.ts:70`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @menu @prod","3181","Items route to their destination pages","Mobile Chrome","2026-10-02","passed","2026-10-02","Menu - Account Center","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @navigation @prod","2739","Rewards tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-10-02","passed","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `home/home-search.spec.ts:20`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @home @search @prod @smoke @critical","2393","Gibberish query shows the empty state, clearing restores the grid","Mobile Chrome","2026-10-02","passed","2026-10-02","Home - Feed Search","","",""
+"**Spec:** `signup/signup.spec.ts:54`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @signup @terms","8513","Header ""Join Now"" opens Terms page","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Entry Points","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:22`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @navigation @prod","2066","Feed opens the login modal for a logged-out visitor","Desktop","2026-10-02","passed","2026-10-02","Shell - desktop logged-out top nav","","",""
+"**Spec:** `transactions/transactions.spec.ts:204`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @transactions @prod","3776","First page rows mirror the balance-log API — label, date, signed amount, newest first","Mobile Safari","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:89`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @tailFeed @mutates @money","31094","For You tab renders (empty hero in single-user envs, cards otherwise)","Mobile Chrome","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `packs/access.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @packs @smoke @prod","1272","Unauthenticated visit to /packs redirects to login with a next param","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - access control","","",""
+"**Spec:** `signup/signup.spec.ts:390`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @signup @validation","2583","Date of birth picker only offers dates at least 18 years ago","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `entries/entry-card.spec.ts:174`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries @prod","2492","Share button opens the share-slip modal for shareable entries","Desktop","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `signup/signup.spec.ts:72`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @signup @terms","9632","Lobby free-entry banner advertises the $5 sign-up bonus and opens signup","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Entry Points","","",""
+"**Spec:** `settings/settings-edit.spec.ts:223`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @settings @mutates","1524","Experience level is shown read-only and only a derived boolean is public","Mobile Chrome","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:57`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @slipPersist @prod","19403","Slip persists through a Rewards tab round-trip","Desktop","2026-10-02","passed","2026-10-02","Slip persistence - navigation and reload","","",""
+"**Spec:** `settings/settings-edit.spec.ts:78`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @settings @mutates","1597","Display name rules: length, charset, uniqueness and cooldown are enforced server-side","Desktop","2026-10-02","skipped","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:95`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @rewards @prod","16080","An available offer exposes an enabled CTA","Mobile Chrome","2026-10-02","failed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `signup/signup.spec.ts:333`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @signup @validation","12384","Phone must be a US or Canadian number that is not already registered","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `packs/lobby.spec.ts:29`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @packs @staff","2065","Pack tiles link to a /packs/pack/<id> detail route","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `contests/submission-validation.spec.ts:167`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @contests","36556","Selection is capped at 9 picks","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @navigation @legal @prod","9211","/privacy-policy renders the Privacy Policy PDF","Mobile Safari","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `settings/referrals.spec.ts:29`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @settings @prod","1182","Page shows the $20 referral bonus pitch and the personal signup link","Desktop","2026-10-02","skipped","2026-10-02","Settings - Referrals","","",""
+"**Spec:** `entries/entries.spec.ts:38`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries","2800","Active tab shows at most one page of entry cards, or the no-data state","Desktop","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `settings/settings.spec.ts:16`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @settings @prod","3118","My Settings shows the username, email and name from the user API","Mobile Chrome","2026-10-02","passed","2026-10-02","Settings - My Settings","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:41`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @signup @smoke @prod","1500","Deep link /account/signup renders the form as a modal over the lobby","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Modal","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @prod","132","Feed tab sends a logged-out visitor to the free-signup login page","Desktop","2026-10-02","skipped","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `auth/login.spec.ts:39`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","1308","Login page is reachable by direct URL","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Page Rendering","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:107`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @tailFeed @mutates @money","1651","Following tab shows the empty state (single user, no follows)","Mobile Chrome","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `packs/lobby.spec.ts:41`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @packs @staff","1475","Just Opened section shows recent pulls, or is absent when there are none","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `packs/pack-detail.spec.ts:93`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @packs @staff","2416","Unknown pack id shows the not-found message","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `auth/login.spec.ts:243`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","5264","User can log in again after logging out","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Logout Flow","","",""
+"**Spec:** `navigation/shell.spec.ts:62`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @prod","1164","/_offline renders the offline page and Reload reloads it","Desktop","2026-10-02","passed","2026-10-02","Shell - system pages","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:330`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @data-verification @prod","4726","Stats selector tabs equal the API stat names for the default league","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:91`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @navigation @prod","4608","Logged-in carousel Deposit Now routes to the deposit page","Desktop","2026-10-02","passed","2026-10-02","Shell - desktop header promo carousel","","",""
+"**Spec:** `theme/dark-mode.spec.ts:60`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @theme @staff","4054","Stored ""light"" preference boots the app light with the light logo","Mobile Safari","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `auth/login.spec.ts:138`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w1 (et***)
+
+**Tags:** @auth","31516","Login is rejected with an empty username","Desktop","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `theme/dark-mode.spec.ts:131`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @theme","1682","Theme toggle renders in the account menu for every logged-in user","Desktop","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `navigation/shell.spec.ts:53`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @prod","707","Unknown route renders the 404 page","Desktop","2026-10-02","passed","2026-10-02","Shell - system pages","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:22`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @navigation @prod","1891","Track Picks opens the login modal for a logged-out visitor","Desktop","2026-10-02","passed","2026-10-02","Shell - desktop logged-out top nav","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:47`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @desktop @navigation @prod","1882","Home is active on landing and the underline moves to Rewards","Desktop","2026-10-02","passed","2026-10-02","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `entries/entry-card.spec.ts:174`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @entries @prod","10227","Share button opens the share-slip modal for shareable entries","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `signup/signup.spec.ts:204`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @signup @validation","4108","Username must be 3–30 letters or digits that nobody owns yet","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `signup/signup.spec.ts:271`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @signup @validation","3406","Email must be a valid address that is not already registered","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:28`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @slipPersist @prod","18702","Slip persists through an Entries tab round-trip","Desktop","2026-10-02","passed","2026-10-02","Slip persistence - navigation and reload","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:107`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @tailFeed @mutates @money","31420","Following tab shows the empty state (single user, no follows)","Desktop","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `packs/pack-detail.spec.ts:48`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @packs @staff","4564","View Odds opens the Pack Odds modal (when the pack has odds)","Desktop","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @entries @smoke @prod @critical","8810","Active tab shows the Entry Amount and Max Payout stats","Mobile Safari","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:168`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @slipShare @mutates @money","36075","Logged-out tailer signs in via the tail link, then auto-tails and submits","Desktop","2026-10-02","failed","2026-10-02","Slip sharing - share and tail","","",""
+"**Spec:** `settings/settings-edit.spec.ts:254`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @settings @mutates","2503","Language switcher posts the preference and translates the page","Desktop","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `modals/userlimits.spec.ts:46`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @userLimit @mutates @smoke","22450","Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it","Desktop","2026-10-02","failed","2026-10-02","User Limits - Limit Exceeded Modal","","",""
+"**Spec:** `navigation/legal.spec.ts:108`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @legal @footer @prod","1722","Every internal footer link resolves 200 and external links are absolute https","Desktop","2026-10-02","passed","2026-10-02","Legal - footer links","","",""
+"**Spec:** `entries/entries.spec.ts:147`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @entries @smoke @prod","12358","History summary stats match the API for the 6 Months range","Mobile Safari","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:34`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @slipShare @mutates @money","29019","Logged-in tailer clicks ""Tail this entry"" and submits the same picks","Mobile Chrome","2026-10-02","passed","2026-10-02","Slip sharing - share and tail","","",""
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @smoke @prod @critical","4830","User can log in with a valid username","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:61`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @contests @mutates @money","21800","Picks Submitted screen exposes the description CTA and opens the editor","Mobile Chrome","2026-10-02","skipped","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `entries/entries.spec.ts:211`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries","2720","First history card shows the amount, result and pick count from the API","Mobile Chrome","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `signup/signup.spec.ts:98`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @signup @terms","1847","Deeplink with referral pre-populates the coupon field","Mobile Safari","2026-10-02","skipped","2026-10-02","Signup - Entry Points","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries @smoke @prod @critical","2989","User can switch between the Active and History tabs","Desktop","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:22`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @desktop @navigation @prod","2215","Rewards opens the login modal for a logged-out visitor","Desktop","2026-10-02","passed","2026-10-02","Shell - desktop logged-out top nav","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @legal @prod","1328","/privacy-policy renders the Privacy Policy PDF","Desktop","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `auth/login.spec.ts:154`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w1 (et***)
+
+**Tags:** @auth","31499","Login is rejected with both fields empty","Desktop","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:206`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","2517","Unauthenticated user sees the Join Now button on home","Desktop","2026-10-02","passed","2026-10-02","Login - Navigation","","",""
+"**Spec:** `navigation/shell.spec.ts:53`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @prod","1103","Unknown route renders the 404 page","Mobile Chrome","2026-10-02","passed","2026-10-02","Shell - system pages","","",""
+"**Spec:** `transactions/transactions.spec.ts:421`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @transactions @contests @mutates @money","33138","Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows","Mobile Safari","2026-10-02","passed","2026-10-02","Transactions - contest rows","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:66`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @rewards @prod","3850","Claimed offers are non-interactive and sorted below unclaimed offers","Mobile Safari","2026-10-02","skipped","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:38`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @rewards @prod","1423","Partner offer cards render, or the empty state when none are available","Desktop","2026-10-02","passed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `entries/entries.spec.ts:121`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @entries","9450","Cancel Entry countdown stays within the 5-minute window","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `auth/login.spec.ts:100`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)","3236","Login honours the ""next"" query param redirect","Desktop","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:83`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @desktop @navigation @prod","1351","Feed link routes to the feed and takes the underline","Desktop","2026-10-02","failed","2026-10-02","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @prod","144","Rewards tab sends a logged-out visitor to the free-signup login page","Desktop","2026-10-02","skipped","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `contests/submission-validation.spec.ts:401`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @contests @mutates @money","28565","Double-clicking Place creates exactly one entry","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Server-side submission guards","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:65`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @navigation @prod","2374","Track Picks routes to pending and stays active on history","Desktop","2026-10-02","passed","2026-10-02","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `settings/settings-edit.spec.ts:51`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @settings @mutates","1324","Display name is read-only and shows the approved public name","Desktop","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `transactions/transactions.spec.ts:204`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @transactions @prod","1115","First page rows mirror the balance-log API — label, date, signed amount, newest first","Mobile Chrome","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @prod","135","Packs tab sends a logged-out visitor to the free-signup login page","Desktop","2026-10-02","skipped","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `entries/entry-card.spec.ts:174`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries @prod","2278","Share button opens the share-slip modal for shareable entries","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:41`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @navigation @prod","7528","Rewards tab routes into /rewards and takes the indicator","Mobile Safari","2026-10-02","passed","2026-10-02","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `auth/login.spec.ts:90`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)","2602","User lands on home after a successful login","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:28`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @slipPersist @prod","21629","Slip persists through an Entries tab round-trip","Mobile Chrome","2026-10-02","passed","2026-10-02","Slip persistence - navigation and reload","","",""
+"**Spec:** `packs/pack-detail.spec.ts:64`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @packs @staff","3125","Quantity stepper is bounded at 1 and scales the Buy price","Mobile Chrome","2026-10-02","skipped","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `contests/submission-validation.spec.ts:276`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @contests","21937","Payout figures match the payout-structure API for All In and Insured","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @navigation @legal @prod","7501","/responsible-gaming renders the Responsible Play PDF","Mobile Safari","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `data-verification/search.spec.ts:172`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","225","Search auto-switches the stat tab to one the searched player offers","Desktop","2026-10-02","skipped","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `entries/entry-card.spec.ts:364`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries @contests @mutates @money","23100","Confirming cancel twice fires the cancel request only once (double-submit guard)","Mobile Chrome","2026-10-02","passed","2026-10-02","My Entries - cancel entry","","",""
+"**Spec:** `entries/entry-card.spec.ts:134`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries @prod","2596","Live entries surface a Live indicator","Desktop","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `packs/lobby.spec.ts:54`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @packs @staff","1674","Pending Packs row lists 'Open Pack' actions when the user owns open rounds","Desktop","2026-10-02","skipped","2026-10-02","Packs - lobby","","",""
+"**Spec:** `contests/submission-validation.spec.ts:129`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @contests","6655","A single pick never unlocks the slip","Desktop","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `entries/entries.spec.ts:185`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @entries","2980","Switching from 6 Months to 7 Days never increases the history count","Mobile Chrome","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @entries @smoke @prod @critical","11980","User can switch between the Active and History tabs","Mobile Safari","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `packs/access.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @packs @staff","2645","Staff user sees the Packs entry and can open the lobby","Desktop","2026-10-02","passed","2026-10-02","Packs - access control","","",""
+"**Spec:** `home/home-search.spec.ts:20`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @home @search @prod @smoke @critical","2215","Gibberish query shows the empty state, clearing restores the grid","Desktop","2026-10-02","passed","2026-10-02","Home - Feed Search","","",""
+"**Spec:** `packs/lobby.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @packs @staff @smoke","15900","Lobby renders the Open a Pack catalog with at least one pack tile","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `entries/entry-card.spec.ts:153`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @entries @prod","2348","Tailers pill reads ""<n> tailers | $<reward>"" when an entry has tailers","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `theme/dark-mode.spec.ts:60`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @theme @staff","1542","Stored ""light"" preference boots the app light with the light logo","Mobile Chrome","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `navigation/legal.spec.ts:89`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @navigation @legal @prod","3253","/contact-us renders no HubSpot ticket form on any breakpoint","Mobile Safari","2026-10-02","passed","2026-10-02","Legal - contact","","",""
+"**Spec:** `entries/entry-card.spec.ts:134`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @entries @prod","10950","Live entries surface a Live indicator","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `settings/settings-edit.spec.ts:138`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @settings @mutates","2966","Bio rejects links and formatting before anything is sent","Mobile Chrome","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `navigation/shell.spec.ts:80`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @navigation @prod","4534","?coupon and ?btag are stored as the referral cookies","Mobile Safari","2026-10-02","passed","2026-10-02","Shell - system pages","","",""
+"**Spec:** `signup/signup.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @signup @terms @smoke @prod","7484","Terms page leads to signup page","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Entry Points","","",""
+"**Spec:** `data-verification/search.spec.ts:101`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @data-verification @prod","8418","Searching an API player's full name shows only matching cards","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `entries/entry-card.spec.ts:80`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @entries @prod","3096","History cards never render the pick-badge preview","Desktop","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `entries/entry-card.spec.ts:39`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @entries @prod","2237","Active card shows the entry amount, payout and Insured/All In multiplier","Desktop","2026-10-02","passed","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `auth/login.spec.ts:146`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth","31552","Login is rejected with an empty password","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `packs/access.spec.ts:11`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @packs @smoke @prod","1166","Unauthenticated visit to /packs redirects to login with a next param","Desktop","2026-10-02","passed","2026-10-02","Packs - access control","","",""
+"**Spec:** `auth/login.spec.ts:47`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","1970","Password field masks its input","Desktop","2026-10-02","passed","2026-10-02","Login - Page Rendering","","",""
+"**Spec:** `data-verification/search.spec.ts:101`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","227","Searching an API player's full name shows only matching cards","Desktop","2026-10-02","skipped","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @prod","2565","Entries tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-10-02","passed","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `auth/login.spec.ts:90`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)","3590","User lands on home after a successful login","Desktop","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:197`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @contests @mutates @money","44623","Placing an entry debits the wallet by the entry amount and cancelling refunds it","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `contests/submission-validation.spec.ts:142`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @contests","10562","Two picks from the same team keep the slip locked","Desktop","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `transactions/transactions.spec.ts:232`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @transactions @prod","4909","Each type filter requests its category and lists only that category","Mobile Safari","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:23`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @prod","1941","Feed tab routes to /challenges/feed and takes the indicator","Mobile Chrome","2026-10-02","passed","2026-10-02","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `settings/settings.spec.ts:16`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @settings @prod","12020","My Settings shows the username, email and name from the user API","Mobile Safari","2026-10-02","passed","2026-10-02","Settings - My Settings","","",""
+"**Spec:** `theme/dark-mode.spec.ts:131`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @theme","1765","Theme toggle renders in the account menu for every logged-in user","Mobile Chrome","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `entries/entry-card.spec.ts:96`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries @prod","2666","Dedicated chevron toggle expands and collapses the card","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `transactions/transactions.spec.ts:276`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @transactions @prod","3666","Switching month reloads the log for that month","Mobile Safari","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `settings/settings-edit.spec.ts:173`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @settings @mutates","4897","Bio save goes to moderation; clearing it auto-approves","Mobile Chrome","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth @smoke @prod @critical","41851","Logged-in user can log out","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Logout Flow","","",""
+"**Spec:** `stats/full-game-stat-selection.spec.ts:22`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @stats @prod","3128","First stat stays highlighted by default across Full Game league tabs","Mobile Chrome","2026-10-02","passed","2026-10-02","Stats - Full Game default selection","","",""
+"**Spec:** `navigation/legal.spec.ts:67`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @legal @prod","2759","/contact-us redirects to the lobby and opens the Intercom messenger","Mobile Chrome","2026-10-02","passed","2026-10-02","Legal - contact","","",""
+"**Spec:** `navigation/legal.spec.ts:89`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @legal @prod","1467","/contact-us renders no HubSpot ticket form on any breakpoint","Desktop","2026-10-02","passed","2026-10-02","Legal - contact","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:243`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","2645","Switching stat tabs renders that stat's API line on every card","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `settings/referrals.spec.ts:29`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @settings @prod","1290","Page shows the $20 referral bonus pitch and the personal signup link","Mobile Chrome","2026-10-02","skipped","2026-10-02","Settings - Referrals","","",""
+"**Spec:** `settings/settings-edit.spec.ts:223`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @settings @mutates","1426","Experience level is shown read-only and only a derived boolean is public","Desktop","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w2 (et***)
+
+**Tags:** @entries @smoke @prod @critical","180294","Active tab shows the Entry Amount and Max Payout stats","Mobile Chrome","2026-10-02","broken","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `entries/entries.spec.ts:323`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @entries","10655","Switching the time range from the last page settles on data or the empty state","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `menu/account-center.spec.ts:39`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @menu @prod","8252","Items are grouped under Account, Rewards and Support","Mobile Safari","2026-10-02","passed","2026-10-02","Menu - Account Center","","",""
+"**Spec:** `entries/entries.spec.ts:121`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @entries","3034","Cancel Entry countdown stays within the 5-minute window","Desktop","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `packs/lobby.spec.ts:67`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @packs @staff","21585","A 'See all' link opens a subcategory listing","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:132`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @contests @mutates @money","28517","Submitting a contest raises the entry amount and max payout totals","Desktop","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @legal @prod","3259","/terms renders the Terms Of Service PDF","Mobile Chrome","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `settings/settings-edit.spec.ts:223`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @settings @mutates","4397","Experience level is shown read-only and only a derived boolean is public","Mobile Safari","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `auth/login.spec.ts:206`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth","2455","Unauthenticated user sees the Join Now button on home","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Navigation","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @prod","140","Entries tab sends a logged-out visitor to the free-signup login page","Desktop","2026-10-02","skipped","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:89`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @contests @mutates @money","29089","Placed contest appears in the My Entries list","Desktop","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `settings/settings-edit.spec.ts:173`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @settings @mutates","14432","Bio save goes to moderation; clearing it auto-approves","Mobile Safari","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `modals/userlimits.spec.ts:46`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @userLimit @mutates @smoke","22872","Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it","Mobile Chrome","2026-10-02","failed","2026-10-02","User Limits - Limit Exceeded Modal","","",""
+"**Spec:** `entries/entry-card.spec.ts:211`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @entries @prod","11274","View Leaderboard opens the contest-group leaderboard modal","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `packs/access.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @packs @staff","2626","Staff user sees the Packs entry and can open the lobby","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - access control","","",""
+"**Spec:** `transactions/transactions.spec.ts:421`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @transactions @contests @mutates @money","24899","Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows","Mobile Chrome","2026-10-02","failed","2026-10-02","Transactions - contest rows","","",""
+"**Spec:** `settings/player-limits.spec.ts:18`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @settings @prod","3158","My Settings no longer renders the Player Limits controls","Desktop","2026-10-02","passed","2026-10-02","Settings - Player Limits","","",""
+"**Spec:** `navigation/legal.spec.ts:41`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @navigation @legal @prod","1770","Signup Class Action Waiver link opens the Terms document at #class-action","Mobile Chrome","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @rewards @prod","1374","Partner Rewards is the default tab, alongside a Promotions tab","Desktop","2026-10-02","passed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `data-verification/search.spec.ts:247`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","230","No-result, minimum-length and clear behaviours","Desktop","2026-10-02","skipped","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `settings/settings-edit.spec.ts:173`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @settings @mutates","4510","Bio save goes to moderation; clearing it auto-approves","Desktop","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `navigation/footer-age-badge.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @navigation @footer @prod","4450","Home footer shows the 18+ age badge and no 21+ anywhere","Mobile Safari","2026-10-02","passed","2026-10-02","Footer - age badge","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:243`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","237","Switching stat tabs renders that stat's API line on every card","Desktop","2026-10-02","skipped","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:34`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @slipShare @mutates @money","37280","Logged-in tailer clicks ""Tail this entry"" and submits the same picks","Desktop","2026-10-02","failed","2026-10-02","Slip sharing - share and tail","","",""
+"**Spec:** `auth/login.spec.ts:78`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @smoke @prod","4351","User can log in with a valid email","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:365`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","1393","League selector tabs correspond to leagues present in the API","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `menu/account-dropdown-desktop.spec.ts:75`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @desktop @menu @prod","1941","Navigating via a menu item closes the dropdown and routes","Desktop","2026-10-02","passed","2026-10-02","Menu - Desktop Account Dropdown","","",""
+"**Spec:** `navigation/shell.spec.ts:80`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @navigation @prod","1460","?coupon and ?btag are stored as the referral cookies","Mobile Chrome","2026-10-02","passed","2026-10-02","Shell - system pages","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:34`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @slipShare @mutates @money","55366","Logged-in tailer clicks ""Tail this entry"" and submits the same picks","Mobile Safari","2026-10-02","passed","2026-10-02","Slip sharing - share and tail","","",""
+"**Spec:** `navigation/shell.spec.ts:62`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @prod","1620","/_offline renders the offline page and Reload reloads it","Mobile Chrome","2026-10-02","passed","2026-10-02","Shell - system pages","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:238`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @desktop @signup @validation","2883","Phone must be a US number that is not already registered","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Field Validation","","",""
+"**Spec:** `entries/entries.spec.ts:67`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @entries","10547","Entry card expands and collapses via its header button","Mobile Safari","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `navigation/legal.spec.ts:67`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @legal @prod","2031","/contact-us redirects to the lobby and opens the Intercom messenger","Desktop","2026-10-02","passed","2026-10-02","Legal - contact","","",""
+"**Spec:** `entries/entry-card.spec.ts:60`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @entries @prod","10255","Collapsed active card shows the pick-badge preview; expanding hides it","Mobile Safari","2026-10-02","passed","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `transactions/transactions.spec.ts:157`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @transactions @prod","4187","Transaction Log renders with the month and type filters","Mobile Safari","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `signup/signup.spec.ts:166`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @signup","13574","Form accepts valid data in all fields","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Form Fields","","",""
+"**Spec:** `signup/signup.spec.ts:390`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @signup @validation","11013","Date of birth picker only offers dates at least 18 years ago","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:160`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @tailFeed @mutates @money","33420","Share toggle on surfaces a newly placed contest on the You tab and it can be tailed","Desktop","2026-10-02","failed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:61`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @contests @mutates @money","37485","Picks Submitted screen exposes the description CTA and opens the editor","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `theme/dark-mode.spec.ts:164`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @theme @staff","1296","OS dark appearance resolves to dark","Mobile Chrome","2026-10-02","passed","2026-10-02","Theme - dark mode > System preference - no stored choice","","",""
+"**Spec:** `auth/login.spec.ts:47`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)
+
+**Tags:** @auth","2057","Password field masks its input","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Page Rendering","","",""
+"**Spec:** `packs/lobby.spec.ts:41`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @packs @staff","16568","Just Opened section shows recent pulls, or is absent when there are none","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `auth/login.spec.ts:100`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)","2990","Login honours the ""next"" query param redirect","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:183`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","1085","Forgot password link navigates to password reset","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Navigation","","",""
+"**Spec:** `stats/full-game-stat-selection.spec.ts:22`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @stats @prod","224","First stat stays highlighted by default across Full Game league tabs","Desktop","2026-10-02","skipped","2026-10-02","Stats - Full Game default selection","","",""
+"**Spec:** `packs/lobby.spec.ts:67`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @packs @staff","2279","A 'See all' link opens a subcategory listing","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `entries/entry-card.spec.ts:60`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries @prod","2241","Collapsed active card shows the pick-badge preview; expanding hides it","Desktop","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `entries/entry-card.spec.ts:211`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @entries @prod","2658","View Leaderboard opens the contest-group leaderboard modal","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `packs/access.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @packs @staff","18636","Staff user sees the Packs entry and can open the lobby","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - access control","","",""
+"**Spec:** `entries/entry-card.spec.ts:261`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries @contests @mutates @money","25686","Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere","Mobile Chrome","2026-10-02","passed","2026-10-02","My Entries - cancel entry","","",""
+"**Spec:** `auth/login.spec.ts:206`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","1172","Unauthenticated user sees the Join Now button on home","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Navigation","","",""
+"**Spec:** `entries/entry-card.spec.ts:96`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @entries @prod","9428","Dedicated chevron toggle expands and collapses the card","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `transactions/transactions.spec.ts:307`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @transactions @prod","3034","Paging loads the next rows and keeps newest-first order across pages","Mobile Safari","2026-10-02","skipped","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:365`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @data-verification @prod","5669","League selector tabs correspond to leagues present in the API","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `auth/login.spec.ts:146`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w1 (et***)
+
+**Tags:** @auth","31435","Login is rejected with an empty password","Desktop","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `entries/entries.spec.ts:263`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @entries @smoke @prod","2835","Pagination advances through every history page","Desktop","2026-10-02","skipped","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `packs/pack-detail.spec.ts:35`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @packs @staff","4255","Back link returns to the lobby","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `menu/account-center.spec.ts:39`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @menu @prod","2414","Items are grouped under Account, Rewards and Support","Mobile Chrome","2026-10-02","passed","2026-10-02","Menu - Account Center","","",""
+"**Spec:** `entries/entry-card.spec.ts:261`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries @contests @mutates @money","27294","Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere","Desktop","2026-10-02","passed","2026-10-02","My Entries - cancel entry","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:132`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @contests @mutates @money","22273","Submitting a contest raises the entry amount and max payout totals","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `auth/login.spec.ts:138`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth","31370","Login is rejected with an empty username","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @smoke @prod @critical","2325","User can log in with a valid username","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:118`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @rewards @prod","4302","Switching to the Promotions sub-tab routes to /rewards/promotions","Mobile Safari","2026-10-02","passed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `transactions/transactions.spec.ts:347`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @transactions @prod","1284","Contest Settled rows credit the payout","Mobile Chrome","2026-10-02","skipped","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:57`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @slipPersist @prod","21619","Slip persists through a Rewards tab round-trip","Mobile Chrome","2026-10-02","passed","2026-10-02","Slip persistence - navigation and reload","","",""
+"**Spec:** `navigation/footer-age-badge.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @footer @prod","1665","Home footer shows the 18+ age badge and no 21+ anywhere","Mobile Chrome","2026-10-02","passed","2026-10-02","Footer - age badge","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:89`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @tailFeed @mutates @money","1201","For You tab renders (empty hero in single-user envs, cards otherwise)","Desktop","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `entries/entries.spec.ts:211`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries","2938","First history card shows the amount, result and pick count from the API","Desktop","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `auth/login.spec.ts:183`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","4860","Forgot password link navigates to password reset","Desktop","2026-10-02","passed","2026-10-02","Login - Navigation","","",""
+"**Spec:** `transactions/transactions.spec.ts:157`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @transactions @prod","1456","Transaction Log renders with the month and type filters","Desktop","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:118`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @rewards @prod","1469","Switching to the Promotions sub-tab routes to /rewards/promotions","Mobile Chrome","2026-10-02","passed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `auth/login.spec.ts:30`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w1 (et***)
+
+**Tags:** @auth","1986","Login page renders all expected elements","Desktop","2026-10-02","passed","2026-10-02","Login - Page Rendering","","",""
+"**Spec:** `entries/entry-card.spec.ts:39`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @entries @prod","8887","Active card shows the entry amount, payout and Insured/All In multiplier","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `navigation/shell.spec.ts:62`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @navigation @prod","4556","/_offline renders the offline page and Reload reloads it","Mobile Safari","2026-10-02","passed","2026-10-02","Shell - system pages","","",""
+"**Spec:** `settings/settings-edit.spec.ts:254`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @settings @mutates","12079","Language switcher posts the preference and translates the page","Mobile Safari","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:84`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @slipPersist @prod","21038","Slip persists through a hard page reload","Mobile Chrome","2026-10-02","passed","2026-10-02","Slip persistence - navigation and reload","","",""
+"**Spec:** `entries/entries.spec.ts:147`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries @smoke @prod","3482","History summary stats match the API for the 6 Months range","Desktop","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `signup/signup.spec.ts:373`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @signup @validation","2682","Referral code must be a known coupon","Mobile Chrome","2026-10-02","skipped","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `theme/dark-mode.spec.ts:164`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @theme @staff","1456","OS dark appearance resolves to dark","Desktop","2026-10-02","passed","2026-10-02","Theme - dark mode > System preference - no stored choice","","",""
+"**Spec:** `signup/signup.spec.ts:54`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @signup @terms","2457","Header ""Join Now"" opens Terms page","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Entry Points","","",""
+"**Spec:** `signup/signup.spec.ts:122`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @signup @terms","2547","Create account stays disabled until both consents are ticked","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Terms Consent","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @navigation @prod","11237","Entries tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-10-02","passed","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `settings/referrals.spec.ts:78`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @settings @prod","4521","Without referrals the table is not rendered","Mobile Safari","2026-10-02","passed","2026-10-02","Settings - Referrals","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:88`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @navigation @prod @smoke @critical","13789","Only one tab is active at a time and Home restores","Mobile Safari","2026-10-02","passed","2026-10-02","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `auth/login.spec.ts:130`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)
+
+**Tags:** @auth","66947","Login is rejected for an unknown username","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `entries/entries.spec.ts:211`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @entries","12807","First history card shows the amount, result and pick count from the API","Mobile Safari","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `packs/lobby.spec.ts:54`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @packs @staff","16254","Pending Packs row lists 'Open Pack' actions when the user owns open rounds","Mobile Safari","2026-10-02","skipped","2026-10-02","Packs - lobby","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:66`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @rewards @prod","1670","Claimed offers are non-interactive and sorted below unclaimed offers","Desktop","2026-10-02","skipped","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:18`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @packs @staff @smoke","5015","Buy launches the Repackz opening iframe with a close bar","Desktop","2026-10-02","passed","2026-10-02","Packs - opening iframe","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @rewards @prod","4501","Partner Rewards is the default tab, alongside a Promotions tab","Mobile Safari","2026-10-02","passed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `transactions/transactions.spec.ts:421`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @transactions @contests @mutates @money","19061","Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows","Desktop","2026-10-02","passed","2026-10-02","Transactions - contest rows","","",""
+"**Spec:** `packs/pack-detail.spec.ts:64`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @packs @staff","17226","Quantity stepper is bounded at 1 and scales the Buy price","Mobile Safari","2026-10-02","skipped","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:73`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @signup","2109","Top-nav Join Now opens the modal in place, without navigation","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Modal","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:160`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @tailFeed @mutates @money","24325","Share toggle on surfaces a newly placed contest on the You tab and it can be tailed","Mobile Chrome","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `entries/entry-card.spec.ts:364`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries @contests @mutates @money","25449","Confirming cancel twice fires the cancel request only once (double-submit guard)","Desktop","2026-10-02","passed","2026-10-02","My Entries - cancel entry","","",""
+"**Spec:** `auth/login.spec.ts:164`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth","32859","Error clears on retry with valid credentials","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `packs/pack-detail.spec.ts:93`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @packs @staff","19298","Unknown pack id shows the not-found message","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `auth/login.spec.ts:164`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)
+
+**Tags:** @auth","34399","Error clears on retry with valid credentials","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:61`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @contests @mutates @money","15192","Picks Submitted screen exposes the description CTA and opens the editor","Desktop","2026-10-02","skipped","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `settings/referrals.spec.ts:60`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @settings @prod","4565","Referral table matches GET /api/v1/referrals/","Mobile Safari","2026-10-02","skipped","2026-10-02","Settings - Referrals","","",""
+"**Spec:** `theme/dark-mode.spec.ts:75`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @theme @staff","20146","Staff toggle flips the theme, swaps the logo and persists across reload","Mobile Safari","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:123`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @tailFeed @mutates @money","18253","Share toggle off keeps a newly placed contest off the You tab","Desktop","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `packs/lobby.spec.ts:41`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @packs @staff","2029","Just Opened section shows recent pulls, or is absent when there are none","Desktop","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:50`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @packs @staff","4248","Close bar dismisses the iframe and restores the Buy CTA","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - opening iframe","","",""
+"**Spec:** `signup/signup.spec.ts:236`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @signup @validation","2764","Password needs 8+ characters with lower, upper and digit, and the confirmation must match","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `contests/submission-validation.spec.ts:457`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @contests","38549","Placing picks logged out redirects to signup and the slip survives login","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Logged-out submit","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:95`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @rewards @prod","1750","An available offer exposes an enabled CTA","Desktop","2026-10-02","passed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `entries/entries.spec.ts:147`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries @smoke @prod","2683","History summary stats match the API for the 6 Months range","Mobile Chrome","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `signup/signup.spec.ts:98`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @signup @terms","198","Deeplink with referral pre-populates the coupon field","Mobile Chrome","2026-10-02","skipped","2026-10-02","Signup - Entry Points","","",""
+"**Spec:** `auth/login.spec.ts:183`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth","3047","Forgot password link navigates to password reset","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Navigation","","",""
+"**Spec:** `signup/signup.spec.ts:151`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @signup","8110","All required fields are visible","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Form Fields","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @legal @prod","1259","/responsible-gaming renders the Responsible Play PDF","Desktop","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @legal @prod","1864","/rules renders the Game Rules PDF","Desktop","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:104`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @signup","1518","""Already have an account?"" switches to the login modal","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Modal","","",""
+"**Spec:** `navigation/legal.spec.ts:67`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @navigation @legal @prod","8537","/contact-us redirects to the lobby and opens the Intercom messenger","Mobile Safari","2026-10-02","passed","2026-10-02","Legal - contact","","",""
+"**Spec:** `entries/entries.spec.ts:323`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries","2900","Switching the time range from the last page settles on data or the empty state","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:39`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @entries @prod","2458","Active card shows the entry amount, payout and Insured/All In multiplier","Mobile Chrome","2026-10-02","passed","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `data-verification/search.spec.ts:247`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","4547","No-result, minimum-length and clear behaviours","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `navigation/legal.spec.ts:80`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @navigation @legal @prod","4893","/contact still resolves, through /contact-us into the lobby","Mobile Safari","2026-10-02","passed","2026-10-02","Legal - contact","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:197`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @contests @mutates @money","22006","Placing an entry debits the wallet by the entry amount and cancelling refunds it","Desktop","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `settings/settings-edit.spec.ts:51`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @settings @mutates","5090","Display name is read-only and shows the approved public name","Mobile Safari","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `packs/pack-detail.spec.ts:35`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @packs @staff","31194","Back link returns to the lobby","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:55`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @navigation @prod","28994","Fifth tab (Free2Play or Packs) routes and takes the indicator","Mobile Safari","2026-10-02","passed","2026-10-02","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @navigation @prod","9357","Packs tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-10-02","passed","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `entries/entries.spec.ts:263`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @entries @smoke @prod","11332","Pagination advances through every history page","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `navigation/legal.spec.ts:108`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @navigation @legal @footer @prod","5502","Every internal footer link resolves 200 and external links are absolute https","Mobile Safari","2026-10-02","passed","2026-10-02","Legal - footer links","","",""
+"**Spec:** `signup/signup.spec.ts:151`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @signup","2539","All required fields are visible","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Form Fields","","",""
+"**Spec:** `signup/signup.spec.ts:333`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @signup @validation","5763","Phone must be a US or Canadian number that is not already registered","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:18`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @packs @staff @smoke","4029","Buy launches the Repackz opening iframe with a close bar","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - opening iframe","","",""
+"**Spec:** `auth/login-modal-desktop.spec.ts:44`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @desktop @auth @prod","3235","Top-nav Login button opens the modal in place, without navigation","Desktop","2026-10-02","passed","2026-10-02","Login - Desktop Modal","","",""
+"**Spec:** `entries/entry-card.spec.ts:80`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @entries @prod","3260","History cards never render the pick-badge preview","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `packs/lobby.spec.ts:67`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @packs @staff","1852","A 'See all' link opens a subcategory listing","Desktop","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:66`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @rewards @prod","16106","Claimed offers are non-interactive and sorted below unclaimed offers","Mobile Chrome","2026-10-02","failed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `stats/full-game-stat-selection.spec.ts:22`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @stats @prod","7945","First stat stays highlighted by default across Full Game league tabs","Mobile Safari","2026-10-02","passed","2026-10-02","Stats - Full Game default selection","","",""
+"**Spec:** `auth/login.spec.ts:122`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)
+
+**Tags:** @auth","67106","Login is rejected with an invalid password","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `navigation/shell.spec.ts:53`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @navigation @prod","3104","Unknown route renders the 404 page","Mobile Safari","2026-10-02","passed","2026-10-02","Shell - system pages","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:89`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @contests @mutates @money","42939","Placed contest appears in the My Entries list","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `navigation/legal.spec.ts:108`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @navigation @legal @footer @prod","1752","Every internal footer link resolves 200 and external links are absolute https","Mobile Chrome","2026-10-02","passed","2026-10-02","Legal - footer links","","",""
+"**Spec:** `signup/signup.spec.ts:295`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @signup @validation","8457","Names must be 2–40 characters without digits or special characters","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `entries/history-leaderboard-faq.spec.ts:22`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @entries @leaderboard @prod","1251","View Leaderboard on a history card opens the leaderboard modal with a working FAQ link","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - History Leaderboard FAQ","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @navigation @legal @prod","5253","/terms/packs renders the Packs Terms PDF","Mobile Safari","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `settings/settings-edit.spec.ts:254`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @settings @mutates","2588","Language switcher posts the preference and translates the page","Mobile Chrome","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `signup/signup.spec.ts:122`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @signup @terms","7372","Create account stays disabled until both consents are ticked","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Terms Consent","","",""
+"**Spec:** `theme/dark-mode.spec.ts:45`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @theme @staff","1776","Stored ""dark"" preference boots the app dark with the dark logo","Desktop","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `contests/submission-validation.spec.ts:208`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @contests","45513","Entry amount presets and typed values are clamped to balance, cap and cents","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `entries/entries.spec.ts:185`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @entries","3335","Switching from 6 Months to 7 Days never increases the history count","Desktop","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `data-verification/search.spec.ts:142`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","231","Searching a team abbreviation shows that team's players","Desktop","2026-10-02","skipped","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `home/home-search.spec.ts:48`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @home @search @prod","1332","A common letter narrows the grid without emptying it","Mobile Chrome","2026-10-02","passed","2026-10-02","Home - Feed Search","","",""
+"**Spec:** `settings/referrals.spec.ts:60`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @settings @prod","1321","Referral table matches GET /api/v1/referrals/","Desktop","2026-10-02","skipped","2026-10-02","Settings - Referrals","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:330`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","208","Stats selector tabs equal the API stat names for the default league","Desktop","2026-10-02","skipped","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:98`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @navigation @prod","2118","Wallet pill shows the balance and the burger toggles the account dropdown","Desktop","2026-10-02","passed","2026-10-02","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `theme/dark-mode.spec.ts:60`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @theme @staff","1404","Stored ""light"" preference boots the app light with the light logo","Desktop","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `contests/submission-validation.spec.ts:276`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @contests","21396","Payout figures match the payout-structure API for All In and Insured","Desktop","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `entries/history-leaderboard-faq.spec.ts:22`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @entries @leaderboard @prod","3687","View Leaderboard on a history card opens the leaderboard modal with a working FAQ link","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - History Leaderboard FAQ","","",""
+"**Spec:** `entries/entries.spec.ts:323`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries","3062","Switching the time range from the last page settles on data or the empty state","Desktop","2026-10-02","skipped","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @legal @prod","2115","/terms renders the Terms Of Service PDF","Desktop","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `entries/entry-card.spec.ts:153`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @entries @prod","11386","Tailers pill reads ""<n> tailers | $<reward>"" when an entry has tailers","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:195`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","3542","Player cards render the offering API data","Desktop","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `packs/pack-detail.spec.ts:48`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @packs @staff","20730","View Odds opens the Pack Odds modal (when the pack has odds)","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `entries/entry-card.spec.ts:134`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries @prod","2747","Live entries surface a Live indicator","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `signup/signup.spec.ts:236`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @signup @validation","7945","Password needs 8+ characters with lower, upper and digit, and the confirmation must match","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `auth/login.spec.ts:146`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)
+
+**Tags:** @auth","33021","Login is rejected with an empty password","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `data-verification/entries-active.spec.ts:55`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @data-verification @prod","4404","Active entry cards render the entries-paged API data","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - active entries","","",""
+"**Spec:** `data-verification/search.spec.ts:172`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @data-verification @prod","8627","Search auto-switches the stat tab to one the searched player offers","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:426`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","1605","Match selector lists every API match for the default league","Desktop","2026-10-02","skipped","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `auth/login.spec.ts:30`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","2165","Login page renders all expected elements","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Page Rendering","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:168`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @slipShare @mutates @money","55546","Logged-out tailer signs in via the tail link, then auto-tails and submits","Mobile Safari","2026-10-02","passed","2026-10-02","Slip sharing - share and tail","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @contests @mutates @money @smoke @prod @critical @money","35720","Five-pick contest is submitted successfully","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `auth/login-modal-desktop.spec.ts:18`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @desktop @auth @prod","1806","Deep link /account/login renders the form as a modal over the lobby","Desktop","2026-10-02","passed","2026-10-02","Login - Desktop Modal","","",""
+"**Spec:** `entries/entries.spec.ts:38`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries","2080","Active tab shows at most one page of entry cards, or the no-data state","Mobile Chrome","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @contests @mutates @money @smoke @prod @critical @money","22445","Five-pick contest is submitted successfully","Desktop","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:197`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @contests @mutates @money","25294","Placing an entry debits the wallet by the entry amount and cancelling refunds it","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `data-verification/entries-active.spec.ts:55`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","884","Active entry cards render the entries-paged API data","Desktop","2026-10-02","passed","2026-10-02","Data verification - active entries","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @navigation @legal @prod","6998","/rules renders the Game Rules PDF","Mobile Safari","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `navigation/footer-age-badge.spec.ts:11`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @footer @prod","1641","Home footer shows the 18+ age badge and no 21+ anywhere","Desktop","2026-10-02","passed","2026-10-02","Footer - age badge","","",""
+"**Spec:** `entries/entries.spec.ts:38`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @entries","8849","Active tab shows at most one page of entry cards, or the no-data state","Mobile Safari","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `auth/login.spec.ts:154`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)
+
+**Tags:** @auth","33074","Login is rejected with both fields empty","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `theme/dark-mode.spec.ts:164`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @theme @staff","4800","OS dark appearance resolves to dark","Mobile Safari","2026-10-02","passed","2026-10-02","Theme - dark mode > System preference - no stored choice","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:195`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @data-verification @prod","8521","Player cards render the offering API data","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `signup/signup.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @signup @terms @smoke @prod","2547","Terms page leads to signup page","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Entry Points","","",""
+"**Spec:** `data-verification/search.spec.ts:172`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w2 (et***)
+
+**Tags:** @data-verification @prod","2609","Search auto-switches the stat tab to one the searched player offers","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `signup/signup.spec.ts:204`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @signup @validation","9620","Username must be 3–30 letters or digits that nobody owns yet","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `auth/login.spec.ts:243`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth","8234","User can log in again after logging out","Desktop","2026-10-02","passed","2026-10-02","Login - Logout Flow","","",""
+"**Spec:** `home/home-search.spec.ts:48`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @home @search @prod","1433","A common letter narrows the grid without emptying it","Desktop","2026-10-02","passed","2026-10-02","Home - Feed Search","","",""
+"**Spec:** `transactions/transactions.spec.ts:374`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @transactions @prod","1442","Empty state renders for a month with no transactions","Desktop","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `contests/submission-validation.spec.ts:401`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @contests @mutates @money","45132","Double-clicking Place creates exactly one entry","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Server-side submission guards","","",""
+"**Spec:** `data-verification/entries-history.spec.ts:50`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","1113","History cards and summary render the history API data","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - history entries","","",""
+"**Spec:** `data-verification/search.spec.ts:101`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","1788","Searching an API player's full name shows only matching cards","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `auth/login.spec.ts:39`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","2177","Login page is reachable by direct URL","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Page Rendering","","",""
+"**Spec:** `packs/access.spec.ts:11`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @packs @smoke @prod","3737","Unauthenticated visit to /packs redirects to login with a next param","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - access control","","",""
+"**Spec:** `settings/referrals.spec.ts:78`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @settings @prod","1496","Without referrals the table is not rendered","Desktop","2026-10-02","passed","2026-10-02","Settings - Referrals","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @navigation @prod","10730","Rewards tab sends a logged-out visitor to the free-signup login page","Mobile Safari","2026-10-02","passed","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `data-verification/player-detail-modal.spec.ts:23`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","2247","Expert-opinion modal renders the API's player data","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - player detail modal","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:88`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @navigation @prod @smoke @critical","3030","Only one tab is active at a time and Home restores","Mobile Chrome","2026-10-02","passed","2026-10-02","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `entries/entry-card.spec.ts:96`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @entries @prod","2152","Dedicated chevron toggle expands and collapses the card","Desktop","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `auth/login.spec.ts:164`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w1 (et***)
+
+**Tags:** @auth","32930","Error clears on retry with valid credentials","Desktop","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `settings/player-limits.spec.ts:18`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @settings @prod","3242","My Settings no longer renders the Player Limits controls","Mobile Chrome","2026-10-02","passed","2026-10-02","Settings - Player Limits","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:50`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @packs @staff","32269","Close bar dismisses the iframe and restores the Buy CTA","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - opening iframe","","",""
+"**Spec:** `theme/dark-mode.spec.ts:142`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @theme @prod","867","Login page renders its form in dark mode","Mobile Chrome","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `entries/entry-card.spec.ts:80`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @entries @prod","10569","History cards never render the pick-badge preview","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:267`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @signup @validation","1210","Date of birth year select stops 18 years ago","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Field Validation","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:50`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @packs @staff","5025","Close bar dismisses the iframe and restores the Buy CTA","Desktop","2026-10-02","passed","2026-10-02","Packs - opening iframe","","",""
+"**Spec:** `navigation/top-nav-desktop.spec.ts:25`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @navigation @prod","1731","Primary links render with their destinations","Desktop","2026-10-02","passed","2026-10-02","Desktop top nav - routing and wallet pill","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:276`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @signup @validation","2017","Sign Up stays disabled until the phone is verified and both consents are ticked","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Field Validation","","",""
+"**Spec:** `transactions/transactions.spec.ts:232`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @transactions @prod","1983","Each type filter requests its category and lists only that category","Desktop","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `settings/settings-edit.spec.ts:138`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @settings @mutates","2921","Bio rejects links and formatting before anything is sent","Desktop","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `packs/pack-detail.spec.ts:48`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @packs @staff","4031","View Odds opens the Pack Odds modal (when the pack has odds)","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `navigation/legal.spec.ts:89`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @legal @prod","1867","/contact-us renders no HubSpot ticket form on any breakpoint","Mobile Chrome","2026-10-02","passed","2026-10-02","Legal - contact","","",""
+"**Spec:** `entries/entries.spec.ts:67`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries","1861","Entry card expands and collapses via its header button","Mobile Chrome","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:43`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @desktop @navigation @prod","4096","Logged-out carousel shows the $5 signup entry and the first-deposit match","Desktop","2026-10-02","passed","2026-10-02","Shell - desktop header promo carousel","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @legal @prod","1250","/terms/packs renders the Packs Terms PDF","Desktop","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:107`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @tailFeed @mutates @money","36418","Following tab shows the empty state (single user, no follows)","Mobile Safari","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `entries/entries.spec.ts:121`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @entries","2628","Cancel Entry countdown stays within the 5-minute window","Mobile Chrome","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @navigation @prod","2302","Feed tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-10-02","passed","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `data-verification/search.spec.ts:247`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @data-verification @prod","9995","No-result, minimum-length and clear behaviours","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `auth/login.spec.ts:138`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)
+
+**Tags:** @auth","32881","Login is rejected with an empty username","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `contests/submission-validation.spec.ts:208`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @contests","28766","Entry amount presets and typed values are clamped to balance, cap and cents","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `transactions/transactions.spec.ts:276`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @transactions @prod","1397","Switching month reloads the log for that month","Desktop","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:123`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @tailFeed @mutates @money","63866","Share toggle off keeps a newly placed contest off the You tab","Mobile Safari","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `menu/account-center.spec.ts:21`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @menu @prod","8025","Account Center opens from the burger with title, wallet summary and Deposit CTA","Mobile Safari","2026-10-02","passed","2026-10-02","Menu - Account Center","","",""
+"**Spec:** `menu/account-center.spec.ts:70`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @menu @prod","14430","Items route to their destination pages","Mobile Safari","2026-10-02","passed","2026-10-02","Menu - Account Center","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:55`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @prod","3027","Fifth tab (Free2Play or Packs) routes and takes the indicator","Mobile Chrome","2026-10-02","passed","2026-10-02","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `entries/entry-card.spec.ts:60`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries @prod","2564","Collapsed active card shows the pick-badge preview; expanding hides it","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `theme/dark-mode.spec.ts:45`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w2 (et***)
+
+**Tags:** @theme @staff","1469","Stored ""dark"" preference boots the app dark with the dark logo","Mobile Chrome","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `transactions/transactions.spec.ts:307`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @transactions @prod","986","Paging loads the next rows and keeps newest-first order across pages","Desktop","2026-10-02","skipped","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `transactions/transactions.spec.ts:204`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @transactions @prod","1150","First page rows mirror the balance-log API — label, date, signed amount, newest first","Desktop","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `auth/login.spec.ts:130`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth","31768","Login is rejected for an unknown username","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:95`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @rewards @prod","3678","An available offer exposes an enabled CTA","Mobile Safari","2026-10-02","skipped","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `signup/signup.spec.ts:373`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @signup @validation","8030","Referral code must be a known coupon","Mobile Safari","2026-10-02","skipped","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `signup/signup.spec.ts:64`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @signup @terms","9500","Footer ""Sign Up"" opens Terms page","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Entry Points","","",""
+"**Spec:** `auth/login.spec.ts:30`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","1095","Login page renders all expected elements","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Page Rendering","","",""
+"**Spec:** `contests/slip-panel-desktop.spec.ts:30`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @contests @prod","6947","Prompt advances on pick select and reverts on remove","Desktop","2026-10-02","passed","2026-10-02","Contests - Desktop Pick Slip","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:57`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @slipPersist @prod","33772","Slip persists through a Rewards tab round-trip","Mobile Safari","2026-10-02","passed","2026-10-02","Slip persistence - navigation and reload","","",""
+"**Spec:** `packs/pack-detail.spec.ts:17`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @packs @staff @smoke","4842","Detail page shows the pack name, Buy CTA and a back link","Desktop","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `entries/entry-card.spec.ts:261`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @entries @contests @mutates @money","47230","Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere","Mobile Safari","2026-10-02","passed","2026-10-02","My Entries - cancel entry","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @entries @smoke @prod @critical","180217","Active tab shows the Entry Amount and Max Payout stats","Desktop","2026-10-02","broken","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `auth/login.spec.ts:78`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)
+
+**Tags:** @smoke @prod","3032","User can log in with a valid email","Desktop","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `packs/pack-detail.spec.ts:17`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @packs @staff @smoke","19072","Detail page shows the pack name, Buy CTA and a back link","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `entries/history-leaderboard-faq.spec.ts:22`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @entries @leaderboard @prod","980","View Leaderboard on a history card opens the leaderboard modal with a working FAQ link","Desktop","2026-10-02","skipped","2026-10-02","My Entries - History Leaderboard FAQ","","",""
+"**Spec:** `signup/signup.spec.ts:295`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @signup @validation","2967","Names must be 2–40 characters without digits or special characters","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `transactions/transactions.spec.ts:232`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @transactions @prod","2035","Each type filter requests its category and lists only that category","Mobile Chrome","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `navigation/shell.spec.ts:33`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @navigation @prod","2473","Packs tab sends a logged-out visitor to the free-signup login page","Mobile Chrome","2026-10-02","passed","2026-10-02","Shell - logged-out bottom nav","","",""
+"**Spec:** `packs/opening-iframe.spec.ts:18`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @packs @staff @smoke","26231","Buy launches the Repackz opening iframe with a close bar","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - opening iframe","","",""
+"**Spec:** `signup/signup.spec.ts:166`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @signup","3772","Form accepts valid data in all fields","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Form Fields","","",""
+"**Spec:** `settings/referrals.spec.ts:78`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @settings @prod","1287","Without referrals the table is not rendered","Mobile Chrome","2026-10-02","passed","2026-10-02","Settings - Referrals","","",""
+"**Spec:** `contests/submission-validation.spec.ts:401`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @contests @mutates @money","21607","Double-clicking Place creates exactly one entry","Desktop","2026-10-02","passed","2026-10-02","Contests - Server-side submission guards","","",""
+"**Spec:** `theme/dark-mode.spec.ts:142`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @theme @prod","2361","Login page renders its form in dark mode","Mobile Safari","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:123`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @tailFeed @mutates @money","22514","Share toggle off keeps a newly placed contest off the You tab","Mobile Chrome","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @contests @mutates @money @smoke @prod @critical @money","21652","Five-pick contest is submitted successfully","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `contests/submission-validation.spec.ts:142`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @contests","18691","Two picks from the same team keep the slip locked","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `packs/pack-detail.spec.ts:64`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @packs @staff","3162","Quantity stepper is bounded at 1 and scales the Buy price","Desktop","2026-10-02","skipped","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `auth/login.spec.ts:122`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w1 (et***)
+
+**Tags:** @auth","67823","Login is rejected with an invalid password","Desktop","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `contests/submission-validation.spec.ts:357`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @contests @mutates","20777","A slip naming the same player twice is rejected by the server","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Server-side submission guards","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:89`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @tailFeed @mutates @money","34102","For You tab renders (empty hero in single-user envs, cards otherwise)","Mobile Safari","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `theme/dark-mode.spec.ts:131`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @theme","6739","Theme toggle renders in the account menu for every logged-in user","Mobile Safari","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:161`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @desktop @signup @validation","1380","Password needs 8+ characters with lower, upper and digit","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Field Validation","","",""
+"**Spec:** `settings/player-limits.spec.ts:18`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @settings @prod","12237","My Settings no longer renders the Player Limits controls","Mobile Safari","2026-10-02","passed","2026-10-02","Settings - Player Limits","","",""
+"**Spec:** `home/home-search.spec.ts:20`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @home @search @prod @smoke @critical","8146","Gibberish query shows the empty state, clearing restores the grid","Mobile Safari","2026-10-02","passed","2026-10-02","Home - Feed Search","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:184`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @desktop @signup @validation","1557","Names must be 2–40 characters without digits or special characters","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Field Validation","","",""
+"**Spec:** `settings/settings-edit.spec.ts:78`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @settings @mutates","5457","Display name rules: length, charset, uniqueness and cooldown are enforced server-side","Mobile Safari","2026-10-02","skipped","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `navigation/legal.spec.ts:80`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @legal @prod","1378","/contact still resolves, through /contact-us into the lobby","Desktop","2026-10-02","passed","2026-10-02","Legal - contact","","",""
+"**Spec:** `auth/login.spec.ts:47`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @auth","987","Password field masks its input","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Page Rendering","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:90`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @desktop @signup","2297","Closing the deep-linked modal returns to the lobby","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Modal","","",""
+"**Spec:** `slip-sharing/share-and-tail.spec.ts:168`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @slipShare @mutates @money","28947","Logged-out tailer signs in via the tail link, then auto-tails and submits","Mobile Chrome","2026-10-02","passed","2026-10-02","Slip sharing - share and tail","","",""
+"**Spec:** `navigation/shell-desktop.spec.ts:69`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @navigation @prod","1926","Logged-in carousel Invite Now opens the share dialog","Desktop","2026-10-02","passed","2026-10-02","Shell - desktop header promo carousel","","",""
+"**Spec:** `transactions/transactions.spec.ts:157`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @transactions @prod","1100","Transaction Log renders with the month and type filters","Mobile Chrome","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `transactions/transactions.spec.ts:307`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w2 (et***)
+
+**Tags:** @transactions @prod","1090","Paging loads the next rows and keeps newest-first order across pages","Mobile Chrome","2026-10-02","skipped","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @navigation @legal @prod","1629","/rules renders the Game Rules PDF","Mobile Chrome","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `contests/submission-validation.spec.ts:208`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @contests","22046","Entry amount presets and typed values are clamped to balance, cap and cents","Desktop","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `settings/settings.spec.ts:16`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @settings @prod","2962","My Settings shows the username, email and name from the user API","Desktop","2026-10-02","passed","2026-10-02","Settings - My Settings","","",""
+"**Spec:** `contests/submission-validation.spec.ts:457`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w2 (et***)
+
+**Tags:** @contests","22895","Placing picks logged out redirects to signup and the slip survives login","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Logged-out submit","","",""
+"**Spec:** `theme/dark-mode.spec.ts:75`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @theme @staff","8073","Staff toggle flips the theme, swaps the logo and persists across reload","Desktop","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `entries/entry-card.spec.ts:364`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @entries @contests @mutates @money","37618","Confirming cancel twice fires the cancel request only once (double-submit guard)","Mobile Safari","2026-10-02","passed","2026-10-02","My Entries - cancel entry","","",""
+"**Spec:** `auth/login.spec.ts:122`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth","66012","Login is rejected with an invalid password","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:118`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @rewards @prod","1634","Switching to the Promotions sub-tab routes to /rewards/promotions","Desktop","2026-10-02","passed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `theme/dark-mode.spec.ts:142`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @theme @prod","888","Login page renders its form in dark mode","Desktop","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `transactions/transactions.spec.ts:374`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @transactions @prod","3750","Empty state renders for a month with no transactions","Mobile Safari","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `data-verification/search.spec.ts:142`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @data-verification @prod","6273","Searching a team abbreviation shows that team's players","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `auth/login.spec.ts:78`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)
+
+**Tags:** @smoke @prod","2203","User can log in with a valid email","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `settings/settings-edit.spec.ts:138`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @settings @mutates","10594","Bio rejects links and formatting before anything is sent","Mobile Safari","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `entries/entry-card.spec.ts:119`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @entries @prod","3391","History entry surfaces a Won / Lost / Cancelled result pill","Desktop","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:38`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @rewards @prod","16293","Partner offer cards render, or the empty state when none are available","Mobile Chrome","2026-10-02","failed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @navigation @legal @prod","14516","/terms renders the Terms Of Service PDF","Mobile Safari","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:365`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","1575","League selector tabs correspond to leagues present in the API","Desktop","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `data-verification/player-detail-modal.spec.ts:23`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","2680","Expert-opinion modal renders the API's player data","Desktop","2026-10-02","passed","2026-10-02","Data verification - player detail modal","","",""
+"**Spec:** `entries/entry-card.spec.ts:119`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @entries @prod","3176","History entry surfaces a Won / Lost / Cancelled result pill","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `data-verification/search.spec.ts:142`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","2148","Searching a team abbreviation shows that team's players","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - feed search","","",""
+"**Spec:** `transactions/transactions.spec.ts:347`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @transactions @prod","3202","Contest Settled rows credit the payout","Mobile Safari","2026-10-02","skipped","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:84`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @slipPersist @prod","18649","Slip persists through a hard page reload","Desktop","2026-10-02","passed","2026-10-02","Slip persistence - navigation and reload","","",""
+"**Spec:** `contests/submission-validation.spec.ts:167`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w2 (et***)
+
+**Tags:** @contests","23984","Selection is capped at 9 picks","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `settings/settings-edit.spec.ts:51`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @settings @mutates","1345","Display name is read-only and shows the approved public name","Mobile Chrome","2026-10-02","passed","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `auth/login.spec.ts:39`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)
+
+**Tags:** @auth","1827","Login page is reachable by direct URL","Desktop","2026-10-02","passed","2026-10-02","Login - Page Rendering","","",""
+"**Spec:** `menu/account-center.spec.ts:21`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @menu @prod","2221","Account Center opens from the burger with title, wallet summary and Deposit CTA","Mobile Chrome","2026-10-02","passed","2026-10-02","Menu - Account Center","","",""
+"**Spec:** `slip-sharing/tail-feed.spec.ts:160`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @tailFeed @mutates @money","29640","Share toggle on surfaces a newly placed contest on the You tab and it can be tailed","Mobile Safari","2026-10-02","passed","2026-10-02","Tail feed - share toggle and tailing","","",""
+"**Spec:** `contests/submission-validation.spec.ts:357`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @contests @mutates","31946","A slip naming the same player twice is rejected by the server","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Server-side submission guards","","",""
+"**Spec:** `auth/login.spec.ts:62`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w2 (et***)
+
+**Tags:** @smoke @prod @critical","3056","User can log in with a valid username","Desktop","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @navigation @legal @prod","1661","/privacy-policy renders the Privacy Policy PDF","Mobile Chrome","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:38`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @rewards @prod","3819","Partner offer cards render, or the empty state when none are available","Mobile Safari","2026-10-02","passed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `signup/signup.spec.ts:72`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @signup @terms","2904","Lobby free-entry banner advertises the $5 sign-up bonus and opens signup","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Entry Points","","",""
+"**Spec:** `packs/pack-detail.spec.ts:93`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @packs @staff","3058","Unknown pack id shows the not-found message","Desktop","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `auth/login.spec.ts:154`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth","31503","Login is rejected with both fields empty","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `contests/submission-validation.spec.ts:167`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @contests","26809","Selection is capped at 9 picks","Desktop","2026-10-02","skipped","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `packs/lobby.spec.ts:11`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @packs @staff @smoke","1672","Lobby renders the Open a Pack catalog with at least one pack tile","Mobile Chrome","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `contests/submission-validation.spec.ts:276`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @contests","31518","Payout figures match the payout-structure API for All In and Insured","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `entries/entry-card.spec.ts:153`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @entries @prod","2499","Tailers pill reads ""<n> tailers | $<reward>"" when an entry has tailers","Desktop","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `navigation/entries-nav-indicator.spec.ts:21`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @navigation @prod","13129","Indicator stays under ""Entries"" when toggling Active and History","Mobile Safari","2026-10-02","passed","2026-10-02","Bottom nav - Entries active indicator","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:426`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","1349","Match selector lists every API match for the default league","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `contests/submission-validation.spec.ts:457`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @contests","17095","Placing picks logged out redirects to signup and the slip survives login","Desktop","2026-10-02","passed","2026-10-02","Contests - Logged-out submit","","",""
+"**Spec:** `auth/login.spec.ts:90`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)","46713","User lands on home after a successful login","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `menu/account-dropdown-desktop.spec.ts:47`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @desktop @menu @prod","2487","Menu items link to the same destinations as the mobile Account Center","Desktop","2026-10-02","passed","2026-10-02","Menu - Desktop Account Dropdown","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:330`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","1489","Stats selector tabs equal the API stat names for the default league","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `settings/settings-edit.spec.ts:78`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @settings @mutates","1859","Display name rules: length, charset, uniqueness and cooldown are enforced server-side","Mobile Chrome","2026-10-02","skipped","2026-10-02","Settings - Edit Profile","","",""
+"**Spec:** `entries/entries.spec.ts:185`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @entries","12418","Switching from 6 Months to 7 Days never increases the history count","Mobile Safari","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `contests/submission-validation.spec.ts:129`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @contests","13106","A single pick never unlocks the slip","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `packs/lobby.spec.ts:29`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @packs @staff","2637","Pack tiles link to a /packs/pack/<id> detail route","Desktop","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `packs/lobby.spec.ts:54`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @packs @staff","1420","Pending Packs row lists 'Open Pack' actions when the user owns open rounds","Mobile Chrome","2026-10-02","skipped","2026-10-02","Packs - lobby","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:426`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @data-verification @prod","5624","Match selector lists every API match for the default league","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `theme/dark-mode.spec.ts:45`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @theme @staff","4050","Stored ""dark"" preference boots the app dark with the dark logo","Mobile Safari","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:84`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @slipPersist @prod","34581","Slip persists through a hard page reload","Mobile Safari","2026-10-02","passed","2026-10-02","Slip persistence - navigation and reload","","",""
+"**Spec:** `packs/lobby.spec.ts:29`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @packs @staff","18035","Pack tiles link to a /packs/pack/<id> detail route","Mobile Safari","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `auth/login.spec.ts:130`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w1 (et***)
+
+**Tags:** @auth","65953","Login is rejected for an unknown username","Desktop","2026-10-02","passed","2026-10-02","Login - Invalid Credentials","","",""
+"**Spec:** `auth/login.spec.ts:243`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth","8789","User can log in again after logging out","Mobile Safari","2026-10-02","passed","2026-10-02","Login - Logout Flow","","",""
+"**Spec:** `packs/lobby.spec.ts:11`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @packs @staff @smoke","2048","Lobby renders the Open a Pack catalog with at least one pack tile","Desktop","2026-10-02","passed","2026-10-02","Packs - lobby","","",""
+"**Spec:** `menu/account-dropdown-desktop.spec.ts:24`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @desktop @menu @prod","1855","Dropdown shows the Deposit CTA and the Account/Rewards/Support groups","Desktop","2026-10-02","passed","2026-10-02","Menu - Desktop Account Dropdown","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @entries @smoke @prod @critical","2787","User can switch between the Active and History tabs","Mobile Chrome","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @legal @prod","1877","/terms/packs renders the Packs Terms PDF","Mobile Chrome","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `contests/submission-validation.spec.ts:357`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @contests @mutates","15215","A slip naming the same player twice is rejected by the server","Desktop","2026-10-02","passed","2026-10-02","Contests - Server-side submission guards","","",""
+"**Spec:** `auth/login.spec.ts:100`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w3 (et***)","46851","Login honours the ""next"" query param redirect","Mobile Chrome","2026-10-02","passed","2026-10-02","Login - Valid Credentials","","",""
+"**Spec:** `navigation/shell.spec.ts:80`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @prod","1314","?coupon and ?btag are stored as the referral cookies","Desktop","2026-10-02","passed","2026-10-02","Shell - system pages","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:125`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @signup @validation","2134","Username must be 3+ letters that nobody owns yet","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Field Validation","","",""
+"**Spec:** `data-verification/entries-history.spec.ts:50`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @data-verification @prod","3557","History cards and summary render the history API data","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - history entries","","",""
+"**Spec:** `signup/signup.spec.ts:64`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @signup @terms","2277","Footer ""Sign Up"" opens Terms page","Mobile Chrome","2026-10-02","passed","2026-10-02","Signup - Entry Points","","",""
+"**Spec:** `signup/signup-desktop.spec.ts:215`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @desktop @signup @validation","2555","Email must be a valid address that is not already registered","Desktop","2026-10-02","passed","2026-10-02","Signup - Desktop Field Validation","","",""
+"**Spec:** `navigation/legal.spec.ts:80`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @navigation @legal @prod","1519","/contact still resolves, through /contact-us into the lobby","Mobile Chrome","2026-10-02","passed","2026-10-02","Legal - contact","","",""
+"**Spec:** `packs/pack-detail.spec.ts:35`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @packs @staff","4816","Back link returns to the lobby","Desktop","2026-10-02","passed","2026-10-02","Packs - pack detail","","",""
+"**Spec:** `rewards/partner-rewards.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @rewards @prod","1277","Partner Rewards is the default tab, alongside a Promotions tab","Mobile Chrome","2026-10-02","passed","2026-10-02","Rewards - Partner Rewards","","",""
+"**Spec:** `contests/slip-panel-desktop.spec.ts:23`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @desktop @contests @prod","5446","Empty slip shows the Let's Start onboarding panel","Desktop","2026-10-02","passed","2026-10-02","Contests - Desktop Pick Slip","","",""
+"**Spec:** `auth/login.spec.ts:222`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @auth @smoke @prod @critical","7741","Logged-in user can log out","Desktop","2026-10-02","passed","2026-10-02","Login - Logout Flow","","",""
+"**Spec:** `signup/signup.spec.ts:271`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @signup @validation","8183","Email must be a valid address that is not already registered","Mobile Safari","2026-10-02","passed","2026-10-02","Signup - Field Validation","","",""
+"**Spec:** `data-verification/player-detail-modal.spec.ts:23`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @data-verification @prod","9826","Expert-opinion modal renders the API's player data","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - player detail modal","","",""
+"**Spec:** `settings/referrals.spec.ts:60`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @settings @prod","1147","Referral table matches GET /api/v1/referrals/","Mobile Chrome","2026-10-02","skipped","2026-10-02","Settings - Referrals","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:195`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","2718","Player cards render the offering API data","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:41`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @prod","1794","Rewards tab routes into /rewards and takes the indicator","Mobile Chrome","2026-10-02","passed","2026-10-02","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `contests/submission-validation.spec.ts:142`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @contests","7578","Two picks from the same team keep the slip locked","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Slip validation","","",""
+"**Spec:** `entries/entries.spec.ts:67`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @entries","3128","Entry card expands and collapses via its header button","Desktop","2026-10-02","passed","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `transactions/transactions.spec.ts:276`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w2 (et***)
+
+**Tags:** @transactions @prod","1356","Switching month reloads the log for that month","Mobile Chrome","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:89`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w0 (et***)
+
+**Tags:** @contests @mutates @money","22628","Placed contest appears in the My Entries list","Mobile Chrome","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `navigation/footer-nav.spec.ts:23`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @navigation @prod","7389","Feed tab routes to /challenges/feed and takes the indicator","Mobile Safari","2026-10-02","passed","2026-10-02","Bottom nav - tab routing and active indicator","","",""
+"**Spec:** `auth/login-modal-desktop.spec.ts:64`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s3w0 (et***)
+
+**Tags:** @desktop @auth @prod","4125","Submitting valid credentials in the modal signs the user in","Desktop","2026-10-02","passed","2026-10-02","Login - Desktop Modal","","",""
+"**Spec:** `contests/user-enter-contest.spec.ts:132`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w0 (et***)
+
+**Tags:** @contests @mutates @money","41998","Submitting a contest raises the entry amount and max payout totals","Mobile Safari","2026-10-02","passed","2026-10-02","Contests - Enter Contest","","",""
+"**Spec:** `slip-persistence/slip-persistence.spec.ts:28`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @slipPersist @prod","32355","Slip persists through an Entries tab round-trip","Mobile Safari","2026-10-02","passed","2026-10-02","Slip persistence - navigation and reload","","",""
+"**Spec:** `settings/referrals.spec.ts:29`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @settings @prod","4611","Page shows the $20 referral bonus pitch and the personal signup link","Mobile Safari","2026-10-02","skipped","2026-10-02","Settings - Referrals","","",""
+"**Spec:** `navigation/entries-nav-indicator.spec.ts:21`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @navigation @prod","3036","Indicator stays under ""Entries"" when toggling Active and History","Mobile Chrome","2026-10-02","passed","2026-10-02","Bottom nav - Entries active indicator","","",""
+"**Spec:** `navigation/legal.spec.ts:41`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @navigation @legal @prod","996","Signup Class Action Waiver link opens the Terms document at #class-action","Desktop","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `data-verification/entries-history.spec.ts:50`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @data-verification @prod","923","History cards and summary render the history API data","Desktop","2026-10-02","passed","2026-10-02","Data verification - history entries","","",""
+"**Spec:** `transactions/transactions.spec.ts:374`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w2 (et***)
+
+**Tags:** @transactions @prod","1445","Empty state renders for a month with no transactions","Mobile Chrome","2026-10-02","passed","2026-10-02","Transactions - transaction log","","",""
+"**Spec:** `entries/entries.spec.ts:263`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w1 (et***)
+
+**Tags:** @entries @smoke @prod","2824","Pagination advances through every history page","Mobile Chrome","2026-10-02","skipped","2026-10-02","My Entries - Active and History","","",""
+"**Spec:** `theme/dark-mode.spec.ts:75`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w2 (et***)
+
+**Tags:** @theme @staff","8078","Staff toggle flips the theme, swaps the logo and persists across reload","Mobile Chrome","2026-10-02","passed","2026-10-02","Theme - dark mode","","",""
+"**Spec:** `entries/entry-card.spec.ts:119`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w1 (et***)
+
+**Tags:** @entries @prod","11619","History entry surfaces a Won / Lost / Cancelled result pill","Mobile Safari","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `home/home-search.spec.ts:48`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w2 (et***)
+
+**Tags:** @home @search @prod","4803","A common letter narrows the grid without emptying it","Mobile Safari","2026-10-02","passed","2026-10-02","Home - Feed Search","","",""
+"**Spec:** `entries/entry-card.spec.ts:211`
+
+**Project:** Desktop · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @entries @prod","2661","View Leaderboard opens the contest-group leaderboard modal","Desktop","2026-10-02","skipped","2026-10-02","My Entries - entry card","","",""
+"**Spec:** `data-verification/entries-active.spec.ts:55`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @data-verification @prod","1282","Active entry cards render the entries-paged API data","Mobile Chrome","2026-10-02","passed","2026-10-02","Data verification - active entries","","",""
+"**Spec:** `data-verification/picks-grid.spec.ts:243`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @data-verification @prod","8420","Switching stat tabs renders that stat's API line on every card","Mobile Safari","2026-10-02","passed","2026-10-02","Data verification - picks grid","","",""
+"**Spec:** `navigation/legal.spec.ts:41`
+
+**Project:** Mobile Safari · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s1w3 (et***)
+
+**Tags:** @navigation @legal @prod","7356","Signup Class Action Waiver link opens the Terms document at #class-action","Mobile Safari","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""
+"**Spec:** `navigation/legal.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** staging · **Release:** release-47
+
+**User:** ephemeral s2w3 (et***)
+
+**Tags:** @navigation @legal @prod","1397","/responsible-gaming renders the Responsible Play PDF","Mobile Chrome","2026-10-02","passed","2026-10-02","Legal - policy documents","","",""

@@ -1,1 +1,1 @@
-{"reportName":"e2e staging","testRuns":[],"statistic":{"failed":19,"broken":3,"skipped":74,"passed":397,"unknown":0,"total":493},"time":{"start":1791292759452,"stop":1791293276172,"duration":516720,"minDuration":0,"maxDuration":180736,"sumDuration":5362668}}
+{"reportName":"Allure Report","testRuns":[],"statistic":{"failed":0,"broken":0,"skipped":46,"passed":450,"unknown":0,"total":496},"time":{"start":1791292759452,"stop":1791295466350,"duration":2706898,"minDuration":121,"maxDuration":133518,"sumDuration":4197601}}

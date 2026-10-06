@@ -1,0 +1,11 @@
+[warning] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: WebSocket is closed before the connection is established.
+[warning] Radar SDK: Error calling /config: Request timed out.
+[warning] [.WebGL-0x134001cd200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] [.WebGL-0x134001cd200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] [.WebGL-0x13407d81200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled

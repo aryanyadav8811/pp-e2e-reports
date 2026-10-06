@@ -1,0 +1,10 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] [.WebGL-0x12c001dec00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[warning] [.WebGL-0x12c001dec00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[error] Error: Permission blocked
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:4431
+    at https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.es6.js?v=160610:1:141191
+[warning] [.WebGL-0x12c08c81200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[pageerror] The provided `href` (/challenges/contest/[slug]) value is missing query values (slug) to be interpolated properly. Read more: https://nextjs.org/docs/messages/href-interpolation-failed
+[warning] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: WebSocket is closed before the connection is established.
+[pageerror] canceled

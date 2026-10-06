@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T13:28:53.051Z",
+  "updatedAt": "2026-10-06T14:40:37.036Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
@@ -1209,21 +1209,21 @@
           "source": "ci",
           "trigger": "manual (Sanskriti7379)",
           "startedAt": "2026-10-06T13:19:19.452Z",
-          "finishedAt": "2026-10-06T13:27:56.172Z",
-          "durationMs": 516720,
+          "finishedAt": "2026-10-06T14:04:26.350Z",
+          "durationMs": 2706898,
           "publishedAt": "2026-10-06T13:28:52.742Z",
           "workflowRunId": "37468432072",
           "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/37468432072",
           "artifact": "allure-results-2026-10-06-1316-release-47",
           "resultsInRepo": false,
           "counts": {
-            "passed": 397,
-            "failed": 19,
-            "broken": 3,
-            "skipped": 74,
+            "passed": 450,
+            "failed": 0,
+            "broken": 0,
+            "skipped": 46,
             "unknown": 0,
-            "flaky": 0,
-            "total": 493
+            "flaky": 22,
+            "total": 496
           },
           "ciCounts": {
             "passed": 397,
@@ -1240,163 +1240,36 @@
             "flaky": 0,
             "skipped": 74
           },
-          "failed": [
+          "failed": [],
+          "appends": [
             {
-              "project": "Desktop",
-              "file": "contests/submission-validation.spec.ts",
-              "name": "Selection is capped at 9 picks",
-              "status": "failed",
-              "message": "Error: no unselected card mounted next to the full slip"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "contests/submission-validation.spec.ts",
-              "name": "Selection is capped at 9 picks",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeVisible() failed"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "contests/submission-validation.spec.ts",
-              "name": "Selection is capped at 9 picks",
-              "status": "failed",
-              "message": "Error: expect(locator).toBeVisible() failed"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "contests/user-enter-contest.spec.ts",
-              "name": "Submitting a contest raises the entry amount and max payout totals",
-              "status": "failed",
-              "message": "Error: expect(received).toBeGreaterThanOrEqual(expected)"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "contests/user-enter-contest.spec.ts",
-              "name": "Submitting a contest raises the entry amount and max payout totals",
-              "status": "failed",
-              "message": "Error: expect(received).toBeGreaterThanOrEqual(expected)"
-            },
-            {
-              "project": "Desktop",
-              "file": "entries/entries.spec.ts",
-              "name": "Active tab shows the Entry Amount and Max Payout stats",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded."
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "entries/entries.spec.ts",
-              "name": "Active tab shows the Entry Amount and Max Payout stats",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded."
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "entries/entries.spec.ts",
-              "name": "Active tab shows the Entry Amount and Max Payout stats",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded."
-            },
-            {
-              "project": "Desktop",
-              "file": "modals/userlimits.spec.ts",
-              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
-              "status": "failed",
-              "message": "Error: submission must be rejected by the user limit"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "modals/userlimits.spec.ts",
-              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
-              "status": "failed",
-              "message": "Error: submission must be rejected by the user limit"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "modals/userlimits.spec.ts",
-              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
-              "status": "failed",
-              "message": "Error: submission must be rejected by the user limit"
-            },
-            {
-              "project": "Desktop",
-              "file": "navigation/legal.spec.ts",
-              "name": "/responsible-gaming renders the Responsible Play PDF",
-              "status": "failed",
-              "message": "Error: PDF viewer paints at least one page"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "navigation/legal.spec.ts",
-              "name": "/responsible-gaming renders the Responsible Play PDF",
-              "status": "failed",
-              "message": "Error: PDF viewer paints at least one page"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "navigation/legal.spec.ts",
-              "name": "/responsible-gaming renders the Responsible Play PDF",
-              "status": "failed",
-              "message": "Error: PDF viewer paints at least one page"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "rewards/partner-rewards.spec.ts",
-              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
-              "status": "failed",
-              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "rewards/partner-rewards.spec.ts",
-              "name": "Partner offer cards render, or the empty state when none are available",
-              "status": "failed",
-              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "rewards/partner-rewards.spec.ts",
-              "name": "An available offer exposes an enabled CTA",
-              "status": "failed",
-              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "rewards/partner-rewards.spec.ts",
-              "name": "An available offer exposes an enabled CTA",
-              "status": "failed",
-              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "rewards/partner-rewards.spec.ts",
-              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
-              "status": "failed",
-              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "rewards/partner-rewards.spec.ts",
-              "name": "Partner offer cards render, or the empty state when none are available",
-              "status": "failed",
-              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
-            },
-            {
-              "project": "Desktop",
-              "file": "transactions/transactions.spec.ts",
-              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
-              "status": "failed",
-              "message": "Error: expect(received).toBe(expected) // Object.is equality"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "transactions/transactions.spec.ts",
-              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
-              "status": "failed",
-              "message": "Error: expect(received).toBe(expected) // Object.is equality"
+              "at": "2026-10-06T14:40:34.496Z",
+              "by": "apple",
+              "source": "local",
+              "added": 342,
+              "specs": [
+                "settings/settings-edit.spec.ts",
+                "transactions/transactions.spec.ts",
+                "data-verification/picks-grid.spec.ts",
+                "navigation/legal.spec.ts",
+                "signup/signup.spec.ts",
+                "entries/entries.spec.ts",
+                "navigation/shell.spec.ts",
+                "entries/entry-card.spec.ts",
+                "contests/user-enter-contest.spec.ts",
+                "settings/referrals.spec.ts",
+                "rewards/partner-rewards.spec.ts",
+                "contests/submission-validation.spec.ts",
+                "data-verification/search.spec.ts",
+                "packs/pack-detail.spec.ts",
+                "packs/lobby.spec.ts",
+                "stats/full-game-stat-selection.spec.ts",
+                "entries/history-leaderboard-faq.spec.ts",
+                "modals/userlimits.spec.ts"
+              ],
+              "note": "DFS-3282 gap-fill"
             }
-          ],
-          "appends": []
+          ]
         },
         {
           "runId": "2026-10-02-1244-release-47",

@@ -1,5 +1,2 @@
 "BROKEN","CATEGORY","FAILED","PASSED","SKIPPED","UNKNOWN"
-"0","Test defect: locator / strict mode","11","0","0","0"
-"0","Product defect: assertion","6","0","0","0"
-"3","Test defect: timeout","2","0","0","0"
-"0","Skipped: data / precondition","0","0","74","0"
+"0","Skipped: data / precondition","0","0","46","0"

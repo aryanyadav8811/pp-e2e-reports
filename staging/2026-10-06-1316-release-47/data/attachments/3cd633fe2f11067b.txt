@@ -1,0 +1,8 @@
+[warning] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: WebSocket is closed before the connection is established.
+[warning] Radar SDK: Error calling /config: Request timed out.
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled

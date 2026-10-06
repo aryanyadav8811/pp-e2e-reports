@@ -1,0 +1,9 @@
+GET https://staging.parlayplay.io/api/v1/rewards/partner-rewards/ -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED cancelled
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED cancelled
+GET https://staging.parlayplay.io/api/v1/contestgroup/metadata/ -> FAILED cancelled
+GET https://staging.parlayplay.io/api/v1/promos/campaigns/ -> FAILED cancelled
+GET https://staging.parlayplay.io/sw.js -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/challenges-sp/payout-structure/ -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/challenges-sp/payout-structure/ -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/challenges-sp/payout-structure/ -> FAILED cancelled

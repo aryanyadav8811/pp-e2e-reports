@@ -1,0 +1,13 @@
+env=staging
+project=Mobile Safari
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=contests/submission-validation.spec.ts:167
+retry=2
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++0.275s WARN  session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive
++0.392s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive

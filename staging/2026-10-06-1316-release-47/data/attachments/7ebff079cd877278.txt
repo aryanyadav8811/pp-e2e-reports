@@ -1,0 +1,11 @@
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[error] Error fetching data: AxiosError: Network Error
+[error] Error fetching data: AxiosError: Network Error
+[pageerror] AxiosError: Network Error
+[pageerror] /browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub036f135b809fd5f8ac618064dbfb1270&dd-evp-origin-version=7.13.0&dd-evp-origin=browser&dd-request-id=b0fb4e4a-4c16-4fcd-be2d-8828afe59190&batch_time=1791294255375&_dd.api=fetch due to access control checks.
+[pageerror] TypeError: Script https://staging.parlayplay.io/sw.js load failed
+[error] [ONESIGNAL] init failed TypeError: window.safari?.pushNotification?.permission is not a function. (In 'window.safari?.pushNotification?.permission(t)', 'window.safari?.pushNotification?.permission' is undefined)
+[pageerror] CanceledError: canceled
+[error] Failed to load resource: the server responded with a status of 400 ()
+[error] Failed to load resource: the server responded with a status of 400 ()
+[pageerror] CanceledError: canceled

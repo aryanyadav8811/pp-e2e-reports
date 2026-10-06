@@ -1,0 +1,247 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: transactions/transactions.spec.ts >> Transactions - contest rows >> Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows
+- Location: tests/transactions/transactions.spec.ts:421:5
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 3
+Received: 1
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Parlay Play Logo" [ref=e6] [cursor=pointer]:
+            - /url: /
+            - img "Parlay Play Logo" [ref=e8]
+          - generic [ref=e10]:
+            - generic [ref=e13]: $491.00
+            - button "Toggle Menu" [ref=e14]:
+              - img [ref=e15]
+      - main [ref=e17]:
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - text: Transaction Log
+            - button "Home" [ref=e22] [cursor=pointer]:
+              - img [ref=e23]
+              - generic [ref=e25]: Home
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - combobox [ref=e28]:
+                - option "October 2026" [selected]
+                - option "September 2026"
+                - option "August 2026"
+                - option "July 2026"
+                - option "June 2026"
+                - option "May 2026"
+                - option "April 2026"
+              - img [ref=e30]
+            - generic [ref=e32]:
+              - combobox [ref=e33]:
+                - option "All" [selected]
+                - option "Contest"
+                - option "F2P Winnings"
+                - option "Payments"
+                - option "Packs"
+                - option "Other"
+              - img [ref=e35]
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - generic [ref=e39]:
+                - img [ref=e40]
+                - generic [ref=e42]:
+                  - generic [ref=e44]: Contest Canceled
+                  - generic [ref=e45]: Oct 6th 2026
+              - generic [ref=e46]: + $1.00
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - img [ref=e49]
+                - generic [ref=e51]:
+                  - generic [ref=e53]: Contest Placed
+                  - generic [ref=e54]: Oct 6th 2026
+              - generic [ref=e55]: "- $3.00"
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - img [ref=e58]
+                - generic [ref=e60]:
+                  - generic [ref=e62]: Contest Placed
+                  - generic [ref=e63]: Oct 6th 2026
+              - generic [ref=e64]: "- $6.00"
+            - generic [ref=e65]:
+              - generic [ref=e66]:
+                - img [ref=e67]
+                - generic [ref=e69]:
+                  - generic [ref=e71]: Contest Placed
+                  - generic [ref=e72]: Oct 6th 2026
+              - generic [ref=e73]: "- $1.00"
+            - generic [ref=e74]:
+              - generic [ref=e76]:
+                - generic [ref=e78]: Manual Adjustment
+                - generic [ref=e79]: Oct 6th 2026
+              - generic [ref=e80]: + $500.00
+      - contentinfo [ref=e82]:
+        - navigation [ref=e83]:
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - button "Home" [ref=e86] [cursor=pointer]:
+                - generic [ref=e87]:
+                  - img [ref=e88]
+                  - generic [ref=e89]: Home
+            - listitem [ref=e90]:
+              - button "Entries 2" [ref=e91] [cursor=pointer]:
+                - generic [ref=e92]:
+                  - img [ref=e93]
+                  - generic [ref=e94]: Entries
+                - generic [ref=e95]: "2"
+            - listitem [ref=e96]:
+              - button "Feed" [ref=e97] [cursor=pointer]:
+                - generic [ref=e98]:
+                  - img [ref=e99]
+                  - generic [ref=e100]: Feed
+            - listitem [ref=e101]:
+              - button "Rewards 1" [ref=e102] [cursor=pointer]:
+                - generic [ref=e103]:
+                  - img [ref=e104]
+                  - generic [ref=e105]: Rewards
+                - generic [ref=e106]: "1"
+            - listitem [ref=e107]:
+              - button "Packs" [ref=e108] [cursor=pointer]:
+                - generic [ref=e109]:
+                  - img [ref=e110]
+                  - generic [ref=e111]: Packs
+    - generic:
+      - region "Notifications Alt+T"
+  - alert [ref=e112]
+```
+
+# Test source
+
+```ts
+  385 |     // The shared user has history, so hunt for an empty month instead of a throwaway user.
+  386 |     let emptyMonth = -1;
+  387 | 
+  388 |     await test.step('Walk back through the months until one returns no rows', async () => {
+  389 |       for (let monthsBack = MONTH_OPTIONS - 1; monthsBack >= 1; monthsBack--) {
+  390 |         const [history] = await Promise.all([
+  391 |           waitForHistory(page, { monthsBack, category: 'Other' }),
+  392 |           transactions.selectMonth(monthsBack),
+  393 |         ]);
+  394 |         if (history.count === 0) {
+  395 |           emptyMonth = monthsBack;
+  396 |           return;
+  397 |         }
+  398 |       }
+  399 |     });
+  400 | 
+  401 |     test.skip(emptyMonth === -1, 'Every month has "Other" transactions for the test user.');
+  402 | 
+  403 |     await test.step(`"${monthLabel(emptyMonth)}" shows No Transactions Found and no pager`, async () => {
+  404 |       await expect(transactions.emptyState).toBeVisible();
+  405 |       await expect(
+  406 |         page.getByAltText('transaction-chest-icon').filter({ visible: true }).first(),
+  407 |       ).toBeVisible();
+  408 |       await expect(transactions.rows).toHaveCount(0);
+  409 |       await expect(transactions.pagination).toHaveCount(0);
+  410 |     });
+  411 |   });
+  412 | });
+  413 | 
+  414 | test.describe(
+  415 |   'Transactions - contest rows',
+  416 |   { tag: ['@transactions', '@contests', '@mutates', '@money'] },
+  417 |   () => {
+  418 |     // Places a real contest, so keep it serial to avoid racing other submissions.
+  419 |     test.describe.configure({ mode: 'serial' });
+  420 | 
+  421 |     test('Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows', async ({
+  422 |       loggedInPage: page,
+  423 |     }) => {
+  424 |       test.setTimeout(300_000);
+  425 | 
+  426 |       const homePage = new HomePage(page);
+  427 |       const contestPage = new ContestPage(page);
+  428 |       const contestSuccessPage = new ContestSuccessPage(page);
+  429 |       const entriesPage = new EntriesPage(page);
+  430 |       const transactions = new TransactionsPage(page);
+  431 |       const amount = ENTRY_AMOUNT.toFixed(2);
+  432 | 
+  433 |       await test.step(`Place a 3-pick contest for $${amount}`, async () => {
+  434 |         await page.goto('/');
+  435 |         await homePage.waitForFeedReady();
+  436 |         await placeContestWithRetry({
+  437 |           homePage,
+  438 |           contestPage,
+  439 |           pickCount: 3,
+  440 |           entryAmount: ENTRY_AMOUNT,
+  441 |         });
+  442 |         await contestSuccessPage.continueToHomePage();
+  443 |       });
+  444 | 
+  445 |       await test.step(`Newest row is "Contest Placed - $${amount}"`, async () => {
+  446 |         const [history] = await Promise.all([waitForHistory(page), transactions.open()]);
+  447 |         expect(history.results[0]).toMatchObject({ action: 'contest_placed', type: 'debit' });
+  448 |         expect(Number(history.results[0].amount)).toBe(ENTRY_AMOUNT);
+  449 |         await expect(transactions.rows.first()).toContainText('Contest Placed');
+  450 |         await expect(transactions.rows.first()).toContainText(`- $${amount}`);
+  451 |       });
+  452 | 
+  453 |       let cancellableCard: Awaited<ReturnType<EntriesPage['findCancellableCard']>> = null;
+  454 | 
+  455 |       await test.step('Find the cancellable entry on the Active tab', async () => {
+  456 |         await page.goto('/challenges/pending');
+  457 |         await entriesPage.assertEntriesPageLoaded();
+  458 |         cancellableCard = await entriesPage.findCancellableCard();
+  459 |       });
+  460 | 
+  461 |       test.skip(
+  462 |         cancellableCard === null,
+  463 |         'Placed entry was not cancellable (selected matches start within 15 minutes).',
+  464 |       );
+  465 | 
+  466 |       await test.step('Confirm Cancel Entry', async () => {
+  467 |         await cancellableCard!.getByRole('button', { name: /Cancel Entry/ }).click();
+  468 |         const confirmDialog = page
+  469 |           .getByRole('dialog')
+  470 |           .filter({ hasText: 'Are you sure you want to cancel your entry?' });
+  471 |         await expect(confirmDialog).toBeVisible();
+  472 |         await Promise.all([
+  473 |           page.waitForResponse(
+  474 |             (r) => /\/api\/v1\/entries\/[^/]+\/cancel\//.test(r.url()) && r.ok(),
+  475 |             { timeout: 30_000 },
+  476 |           ),
+  477 |           confirmDialog.getByRole('button', { name: 'Confirm' }).click(),
+  478 |         ]);
+  479 |         await expect(confirmDialog).toHaveCount(0);
+  480 |       });
+  481 | 
+  482 |       await test.step(`Newest rows are "Contest Canceled + $${amount}" then "Contest Placed - $${amount}"`, async () => {
+  483 |         const [history] = await Promise.all([waitForHistory(page), transactions.open()]);
+  484 |         expect(history.results[0]).toMatchObject({ action: 'contest_canceled', type: 'credit' });
+> 485 |         expect(Number(history.results[0].amount)).toBe(ENTRY_AMOUNT);
+      |                                                   ^ Error: expect(received).toBe(expected) // Object.is equality
+  486 |         expect(history.results[1]).toMatchObject({ action: 'contest_placed', type: 'debit' });
+  487 |         await expect(transactions.rows.nth(0)).toContainText('Contest Canceled');
+  488 |         await expect(transactions.rows.nth(0)).toContainText(`+ $${amount}`);
+  489 |         await expect(transactions.rows.nth(1)).toContainText('Contest Placed');
+  490 |         await expect(transactions.rows.nth(1)).toContainText(`- $${amount}`);
+  491 |       });
+  492 |     });
+  493 |   },
+  494 | );
+  495 | 
+```

@@ -1,0 +1,4 @@
+[error] Access to fetch at 'https://cdn.staging.parlayplay.io/static/pdfs/responsible_gaming.pdf?v=2026-10-06' from origin 'https://staging.parlayplay.io' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://dev.parlayplay.io' that is not equal to the supplied origin. Have the server send the header with a valid value.
+[error] Failed to load resource: net::ERR_FAILED
+[error] Access to fetch at 'https://cdn.staging.parlayplay.io/static/pdfs/responsible_gaming.pdf?v=2026-10-06' from origin 'https://staging.parlayplay.io' has been blocked by CORS policy: The 'Access-Control-Allow-Origin' header has a value 'https://dev.parlayplay.io' that is not equal to the supplied origin. Have the server send the header with a valid value.
+[error] Failed to load resource: net::ERR_FAILED

@@ -1,0 +1,14 @@
+env=staging
+project=Mobile Safari
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=slip-sharing/share-and-tail.spec.ts:165
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/
+
++1.920s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++17.499s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-638262","player-637893","player-1293596"]}
++19.234s INFO  contest: entry placed {"attempt":1,"pickIds":["player-638262","player-637893","player-1293596"]}

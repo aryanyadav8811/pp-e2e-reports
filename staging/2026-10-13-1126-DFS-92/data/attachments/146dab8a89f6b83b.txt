@@ -1,0 +1,9 @@
+POST https://staging.parlayplay.io/api/v1/challenges-sp/payout-structure/ -> FAILED cancelled
+GET https://staging.parlayplay.io/api/v1/contests/a9a3229b-a502-4c97-834b-62d19eaa903c/share/ -> FAILED cancelled
+GET https://staging.parlayplay.io/sw.js -> FAILED cancelled
+GET https://staging.parlayplay.io/api/v1/promos/ -> FAILED cancelled
+GET https://staging.parlayplay.io/api/v1/crossgame/offering/ -> FAILED cancelled
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED cancelled
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED cancelled
+GET https://staging.parlayplay.io/api/v1/contestgroup/metadata/ -> FAILED cancelled
+POST https://staging.parlayplay.io/api/v1/challenges-sp/crossgame/ -> 429

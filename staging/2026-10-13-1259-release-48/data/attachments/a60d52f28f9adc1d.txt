@@ -1,0 +1,23 @@
+GET https://staging.parlayplay.io/manifest.json -> 403
+GET https://staging.parlayplay.io/locales/es/common.json -> 403
+GET https://staging.parlayplay.io/locales/en/common.json -> 403
+GET https://staging.parlayplay.io/images/yellow_coin_bounce.json -> 403
+GET https://staging.parlayplay.io/images/warning_triangle_inverted.json -> 403
+GET https://staging.parlayplay.io/images/warning_triangle.json -> 403
+GET https://staging.parlayplay.io/images/warning_inverted.json -> 403
+GET https://staging.parlayplay.io/images/warning-white.json -> 403
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/images/warning-new.json -> 403
+GET https://staging.parlayplay.io/_next/static/chunks/1016-d0fd4284f08c99d4.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/8000-f48a4c3ca4ca68e7.js -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/chunks/pages/challenges/feed-23f5caa6c269cc1f.js -> FAILED net::ERR_ABORTED
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/css/7e915e0968f1e5b4.css -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/_next/static/css/7c25ef1d5cdc2eda.css -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/images/shareicon_yellow.json -> 403
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/api/v1/challenges-sp/placed-contest/fa6960f5-858d-4db7-9592-b55c4c6002a9/ -> FAILED net::ERR_ABORTED
+POST https://staging.parlayplay.io/api/v1/user/ -> FAILED net::ERR_ABORTED
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED net::ERR_ABORTED
+GET https://staging.parlayplay.io/api/v1/challenges-sp/placed-contest/fa6960f5-858d-4db7-9592-b55c4c6002a9/ -> FAILED net::ERR_ABORTED
+POST https://staging.parlayplay.io/cdn-cgi/rum -> FAILED net::ERR_ABORTED

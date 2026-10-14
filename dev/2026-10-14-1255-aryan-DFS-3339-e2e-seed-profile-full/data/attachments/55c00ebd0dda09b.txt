@@ -1,0 +1,24 @@
+env=dev
+project=Mobile Chrome
+release=aryan-DFS-3339-e2e-seed-profile-full
+build=2026-10-14-1255-aryan-DFS-3339-e2e-seed-profile-full
+sha=627f15670dd1688eeb4161ea96812c1945aa2699
+user=ephemeral s0w0 (et***)
+spec=entries/entries.spec.ts:19
+retry=0
+status=timedOut (expected passed)
+lastUrl=https://dev.parlayplay.io/challenges/pending
+
++0.074s INFO  auth[et***]: worker 0 is the login leader
++2.893s INFO  auth[et***]: login complete, session saved {"durationMs":2819}
++3.366s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++4.200s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/manifest.json","resourceType":"fetch"}
++4.239s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++4.254s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++4.261s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++4.279s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++4.287s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++4.309s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++4.320s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++4.330s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++5.160s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}

@@ -1,0 +1,25 @@
+env=dev
+project=Mobile Chrome
+release=aryan-DFS-3339-e2e-seed-profile-full
+build=2026-10-14-1255-aryan-DFS-3339-e2e-seed-profile-full
+sha=627f15670dd1688eeb4161ea96812c1945aa2699
+user=ephemeral s0w3 (et***)
+spec=transactions/transactions.spec.ts:418
+retry=0
+status=failed (expected passed)
+lastUrl=https://dev.parlayplay.io/transactions
+
++0.114s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++0.876s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/manifest.json","resourceType":"fetch"}
++0.902s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++0.929s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++0.931s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++0.960s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++0.963s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++0.988s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++0.992s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++0.992s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++1.056s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++1.815s DEBUG cloudflare: challenge served {"url":"https://dev.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++14.695s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-1361602","player-1361603","player-1361004"]}
++16.180s INFO  contest: entry placed {"attempt":1,"pickIds":["player-1361602","player-1361603","player-1361004"]}

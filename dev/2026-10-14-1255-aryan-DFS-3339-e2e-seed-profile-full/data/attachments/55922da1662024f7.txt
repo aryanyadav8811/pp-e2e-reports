@@ -1,0 +1,12 @@
+env=dev
+project=Mobile Chrome
+release=aryan-DFS-3339-e2e-seed-profile-full
+build=2026-10-14-1255-aryan-DFS-3339-e2e-seed-profile-full
+sha=627f15670dd1688eeb4161ea96812c1945aa2699
+user=ephemeral s0w1 (et***)
+spec=settings/account-lifecycle.spec.ts:27
+retry=0
+status=failed (expected passed)
+lastUrl=-
+
+(no log lines)

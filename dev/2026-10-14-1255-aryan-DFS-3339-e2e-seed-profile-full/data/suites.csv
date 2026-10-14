@@ -1,0 +1,261 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"**Spec:** `signup/signup.spec.ts:513`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev","7814","Signup completes with the mocked OTP and lands on the sign-up bonus screen","Mobile Chrome","2026-10-14","passed","2026-10-14","Signup - OTP / 2FA","","",""
+"**Spec:** `signup/signup.spec.ts:443`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev","4487","""Text me a Code"" opens the OTP modal","Mobile Chrome","2026-10-14","passed","2026-10-14","Signup - OTP / 2FA","","",""
+"**Spec:** `entries/entries.spec.ts:96`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging @prod","4574","User can switch between the Active and History tabs","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - Active and History","","",""
+"**Spec:** `entries/entries.spec.ts:19`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w0 (et***)
+
+**Tags:** @dev @staging @prod","180182","Active tab shows the Entry Amount and Max Payout stats","Mobile Chrome","2026-10-14","broken","2026-10-14","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:96`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @dev @staging","2082","Dedicated chevron toggle expands and collapses the card","Mobile Chrome","2026-10-14","skipped","2026-10-14","My Entries - entry card","","",""
+"**Spec:** `rewards/promo-contests.spec.ts:7`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging","15894","Contest entry uses a promo selected from the Promotions tab","Mobile Chrome","2026-10-14","passed","2026-10-14","Rewards - promo contest entry","","",""
+"**Spec:** `signup/signup.spec.ts:466`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev","3977","Resend is locked behind the cooldown after the first code","Mobile Chrome","2026-10-14","passed","2026-10-14","Signup - OTP / 2FA","","",""
+"**Spec:** `entries/entries.spec.ts:121`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @dev @staging","2523","Cancel Entry countdown stays within the 5-minute window","Mobile Chrome","2026-10-14","skipped","2026-10-14","My Entries - Active and History","","",""
+"**Spec:** `transactions/transactions.spec.ts:418`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging","19377","Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows","Mobile Chrome","2026-10-14","failed","2026-10-14","Transactions - contest rows","","",""
+"**Spec:** `entries/entry-card.spec.ts:153`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging","1723","Tailers pill reads ""<n> tailers | $<reward>"" when an entry has tailers","Mobile Chrome","2026-10-14","skipped","2026-10-14","My Entries - entry card","","",""
+"**Spec:** `entries/entry-card.spec.ts:361`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @dev @staging","19284","Confirming cancel twice fires the cancel request only once (double-submit guard)","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - cancel entry","","",""
+"**Spec:** `transactions/transactions.spec.ts:204`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev @staging","1285","First page rows mirror the balance-log API — label, date, signed amount, newest first","Mobile Chrome","2026-10-14","passed","2026-10-14","Transactions - transaction log","","",""
+"**Spec:** `signup/signup.spec.ts:490`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev","5198","Wrong OTP is rejected and no account is created","Mobile Chrome","2026-10-14","passed","2026-10-14","Signup - OTP / 2FA","","",""
+"**Spec:** `transactions/transactions.spec.ts:276`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev @staging","1355","Switching month reloads the log for that month","Mobile Chrome","2026-10-14","passed","2026-10-14","Transactions - transaction log","","",""
+"**Spec:** `entries/history-leaderboard-faq.spec.ts:19`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging","3829","View Leaderboard on a history card opens the leaderboard modal with a working FAQ link","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - History Leaderboard FAQ","","",""
+"**Spec:** `entries/entries.spec.ts:261`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev @staging","20561","Pagination advances through every history page","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - Active and History","","",""
+"","1","Delete account confirms the freeze with ""Your Account Has Been Frozen!"" and Understood","Mobile Chrome","2026-10-14","skipped","2026-10-14","Settings - Account Lifecycle","","",""
+"**Spec:** `entries/entries.spec.ts:209`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @dev @staging","4684","First history card shows the amount, result and pick count from the API","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - Active and History","","",""
+"**Spec:** `transactions/transactions.spec.ts:347`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging","1294","Contest Settled rows credit the payout","Mobile Chrome","2026-10-14","passed","2026-10-14","Transactions - transaction log","","",""
+"**Spec:** `transactions/transactions.spec.ts:307`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev @staging","1685","Paging loads the next rows and keeps newest-first order across pages","Mobile Chrome","2026-10-14","passed","2026-10-14","Transactions - transaction log","","",""
+"**Spec:** `entries/entries.spec.ts:183`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging","3933","Switching from 6 Months to 7 Days never increases the history count","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:119`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @dev @staging","2912","History entry surfaces a Won / Lost / Cancelled result pill","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - entry card","","",""
+"**Spec:** `entries/entry-card.spec.ts:39`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @dev @staging","1777","Active card shows the entry amount, payout and Insured/All In multiplier","Mobile Chrome","2026-10-14","skipped","2026-10-14","My Entries - entry card","","",""
+"**Spec:** `entries/entries.spec.ts:67`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @dev @staging","2880","Entry card expands and collapses via its header button","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:80`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging","2981","History cards never render the pick-badge preview","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - entry card","","",""
+"**Spec:** `entries/entries.spec.ts:38`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev @staging","3527","Active tab shows at most one page of entry cards, or the no-data state","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - Active and History","","",""
+"**Spec:** `transactions/transactions.spec.ts:374`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev @staging","1413","Empty state renders for a month with no transactions","Mobile Chrome","2026-10-14","passed","2026-10-14","Transactions - transaction log","","",""
+"**Spec:** `settings/account-lifecycle.spec.ts:27`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev","95","A user behind on the Terms is gated until they accept the new version","Mobile Chrome","2026-10-14","failed","2026-10-14","Settings - Account Lifecycle","","",""
+"**Spec:** `entries/entry-card.spec.ts:211`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging","1759","View Leaderboard opens the contest-group leaderboard modal","Mobile Chrome","2026-10-14","skipped","2026-10-14","My Entries - entry card","","",""
+"**Spec:** `transactions/transactions.spec.ts:232`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev @staging","1839","Each type filter requests its category and lists only that category","Mobile Chrome","2026-10-14","passed","2026-10-14","Transactions - transaction log","","",""
+"**Spec:** `entries/entry-card.spec.ts:60`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @dev @staging","1835","Collapsed active card shows the pick-badge preview; expanding hides it","Mobile Chrome","2026-10-14","skipped","2026-10-14","My Entries - entry card","","",""
+"**Spec:** `entries/entries.spec.ts:317`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging","4444","Switching the time range from the last page settles on data or the empty state","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - Active and History","","",""
+"**Spec:** `entries/entry-card.spec.ts:174`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @dev @staging","1946","Share button opens the share-slip modal for shareable entries","Mobile Chrome","2026-10-14","skipped","2026-10-14","My Entries - entry card","","",""
+"**Spec:** `entries/entry-card.spec.ts:134`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w3 (et***)
+
+**Tags:** @dev @staging","2043","Live entries surface a Live indicator","Mobile Chrome","2026-10-14","skipped","2026-10-14","My Entries - entry card","","",""
+"**Spec:** `transactions/transactions.spec.ts:157`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev @staging","1186","Transaction Log renders with the month and type filters","Mobile Chrome","2026-10-14","passed","2026-10-14","Transactions - transaction log","","",""
+"**Spec:** `entries/entry-card.spec.ts:258`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w2 (et***)
+
+**Tags:** @dev @staging","22861","Fresh entry shows a live cancel countdown and confirming Cancel Entry removes it everywhere","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - cancel entry","","",""
+"**Spec:** `entries/entries.spec.ts:147`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev @staging","3632","History summary stats match the API for the 6 Months range","Mobile Chrome","2026-10-14","passed","2026-10-14","My Entries - Active and History","","",""
+"**Spec:** `settings/account-lifecycle.spec.ts:83`
+
+**Project:** Mobile Chrome · **Env:** dev · **Release:** aryan-DFS-3339-e2e-seed-profile-full
+
+**User:** ephemeral s0w1 (et***)
+
+**Tags:** @dev","167","Delete account freezes the user, ends the session and refuses the next login","Mobile Chrome","2026-10-14","failed","2026-10-14","Settings - Account Lifecycle","","",""

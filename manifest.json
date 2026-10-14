@@ -1,12 +1,86 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T12:47:20.959Z",
+  "updatedAt": "2026-10-14T13:01:20.371Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
-      "latest": "2026-09-29-1636-aryan-e2e-fully-parallel",
-      "buildOrder": 10,
+      "latest": "2026-10-14-1255-aryan-DFS-3339-e2e-seed-profile-full",
+      "buildOrder": 11,
       "runs": [
+        {
+          "runId": "2026-10-14-1255-aryan-DFS-3339-e2e-seed-profile-full",
+          "env": "dev",
+          "suite": "full",
+          "release": "aryan-DFS-3339-e2e-seed-profile-full",
+          "ref": "627f15670dd1688eeb4161ea96812c1945aa2699",
+          "sha": "627f15670dd1688eeb4161ea96812c1945aa2699",
+          "baseURL": "https://dev.parlayplay.io/",
+          "source": "ci",
+          "trigger": "PR #2022 label (aryanyadav8811)",
+          "startedAt": "2026-10-14T12:57:34.890Z",
+          "finishedAt": "2026-10-14T13:00:35.088Z",
+          "durationMs": 180198,
+          "publishedAt": "2026-10-14T13:01:20.281Z",
+          "workflowRunId": "38567533848",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/38567533848",
+          "artifact": "allure-results-2026-10-14-1255-aryan-DFS-3339-e2e-seed-profile-full",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 25,
+            "failed": 3,
+            "broken": 1,
+            "skipped": 9,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 38
+          },
+          "ciCounts": {
+            "passed": 25,
+            "failed": 3,
+            "broken": 1,
+            "skipped": 9,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 38
+          },
+          "playwright": {
+            "expected": 25,
+            "unexpected": 4,
+            "flaky": 0,
+            "skipped": 9
+          },
+          "failed": [
+            {
+              "project": "Mobile Chrome",
+              "file": "entries/entries.spec.ts",
+              "name": "Active tab shows the Entry Amount and Max Payout stats",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "settings/account-lifecycle.spec.ts",
+              "name": "A user behind on the Terms is gated until they accept the new version",
+              "status": "failed",
+              "message": "Error: [e2e] userFactory: /api/v1/signup/check_phone/ returned non-JSON HTTP 403"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "settings/account-lifecycle.spec.ts",
+              "name": "Delete account freezes the user, ends the session and refuses the next login",
+              "status": "failed",
+              "message": "Error: [e2e] userFactory: /api/v1/signup/check_phone/ returned non-JSON HTTP 403"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "transactions/transactions.spec.ts",
+              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
+              "status": "failed",
+              "message": "Error: expect(received).toBe(expected) // Object.is equality"
+            }
+          ],
+          "appends": []
+        },
         {
           "runId": "2026-09-29-1636-aryan-e2e-fully-parallel",
           "env": "dev",
@@ -1126,66 +1200,6 @@
               "project": "Mobile Chrome",
               "file": "auth/login.spec.ts",
               "name": "User can log in with a valid username",
-              "status": "failed",
-              "message": "Error: expect(locator).toHaveCount(expected) failed"
-            }
-          ],
-          "appends": []
-        },
-        {
-          "runId": "2026-09-22-1742-aryan-e2e-ephemeral-users",
-          "env": "dev",
-          "suite": "sanity",
-          "release": "aryan-e2e-ephemeral-users",
-          "ref": "ffe2fff32b38de0638b91cb3640cf723929ab90f",
-          "sha": "ffe2fff32b38de0638b91cb3640cf723929ab90f",
-          "baseURL": "https://dev.parlayplay.io/",
-          "source": "ci",
-          "trigger": "PR #1858 label (aryanyadav8811)",
-          "startedAt": "2026-09-22T17:44:11.974Z",
-          "finishedAt": "2026-09-22T17:46:23.529Z",
-          "durationMs": 131555,
-          "publishedAt": "2026-09-22T17:47:22.470Z",
-          "workflowRunId": "35762489804",
-          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/35762489804",
-          "artifact": "allure-results-2026-09-22-1742-aryan-e2e-ephemeral-users",
-          "resultsInRepo": false,
-          "counts": {
-            "passed": 0,
-            "failed": 2,
-            "broken": 0,
-            "skipped": 0,
-            "unknown": 0,
-            "flaky": 0,
-            "total": 2
-          },
-          "ciCounts": {
-            "passed": 0,
-            "failed": 2,
-            "broken": 0,
-            "skipped": 0,
-            "unknown": 0,
-            "flaky": 0,
-            "total": 2
-          },
-          "playwright": {
-            "expected": 0,
-            "unexpected": 2,
-            "flaky": 0,
-            "skipped": 0
-          },
-          "failed": [
-            {
-              "project": "Mobile Chrome",
-              "file": "auth/login.spec.ts",
-              "name": "User can log in with a valid username",
-              "status": "failed",
-              "message": "Error: expect(locator).toHaveCount(expected) failed"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "auth/login.spec.ts",
-              "name": "Logged-in user can log out",
               "status": "failed",
               "message": "Error: expect(locator).toHaveCount(expected) failed"
             }

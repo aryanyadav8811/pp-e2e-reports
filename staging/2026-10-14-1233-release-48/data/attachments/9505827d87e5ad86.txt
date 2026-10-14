@@ -1,0 +1,5 @@
+[error] Failed to load resource: net::ERR_BLOCKED_BY_RESPONSE.NotSameOrigin
+[warning] [.WebGL-0x3cec03521a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels
+[pageerror] The provided `href` (/challenges/contest/[slug]) value is missing query values (slug) to be interpolated properly. Read more: https://nextjs.org/docs/messages/href-interpolation-failed
+[warning] WebSocket connection to 'wss://staging.parlayplay.io/ws/crossgame/v2/materialized/' failed: WebSocket is closed before the connection is established.
+[warning] Radar SDK: Error calling /config: Request timed out.

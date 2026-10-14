@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T02:47:49.785Z",
+  "updatedAt": "2026-10-14T12:47:20.959Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
@@ -1195,9 +1195,146 @@
       ]
     },
     "staging": {
-      "latest": "2026-10-13-1259-release-48",
-      "buildOrder": 20,
+      "latest": "2026-10-14-1233-release-48",
+      "buildOrder": 21,
       "runs": [
+        {
+          "runId": "2026-10-14-1233-release-48",
+          "env": "staging",
+          "suite": "full",
+          "release": "release-48",
+          "ref": "d5d153c6427ba7a138e768a8489d5d993a1b41d5",
+          "sha": "d5d153c6427ba7a138e768a8489d5d993a1b41d5",
+          "baseURL": "https://staging.parlayplay.io/",
+          "source": "ci",
+          "trigger": "manual (Sanskriti7379)",
+          "startedAt": "2026-10-14T12:35:52.476Z",
+          "finishedAt": "2026-10-14T12:46:32.622Z",
+          "durationMs": 640146,
+          "publishedAt": "2026-10-14T12:47:20.854Z",
+          "workflowRunId": "38563221172",
+          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/38563221172",
+          "artifact": "allure-results-2026-10-14-1233-release-48",
+          "resultsInRepo": false,
+          "counts": {
+            "passed": 404,
+            "failed": 10,
+            "broken": 3,
+            "skipped": 87,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 504
+          },
+          "ciCounts": {
+            "passed": 404,
+            "failed": 10,
+            "broken": 3,
+            "skipped": 87,
+            "unknown": 0,
+            "flaky": 0,
+            "total": 504
+          },
+          "playwright": {
+            "expected": 404,
+            "unexpected": 13,
+            "flaky": 0,
+            "skipped": 87
+          },
+          "failed": [
+            {
+              "project": "Mobile Safari",
+              "file": "contests/user-enter-contest.spec.ts",
+              "name": "Submitting a contest raises the entry amount and max payout totals",
+              "status": "failed",
+              "message": "Error: expect(received).toBeGreaterThanOrEqual(expected)"
+            },
+            {
+              "project": "Desktop",
+              "file": "entries/entries.spec.ts",
+              "name": "Active tab shows the Entry Amount and Max Payout stats",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "entries/entries.spec.ts",
+              "name": "Active tab shows the Entry Amount and Max Payout stats",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "entries/entries.spec.ts",
+              "name": "Active tab shows the Entry Amount and Max Payout stats",
+              "status": "broken",
+              "message": "Test timeout of 180000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: submission must be rejected by the user limit"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: expect(received).toMatch(expected)"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "modals/userlimits.spec.ts",
+              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
+              "status": "failed",
+              "message": "Error: expect(received).toMatch(expected)"
+            },
+            {
+              "project": "Mobile Safari",
+              "file": "navigation/footer-nav.spec.ts",
+              "name": "Fifth tab (Free2Play or Packs) routes and takes the indicator",
+              "status": "failed",
+              "message": "Error: expect(locator).toHaveClass(expected) failed"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "An available offer exposes an enabled CTA",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Claimed offers are non-interactive and sorted below unclaimed offers",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "rewards/partner-rewards.spec.ts",
+              "name": "Partner offer cards render, or the empty state when none are available",
+              "status": "failed",
+              "message": "TimeoutError: locator.waitFor: Timeout 15000ms exceeded."
+            },
+            {
+              "project": "Desktop",
+              "file": "transactions/transactions.spec.ts",
+              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
+              "status": "failed",
+              "message": "Error: expect(received).toBe(expected) // Object.is equality"
+            },
+            {
+              "project": "Mobile Chrome",
+              "file": "transactions/transactions.spec.ts",
+              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
+              "status": "failed",
+              "message": "Error: expect(received).toBe(expected) // Object.is equality"
+            }
+          ],
+          "appends": []
+        },
         {
           "runId": "2026-10-13-1259-release-48",
           "env": "staging",
@@ -1896,93 +2033,6 @@
                 "data-verification/picks-grid.spec.ts"
               ],
               "note": "DFS-3211 gap-fill"
-            }
-          ]
-        },
-        {
-          "runId": "2026-09-24-1250-release-46",
-          "env": "staging",
-          "suite": "full",
-          "release": "release-46",
-          "ref": "812d19776d2c38b905b0a7d99eb6be7f86fc8ceb",
-          "sha": "812d19776d2c38b905b0a7d99eb6be7f86fc8ceb",
-          "baseURL": "https://staging.parlayplay.io/",
-          "source": "ci",
-          "trigger": "manual (Sanskriti7379)",
-          "startedAt": "2026-09-24T12:51:40.013Z",
-          "finishedAt": "2026-09-24T14:38:16.192Z",
-          "durationMs": 6396179,
-          "publishedAt": "2026-09-24T13:35:19.170Z",
-          "workflowRunId": "36000083515",
-          "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/36000083515",
-          "artifact": "allure-results-2026-09-24-1250-release-46",
-          "resultsInRepo": false,
-          "counts": {
-            "passed": 377,
-            "failed": 1,
-            "broken": 1,
-            "skipped": 38,
-            "unknown": 0,
-            "flaky": 8,
-            "total": 417
-          },
-          "ciCounts": {
-            "passed": 336,
-            "failed": 6,
-            "broken": 5,
-            "skipped": 67,
-            "unknown": 0,
-            "flaky": 0,
-            "total": 414
-          },
-          "playwright": {
-            "expected": 336,
-            "unexpected": 11,
-            "flaky": 0,
-            "skipped": 67
-          },
-          "failed": [
-            {
-              "project": "Mobile Chrome",
-              "file": "modals/userlimits.spec.ts",
-              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
-              "status": "failed",
-              "message": "TimeoutError: locator.click: Timeout 15000ms exceeded."
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "modals/userlimits.spec.ts",
-              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
-              "status": "broken",
-              "message": "Test timeout of 300000ms exceeded."
-            }
-          ],
-          "appends": [
-            {
-              "at": "2026-09-24T14:59:12.701Z",
-              "by": "apple",
-              "source": "local",
-              "added": 221,
-              "specs": [
-                "slip-sharing/tail-feed.spec.ts",
-                "data-verification/search.spec.ts",
-                "entries/entry-card.spec.ts",
-                "home/home-search.spec.ts",
-                "rewards/partner-rewards.spec.ts",
-                "entries/entries.spec.ts",
-                "slip-sharing/share-and-tail.spec.ts",
-                "transactions/transactions.spec.ts",
-                "packs/pack-detail.spec.ts",
-                "contests/user-enter-contest.spec.ts",
-                "packs/lobby.spec.ts",
-                "modals/userlimits.spec.ts",
-                "signup/signup.spec.ts",
-                "data-verification/picks-grid.spec.ts",
-                "navigation/footer-nav.spec.ts",
-                "navigation/shell.spec.ts",
-                "stats/full-game-stat-selection.spec.ts"
-              ],
-              "note": "DFS-3176 gap-fill"
             }
           ]
         }

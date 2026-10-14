@@ -1,0 +1,43 @@
+02:12:35.552 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+02:12:39.634 INFO contest: placing an entry {
+  pickCount: 4,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+02:12:47.416 WARN contest: submission rejected {
+  attempt: 1,
+  error: '400 You have reached your limit for in-game contests for this match.'
+}
+02:12:48.239 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: '400 You have reached your limit for in-game contests for this match.'
+}
+02:12:58.881 WARN contest: submission rejected {
+  attempt: 2,
+  error: '400 You have reached your limit for in-game contests for this match.'
+}
+02:12:59.695 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 3,
+  statIdx: 2,
+  lastError: '400 You have reached your limit for in-game contests for this match.'
+}
+02:13:11.048 WARN contest: submission rejected {
+  attempt: 3,
+  error: '429 Request was throttled. Expected available in 1 second.'
+}
+02:13:11.832 WARN contest: submission throttled (429) — backing off {
+  attempt: 3,
+  throttleRetries: 1,
+  waitMs: 22071
+}
+02:13:46.469 INFO contest: entry placed {
+  attempt: 3,
+  pickIds: [
+    'player-637920',
+    'player-641245',
+    'player-637851',
+    'player-137'
+  ]
+}

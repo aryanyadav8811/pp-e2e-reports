@@ -1,0 +1,15 @@
+[error] Failed to refresh user data: CanceledError: canceled
+    at tR (https://staging.parlayplay.io/_next/static/chunks/pages/_app-81b867606dab0e2c.js:4:125400)
+    at tF.tL (https://staging.parlayplay.io/_next/static/chunks/pages/_app-81b867606dab0e2c.js:4:125466)
+    at async tF.request (https://staging.parlayplay.io/_next/static/chunks/pages/_app-81b867606dab0e2c.js:4:127227)
+[error] Failed to refresh user data: CanceledError: canceled
+    at tR (https://staging.parlayplay.io/_next/static/chunks/pages/_app-81b867606dab0e2c.js:4:125400)
+    at tF.tL (https://staging.parlayplay.io/_next/static/chunks/pages/_app-81b867606dab0e2c.js:4:125466)
+    at async tF.request (https://staging.parlayplay.io/_next/static/chunks/pages/_app-81b867606dab0e2c.js:4:127227)
+[warning] Radar SDK: Error calling /config: Request timed out.
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled
+[pageerror] canceled

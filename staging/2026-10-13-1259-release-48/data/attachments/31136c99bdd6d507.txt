@@ -1,0 +1,6 @@
+02:25:00.796 WARN session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+02:25:00.879 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+02:25:08.001 INFO picker: skipping in-play cards {
+  inPlay: 71,
+  offered: 482
+}

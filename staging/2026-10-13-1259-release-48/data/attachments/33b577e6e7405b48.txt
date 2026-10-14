@@ -1,0 +1,7 @@
+02:02:44.737 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+02:02:46.728 INFO contest: placing an entry {
+  pickCount: 3,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}

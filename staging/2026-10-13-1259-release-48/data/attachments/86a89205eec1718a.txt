@@ -1,0 +1,27 @@
+02:03:19.886 WARN session[qa***]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+02:03:19.968 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+02:03:21.590 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+02:03:37.604 WARN contest: submission rejected {
+  attempt: 1,
+  error: '400 It looks like 240.50 Player Passing Yards is currently unavailable for Kirk Cousins'
+}
+02:03:38.356 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: '400 It looks like 240.50 Player Passing Yards is currently unavailable for Kirk Cousins'
+}
+02:03:54.857 INFO contest: entry placed {
+  attempt: 2,
+  pickIds: [
+    'player-682058',
+    'player-640366',
+    'player-637920',
+    'player-7',
+    'player-97'
+  ]
+}

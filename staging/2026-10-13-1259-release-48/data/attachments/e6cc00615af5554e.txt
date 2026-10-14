@@ -1,0 +1,28 @@
+env=staging
+project=Mobile Chrome
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=slip-sharing/tail-feed.spec.ts:157
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/challenges/feed
+
++0.059s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++1.462s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++1.483s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++1.500s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++1.525s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++1.673s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++1.688s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++1.690s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++1.705s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++1.715s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++3.030s INFO  contest: placing an entry {"pickCount":3,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++4.930s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++9.480s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-638455","player-637934","player-657553"]}
++10.315s WARN  contest: submission rejected {"attempt":1,"error":"400 You can no longer place a pick for that match."}
++11.168s WARN  contest: rotating to the next stat tab after a rejection {"attempt":2,"statIdx":1,"lastError":"400 You can no longer place a pick for that match."}
++36.858s DEBUG contest: picks selected {"attempt":2,"statIdx":1,"pickIds":["player-20105","player-19952","player-657545"]}
++39.960s INFO  contest: entry placed {"attempt":2,"pickIds":["player-20105","player-19952","player-657545"]}

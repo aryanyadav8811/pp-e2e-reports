@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T13:13:15.456Z",
+  "updatedAt": "2026-10-14T02:47:49.785Z",
   "pagesUrl": "https://aryanyadav8811.github.io/pp-e2e-reports",
   "envs": {
     "dev": {
@@ -1209,20 +1209,20 @@
           "source": "ci",
           "trigger": "manual (Sanskriti7379)",
           "startedAt": "2026-10-13T13:01:59.333Z",
-          "finishedAt": "2026-10-13T13:12:20.852Z",
-          "durationMs": 621519,
+          "finishedAt": "2026-10-14T02:26:17.377Z",
+          "durationMs": 48258044,
           "publishedAt": "2026-10-13T13:13:15.346Z",
           "workflowRunId": "38399526283",
           "workflowRunUrl": "https://github.com/ParlayPlay/ui/actions/runs/38399526283",
           "artifact": "allure-results-2026-10-13-1259-release-48",
           "resultsInRepo": false,
           "counts": {
-            "passed": 409,
-            "failed": 7,
-            "broken": 1,
-            "skipped": 87,
+            "passed": 427,
+            "failed": 0,
+            "broken": 0,
+            "skipped": 77,
             "unknown": 0,
-            "flaky": 0,
+            "flaky": 11,
             "total": 504
           },
           "ciCounts": {
@@ -1240,65 +1240,36 @@
             "flaky": 0,
             "skipped": 87
           },
-          "failed": [
+          "failed": [],
+          "appends": [
             {
-              "project": "Mobile Chrome",
-              "file": "entries/entries.spec.ts",
-              "name": "Active tab shows the Entry Amount and Max Payout stats",
-              "status": "broken",
-              "message": "Test timeout of 180000ms exceeded."
-            },
-            {
-              "project": "Desktop",
-              "file": "modals/userlimits.spec.ts",
-              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
-              "status": "failed",
-              "message": "Error: submission must be rejected by the user limit"
-            },
-            {
-              "project": "Mobile Chrome",
-              "file": "modals/userlimits.spec.ts",
-              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
-              "status": "failed",
-              "message": "Error: submission must be rejected by the user limit"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "modals/userlimits.spec.ts",
-              "name": "Exceeding the daily entry limit shows the Limit Exceeded modal and Reset Limits clears it",
-              "status": "failed",
-              "message": "Error: submission must be rejected by the user limit"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "navigation/footer-nav.spec.ts",
-              "name": "Fifth tab (Free2Play or Packs) routes and takes the indicator",
-              "status": "failed",
-              "message": "Error: expect(locator).toHaveClass(expected) failed"
-            },
-            {
-              "project": "Desktop",
-              "file": "slip-sharing/tail-feed.spec.ts",
-              "name": "Share toggle on surfaces a newly placed contest on the You tab and it can be tailed",
-              "status": "failed",
-              "message": "Error: Tailed slip should mirror the original contest's pick IDs"
-            },
-            {
-              "project": "Desktop",
-              "file": "transactions/transactions.spec.ts",
-              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
-              "status": "failed",
-              "message": "Error: expect(received).toBe(expected) // Object.is equality"
-            },
-            {
-              "project": "Mobile Safari",
-              "file": "transactions/transactions.spec.ts",
-              "name": "Placing an entry logs Contest Placed and cancelling it logs Contest Canceled as the newest rows",
-              "status": "failed",
-              "message": "Error: expect(received).toBe(expected) // Object.is equality"
+              "at": "2026-10-14T02:47:46.101Z",
+              "by": "apple",
+              "source": "local",
+              "added": 325,
+              "specs": [
+                "packs/pack-detail.spec.ts",
+                "entries/entry-card.spec.ts",
+                "contests/user-enter-contest.spec.ts",
+                "data-verification/picks-grid.spec.ts",
+                "signup/signup.spec.ts",
+                "entries/entries.spec.ts",
+                "rewards/partner-rewards.spec.ts",
+                "settings/settings-edit.spec.ts",
+                "navigation/shell.spec.ts",
+                "settings/referrals.spec.ts",
+                "slip-sharing/tail-feed.spec.ts",
+                "modals/userlimits.spec.ts",
+                "packs/lobby.spec.ts",
+                "data-verification/search.spec.ts",
+                "transactions/transactions.spec.ts",
+                "entries/history-leaderboard-faq.spec.ts",
+                "navigation/footer-nav.spec.ts",
+                "stats/full-game-stat-selection.spec.ts"
+              ],
+              "note": "DFS-3376 gap-fill"
             }
-          ],
-          "appends": []
+          ]
         },
         {
           "runId": "2026-10-13-1126-DFS-92",

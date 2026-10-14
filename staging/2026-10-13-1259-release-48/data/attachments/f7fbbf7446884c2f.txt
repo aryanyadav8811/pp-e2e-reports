@@ -1,0 +1,24 @@
+02:17:55.165 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+02:17:58.136 INFO contest: placing an entry {
+  pickCount: 3,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+02:18:05.421 WARN contest: submission rejected {
+  attempt: 1,
+  error: '400 You can no longer place a pick for that match.'
+}
+02:18:06.274 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: '400 You can no longer place a pick for that match.'
+}
+02:18:35.066 INFO contest: entry placed {
+  attempt: 2,
+  pickIds: [
+    'player-20105',
+    'player-19952',
+    'player-657545'
+  ]
+}

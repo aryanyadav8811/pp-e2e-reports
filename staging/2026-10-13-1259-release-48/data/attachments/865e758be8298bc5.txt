@@ -1,0 +1,58 @@
+02:07:04.091 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+02:07:05.497 INFO contest: placing an entry {
+  pickCount: 3,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+02:07:13.273 WARN contest: submission rejected {
+  attempt: 1,
+  error: '400 It looks like 1.50 Player Hits is currently unavailable for Jose Ramirez'
+}
+02:07:14.003 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: '400 It looks like 1.50 Player Hits is currently unavailable for Jose Ramirez'
+}
+02:07:33.946 WARN contest: submission rejected {
+  attempt: 2,
+  error: 'place-pick stayed disabled (submission blocked)'
+}
+02:07:34.693 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 3,
+  statIdx: 2,
+  lastError: 'place-pick stayed disabled (submission blocked)'
+}
+02:08:00.667 INFO contest: entry placed {
+  attempt: 3,
+  pickIds: [
+    'player-637934',
+    'player-657553',
+    'player-641245'
+  ]
+}
+02:08:00.859 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+02:08:19.694 WARN contest: submission rejected {
+  attempt: 1,
+  error: 'place-pick stayed disabled (submission blocked)'
+}
+02:08:21.582 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: 'place-pick stayed disabled (submission blocked)'
+}
+02:08:30.910 INFO contest: entry placed {
+  attempt: 2,
+  pickIds: [
+    'player-638262',
+    'player-641049',
+    'player-641139',
+    'player-640366',
+    'player-637920'
+  ]
+}

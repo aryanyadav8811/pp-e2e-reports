@@ -1,0 +1,23 @@
+01:56:32.692 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+01:56:35.071 INFO contest: placing an entry {
+  pickCount: 3,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+01:56:53.564 WARN contest: submission rejected {
+  attempt: 1,
+  error: '400 You have reached your limit for in-game contests for this match.'
+}
+01:56:54.582 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: '400 You have reached your limit for in-game contests for this match.'
+}
+01:57:10.715 WARN contest: submission rejected {
+  attempt: 2,
+  error: '400 Entering this contest will cause you to exceed your daily contest limit.'
+}
+01:57:10.717 ERROR contest: account-level contest limit reached — skipping the test {
+  error: '400 Entering this contest will cause you to exceed your daily contest limit.'
+}

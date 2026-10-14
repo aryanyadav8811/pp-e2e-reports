@@ -1,0 +1,23 @@
+02:04:19.187 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+02:04:39.567 INFO contest: placing an entry {
+  pickCount: 5,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+02:04:55.919 WARN contest: submission rejected {
+  attempt: 1,
+  error: '400 It looks like 240.50 Player Passing Yards is currently unavailable for Kirk Cousins'
+}
+02:04:56.838 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: '400 It looks like 240.50 Player Passing Yards is currently unavailable for Kirk Cousins'
+}
+02:05:18.532 WARN contest: submission rejected {
+  attempt: 2,
+  error: '400 Entering this contest will cause you to exceed your daily contest limit.'
+}
+02:05:18.532 ERROR contest: account-level contest limit reached — skipping the test {
+  error: '400 Entering this contest will cause you to exceed your daily contest limit.'
+}

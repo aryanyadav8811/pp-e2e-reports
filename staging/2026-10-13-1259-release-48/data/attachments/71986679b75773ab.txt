@@ -1,0 +1,34 @@
+02:01:37.719 WARN session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive {}
+02:01:41.812 INFO contest: placing an entry {
+  pickCount: 4,
+  entryAmount: 3,
+  maxAttempts: 5,
+  maxThrottleRetries: 8
+}
+02:01:56.849 WARN contest: submission rejected {
+  attempt: 1,
+  error: '400 It looks like 0.50 Player Hits is currently unavailable for Austin Hedges'
+}
+02:01:57.598 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 2,
+  statIdx: 1,
+  lastError: '400 It looks like 0.50 Player Hits is currently unavailable for Austin Hedges'
+}
+02:02:31.507 WARN contest: submission rejected {
+  attempt: 2,
+  error: 'place-pick stayed disabled (submission blocked)'
+}
+02:02:32.623 WARN contest: rotating to the next stat tab after a rejection {
+  attempt: 3,
+  statIdx: 2,
+  lastError: 'place-pick stayed disabled (submission blocked)'
+}
+02:02:41.910 INFO contest: entry placed {
+  attempt: 3,
+  pickIds: [
+    'player-638246',
+    'player-641049',
+    'player-1304842',
+    'player-641245'
+  ]
+}

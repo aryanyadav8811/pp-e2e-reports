@@ -1,0 +1,25 @@
+env=staging
+project=Desktop
+release=local
+build=local
+sha=-
+user=default (qa***)
+spec=contests/user-enter-contest.spec.ts:132
+retry=0
+status=failed (expected passed)
+lastUrl=https://staging.parlayplay.io/challenges/pending
+
++0.099s WARN  session[primary]: probe got a Cloudflare challenge — indeterminate, assuming alive
++2.031s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/manifest.json","resourceType":"fetch"}
++2.050s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/es/common.json","resourceType":"fetch"}
++2.070s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/locales/en/common.json","resourceType":"fetch"}
++2.089s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/yellow_coin_bounce.json","resourceType":"fetch"}
++2.255s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle_inverted.json","resourceType":"fetch"}
++2.270s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_inverted.json","resourceType":"fetch"}
++2.277s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning_triangle.json","resourceType":"fetch"}
++2.305s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-white.json","resourceType":"fetch"}
++2.305s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/warning-new.json","resourceType":"fetch"}
++3.055s INFO  contest: placing an entry {"pickCount":4,"entryAmount":3,"maxAttempts":5,"maxThrottleRetries":8}
++5.332s DEBUG cloudflare: challenge served {"url":"https://staging.parlayplay.io/images/shareicon_yellow.json","resourceType":"fetch"}
++20.102s DEBUG contest: picks selected {"attempt":1,"statIdx":0,"pickIds":["player-20260","player-1361626","player-1362546","player-192869"]}
++21.491s INFO  contest: entry placed {"attempt":1,"pickIds":["player-20260","player-1361626","player-1362546","player-192869"]}
